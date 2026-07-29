@@ -15,3 +15,7 @@ televisor/*.png
 emissora/grade/
 
 node_modules/
+
+# Saída do empacotamento — o instalador vai como anexo da Release, não no repo
+dist/
+instalador/staging/

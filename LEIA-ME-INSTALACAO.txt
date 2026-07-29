@@ -1,0 +1,72 @@
+CARTOON TV
+==========
+
+Seus desenhos do HBO Max passando como canal de TV: eles trocam sozinhos, tem
+horario, e voce nao precisa escolher episodio nenhum. Voce liga e assiste.
+
+
+COMO USAR
+---------
+
+1. Clique no atalho "Cartoon TV" (na Area de Trabalho ou no menu Iniciar).
+2. Espere uns segundos. A TV entra no programa daquele horario - no meio dele,
+   como TV de verdade.
+3. O controle abre junto, numa janelinha do lado.
+
+
+O CONTROLE
+----------
+
+  pular              passa pro proximo programa
+  voltar pra grade   volta pro que deveria estar passando agora
+  fila               maratona uma serie, em ordem aleatoria
+  playlists          fila que alterna entre varias series
+  ver agora          um episodio sorteado, e depois volta pra grade
+
+No fim do controle tem um botao "copiar link do controle". Esse link abre o
+mesmo controle no seu celular - basta o celular estar no mesmo Wi-Fi. Da pra
+trocar de desenho sem levantar do sofa.
+
+
+O QUE VOCE PRECISA TER
+----------------------
+
+  - Uma conta do HBO Max (a TV toca a SUA assinatura; ela nao fornece nada)
+  - Google Chrome instalado
+  - Windows
+
+
+NA PRIMEIRA VEZ
+---------------
+
+Vai abrir uma janela do Chrome no HBO Max pedindo o seu login. Entre com a sua
+conta e escolha o seu perfil. Isso e uma vez so: a sessao fica salva no seu
+proprio computador.
+
+
+SE ALGO NAO FUNCIONAR
+---------------------
+
+  A tela fica preta
+      Falta o Google Chrome. Instale em google.com/chrome.
+
+  Pede login toda vez
+      Abra o menu Iniciar > Cartoon TV > e rode a configuracao de novo.
+
+  Falta algum desenho
+      O que aparece depende do que a SUA conta tem disponivel, e isso muda de
+      pais pra pais e de plano pra plano.
+
+  A TV parou de trocar de episodio
+      Feche a janela da TV e abra pelo atalho de novo.
+
+
+PRIVACIDADE
+-----------
+
+Nada sai do seu computador. Nao existe servidor, nao existe cadastro, e o seu
+login fica so na sua maquina. O controle no celular funciona dentro do seu
+Wi-Fi e exige uma chave que so aparece no seu proprio controle.
+
+
+Feito por Lucas Agostini - github.com/lucasgagostini-wq/cartoon-tv

@@ -16,8 +16,14 @@ Function TvNoAr()
   On Error Goto 0
 End Function
 
+' Usa o Node que vem junto na instalacao; so cai pro Node do sistema se nao houver.
+' (o instalador embute node.exe pra pessoa nao precisar instalar nada)
+Set fso2 = CreateObject("Scripting.FileSystemObject")
+nodeExe = "node"
+If fso2.FileExists(base & "\node.exe") Then nodeExe = """" & base & "\node.exe"""
+
 sh.CurrentDirectory = base & "\televisor"
-sh.Run "cmd /c node tv.js >> tv-log.txt 2>&1", 0, False
+sh.Run "cmd /c " & nodeExe & " tv.js >> tv-log.txt 2>&1", 0, False
 
 ' Espera a TV entrar no ar de verdade antes de abrir o controle. Abrir antes faria a
 ' janelinha nascer mostrando "TV desligada" — o servidor sobe antes do 1o programa.
