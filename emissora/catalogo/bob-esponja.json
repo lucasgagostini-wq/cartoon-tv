@@ -1,0 +1,1015 @@
+{
+  "slug": "bob-esponja",
+  "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+  "nomeOficial": "Bob Esponja, Calça Quadrada",
+  "capturadoEm": "2026-07-29T05:12:33.330Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5"
+  ],
+  "episodios": [
+    {
+      "videoId": "7941f768-babb-4ca2-a8f9-7df756883346",
+      "editId": "5294590e-4aaa-4870-97f7-2c34cb8a2aef",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Precisa-se de Ajudante / Assoprador de Arrecifes / Chá em Terra Firme",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "1999-05-01T00:01:00Z",
+      "duracaoMs": 1415000
+    },
+    {
+      "videoId": "1efa0f23-7f04-4130-98ea-c5a3b05f313b",
+      "editId": "939dae9e-5e22-4181-8ab1-f0d4f98d89f6",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bolhas de Sabão / Calça Rasgada",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "1999-07-17T00:01:00Z",
+      "duracaoMs": 1413000
+    },
+    {
+      "videoId": "7d8d695f-bcc7-42db-a62f-aab86c90f0ff",
+      "editId": "c5ede4d7-17d5-4fce-a9ad-db1da48bc93a",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Caçando Água-viva / Plankton!",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "1999-07-31T00:01:00Z",
+      "duracaoMs": 1411000
+    },
+    {
+      "videoId": "d4b2b49f-33dd-4105-aa4c-e0ee001534f1",
+      "editId": "b7c8fba1-0121-404e-9870-703fd0243408",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Vizinhos Náuticos Terríveis / Escola de Pilotagem",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "1999-08-07T00:01:00Z",
+      "duracaoMs": 1411000
+    },
+    {
+      "videoId": "4c1691d9-3331-44ff-bbbc-163d21d65f85",
+      "editId": "a2813c83-9b5e-47ba-98ef-f5676f0d5bcd",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Entrega de Pizza / Lar Doce Abacaxi",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "1999-08-14T00:01:00Z",
+      "duracaoMs": 1413000
+    },
+    {
+      "videoId": "62f9c01a-1301-4a1e-b295-640bc2e2d096",
+      "editId": "88f1a8bf-b582-4300-b87e-472a3af0b111",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Homem Sereia e o Mexilhãozinho / Pickles",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "1999-08-21T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "bfb0e841-956a-4e84-9178-c5f07ac993e6",
+      "editId": "71bc749a-8bb5-4eb5-8ae2-cb15d9395819",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Monitor da Classe / Festa das Águas-vivas",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "1999-08-28T00:01:00Z",
+      "duracaoMs": 1412000
+    },
+    {
+      "videoId": "8e2ed6a6-bbf2-4de5-bea2-264197e1d729",
+      "editId": "60c1453a-9416-4876-be5e-df56bc136b53",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Foguete da Sandy / Botas que Rangem",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "1999-09-17T00:01:00Z",
+      "duracaoMs": 1411000
+    },
+    {
+      "videoId": "e3646d9a-7d5c-4e34-9c79-867b558f1a4c",
+      "editId": "aa06d5ed-6550-49a9-a53d-df77d0cff067",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Com Calças Naturais / O Dia do Contra",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "1999-09-11T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "38fd32a1-4572-4cd0-94ee-c7666c54688e",
+      "editId": "e4ab8728-e21d-49e3-ae46-505b063bc527",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Choque Cultural / Diversão",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "1999-09-18T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "6d7cff37-41ea-4638-9796-96b8b0e768b9",
+      "editId": "3d3533a1-8de8-468c-be86-da2fed883fa4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bob Musculo Calça Cheia / Lula Molusco o Fantasma Abusado",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "1999-10-02T00:01:00Z",
+      "duracaoMs": 1411000
+    },
+    {
+      "videoId": "97f73629-ee6d-49da-88b1-f7ae79265c41",
+      "editId": "8c218c78-a71d-45d8-9b09-58dc37449cf7",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Acompanhante / O Funcionário do Mês",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2000-03-08T00:01:00Z",
+      "duracaoMs": 1411000
+    },
+    {
+      "videoId": "7470532a-8e0c-4a63-948b-f78c6d4d7362",
+      "editId": "700af7ba-adc1-4f1a-8f70-642d2211bd1c",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bob Medroso / Tornei-me um Gary Adolescente",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "1999-10-28T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "8f6b6fbc-c63e-4383-bc0d-6766950167d0",
+      "editId": "eae0a766-a93f-4ac0-8f59-d5cdc82dc640",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "SB 129 / Karatecas Fatiadores",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "1999-12-31T00:01:00Z",
+      "duracaoMs": 1441000
+    },
+    {
+      "videoId": "78fc16bc-003c-4319-ae07-bb3aac778006",
+      "editId": "589ea35e-1bc7-424a-9062-05f69fca73e5",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Hora do Sono / Espuma",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2000-01-17T00:01:00Z",
+      "duracaoMs": 1455000
+    },
+    {
+      "videoId": "3f766c1a-35c3-495d-9c72-ac065bfa05d4",
+      "editId": "1560e95a-e6a0-4796-84a4-cf24b784559c",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Dia de São Valentin / O Papel",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2000-02-14T00:01:00Z",
+      "duracaoMs": 1428000
+    },
+    {
+      "videoId": "c0beaeaf-e5d0-41f7-b4ed-708c6238a78f",
+      "editId": "d49b95ed-54f4-4dad-bd1f-a41acf1f24d3",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Sim, Capitão! / Fenda da Pedra",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2000-03-15T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "1b4f64eb-1832-4564-b012-b18341c8c120",
+      "editId": "a0adbfc3-bfd4-4447-9cc9-9164ae0f699c",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Texas / Passos Pequeninos",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2000-03-22T00:01:00Z",
+      "duracaoMs": 1418000
+    },
+    {
+      "videoId": "2f4fbcfa-aa24-4c40-8f63-b5c8301e3f73",
+      "editId": "6c5d5b74-7fe0-45c7-bc23-9af90367ae86",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Primeiro de Abril / A Espátula de Netuno",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2000-04-01T00:01:00Z",
+      "duracaoMs": 1426000
+    },
+    {
+      "videoId": "a91d2354-e5ab-445a-ba15-e45e88aa50cd",
+      "editId": "30913ffb-63ee-4cff-aa74-94d5b51bd8b4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Anzóis / O Homem Sereia e Mexilhãozinho II",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2001-02-23T00:01:00Z",
+      "duracaoMs": 1464000
+    },
+    {
+      "videoId": "2dcb2424-5dd6-4c87-989a-164cd70a0c88",
+      "editId": "898a17e4-e236-42f2-9340-0dca67710e38",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Sapatos Desamarrados / O Dia de Folga do Lula Molusco",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2001-02-17T00:01:00Z",
+      "duracaoMs": 1461000
+    },
+    {
+      "videoId": "7115d7e2-b869-4d90-89ef-b02d2fd8f821",
+      "editId": "07cf5bf5-fa64-4c3c-b887-e61f20d2dcfe",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Está Cheirando Alguma Coisa / Nas Botas do Chefe",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2000-10-20T00:01:00Z",
+      "duracaoMs": 1457000
+    },
+    {
+      "videoId": "4cf04f25-69d2-45ff-a6ee-3738bcf8ad53",
+      "editId": "f3a2966e-7734-4612-a227-7af176e54f5b",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Grande Fracassado Cor de Rosa / O Amigo Bolha",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2001-02-03T00:01:00Z",
+      "duracaoMs": 1430000
+    },
+    {
+      "videoId": "a0bab3fd-28fa-4588-a9ba-a96366c2ad6e",
+      "editId": "dba8cfef-6e95-4046-8299-f818508d3abc",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Morrendo por uma Torta / Imitação de Caranguejo",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2001-01-27T00:01:00Z",
+      "duracaoMs": 1460000
+    },
+    {
+      "videoId": "5970d837-ac8a-4c81-835d-6241deaef78e",
+      "editId": "90672447-832a-4399-9b3b-fab1aebdfa0a",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Lagartinha / Hambúrguer Decepcionante",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2001-02-24T00:01:00Z",
+      "duracaoMs": 1406000
+    },
+    {
+      "videoId": "6ad23939-6570-4679-82d3-f40275f19123",
+      "editId": "d2637c17-6147-4751-b066-c9129f0c1fb8",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Beijos da Vovó / Cidade de Lula",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2001-04-28T00:01:00Z",
+      "duracaoMs": 1461000
+    },
+    {
+      "videoId": "11589564-29a7-467b-9172-69ab8cbfea8d",
+      "editId": "d6ac7de1-ed80-429c-b982-c0ebfa68fd37",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Uma Semana antes da Hibernação / Vida de Crime",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2001-05-05T00:01:00Z",
+      "duracaoMs": 1426000
+    },
+    {
+      "videoId": "522957a5-a2bd-44be-808c-df0b1de169de",
+      "editId": "6cdad1f0-7e6d-4bfc-b886-9e24380ccd35",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Natal Quem?",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2000-12-07T00:01:00Z",
+      "duracaoMs": 1413000
+    },
+    {
+      "videoId": "bfa420b6-1008-43bd-8d5c-890b21b9e516",
+      "editId": "0b0e8a46-c108-44da-8370-6e99cb63e848",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Sobrevivência dos Idiotas / Descartado",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2001-03-17T00:01:00Z",
+      "duracaoMs": 1466000
+    },
+    {
+      "videoId": "185a15f2-8d9f-4d1c-9d16-3f894b1da843",
+      "editId": "d1f59c6e-2a34-4b66-8046-29bbe7fa550a",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Pilotar sem Saber Não Vale / Sou Seu Maior Fã",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2001-04-14T00:01:00Z",
+      "duracaoMs": 1417000
+    },
+    {
+      "videoId": "f6963bf3-8456-4032-a7fa-674060aa162a",
+      "editId": "41047c21-eba3-4ccd-9f14-e9ab3d4fe93b",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Homem Sereia e o Mexilhãozinho III / Piadas de Esquilos",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2001-09-14T00:01:00Z",
+      "duracaoMs": 1461000
+    },
+    {
+      "videoId": "e67afe69-8a1a-4f24-b35a-7cf332113c7c",
+      "editId": "a9e72164-6da5-4d43-842f-17e5423e2068",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Pressão / O Amendoim do Barulho",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2001-05-12T00:01:00Z",
+      "duracaoMs": 1417000
+    },
+    {
+      "videoId": "d12ce567-f201-4297-9b65-a06313e42dfc",
+      "editId": "c55b2e01-b5be-47c1-8c4f-0f689ac28444",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Marujo na Marra / O Banho do Gary",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2001-03-10T00:01:00Z",
+      "duracaoMs": 1432000
+    },
+    {
+      "videoId": "75491fd5-c746-45bc-87a5-e740deb9967f",
+      "editId": "bc07409b-2cad-41b7-9a11-55f7acc46f4f",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bem-vindo ao Balde de Lixo / Franken Rabisco",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "2002-01-21T00:01:00Z",
+      "duracaoMs": 1458000
+    },
+    {
+      "videoId": "007deed7-6479-4bb3-85e6-c59c0fe1cc9a",
+      "editId": "f2a91dc6-c0e5-4a32-903f-0ef044ca6e8e",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Caixa Secreta / Doidos pela Banda",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "2001-09-07T00:01:00Z",
+      "duracaoMs": 1461000
+    },
+    {
+      "videoId": "ff8adc52-1d62-466e-b476-036fdc5b3541",
+      "editId": "5b56821f-6e2c-4bbd-8c1e-019556067ac4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Turno Macabro / Amor Cascudo",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "2002-09-06T00:01:00Z",
+      "duracaoMs": 1454000
+    },
+    {
+      "videoId": "85cc8691-a2cb-4502-8c53-b730b30a412c",
+      "editId": "14787b75-c699-46b0-a2fe-0136bddcafa1",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Delonga / Sou pelos Idiotas",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "2001-10-19T00:01:00Z",
+      "duracaoMs": 1416000
+    },
+    {
+      "videoId": "3857e741-9dd4-4deb-bebe-fa8bfde6f5c2",
+      "editId": "11ce3fda-6cf7-41f1-85d9-d8e697fd3e6e",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Boca de Marinheiro / Artista Desconhecido",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "2001-09-21T00:01:00Z",
+      "duracaoMs": 1460000
+    },
+    {
+      "videoId": "4e6acce5-31e0-4c7d-87da-e9101a8e4f04",
+      "editId": "753437d6-6b0b-4f70-b912-78ade6f18d20",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Caçador de Água Viva / Os Jogos do Mestre Cuca",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2001-09-28T00:01:00Z",
+      "duracaoMs": 1443000
+    },
+    {
+      "videoId": "963a6c4c-9f8c-4e30-bd05-b39bc0b0264f",
+      "editId": "ee553f13-6194-4663-a81f-a5fc1fa465c4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Lula em Greve / Sandy, Bob Esponja e a Minhoca",
+      "temporada": 2,
+      "episodio": 20,
+      "airDate": "2001-10-12T00:01:00Z",
+      "duracaoMs": 1439000
+    },
+    {
+      "videoId": "c330a629-c117-44b4-b102-bf7431c6c27f",
+      "editId": "3fa91ddf-f33c-44d1-8a31-81b0fe960969",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Algas Cada Vez Mais Verdes / Salva Vidas Bob em Serviço",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2002-03-22T00:01:00Z",
+      "duracaoMs": 1435000
+    },
+    {
+      "videoId": "4c4c760c-0ebb-4b22-8675-d1676df66153",
+      "editId": "5971de45-8488-48a0-8cec-243703975622",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Clube do Bob Esponja / O Meu Belo Cavalo Marinho",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2002-07-12T00:01:00Z",
+      "duracaoMs": 1436000
+    },
+    {
+      "videoId": "e39291e9-cd32-4170-84a5-7ef54871c5a4",
+      "editId": "f6f2a9ff-dfbd-43ee-b782-e1ff617e92d4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Só uma Mordida / O Incômodo",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2001-10-05T00:01:00Z",
+      "duracaoMs": 1387000
+    },
+    {
+      "videoId": "d28873bd-d531-4839-bccc-9262b6a1bbbb",
+      "editId": "3acc8b66-1146-4d31-9bc3-c683939c6075",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Hamburger Perigoso / A Caixa Idiota",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2002-03-01T00:01:00Z",
+      "duracaoMs": 1460000
+    },
+    {
+      "videoId": "33361dda-badf-46fd-a325-770ded9f7698",
+      "editId": "90a4bb00-8896-41fb-8b83-1046ccdf1d04",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Homem Sereia e Mexilhãozinho IV / Criando Tempo",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2002-01-21T00:01:00Z",
+      "duracaoMs": 1413000
+    },
+    {
+      "videoId": "bc39dda0-c8b0-45ee-bfac-76f3af1fcd2a",
+      "editId": "3111aa2c-e93b-4eb3-8182-f9cf193d35cf",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Efeito Bola de Neve / O Lixo do Caranguejo",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2002-02-22T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "3b05193c-64fd-4fee-a9c3-db5818b95950",
+      "editId": "3cd672a3-2448-4751-be0e-15bb0c945a77",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Como na TV / Dá para Economizar uma Moeda",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2002-03-08T00:01:00Z",
+      "duracaoMs": 1448000
+    },
+    {
+      "videoId": "6bf474e1-c5f5-4bfa-9eb7-84fb51af9660",
+      "editId": "e334266a-3b22-4aa3-b66d-7480cc6ef061",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Não Pode Entrar Pirralho / O Retorno do Squilliam",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2002-03-15T00:01:00Z",
+      "duracaoMs": 1459000
+    },
+    {
+      "videoId": "2c36748b-7918-49c4-b252-3bd826327503",
+      "editId": "07d03e21-f7b8-4c01-9a47-b211d0d231b7",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Siri Borg / Nana Neném",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2002-03-29T00:01:00Z",
+      "duracaoMs": 1458000
+    },
+    {
+      "videoId": "4ca56b27-b621-4083-9175-109d9ad9057c",
+      "editId": "000df738-5df1-4eff-96bb-550d8db0e1ca",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Pintores Molhados / Vídeo de Treinamento do Siri Cascudo",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2002-05-10T00:01:00Z",
+      "duracaoMs": 1422000
+    },
+    {
+      "videoId": "0152b1d4-e579-406f-b376-af8e311b4a39",
+      "editId": "525b4011-5b0d-423e-8a63-7fe275f475b5",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Festa do Calça Saltitante",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2002-05-17T00:01:00Z",
+      "duracaoMs": 1412000
+    },
+    {
+      "videoId": "bdac0eab-a678-4617-bade-055717feb25b",
+      "editId": "11514730-5ddc-4f87-9812-cb8fa8afd637",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Chocolate com Nozes / O Homem Sereia e o Mexilhãozinho V",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2002-06-01T00:01:00Z",
+      "duracaoMs": 1459000
+    },
+    {
+      "videoId": "e6cc3f9c-2779-4bc7-81cc-ad0780856c32",
+      "editId": "09518eed-b6cc-430a-96d7-3a03facaf662",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Aluno Novo, Estrela do Mar / Mexilhões",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2002-09-20T00:01:00Z",
+      "duracaoMs": 1457000
+    },
+    {
+      "videoId": "e2461145-461b-4ebd-8f4e-c513f1cacfcc",
+      "editId": "fde7968d-c665-42d3-99a9-3d0795fbb2cc",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bob Esponja Calça Quadrada A.C. (Antes da Comédia)",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2004-03-05T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "e4cc5027-edbe-48b9-8a55-1eab1328ffff",
+      "editId": "79666b8c-3816-46c8-9ce1-1381f803ad62",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Grande Corrida dos Caracóis / Crustáceo de Meia Idade",
+      "temporada": 3,
+      "episodio": 15,
+      "airDate": "2003-01-24T00:01:00Z",
+      "duracaoMs": 1456000
+    },
+    {
+      "videoId": "acf840e0-5d85-4544-928d-66a95dea4214",
+      "editId": "2aad9fd7-4d31-4ea4-9e35-4b7655deae4a",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Sirigueijo Nasce de Novo / Sofri um Acidente",
+      "temporada": 3,
+      "episodio": 16,
+      "airDate": "2003-10-04T00:01:00Z",
+      "duracaoMs": 1458000
+    },
+    {
+      "videoId": "0452fdd7-93c2-4a5a-a9c0-508ab24cf814",
+      "editId": "20b77291-180f-43fa-a487-5c80870211db",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Sirilândia / O Episódio do Acampamento",
+      "temporada": 3,
+      "episodio": 17,
+      "airDate": "2004-04-03T00:01:00Z",
+      "duracaoMs": 1457000
+    },
+    {
+      "videoId": "c602a2c2-a728-4449-b069-de497c6a47e0",
+      "editId": "0cf4f3df-2edf-4eef-b2e4-e01d13906d34",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Identidade Perdida / O Exército do Plankton",
+      "temporada": 3,
+      "episodio": 18,
+      "airDate": "2004-01-19T00:01:00Z",
+      "duracaoMs": 1459000
+    },
+    {
+      "videoId": "00ce8c5c-f642-42e7-99df-b60b5a535943",
+      "editId": "e75aee78-3167-41d8-af1b-562dd6d7728e",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Episódio Perdido (A Esponja que Sabia Voar)",
+      "temporada": 3,
+      "episodio": 19,
+      "airDate": "2003-03-21T00:01:00Z",
+      "duracaoMs": 1415000
+    },
+    {
+      "videoId": "8b8b97fe-59bb-4248-808c-475fccdb270e",
+      "editId": "eb8902cd-2f65-4b11-b530-8caa514a01b2",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bob Esponja Encontra o Estrangulador / Brincadeiras aos Montes",
+      "temporada": 3,
+      "episodio": 20,
+      "airDate": "2004-10-11T00:01:00Z",
+      "duracaoMs": 1461000
+    },
+    {
+      "videoId": "4f67061d-f59f-4265-84a3-b45d6b93d109",
+      "editId": "967e2f77-addf-4042-bbea-51b298683af7",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Medo de Hambúrguer de Siri / Másculo, Mesmo sem Casca",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2005-05-06T00:01:00Z",
+      "duracaoMs": 1423000
+    },
+    {
+      "videoId": "c45be424-b30d-4c19-b580-945adf91ab27",
+      "editId": "7b09fd8f-dfcc-4db0-99e1-e3358c5a0451",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Colchão Perdido / Sirigueijo vs. Plankton",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2005-05-13T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "a1edde72-6f1a-459f-9bcd-1fe8c48ada8c",
+      "editId": "a5fc8328-8494-48f2-90dd-a57a697d6713",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Cadê Esse Caracol?",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2005-11-11T00:01:00Z",
+      "duracaoMs": 1439000
+    },
+    {
+      "videoId": "c8333526-df29-4856-8b77-583979cacea9",
+      "editId": "20f7387a-95f0-4545-8c8b-f0ae9e7cbc8a",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Gancho Habilidoso / Bons Vizinhos",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2005-05-20T00:01:00Z",
+      "duracaoMs": 1439000
+    },
+    {
+      "videoId": "085a2176-044a-4178-827f-e09f224b5308",
+      "editId": "8409a84d-5609-45b1-a58f-0be7b9b98d30",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Venda / Calça Engraçada",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2005-09-23T00:01:00Z",
+      "duracaoMs": 1408000
+    },
+    {
+      "videoId": "77d2d93f-d799-4e14-8279-f5773c29835a",
+      "editId": "d11b51e8-f56a-454b-bebf-d27ae86a3852",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Masmorras e Dragões",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2006-02-20T00:01:00Z",
+      "duracaoMs": 1430000
+    },
+    {
+      "videoId": "7292ae1e-7877-4522-bce3-a2042f7ecc50",
+      "editId": "025eb40e-3c82-4205-a871-9a872549669d",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Padrasto Inimigo / Homem Sereia e o Mexilhãozinho VI: O Filme",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2005-10-07T00:01:00Z",
+      "duracaoMs": 1409000
+    },
+    {
+      "videoId": "bb3f0278-ce70-42df-95c2-006a55f71741",
+      "editId": "3be5c5e6-34ef-4acb-a41b-08e4b59ff576",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Patrick Calça Esperta / Bob Lula Calça Tentáculos",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2005-10-21T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "8b532367-62bc-40b1-bbf9-167e822aea0c",
+      "editId": "3521b67a-7503-475f-a4fd-e11f3eb6b0f9",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Torre Cascuda / Sra. Puff, Está Demitida",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2006-04-01T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "4f7ebdc4-a524-469e-9343-37774c331a3b",
+      "editId": "c9f982e0-b4fe-42f8-bc74-d4ad7e89cbd8",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Olá Chimpanzés / O Anfitrião do Fantasma",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2006-05-05T00:01:00Z",
+      "duracaoMs": 1391000
+    },
+    {
+      "videoId": "f9a10056-d802-4a70-a8c8-faff5f6d6273",
+      "editId": "565dbef2-28c9-420b-9221-9edcffedbfaa",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Aniversário da Baleia / Ilha do Karatê",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2006-05-12T00:01:00Z",
+      "duracaoMs": 1391000
+    },
+    {
+      "videoId": "14c99ad6-df48-4591-a613-6964c912efe3",
+      "editId": "2736665e-42b6-46cb-9071-42d1ee79fcb3",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Nem Tudo que Reluz / O Poço dos Desejos",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2006-06-02T00:01:00Z",
+      "duracaoMs": 1398000
+    },
+    {
+      "videoId": "ba519dc0-88b4-4250-93de-00886f2185d2",
+      "editId": "7bff5137-fa7c-4a1d-8187-53368fc85e62",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Virando a Página / Mordida Contagiosa",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2006-09-22T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "331d6423-15ff-41c4-baf7-736a4329cd82",
+      "editId": "94132f3a-7b4d-4287-9014-0db17961a48a",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Férias Desastrosas / Peruca da Moda",
+      "temporada": 4,
+      "episodio": 14,
+      "airDate": "2006-10-13T00:01:00Z",
+      "duracaoMs": 1396000
+    },
+    {
+      "videoId": "e17d4dbf-39b7-4514-85ea-21d26fb7e6b3",
+      "editId": "3a2761e0-9523-41bc-b84f-0e6b1e001cf3",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Viagem Lulástica / Não É uma Dama",
+      "temporada": 4,
+      "episodio": 15,
+      "airDate": "2006-10-06T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "5c2204ec-0359-42e7-95ea-26bc854d1686",
+      "editId": "3e2d347a-08de-4748-8e54-9293b5f1e4bc",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Coisa / Conversa Fiada",
+      "temporada": 4,
+      "episodio": 16,
+      "airDate": "2007-01-15T00:01:00Z",
+      "duracaoMs": 1384000
+    },
+    {
+      "videoId": "d4d23e33-8b6f-49a7-9868-b0011fc49ee6",
+      "editId": "9e61751d-ebbe-4419-8e50-e4c39ff89174",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Pilotando de Chorar / Reinado dos Idiotas",
+      "temporada": 4,
+      "episodio": 17,
+      "airDate": "2007-02-19T00:01:00Z",
+      "duracaoMs": 1387000
+    },
+    {
+      "videoId": "d1ea77c9-3544-40fc-8fcc-3366631ec5f7",
+      "editId": "12c04b1d-4ed7-4212-97e5-2469188fa2c3",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Nascido para Ser Selvagem / Melhores Inimigos",
+      "temporada": 4,
+      "episodio": 18,
+      "airDate": "2007-03-31T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "25d39329-747e-4224-8592-0794faf1ff08",
+      "editId": "ed9df1d5-1c4c-4fb8-89fc-c6ceb4682d7c",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Ladrão Cor de Rosa / Lula de Madeira",
+      "temporada": 4,
+      "episodio": 19,
+      "airDate": "2007-02-19T00:01:00Z",
+      "duracaoMs": 1405000
+    },
+    {
+      "videoId": "bac5b421-0fd4-40b5-86e1-14dd07d9208f",
+      "editId": "cef3dd53-8f59-42df-8cf1-84869c7a3f45",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Melhor Dia de Todos / O Presente da Goma de Mascar",
+      "temporada": 4,
+      "episodio": 20,
+      "airDate": "2006-11-10T00:01:00Z",
+      "duracaoMs": 1408000
+    },
+    {
+      "videoId": "250a3e48-ab99-4068-af84-0694ba42edf5",
+      "editId": "f80ef746-75b6-4f58-ad45-9867f4e54f52",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Amigo ou Inimigo",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2007-04-13T00:01:00Z",
+      "duracaoMs": 1396000
+    },
+    {
+      "videoId": "7568f6bd-580f-4857-9848-3411200bdb45",
+      "editId": "653c0260-9a15-43bd-a550-84e75698cbb5",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Mestre-Cuca Original / Luz Noturna",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2007-07-30T00:01:00Z",
+      "duracaoMs": 1402000
+    },
+    {
+      "videoId": "85f1e20a-1a64-4743-8279-083622122077",
+      "editId": "1a23a712-1310-4a58-b1dd-cb584cd27519",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Acorde Disposto / Esperando / Tem Fungo entre Nós",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2007-02-19T00:01:00Z",
+      "duracaoMs": 1408000
+    },
+    {
+      "videoId": "7a13a90d-6a26-4b3a-a938-bd068e15da07",
+      "editId": "1219e72e-5ddc-4c46-9fdf-2ef01ca032c4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Amigos Espiões / Pilotagem Consciente / Qual o Nome dele?",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2007-07-23T00:01:00Z",
+      "duracaoMs": 1403000
+    },
+    {
+      "videoId": "8a959791-e9e1-46dd-a794-7c2c698a983f",
+      "editId": "2475c7df-38bd-4808-aa56-ef4aae2381bd",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Novas Acomodações / Sirí à la Mode",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2007-07-25T00:01:00Z",
+      "duracaoMs": 1407000
+    },
+    {
+      "videoId": "a92bc636-7e20-4916-a9e7-d97d8df24712",
+      "editId": "f1830be6-40cc-44e5-9856-dafd8652bbc7",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Medo de Montanha Russa / Balde, Doce Balde",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2007-07-27T00:01:00Z",
+      "duracaoMs": 1393000
+    },
+    {
+      "videoId": "1614cbec-547b-4ead-b225-40394e2e73f1",
+      "editId": "d80e4b1c-43a0-478f-bbe6-3fd096de3897",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Adoro a Patty / O Gostinho do Novo Lula Molusco",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2007-07-26T00:01:00Z",
+      "duracaoMs": 1394000
+    },
+    {
+      "videoId": "f36698a8-b997-4460-b066-c86f0e7421fe",
+      "editId": "0ecee134-4e4a-456d-88c5-4bdda070305b",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Dinheiro Fala / Bob Esponja versus a Máquina de Fazer Hambúrguer / Dança Pegajosa",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2007-07-31T00:01:00Z",
+      "duracaoMs": 1399000
+    },
+    {
+      "videoId": "6bf5738a-4716-4c3c-abaf-c4c3b216949f",
+      "editId": "e4f8b2a7-c9c9-4a20-92a5-3b4bbca30a0b",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Esponja Cascuda / A Música do Patrick",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2007-07-24T00:01:00Z",
+      "duracaoMs": 1391000
+    },
+    {
+      "videoId": "f75dd578-392c-4c04-bdfa-5baab5ce0047",
+      "editId": "8cf7682d-5134-4c07-af72-26b148ae1593",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Uma Pulga no Domo dela / A Rosquinha da Vergonha / O Prato Cascudo",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2007-08-01T00:01:00Z",
+      "duracaoMs": 1393000
+    },
+    {
+      "videoId": "bcb376ab-b51b-470f-90c4-902c2264562f",
+      "editId": "360277f4-4153-471e-a66c-4617be011d7b",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Gás Gugudadá / La Grande Troca",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2007-09-29T00:01:00Z",
+      "duracaoMs": 1393000
+    },
+    {
+      "videoId": "01610cb3-f566-41e3-af22-679c9818a95c",
+      "editId": "befaba66-5140-4119-8b0f-bd6138465574",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Bob Esponja: Descobrindo Atlântida",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2007-11-12T00:01:00Z",
+      "duracaoMs": 2572000
+    },
+    {
+      "videoId": "709a6d40-d775-458a-ad76-addfa30bc3d1",
+      "editId": "bf842cbf-fbf7-4051-9488-c1c35bed4ab0",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O Dia da Foto / O Pat Não Paga / Blackjack",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2007-08-02T00:01:00Z",
+      "duracaoMs": 1397000
+    },
+    {
+      "videoId": "aed5d27f-7802-435f-b3ae-9d8df19ffdfd",
+      "editId": "29b1fcc6-857f-40a8-8103-f832b91b564d",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Esponja Roxa / Homem Sereia versus Bob Esponja",
+      "temporada": 5,
+      "episodio": 14,
+      "airDate": "2007-08-03T00:01:00Z",
+      "duracaoMs": 1400000
+    },
+    {
+      "videoId": "789e6e55-136a-4ccc-a7cf-04e1032aa3c6",
+      "editId": "3f2726c3-0377-403e-a1ff-bf2eb78c0db4",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Os Reclusos do Verão / Salvando um Esquilo",
+      "temporada": 5,
+      "episodio": 15,
+      "airDate": "2007-11-23T00:01:00Z",
+      "duracaoMs": 1403000
+    },
+    {
+      "videoId": "04cb87f0-b847-426f-9ded-2c5d42f7c48f",
+      "editId": "0adeb5fa-db0b-4de0-bf61-220eee282a21",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "A Peste do Oeste",
+      "temporada": 5,
+      "episodio": 16,
+      "airDate": "2008-04-11T00:01:00Z",
+      "duracaoMs": 1406000
+    },
+    {
+      "videoId": "0e09bfe4-aa7d-4f4d-87e1-93a586361c83",
+      "editId": "8576abec-8e41-4d0c-aedc-622c4785eb59",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "20.000 Hamburgueres Submarinos / A Batalha da Fenda do Bikini",
+      "temporada": 5,
+      "episodio": 17,
+      "airDate": "2007-11-23T00:01:00Z",
+      "duracaoMs": 1405000
+    },
+    {
+      "videoId": "7282e327-94ab-46af-90f6-cb78c02c99e1",
+      "editId": "ae226ae3-77d4-41a5-951f-4369ecdc5b7d",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "O que Aconteceu com o Bob Esponja?",
+      "temporada": 5,
+      "episodio": 18,
+      "airDate": "2008-10-13T00:01:00Z",
+      "duracaoMs": 1408000
+    },
+    {
+      "videoId": "e6da4ee7-b7ce-452c-8be9-27d14abbf707",
+      "editId": "6e903b3b-d5ee-439e-afc9-ff14327428cd",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "As Duas Caras do Lula Molusco / Monumento de Esponja",
+      "temporada": 5,
+      "episodio": 19,
+      "airDate": "2007-11-23T00:01:00Z",
+      "duracaoMs": 1389000
+    },
+    {
+      "videoId": "acdc8d09-dae7-4707-900b-950d7fbabbc1",
+      "editId": "d5693a72-9572-416f-b10c-7cd2c10d6edc",
+      "showId": "6237f381-2ab7-41ca-8e73-e177033de02f",
+      "nome": "Interdição na Fenda do Bikini / Stanley S. Calça Quadrada",
+      "temporada": 5,
+      "episodio": 20,
+      "airDate": "2007-11-23T00:01:00Z",
+      "duracaoMs": 1388000
+    }
+  ]
+}

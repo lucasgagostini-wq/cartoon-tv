@@ -2,7 +2,11 @@
 // a hora entra por parâmetro, por isso dá pra testar tudo sem abrir browser.
 //
 // override = null
-//          | { tipo:'zap'|'fila', slug, serie, atual:<entry>, restante:[<ep>], iniciadoEm:<ms>, seed }
+//          | { tipo:'zap'|'fila', slugs:[...], nome, seed, atual:<entry>,
+//              restante:[{slug,serie,ep}], iniciadoEm:<ms> }
+//
+// Uma PLAYLIST é só uma fila com vários slugs — mesmo caminho de código, sem ramo novo.
+// zap = fila de um episódio só, que morre no fim.
 //
 // Regra que manda em tudo: a GRADE NUNCA É ALTERADA (gerar-grade.js é função pura).
 // O que o Lucas escolhe vive só aqui, em memória, por cima dela.
@@ -35,35 +39,66 @@ function entryDeEpisodio(slug, nomeSerie, ep) {
   };
 }
 
-function criarOverride(catalogos, slug, tipo, seed, agoraMs) {
-  const c = catalogos && catalogos[slug];
-  if (!c || !c.episodios || !c.episodios.length) return null;
-  const baralho = embaralhar(c.episodios, seed);
-  const [primeiro, ...resto] = baralho;
+// Monta a fila de uma playlist ALTERNANDO entre as séries.
+//
+// Por que não juntar tudo num baralho só: Hora de Aventura tem 275 episódios e
+// Smiling Friends tem 27 — no sorteio simples o Smiling Friends quase não apareceria.
+// Aqui cada rodada embaralha a ORDEM das séries e tira um episódio de cada, então
+// as séries se revezam e nenhuma domina, independente do tamanho do catálogo.
+function montarFila(catalogos, slugs, seed) {
+  const validos = slugs.filter((s) => catalogos[s] && catalogos[s].episodios.length);
+  if (!validos.length) return [];
+
+  // baralho próprio de cada série: sorteado, sem repetir até esgotar
+  const baralhos = {};
+  validos.forEach((s, i) => { baralhos[s] = embaralhar(catalogos[s].episodios, (seed + i * 7919) >>> 0); });
+
+  const fila = [];
+  const maior = Math.max(...validos.map((s) => baralhos[s].length));
+  for (let rodada = 0; rodada < maior; rodada++) {
+    // só as séries que ainda têm episódio nesta rodada
+    const disponiveis = validos.filter((s) => baralhos[s][rodada]);
+    // ordem muda a cada rodada, senão vira ciclo previsível A,B,C,A,B,C
+    const ordem = embaralhar(disponiveis, (seed + rodada * 104729) >>> 0);
+    // evita a emenda: última da rodada anterior igual à primeira desta
+    const ultimo = fila.length ? fila[fila.length - 1].slug : null;
+    if (ordem.length > 1 && ordem[0] === ultimo) { [ordem[0], ordem[1]] = [ordem[1], ordem[0]]; }
+    for (const s of ordem) fila.push({ slug: s, serie: catalogos[s].nome, ep: baralhos[s][rodada] });
+  }
+  return fila;
+}
+
+// tipo: 'zap' (um episódio e volta pra grade) | 'fila' (segue até mandarem parar)
+// slugs: uma série ou várias (playlist). nome: o que aparece no badge do controle.
+function criarOverride(catalogos, slugs, tipo, seed, agoraMs, nome) {
+  const lista = Array.isArray(slugs) ? slugs : [slugs];
+  const fila = montarFila(catalogos, lista, seed);
+  if (!fila.length) return null;
+  const [primeiro, ...resto] = fila;
   return {
-    tipo, slug, serie: c.nome, seed,
-    atual: entryDeEpisodio(slug, c.nome, primeiro),
-    restante: resto,
+    tipo, slugs: lista, seed,
+    nome: nome || primeiro.serie,
+    atual: entryDeEpisodio(primeiro.slug, primeiro.serie, primeiro.ep),
+    restante: tipo === 'zap' ? [] : resto,
     iniciadoEm: agoraMs,
   };
 }
 
-// Chamado quando o episódio corrente do override termina.
+// Chamado quando o episódio corrente termina.
 // zap  -> null (volta pra grade)
-// fila -> próximo do baralho; baralho esgotado reembaralha e segue
-//         (sem isso a maratona morreria no fim da série, e série de 1 episódio nem começaria)
+// fila -> próximo da fila; fila esgotada remonta com seed derivada e segue
+//         (sem isso a maratona morreria no fim, e série de 1 episódio nem começaria)
 function avancarOverride(ov, agoraMs, catalogos) {
   if (!ov || ov.tipo !== 'fila') return null;
   let restante = ov.restante;
   let seed = ov.seed;
   if (!restante.length) {
-    const c = catalogos && catalogos[ov.slug];
-    if (!c || !c.episodios.length) return null;
     seed = (ov.seed * 1664525 + 1013904223) >>> 0;
-    restante = embaralhar(c.episodios, seed);
+    restante = montarFila(catalogos || {}, ov.slugs, seed);
+    if (!restante.length) return null;
   }
   const [prox, ...resto] = restante;
-  return { ...ov, seed, atual: entryDeEpisodio(ov.slug, ov.serie, prox), restante: resto, iniciadoEm: agoraMs };
+  return { ...ov, seed, atual: entryDeEpisodio(prox.slug, prox.serie, prox.ep), restante: resto, iniciadoEm: agoraMs };
 }
 
 function programaDaGrade(grade, minutosDia) {
@@ -94,11 +129,11 @@ function decidir({ grade, minutosDia, override, agoraMs, catalogos }) {
       offsetSeg: Math.max(0, Math.floor((agoraMs - ov.iniciadoEm) / 1000)),
       origem: ov.tipo, override: ov,
       proximo: ov.tipo === 'fila' ? (ov.restante[0] || null) : null,
-      fila: ov.tipo === 'fila' ? { serie: ov.serie, restantes: ov.restante.length } : null,
+      fila: ov.tipo === 'fila' ? { serie: ov.nome, restantes: ov.restante.length } : null,
     };
   }
 
   return { ...programaDaGrade(grade, minutosDia), origem: 'grade', override: null, fila: null };
 }
 
-module.exports = { decidir, criarOverride, avancarOverride, embaralhar, entryDeEpisodio, programaDaGrade };
+module.exports = { decidir, criarOverride, avancarOverride, embaralhar, entryDeEpisodio, programaDaGrade, montarFila };

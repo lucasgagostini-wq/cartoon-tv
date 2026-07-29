@@ -8,12 +8,12 @@
     {
       "rotulo": "Manhã dos clássicos",
       "de": "06:00", "ate": "12:00",
-      "series": ["dexter", "coragem", "johnny-bravo", "meninas-a", "du-dudu-edu", "billy-e-mandy", "chowder", "mansao-foster"]
+      "series": ["dexter", "coragem", "johnny-bravo", "meninas-a", "du-dudu-edu", "billy-e-mandy", "chowder", "mansao-foster", "bob-esponja"]
     },
     {
       "rotulo": "Tarde era de ouro",
       "de": "12:00", "ate": "18:00",
-      "series": ["hora-de-aventura", "apenas-um-show", "gumball", "flapjack", "titio-avo", "clarencio", "gumball-novo", "fitas-perdidas"]
+      "series": ["hora-de-aventura", "apenas-um-show", "gumball", "flapjack", "titio-avo", "clarencio", "gumball-novo", "fitas-perdidas", "bob-esponja"]
     },
     {
       "rotulo": "Noite de ação",

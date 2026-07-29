@@ -6,6 +6,7 @@
 // Uso: node tv.js          (Ctrl+C ou fechar a janela = desligar)
 const { chromium } = require('playwright-core');
 const path = require('path');
+const fs = require('fs');
 const { gerarAte, carregarCatalogos } = require('../emissora/gerar-grade');
 const { INIT_SCRIPT, faixaDoMinuto } = require('./vinheta');
 const { decidir, criarOverride } = require('./fila');
@@ -30,12 +31,23 @@ function agoraInfo() {
 // com o Playwright. Por isso /estado responde instantâneo e não pesa no player.
 const estado = {
   ligada: false, override: null, origem: 'grade',
-  entry: null, iniciadoEmMs: 0,
+  entry: null, iniciadoEmMs: 0, trocouEmMs: 0,
   ultimoTempoVideo: 0, ultimaLeituraMs: 0,
+  volume: null, videosNaPagina: 0,
   proximos: [],
 };
 const catalogos = carregarCatalogos();
 let resolverComando = null; // acordado pelo POST /comando
+
+// Playlists: filas que alternam entre várias séries. Editáveis em emissora/playlists.json
+// sem tocar em código; um arquivo quebrado não pode impedir a TV de ligar.
+function carregarPlaylists() {
+  try {
+    const j = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'emissora', 'playlists.json'), 'utf8'));
+    return (j.playlists || []).filter((p) => p.id && p.nome && Array.isArray(p.series));
+  } catch (e) { return []; }
+}
+const playlists = carregarPlaylists();
 
 function programaAtual() {
   const { diaStr, minutos } = agoraInfo();
@@ -91,7 +103,8 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       const emFila = !!(estado.override && estado.override.tipo === 'fila');
       return {
         ligada: true, origem: estado.origem,
-        fila: emFila ? { serie: estado.override.serie, restantes: estado.override.restante.length } : null,
+        volume: estado.volume, videosNaPagina: estado.videosNaPagina,
+        fila: emFila ? { serie: estado.override.nome, restantes: estado.override.restante.length } : null,
         agora: {
           serie: e.serie, nome: e.nome, temporada: e.temporada, episodio: e.episodio, inicio: e.inicio,
           duracaoSeg: Math.round(durSeg),
@@ -101,9 +114,9 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
         // Em fila, o "a seguir" mostra a fila sorteada — nunca a grade, senão a
         // janelinha mostraria uma coisa e a TV tocaria outra.
         aSeguir: emFila
-          ? estado.override.restante.slice(0, 5).map((ep) => ({
-              hora: '--:--', serie: estado.override.serie,
-              te: 'T' + ep.temporada + 'E' + ep.episodio, intervalo: false }))
+          ? estado.override.restante.slice(0, 5).map((it) => ({
+              hora: '--:--', serie: it.serie,
+              te: 'T' + it.ep.temporada + 'E' + it.ep.episodio, intervalo: false }))
           : estado.proximos.map((g) => ({
               hora: g.inicio, serie: g.serie,
               te: 'T' + g.temporada + 'E' + g.episodio, intervalo: !!g.intervalo })),
@@ -112,11 +125,22 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
     obterSeries: () => Object.values(catalogos)
       .map((c) => ({ slug: c.slug, nome: c.nome, eps: c.episodios.length }))
       .sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR')),
+    obterPlaylists: () => playlists.map((p) => ({
+      id: p.id, nome: p.nome,
+      series: p.series.filter((s) => catalogos[s]).map((s) => catalogos[s].nome),
+      eps: p.series.reduce((n, s) => n + (catalogos[s] ? catalogos[s].episodios.length : 0), 0),
+    })),
     enviarComando: (c) => {
       if (c.tipo === 'ver-agora' || c.tipo === 'fila') {
         const ov = criarOverride(catalogos, c.slug, c.tipo === 'fila' ? 'fila' : 'zap',
           (Date.now() ^ 0x5bf03635) >>> 0, Date.now());
         if (!ov) return { ok: false, erro: 'serie sem episodio valido: ' + c.slug };
+        estado.override = ov;
+      } else if (c.tipo === 'playlist') {
+        const p = playlists.find((x) => x.id === c.slug);
+        if (!p) return { ok: false, erro: 'playlist nao encontrada: ' + c.slug };
+        const ov = criarOverride(catalogos, p.series, 'fila', (Date.now() ^ 0x5bf03635) >>> 0, Date.now(), p.nome);
+        if (!ov) return { ok: false, erro: 'playlist sem episodio valido: ' + p.nome };
         estado.override = ov;
       } else if (c.tipo === 'voltar-grade') {
         estado.override = null;
@@ -156,6 +180,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
     if (!prog) { log('Grade sem programa agora — tentando de novo em 30s'); await page.waitForTimeout(30000); continue; }
     const { entry, offsetSeg } = prog;
     estado.ligada = true; estado.entry = entry;
+    estado.trocouEmMs = Date.now();
     estado.iniciadoEmMs = Date.now() - offsetSeg * 1000;
     estado.ultimoTempoVideo = offsetSeg; estado.ultimaLeituraMs = Date.now();
     const alvo = urlDe(entry);
@@ -188,12 +213,16 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
         await page.waitForTimeout(500);
         const volSalvo = lerVolume(ARQ_PREF);
         const ok = await page.evaluate(({ seg, vol }) => {
-          const v = document.querySelector('video');
-          if (!v) return false;
-          v.muted = false;
-          // Sem preferência salva, NÃO mexe no volume — deixa o Max mandar.
-          // (antes era v.volume = 1, e a TV abria sempre no máximo)
-          if (vol != null && Math.abs(v.volume - vol) > 0.01) v.volume = vol;
+          // A página do Max tem mais de um <video> (trailer/preview além do player).
+          // querySelector pegava o primeiro, que nem sempre é o que toca — daí o volume
+          // parecer não obedecer. Aplica em TODOS e mede pelo que está realmente tocando.
+          const todos = [...document.querySelectorAll('video')];
+          if (!todos.length) return false;
+          for (const el of todos) {
+            el.muted = false;
+            if (vol != null && Math.abs(el.volume - vol) > 0.005) el.volume = vol;
+          }
+          const v = todos.find((x) => !x.paused && x.currentTime > 0.5) || todos[0];
           if (v.paused) v.play().catch(() => {});
           if (v.currentTime > 0.5 && !v.paused && v.readyState >= 3) {
             if (seg > 15 && Math.abs(v.currentTime - seg) > 20) v.currentTime = seg;
@@ -244,16 +273,29 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
           break;
         }
         // Player travado? (tempo não anda 3 checagens seguidas)
-        const t = await page.evaluate(() => {
-          const v = document.querySelector('video');
-          return v ? { tempo: v.currentTime, pausado: v.paused, vol: v.volume } : null;
-        }).catch(() => null);
+        // Janela curta só pra cobrir o CARREGAMENTO: enquanto o player monta, o Max pode
+        // restaurar o volume dele por cima do nosso. Passados 6s a TV para de forçar e
+        // passa a obedecer — se ficasse forçando, um ajuste do Lucas logo no começo do
+        // episódio seria revertido pela propria TV.
+        const protegido = Date.now() - estado.trocouEmMs < 6000;
+        const salvo = lerVolume(ARQ_PREF);
+        const t = await page.evaluate(({ vol, forcar }) => {
+          const todos = [...document.querySelectorAll('video')];
+          if (!todos.length) return null;
+          if (forcar && vol != null) {
+            for (const el of todos) if (Math.abs(el.volume - vol) > 0.005) el.volume = vol;
+          }
+          const v = todos.find((x) => !x.paused && x.currentTime > 0.5) || todos[0];
+          return { tempo: v.currentTime, pausado: v.paused, vol: v.volume, quantos: todos.length };
+        }, { vol: salvo, forcar: protegido }).catch(() => null);
         if (t) {
           // alimenta o /estado sem que o servidor precise falar com o Playwright
           estado.ultimoTempoVideo = t.tempo; estado.ultimaLeituraMs = Date.now();
-          // aprende o volume quando o Lucas mexe no controle do próprio Max
-          if (typeof t.vol === 'number' && Math.abs(t.vol - (lerVolume(ARQ_PREF) ?? -1)) > 0.01) {
+          estado.volume = t.vol; estado.videosNaPagina = t.quantos;
+          // fora da janela de proteção, aprende o volume que o Lucas deixou no Max
+          if (!protegido && typeof t.vol === 'number' && Math.abs(t.vol - (salvo ?? -1)) > 0.005) {
             gravarVolume(ARQ_PREF, t.vol);
+            log('Volume aprendido: ' + Math.round(t.vol * 100) + '% (era ' + Math.round((salvo ?? 0) * 100) + '%)');
           }
         }
         if (t && !t.pausado) {

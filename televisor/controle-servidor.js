@@ -7,7 +7,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const TIPOS_VALIDOS = new Set(['ver-agora', 'fila', 'pular', 'voltar-grade']);
+const TIPOS_VALIDOS = new Set(['ver-agora', 'fila', 'playlist', 'pular', 'voltar-grade']);
 
 function json(res, status, corpo) {
   res.writeHead(status, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' });
@@ -23,7 +23,7 @@ function lerCorpo(req) {
   });
 }
 
-function iniciarControle({ porta = 4599, obterEstado, obterSeries, enviarComando, aoErro }) {
+function iniciarControle({ porta = 4599, obterEstado, obterSeries, obterPlaylists, enviarComando, aoErro }) {
   const server = http.createServer(async (req, res) => {
     const rota = (req.url || '').split('?')[0];
 
@@ -36,6 +36,7 @@ function iniciarControle({ porta = 4599, obterEstado, obterSeries, enviarComando
     }
     if (req.method === 'GET' && rota === '/estado') return json(res, 200, obterEstado());
     if (req.method === 'GET' && rota === '/series') return json(res, 200, obterSeries());
+    if (req.method === 'GET' && rota === '/playlists') return json(res, 200, obterPlaylists ? obterPlaylists() : []);
 
     if (req.method === 'POST' && rota === '/comando') {
       const corpo = await lerCorpo(req);

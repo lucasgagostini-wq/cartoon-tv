@@ -38,6 +38,8 @@ const LISTA = [
   ['primal', '59dc1d55-bb08-4bb4-85dd-d03e64f4fef1', 'Primal'],
   ['chowder', '45347815-a950-4ed0-bf02-8b6297f672d2', 'Chowder'],
   ['billy-e-mandy', '0fd9938a-862b-466d-999e-c4ece1d56e0c', 'As Terríveis Aventuras de Billy e Mandy'],
+  // Não é da Cartoon, mas o Lucas pediu na grade geral (29/07)
+  ['bob-esponja', '6237f381-2ab7-41ca-8e73-e177033de02f', 'Bob Esponja, Calça Quadrada'],
 ];
 
 const OUT_DIR = path.join(__dirname, '..', 'emissora', 'catalogo');
