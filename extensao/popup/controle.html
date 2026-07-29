@@ -11,8 +11,10 @@
     --bt-bg:#121A15; --bt-hover:#17231A;
   }
   * { box-sizing: border-box; }
+  /* serve ao painel lateral (largura que o usuário arrasta) e ao popup (fixo) */
   body {
-    width:360px; margin:0; padding:11px; background:var(--bg); color:var(--texto);
+    width:100%; min-width:300px; max-width:460px; margin:0 auto; padding:11px;
+    background:var(--bg); color:var(--texto);
     font:12px/1.45 Consolas,'Cascadia Mono','Courier New',monospace; user-select:none;
   }
   .bloco { border:1px solid var(--borda); border-radius:5px; padding:10px 11px; }

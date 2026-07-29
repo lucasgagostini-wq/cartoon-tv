@@ -3,11 +3,12 @@
   "name": "Cartoon TV",
   "version": "1.0.0",
   "description": "Transforma a sua assinatura do HBO Max num canal linear: grade diaria que troca sozinha, controle remoto e playlists.",
-  "permissions": ["storage"],
+  "permissions": ["storage", "sidePanel"],
   "host_permissions": ["https://play.hbomax.com/*"],
+  "background": { "service_worker": "service-worker.js" },
+  "side_panel": { "default_path": "popup/controle.html" },
   "action": {
     "default_title": "Cartoon TV",
-    "default_popup": "popup/controle.html",
     "default_icon": {
       "16": "icones/16.png",
       "32": "icones/32.png",
