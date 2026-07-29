@@ -13,6 +13,9 @@ const { decidir, criarOverride, chaveExibicao } = require('./fila');
 const { iniciarControle } = require('./controle-servidor');
 const { lerVolume, gravarVolume } = require('./preferencias');
 const { escolherPerfil } = require('./configuracao');
+const { chave, linkCelular } = require('./rede');
+
+const chaveControle = chave();
 
 const TICK_MS = 5000;
 const PORTA_CONTROLE = 4599;
@@ -124,6 +127,8 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   // Porta ocupada não pode derrubar a TV: avisa e segue sem controle.
   const servidorControle = iniciarControle({
     porta: PORTA_CONTROLE,
+    host: '0.0.0.0',        // escuta na rede pra o celular alcançar
+    chave: chaveControle,   // ...e só entra de fora quem tiver a chave
     obterEstado: () => {
       if (!estado.ligada || !estado.entry) return { ligada: false };
       const e = estado.entry;
@@ -135,6 +140,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       return {
         ligada: true, origem: estado.origem,
         volume: estado.volume, videosNaPagina: estado.videosNaPagina,
+        linkCelular: linkFone,
         fila: emFila ? { serie: estado.override.nome, restantes: estado.override.restante.length } : null,
         agora: {
           serie: e.serie, nome: e.nome, temporada: e.temporada, episodio: e.episodio, inicio: e.inicio,
@@ -234,6 +240,9 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
     },
     aoErro: (e) => log('⚠️ controle indisponível (' + e.code + ') — a TV segue normal'),
   });
+
+  const linkFone = linkCelular(PORTA_CONTROLE);
+  log(linkFone ? 'Controle no celular: ' + linkFone : '⚠️ sem IP de rede — controle só nesta máquina');
 
   // Tela de perfil na primeira carga
   const t0Boot = Date.now();

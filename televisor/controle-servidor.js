@@ -23,10 +23,25 @@ function lerCorpo(req) {
   });
 }
 
-function iniciarControle({ porta = 4599, obterEstado, obterSeries, obterPlaylists,
+// Só a própria máquina entra sem chave. Qualquer outro aparelho da rede precisa apresentar
+// a chave — senão bastaria estar no mesmo Wi-Fi pra mandar na TV dos outros.
+function ehLocal(req) {
+  const ip = (req.socket.remoteAddress || '').replace(/^::ffff:/, '');
+  return ip === '127.0.0.1' || ip === '::1';
+}
+function autorizado(req, chave) {
+  if (!chave || ehLocal(req)) return true;
+  const url = new URL(req.url, 'http://x');
+  return url.searchParams.get('k') === chave || req.headers['x-chave'] === chave;
+}
+
+function iniciarControle({ porta = 4599, host = '127.0.0.1', chave = null,
+                          obterEstado, obterSeries, obterPlaylists,
                           salvarPlaylist, excluirPlaylist, enviarComando, aoErro }) {
   const server = http.createServer(async (req, res) => {
     const rota = (req.url || '').split('?')[0];
+
+    if (!autorizado(req, chave)) return json(res, 403, { erro: 'chave invalida' });
 
     if (req.method === 'GET' && (rota === '/' || rota === '/controle.html')) {
       return fs.readFile(path.join(__dirname, 'controle.html'), (err, buf) => {
@@ -72,7 +87,7 @@ function iniciarControle({ porta = 4599, obterEstado, obterSeries, obterPlaylist
 
   // Porta ocupada não pode derrubar a TV: avisa e segue sem controle.
   server.on('error', (e) => { if (aoErro) aoErro(e); else throw e; });
-  server.listen(porta, '127.0.0.1');
+  server.listen(porta, host);
   return server;
 }
 

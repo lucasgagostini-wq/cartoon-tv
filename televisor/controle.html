@@ -2,6 +2,9 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0C110E">
+<meta name="mobile-web-app-capable" content="yes">
 <title>Controle · Cartoon TV</title>
 <style>
   :root {
@@ -71,6 +74,33 @@
   #desligada { padding:22px 4px; text-align:center; color:var(--texto-fraco); }
   #desligada b { display:block; color:var(--verde); font-size:14px; margin-bottom:6px; }
   #erro { margin-top:8px; font-size:11px; color:#e07a35; min-height:14px; }
+
+  /* link pro celular — só aparece no controle do PC */
+  #fone { margin-top:9px; display:flex; align-items:center; gap:7px; font-size:10.5px; }
+  #fone .url { flex:1; color:var(--verde-dim); overflow:hidden; text-overflow:ellipsis;
+               white-space:nowrap; user-select:all; }
+  #fone .copiar { flex:none; padding:3px 8px; border:1px solid var(--borda-bt); border-radius:3px;
+                  background:var(--bt-bg); cursor:pointer; }
+  #fone .copiar:hover { border-color:var(--verde); color:var(--titulo); }
+
+  /* No celular tudo cresce: dedo não acerta alvo de 7px, e hover não existe. */
+  @media (pointer: coarse), (max-width: 520px) {
+    body { padding:14px 12px calc(14px + env(safe-area-inset-bottom)); font-size:14px; }
+    .serie { font-size:19px; }
+    .ep, .item, .chip, .bt { font-size:14px; }
+    .bt { padding:14px 0; }
+    .item { padding:9px 6px; }
+    .item.pl { padding:11px 9px; }
+    .chip { padding:9px 12px; }
+    .chips { max-height:none; }
+    .busca { padding:10px 12px; }
+    .busca input { font-size:16px; }   /* < 16px faz o iPhone dar zoom ao focar */
+    .cab { font-size:11px; }
+    .bt:hover, .chip:hover, .item.pl:hover { background:var(--bt-bg); border-color:var(--borda-bt); }
+    .bt:active { background:var(--bt-hover); border-color:var(--verde); color:var(--titulo); }
+    .chip:active, .item.pl:active { border-color:var(--verde); color:var(--titulo); }
+    #fone { display:none; }
+  }
 </style>
 </head>
 <body>
@@ -115,12 +145,21 @@
       <div class="bt" id="bt-cancelar">cancelar</div>
     </div>
     <div id="erro"></div>
+    <div id="fone" class="oculto">
+      <span>&#128241;</span><span class="url" id="fone-url"></span>
+      <span class="copiar" id="fone-copiar">copiar</span>
+    </div>
   </div>
 </div>
 
 <script>
 const $ = (id) => document.getElementById(id);
 let series = [], playlists = [], assinaturaLista = '';
+
+// A chave vem na URL quando o controle é aberto do celular. No PC ela não existe e o
+// servidor libera por ser 127.0.0.1 — então a mesma página serve aos dois.
+const CHAVE = new URLSearchParams(location.search).get('k');
+const rota = (p) => (CHAVE ? p + (p.includes('?') ? '&' : '?') + 'k=' + encodeURIComponent(CHAVE) : p);
 let marcados = new Set();   // séries marcadas nos chips (seleção múltipla)
 let editando = null;        // { id, nome } quando está editando uma playlist
 
@@ -205,7 +244,7 @@ async function excluirPlaylist(id) {
   const p = playlists.find((x) => x.id === id);
   if (!p || !confirm('Excluir a playlist "' + p.nome + '"?')) return;
   try {
-    const r = await fetch('/playlists/excluir', { method: 'POST', headers: { 'content-type': 'application/json' },
+    const r = await fetch(rota('/playlists/excluir'), { method: 'POST', headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ id }) });
     if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
     await carregarCatalogo();
@@ -214,7 +253,7 @@ async function excluirPlaylist(id) {
 
 async function salvar({ id, nome, series }) {
   try {
-    const r = await fetch('/playlists/salvar', { method: 'POST', headers: { 'content-type': 'application/json' },
+    const r = await fetch(rota('/playlists/salvar'), { method: 'POST', headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ id, nome, series }) });
     if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
     editando = null; marcados.clear();
@@ -245,6 +284,12 @@ function pintar(e) {
   $('resta').textContent = mmss(a.restanteSeg);
   $('pct').textContent = Math.round(pct * 100) + '%';
 
+  // link do celular: só faz sentido no controle do PC, e só se a máquina tem IP de rede
+  if (e.linkCelular && !CHAVE) {
+    $('fone').classList.remove('oculto');
+    $('fone-url').textContent = e.linkCelular;
+  }
+
   const badge = $('badge');
   badge.classList.toggle('oculto', e.origem === 'grade');
   if (e.origem !== 'grade') badge.textContent = emFila ? 'FILA · ' + e.fila.serie : 'ZAP';
@@ -274,7 +319,7 @@ async function comando(tipo, idDireto) {
     const corpo = varias
       ? { tipo: 'playlist-avulsa', series: [...marcados] }
       : (precisaSlug ? { tipo, slug } : { tipo });
-    const r = await fetch('/comando', {
+    const r = await fetch(rota('/comando'), {
       method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(corpo),
     });
     if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
@@ -284,7 +329,7 @@ async function comando(tipo, idDireto) {
 }
 
 async function atualizar() {
-  try { pintar(await (await fetch('/estado')).json()); }
+  try { pintar(await (await fetch(rota('/estado'))).json()); }
   catch (err) { pintar(null); }
 }
 
@@ -297,6 +342,12 @@ $('bt-confirmar').onclick = () => {
   salvar({ id: editando.id, nome: editando.nome, series: [...marcados] });
 };
 $('bt-cancelar').onclick = () => { editando = null; marcados.clear(); pintarChips(); ligarAcoes(); };
+
+$('fone-copiar').onclick = async () => {
+  const txt = $('fone-url').textContent;
+  try { await navigator.clipboard.writeText(txt); avisar('link copiado — abra no celular'); }
+  catch (e) { avisar('copie na mão: ' + txt); }
+};
 
 $('filtro').oninput = pintarChips;
 $('filtro').onkeydown = (ev) => {
@@ -313,8 +364,8 @@ document.addEventListener('visibilitychange', () => { if (!document.hidden) atua
 window.addEventListener('focus', atualizar);
 
 async function carregarCatalogo() {
-  try { series = await (await fetch('/series')).json(); } catch (e) { series = []; }
-  try { playlists = await (await fetch('/playlists')).json(); } catch (e) { playlists = []; }
+  try { series = await (await fetch(rota('/series'))).json(); } catch (e) { series = []; }
+  try { playlists = await (await fetch(rota('/playlists'))).json(); } catch (e) { playlists = []; }
   pintarChips(); pintarPlaylists(); ligarAcoes();
 }
 
