@@ -3,8 +3,9 @@
 televisor/.chrome-profile/
 televisor/.chrome-controle/
 
-# Preferências e estado de runtime
+# Preferências e estado de runtime — cada instalação tem os seus
 televisor/preferencias.json
+televisor/configuracao.json
 televisor/tv-log.txt
 
 # Screenshots de diagnóstico — capturam a tela do Max logado (nome do perfil aparece)

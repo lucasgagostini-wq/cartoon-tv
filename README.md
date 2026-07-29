@@ -33,18 +33,44 @@ travar, recarrega e volta pro ponto.
 **Vinheta.** Toda troca de episódio tem um buraco de alguns segundos enquanto o player carrega. Uma vinheta
 em CSS puro (injetada por `addInitScript`) cobre esse buraco — o mesmo truque que a Pluto TV usa.
 
-## Rodando
+## Instalar (Windows)
+
+1. Baixe o ZIP em **[Releases](../../releases/latest)** e extraia numa pasta qualquer.
+2. Dê dois cliques em **`INSTALAR.bat`**.
+3. Ele confere o Chrome, instala o Node se faltar, baixa as dependências, cria os atalhos e
+   abre o Chrome pra você **entrar na sua conta**.
+4. Procure **Cartoon TV** no menu Iniciar.
+
+Ligou a TV, o controle remoto abre junto.
+
+### O que você precisa ter
+
+| | |
+|---|---|
+| **Assinatura do HBO Max** | é a **sua** conta que toca. A TV não distribui nada — ela clica no player oficial por você |
+| **Google Chrome** | o navegador do Playwright não reproduz vídeo protegido; a tela ficaria preta |
+| Windows | os atalhos e o `INSTALAR.bat` são de Windows. O motor é Node puro e roda em qualquer lugar, mas o empacotamento não |
+
+O login fica **só no seu PC**, em `televisor/.chrome-profile/`, que nunca vai pro git.
+
+### Se algum desenho não aparecer
+
+O catálogo que vem no repo foi lido de uma conta brasileira. Disponibilidade muda por região e
+plano — se faltar alguma série, apague o `.json` dela em `emissora/catalogo/` e rode
+`node televisor/capturar-series.js` pra ler da sua conta.
+
+## Rodando na mão
 
 ```bash
 npm install
+node televisor/configurar.js          # login (primeira vez)
+node televisor/capturar-series.js     # lê o catálogo da sua conta
 node emissora/gerar-grade.js          # imprime a grade de hoje
 node televisor/tv.js                  # liga a TV
+npm test                              # 48 testes, sem browser
 ```
 
-Na primeira execução, faça login no serviço na janela que abrir. O perfil fica em
-`televisor/.chrome-profile/` e **não é versionado** — ele contém cookies de sessão.
-
-No Windows, `ligar-tv.vbs` liga a TV sem piscar console (é o alvo do atalho de desktop).
+No Windows, `ligar-tv.vbs` liga a TV sem piscar console (é o alvo do atalho).
 
 ## Estado
 

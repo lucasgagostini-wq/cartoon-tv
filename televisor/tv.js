@@ -12,6 +12,7 @@ const { INIT_SCRIPT, faixaDoMinuto } = require('./vinheta');
 const { decidir, criarOverride, chaveExibicao } = require('./fila');
 const { iniciarControle } = require('./controle-servidor');
 const { lerVolume, gravarVolume } = require('./preferencias');
+const { escolherPerfil } = require('./configuracao');
 
 const TICK_MS = 5000;
 const PORTA_CONTROLE = 4599;
@@ -262,10 +263,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   }).catch(() => {});
 
   await page.waitForTimeout(4000);
-  try {
-    const prof = page.getByText('Lucas', { exact: true }).first();
-    if (await prof.isVisible({ timeout: 2500 })) { await prof.click(); await page.waitForTimeout(3000); }
-  } catch (e) { /* já entrou direto */ }
+  await escolherPerfil(page, log);
 
   log('=== TV ligada — ' + new Date().toLocaleDateString('pt-BR') + ' === (Chrome: ' +
     ((t0Boot - t0Processo) / 1000).toFixed(1) + 's + home: ' + ((Date.now() - t0Boot) / 1000).toFixed(1) + 's)');
