@@ -3,7 +3,7 @@
 #   -Preview  : exporta PNGs de comparacao em docs/icones-preview/
 #   (sem flag): grava os .ico definitivos em icones/
 # Uso: powershell -ExecutionPolicy Bypass -File gerar-icones.ps1 [-Preview] [-Variante A]
-param([switch]$Preview, [string]$Variante = 'A')
+param([switch]$Preview, [switch]$Extensao, [string]$Variante = 'A')
 
 Add-Type -AssemblyName System.Drawing
 
@@ -155,7 +155,16 @@ function Save-Ico([string]$saida, [scriptblock]$desenho) {
 
 $VARIANTES = @{ 'A' = ${function:Draw-A}; 'B' = ${function:Draw-B}; 'C' = ${function:Draw-C}; 'D' = ${function:Draw-D} }
 
-if ($Preview) {
+if ($Extensao) {
+  # o manifest do Chrome exige PNG, não .ico
+  $dir = Join-Path $PSScriptRoot 'extensao\icones'
+  New-Item -ItemType Directory -Force -Path $dir | Out-Null
+  foreach ($s in 16, 32, 48, 128) {
+    $bmp = Render $VARIANTES[$Variante] $s
+    $bmp.Save((Join-Path $dir "$s.png"), [System.Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
+  }
+  Write-Output "icones PNG da extensao (variante $Variante) em $dir"
+} elseif ($Preview) {
   $dir = Join-Path $PSScriptRoot 'docs\icones-preview'
   New-Item -ItemType Directory -Force -Path $dir | Out-Null
   foreach ($k in 'A', 'B', 'C', 'D') {

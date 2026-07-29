@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "node --test televisor/*.test.js",
+    "test": "node --test televisor/*.test.js extensao/motor/*.test.mjs",
+    "extensao": "node empacotar-extensao.js && powershell -NoProfile -ExecutionPolicy Bypass -File gerar-icones.ps1 -Extensao -Variante B",
     "tv": "node televisor/tv.js",
     "grade": "node emissora/gerar-grade.js",
     "controle-mock": "node televisor/controle-servidor.js --mock"

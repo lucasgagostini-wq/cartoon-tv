@@ -1,0 +1,16 @@
+{
+  "_comentario": "Playlists do Lucas. Cada uma vira uma fila aleatoria que ALTERNA entre as series: nenhuma domina, mesmo tendo 10x mais episodios que a outra. Editavel pelo controle remoto ou aqui na mao (os slugs sao os nomes dos arquivos em emissora/catalogo/).",
+  "playlists": [
+    {
+      "id": "favoritos",
+      "nome": "Favoritos",
+      "series": [
+        "rick-e-morty",
+        "bob-esponja",
+        "hora-de-aventura",
+        "gumball",
+        "apenas-um-show"
+      ]
+    }
+  ]
+}

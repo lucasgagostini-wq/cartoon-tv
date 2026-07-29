@@ -1,0 +1,5 @@
+{
+  "_comentario": "Existe só pro Node tratar os .js daqui como ESM ao rodar os testes — a raiz do projeto é CommonJS. O Chrome ignora este arquivo; ele carrega a extensão pelo manifest.json.",
+  "type": "module",
+  "private": true
+}
