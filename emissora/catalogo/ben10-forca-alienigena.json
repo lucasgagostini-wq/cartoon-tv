@@ -1,0 +1,472 @@
+{
+  "slug": "ben10-forca-alienigena",
+  "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+  "nomeOficial": "Ben 10: Força Alienígena",
+  "capturadoEm": "2026-07-28T06:47:49.156Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2"
+  ],
+  "episodios": [
+    {
+      "videoId": "f33662fe-9e12-428f-9fa4-b83b58d82923",
+      "editId": "bd40c237-b238-4b36-b51f-b61e3506edce",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "O Retorno de Ben 10 Pt.1",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2008-04-18T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "bdb57588-fa65-4492-9651-600432554d45",
+      "editId": "6f0b5e51-3e3e-4765-b52c-1dc3757b9513",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "O Retorno de Ben 10 Pt.2",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2008-04-18T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "8632b7a7-40db-4044-9068-7cff66dcc2e2",
+      "editId": "705f03e7-819b-4972-9687-1dfc182c513f",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Tempo Fechado",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2008-04-26T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "b5f7df3b-64f1-4544-b9eb-5ae8421743fe",
+      "editId": "98209094-dbdc-4c69-b59e-908ee3be4fab",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Uma Artimanha do Kevin",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2008-05-03T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "0cfb853e-ae4d-4fe5-b0c6-5147814282b5",
+      "editId": "f4ab97f8-2c90-411a-a10d-13614768ea68",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Nem Tudo O Que Reluz...",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2008-05-10T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "157c5e18-f94d-46c6-8d60-9781dbe96404",
+      "editId": "97ec8094-39b3-44a4-a225-df46f3adc091",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Max, Desligo",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2008-05-17T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "3107b6f7-91ba-4153-ab71-ab5ba6b6125a",
+      "editId": "765c3922-0035-4ca5-a62c-ab5a0e0ba941",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Confusão no Cais",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2008-05-31T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "585ca2e0-66be-43ab-a940-ede98f1dc2c8",
+      "editId": "c9020313-4a1d-4f0f-99ba-fffaeabd0b6f",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Do Que São Feitas As Garotinhas",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2008-06-07T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "d9fce1d0-3e1f-400c-ba6f-6b017830d3f4",
+      "editId": "a20f6a2a-1f17-41cf-a818-52b23b7e6a2c",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "A Manopla",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2008-06-14T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "d42a0e96-0d8a-48d3-a1cf-4f2aed2fc1a0",
+      "editId": "6ffabbe5-6436-4e32-bef4-7aa34f62e492",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Paradoxo",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2008-07-05T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "6ef82704-9d4c-4740-9057-d5bf7d4fceea",
+      "editId": "93bde00f-1ed0-44c2-9374-be9c3f416ff8",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Ben Cavaleiro",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2008-07-12T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "9e66ff0c-7e25-453f-8c36-dffd1e66a3e2",
+      "editId": "5d32f925-8c89-4944-9eef-ba62d48fc345",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Ajudantes dos Encanadores",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2008-07-19T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "d9b6e0a8-9675-4f83-aae8-f7fc27f08dd4",
+      "editId": "6fc9eec2-3181-4661-bd4e-6ebae0637aeb",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "X = BEN + 2",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2008-08-31T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "f2a836db-c678-45aa-ba5b-cc39cd65c474",
+      "editId": "94d8d6b7-8c43-45b3-801b-7c1d6e341902",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Nasce O Estrela Sombria",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2008-10-10T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "cccdcd88-d032-47e4-b665-84777fe7e3ed",
+      "editId": "a28e245e-5969-4cb8-891e-6dd050fc8053",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Companhia Solitária",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2008-10-17T00:01:00Z",
+      "duracaoMs": 1379000
+    },
+    {
+      "videoId": "35cf46a3-9252-4c9e-a2be-38e0da226afd",
+      "editId": "30a94998-3bcd-4a84-ba88-329e1e8b8c84",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Imitação Barata",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2008-10-24T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "ad19fadf-a00b-4a2f-b6eb-cd27b3ee35a0",
+      "editId": "a35ba8e2-8470-47aa-968c-64ecb6e258ee",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Reserve a Última Dança",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2008-11-07T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "69c7a5ce-7ab0-4095-8c9a-fdc278dfd3b4",
+      "editId": "19500123-f0cf-4ca1-a1b8-d7d5222d0231",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Camuflagem",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2008-11-14T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "18bd1d83-e0f0-42ac-9805-79972cc09934",
+      "editId": "feeb8f60-9847-4e01-a75f-820fc4f186c2",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Projeto Mascote",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2008-11-21T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "6bcb43b4-b5fe-41ed-b7ff-d4a9fca4388d",
+      "editId": "b4910b72-6a8c-4d70-a4b6-d57992d3728b",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "De Castigo",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2008-11-23T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "8aaa2b57-6996-4bb4-a621-4c1de6c0829c",
+      "editId": "610584ea-17bf-4fec-a4bf-7d00a0534ca6",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Anulado",
+      "temporada": 1,
+      "episodio": 21,
+      "airDate": "2008-12-05T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "665feb51-030e-41e9-aaf5-6fa3b0e7ff79",
+      "editId": "72e60eda-5570-4e27-8bd4-21b04b5bb371",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Infiltrado",
+      "temporada": 1,
+      "episodio": 22,
+      "airDate": "2008-12-12T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "2c77aed2-9a84-4f56-97a0-5e02aac997cc",
+      "editId": "2563bf2a-57fd-4436-96b0-261037f24adf",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Diga-Me com Quem Andas...",
+      "temporada": 1,
+      "episodio": 23,
+      "airDate": "2009-03-24T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "c8a7888e-9bdb-48cf-b623-9bcd372bd1e0",
+      "editId": "ed1349a7-a48e-452c-bcc7-97c146cd2eae",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Desenterrada",
+      "temporada": 1,
+      "episodio": 24,
+      "airDate": "2009-03-25T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "2e06a035-71d0-4728-9c89-e743be18055a",
+      "editId": "8dd519de-18b9-4656-a0d8-d020a03c202a",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Guerra dos Mundos, Primeira Parte",
+      "temporada": 1,
+      "episodio": 25,
+      "airDate": "2009-03-27T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "532f70a7-eaab-48d9-a2a4-17e2c0e043b4",
+      "editId": "99a1b2d4-30f4-4c5b-96fd-abcf3e157696",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Guerra dos Mundos, Primeira Parte",
+      "temporada": 1,
+      "episodio": 26,
+      "airDate": "2009-03-27T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "33dc7d19-20f8-4327-b667-3969fa274b82",
+      "editId": "fddbe1d7-d796-4271-9e7d-3bf4f1a84e9c",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "A Vingança de Vilgax, Parte 01",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2009-09-11T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "6af62b37-183a-4f22-b2bf-a68b727d9862",
+      "editId": "62b59148-1e16-4f02-880e-ad36dff887c4",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "A Vingança de Vilgax, Parte 02",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2009-09-11T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "6a5f61d6-95f6-4950-bc0a-36d8792a09ca",
+      "editId": "4f919787-d1d8-4c37-874d-a18e442feca2",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Inferno",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2009-09-18T00:01:00Z",
+      "duracaoMs": 1331000
+    },
+    {
+      "videoId": "300c195f-eb38-4cd3-85d5-652b4db45450",
+      "editId": "f5ba72c7-eee6-4a26-a43a-92fa654d3474",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Ouro dos Tolos",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2009-09-25T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "58af141e-868a-4518-878c-2fcdf53eb47b",
+      "editId": "0ce61bdb-3230-4b09-9c91-35d34e05bf7b",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Simple",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2009-10-09T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "6f3c4d62-57e0-4b98-a013-355a2a34384e",
+      "editId": "536f4251-eee2-4258-93f7-da0c0f01f7a0",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Devolução",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2009-10-16T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "6ab5d250-2f0d-43d1-8b62-a22b7273adcb",
+      "editId": "662ae28e-c425-4d91-845c-d0fe0c27f455",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Com Uma Mão Só",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2009-10-23T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "1e48d603-46d9-475d-8693-87f733824192",
+      "editId": "05ba4706-9776-44bf-9338-d666b255ec6d",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Último Recurso",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2009-11-06T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "3fc237da-2d69-4e8c-ab28-90e10672f705",
+      "editId": "96e5c697-5dd6-4a40-aa37-3232815c9ee8",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Os Encantos de Encatriz",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2009-11-13T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "367f93f2-66a5-4475-9b7b-1d536335a2b3",
+      "editId": "29488809-5a3a-4865-814c-822b0776eef8",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Cidade Fantasma",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2009-11-20T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "00677632-0d74-4b29-ad7e-3e9effa28535",
+      "editId": "97fe0124-1355-4565-b5ce-5c8a8f61766b",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "A Troca",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2009-12-04T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "a1a04f06-f22b-4f5a-b1c4-f1b1051c9942",
+      "editId": "6a4f0760-0a8e-4b59-b141-6a519d8debf1",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Cubo Problema",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2009-12-11T00:01:00Z",
+      "duracaoMs": 1343000
+    },
+    {
+      "videoId": "ba0534c5-6f9a-4838-94a5-4aa7df3c2c23",
+      "editId": "8f71475a-389e-4b8a-bb0f-2f6ea9504a21",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Questão de Ira",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2010-01-08T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "a7a4ee6a-f87e-4690-9a72-b2af6da4865c",
+      "editId": "51f960cd-428b-4655-a711-6476c860e2ef",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Primus",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "2010-01-15T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "4b6dbcb8-b4f0-4b48-bc26-76cf7b22b3e8",
+      "editId": "32fdc957-684b-42b6-8824-bb7082b2268d",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "O Tempo Cura",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "2010-01-22T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "788918c4-d506-42aa-aba2-9076510861ff",
+      "editId": "1d4a5806-1792-441b-9607-7bb0f4038550",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "O Segredo do Cromático",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "2010-01-29T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "581f74a0-72a5-4836-828d-02d0f099f8c3",
+      "editId": "0fa7ef84-29f3-4ef7-ad26-3d5823ec64e2",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Acima E Além",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "2010-03-12T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "36a8b2bf-4842-4eaa-a8f0-94b2c1f8ab65",
+      "editId": "ef69af06-f496-4259-9bb9-fd82d7cf11ef",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "Vingança",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "2010-03-19T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "80d862af-1ed7-4420-9bd5-0cddc3544ec9",
+      "editId": "db071e95-287b-4746-a97a-4f520126ae10",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "A Batalha Final - Primeira Parte",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2010-03-27T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "c4d82548-969f-4535-81ca-abce89c73a3d",
+      "editId": "347bde97-90bc-45ff-b262-d6c650308f20",
+      "showId": "9432fc7f-94db-4047-872f-a7f8f0849a37",
+      "nome": "A Batalha Final - Segunda Parte",
+      "temporada": 2,
+      "episodio": 20,
+      "airDate": "2010-03-27T00:01:00Z",
+      "duracaoMs": 1377000
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Perfil do Chrome logado no HBO Max — contém Login Data, Cookies e Local State.
+# NUNCA versionar: é credencial de sessão da conta.
+televisor/.chrome-profile/
+televisor/.chrome-controle/
+
+# Preferências e estado de runtime
+televisor/preferencias.json
+televisor/tv-log.txt
+
+# Screenshots de diagnóstico — capturam a tela do Max logado (nome do perfil aparece)
+televisor/*.png
+
+# Grade gerada (determinística: reconstruída por `node emissora/gerar-grade.js`)
+emissora/grade/
+
+node_modules/

@@ -1,0 +1,2416 @@
+{
+  "slug": "gumball",
+  "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+  "nomeOficial": "O Incrível Mundo de Gumball",
+  "capturadoEm": "2026-07-28T06:44:51.985Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "d8a97b35-2578-44e9-835e-296095eb76cc",
+      "editId": "94bb90f6-fad2-4b90-a773-31dbb48fc4fc",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Responsável",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2011-05-09T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "c2b6a2d8-08b9-43ae-9721-e0b05496959e",
+      "editId": "5bb32751-3342-4029-afd1-9d81b672207d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Laser Vídeo",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2011-05-03T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "d2f6f5de-1c9e-40ca-9fbc-f4dbab8e9c16",
+      "editId": "129abc79-02e4-4ed9-a578-42d27ef3bce5",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Terceiro",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2011-05-16T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "7aab9e37-373c-4d6d-a785-14874d568fb2",
+      "editId": "c8e8bfc2-fcbd-4f3c-ae95-40400bec65d9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Dívida",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2011-05-16T00:01:00Z",
+      "duracaoMs": 743000
+    },
+    {
+      "videoId": "1ffc7915-9c05-4ec7-8614-73c69d293d1a",
+      "editId": "fb003997-1714-4d8f-9a21-06cecc0b3798",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Fim",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2011-05-23T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "62031bfb-4158-4173-98dc-464646ce589a",
+      "editId": "c76b3f54-1404-4e90-99f1-5cc6657c90de",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Vestido",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2011-05-23T00:01:00Z",
+      "duracaoMs": 729000
+    },
+    {
+      "videoId": "4d106ebd-b5e1-45ad-8cfa-96e7a2b332b3",
+      "editId": "6396a651-c0d0-493a-968e-7e9bd5b0c85c",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Busca",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2011-05-30T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "98caf84c-ab3e-4e3d-b158-5bde91ed7c11",
+      "editId": "41cf49e4-cbe1-4968-a463-6a4bca96a860",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Colher",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2011-05-30T00:01:00Z",
+      "duracaoMs": 729000
+    },
+    {
+      "videoId": "f113a03a-3614-4e70-b80f-67265dcd1007",
+      "editId": "b9ea9003-5468-4b2d-a6f0-3dad2d655e20",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Pressão",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2011-06-11T00:01:00Z",
+      "duracaoMs": 701000
+    },
+    {
+      "videoId": "5cb5d3f9-6a0f-4982-8fbd-0b59daf95560",
+      "editId": "1402319c-5771-45a5-8ad3-5986199305d6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Desenho",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2011-06-13T00:01:00Z",
+      "duracaoMs": 729000
+    },
+    {
+      "videoId": "6b416b88-b1e1-43e3-97d4-e2a09a4d9bf8",
+      "editId": "e9333492-01e9-4afd-ae54-dc914f2d150b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Mais Preguiçoso",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2011-06-20T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "5234ae07-10ea-4f14-888c-dbcb7a0475da",
+      "editId": "d9ed8435-f4c7-42aa-938b-6d3a9b613ded",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Fantasma",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2011-06-27T00:01:00Z",
+      "duracaoMs": 729000
+    },
+    {
+      "videoId": "d144986a-6332-4304-b655-d083a3d58f81",
+      "editId": "50e21604-e477-498f-bb1b-2a097adc7f69",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Mistério",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2011-07-11T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "7044d570-3abf-4af7-aa0a-eb7d507ed6e5",
+      "editId": "51f35d1b-19cf-438b-9d8b-ced4e9eaf2ab",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Pegadinha",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2011-07-18T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "85028442-209e-4753-898e-e6f0ff63f56f",
+      "editId": "8b55fca3-d201-48c9-86e4-ece3e60505e6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Capa",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2011-07-25T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "b1bea6ae-7fa9-40df-b864-e5eee4932a4a",
+      "editId": "45af291f-98d3-4b83-b108-7e206c34c1ca",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Beijo",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2011-08-01T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "eb6d15b4-04d4-420e-9126-1b93dcb0c084",
+      "editId": "20e3e588-9dad-499c-84dd-110f10032fa6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Festa",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2011-08-08T00:01:00Z",
+      "duracaoMs": 728000
+    },
+    {
+      "videoId": "7f9bcb20-74fa-4f8e-93d5-e7194121f5a9",
+      "editId": "697d00d6-a56f-4620-a561-f09b9cb24cd5",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Reembolso",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2011-08-15T00:01:00Z",
+      "duracaoMs": 729000
+    },
+    {
+      "videoId": "5cecd7af-75cd-4f90-8e90-2a115e067506",
+      "editId": "320c472c-7c60-4e39-9b69-a0bef57ac1fa",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Robot",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2011-08-22T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "7c6afa84-075c-4d4b-a2d0-c0d5c31e2e2f",
+      "editId": "bb8578f7-f422-4cac-b448-f0abd647d021",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Piquenique",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2011-08-29T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "2690c327-3e46-4c4c-83e7-be8816985e0f",
+      "editId": "3caa8de3-bcee-45ae-8f8c-41fe249977f2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Bobos",
+      "temporada": 1,
+      "episodio": 21,
+      "airDate": "2011-09-05T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "a3dd2b60-c96c-4230-9098-73b759884066",
+      "editId": "a686cf20-2d2e-4269-8983-d15ec9b0d39a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Segredo",
+      "temporada": 1,
+      "episodio": 22,
+      "airDate": "2011-09-26T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "6316f6f0-c665-45c3-9b33-e548bade8c1e",
+      "editId": "1b098cca-e441-4927-8bb9-52bccc1c2dcd",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Meia",
+      "temporada": 1,
+      "episodio": 23,
+      "airDate": "2011-10-03T00:01:00Z",
+      "duracaoMs": 719000
+    },
+    {
+      "videoId": "72b0600e-4ddf-4843-b4c6-63c0fefcab94",
+      "editId": "2707e377-2810-4240-91f3-5d9851921885",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Genio",
+      "temporada": 1,
+      "episodio": 24,
+      "airDate": "2011-10-10T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "4aadaf24-9115-465f-9c24-0da10e95a635",
+      "editId": "2506edbc-b0bc-49fc-be9a-023acf02863b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Poltergeist",
+      "temporada": 1,
+      "episodio": 25,
+      "airDate": "2011-10-17T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "db8dceac-4cd5-4ea5-a634-f4de4375ba54",
+      "editId": "6d9741bf-5210-4c0a-83ff-19badb2ca833",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Bigode",
+      "temporada": 1,
+      "episodio": 26,
+      "airDate": "2011-11-21T00:01:00Z",
+      "duracaoMs": 701000
+    },
+    {
+      "videoId": "ab00243e-b095-425c-82b6-b01f743837ec",
+      "editId": "57907019-e862-4d4d-8201-3fe5badd04dd",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Encontro",
+      "temporada": 1,
+      "episodio": 27,
+      "airDate": "2011-12-05T00:01:00Z",
+      "duracaoMs": 702000
+    },
+    {
+      "videoId": "c965c73c-413b-43ff-bf6b-b7acf140aa9b",
+      "editId": "85cc6edd-1141-4d3b-8698-c5f856cf4eeb",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Clube",
+      "temporada": 1,
+      "episodio": 28,
+      "airDate": "2011-12-11T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "dfc0e070-214b-4b50-ad84-0f24697da341",
+      "editId": "f117e0cc-8068-4677-a54d-3a4e683a47fb",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Varinha Mágica",
+      "temporada": 1,
+      "episodio": 29,
+      "airDate": "2012-01-24T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "0fafa52c-6464-440d-a405-68d912ead7f8",
+      "editId": "cffa36b0-6698-4a1d-ad17-e8abfda9b820",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Primata",
+      "temporada": 1,
+      "episodio": 30,
+      "airDate": "2012-01-31T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "1bbe3447-f222-4973-8322-122793d78497",
+      "editId": "8f9df11b-1ec2-4b76-ac95-c9d7c1cf2a52",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Carro",
+      "temporada": 1,
+      "episodio": 31,
+      "airDate": "2012-02-07T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "12369561-87a1-4f37-ad41-92fae9b6fe83",
+      "editId": "cec4d5de-0541-4c5c-ba36-a96a2319c629",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Maldiçao",
+      "temporada": 1,
+      "episodio": 32,
+      "airDate": "2012-02-14T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "3270db20-6db7-4991-89f1-00078690eafd",
+      "editId": "6b8acc04-c803-441e-8bc5-631b54da275d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Micro-Ondas",
+      "temporada": 1,
+      "episodio": 33,
+      "airDate": "2012-02-21T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "9f0a1ab9-d351-4b1b-9b79-a9a015fbfd8d",
+      "editId": "64dd1f0e-a4e5-419d-80fe-3766252e6f5f",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Intrometida",
+      "temporada": 1,
+      "episodio": 34,
+      "airDate": "2012-02-28T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "7449979d-e220-4751-b532-40513f64e56d",
+      "editId": "89d925e5-2dcd-4e88-bd03-ff7a15bf058d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Capacete",
+      "temporada": 1,
+      "episodio": 35,
+      "airDate": "2012-03-05T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "c9b7c360-9c50-4cec-a5cf-c6134110c671",
+      "editId": "3a52d2e1-dd07-4525-9042-bdfb13471429",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Luta",
+      "temporada": 1,
+      "episodio": 36,
+      "airDate": "2012-03-13T00:01:00Z",
+      "duracaoMs": 729000
+    },
+    {
+      "videoId": "6459a22c-356f-4ca5-84af-c7eb27197d67",
+      "editId": "5f388bc9-ea64-4487-b880-28b79322ead2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Colosso",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2012-08-14T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "4ce75faf-e367-4111-99b1-f5259e23b527",
+      "editId": "173a6e1a-bd44-4ac8-a467-877e433799a8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Cavaleiros",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2012-08-21T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "f17fb090-9a15-4019-a803-e64a3c5d79dc",
+      "editId": "cfbd72d8-0bfd-4581-9795-c45d78061027",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Geladeira",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2012-09-04T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "2d6cbfcb-df7a-403f-abf9-4ee9ee280028",
+      "editId": "1f4a0bb4-0c7d-446f-b95d-a72ec9a4a78a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Flor",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2012-09-11T00:01:00Z",
+      "duracaoMs": 731000
+    },
+    {
+      "videoId": "0f9e4c07-eeee-440c-82f9-613d38c91281",
+      "editId": "0bc0c7fc-8fa4-48fb-a87a-6ff85862e21c",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Banana",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2012-09-11T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "eafa690c-523c-417e-9648-c475de58786f",
+      "editId": "c1573756-219c-47c9-99f2-e7500d3b0d7d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Telefone",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2012-09-18T00:01:00Z",
+      "duracaoMs": 731000
+    },
+    {
+      "videoId": "5ddbe0f4-0fc8-4578-a394-820a99676af7",
+      "editId": "3c88349a-8ca8-4d93-83e7-becd2954d8e9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Trabalho",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2012-09-18T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "a90eeda5-7739-4ec6-a20f-c65b416a7ee6",
+      "editId": "567f960c-9991-495c-a71c-16a62ef98de8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Controle Remoto",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2012-08-07T00:01:00Z",
+      "duracaoMs": 730000
+    },
+    {
+      "videoId": "a5a09d35-d4e5-4ea8-adba-a1ce9c3bb212",
+      "editId": "6aa264bd-62bf-4fa8-a360-804957713d61",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Dia Das Bruxas",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2012-10-23T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "56edb71e-d60b-43c0-b7f9-fb9474373290",
+      "editId": "45774ba1-f848-484b-a6f5-51f65189e0ba",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Tesouro",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2012-10-30T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "157ee9fb-1eaa-422e-9c0f-a6dc3c12db6a",
+      "editId": "e9e221f5-8972-45e5-b7bc-48913314ac2f",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Pedido De Desculpas",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2012-11-06T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "ae6b80d4-7ff7-48ea-8820-73b264617cb1",
+      "editId": "a1e20d34-c6c8-4079-be7d-3eef8516fc24",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Palavras",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2012-11-13T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "6deefc46-87cd-4872-806a-ffa600f3fb27",
+      "editId": "ac20e63f-d78c-42a1-a138-583fc18dc4bb",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Caveirão",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2012-11-20T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "d1d74b1a-955b-4045-b3d3-56b615e0665d",
+      "editId": "98d03a78-827e-4e79-a2bf-8951c57765f8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Aposta",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "2012-11-27T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "b9938ab8-25ff-418a-ad19-0f3635e6a041",
+      "editId": "18fe7f29-53c5-4ff1-b898-ac103c2450ca",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Natal",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "2012-12-04T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "d14bae4e-58a8-4ec9-a034-d57ca07b0dc4",
+      "editId": "58654dd3-76d5-46c8-933f-72916632b6c7",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Relógio",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "2013-01-22T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "99517b77-dc17-45fa-8707-f82168c63e6b",
+      "editId": "6602027b-ae2c-4765-81bb-3a74dd077a0d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Caipira",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "2013-01-29T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "2360f6c8-2fd7-4356-ba1f-68cf0630e78f",
+      "editId": "f915408e-8358-4ae2-9a87-41822952bb2f",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Vacilões",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "2013-02-05T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c4d243f5-8fc0-4dab-acff-b349a4f1d84e",
+      "editId": "6a6a202b-90c7-4ca6-b324-2385313e18cb",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Autoridade",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2013-02-12T00:01:00Z",
+      "duracaoMs": 708000
+    },
+    {
+      "videoId": "7ac6188c-592a-48b1-96da-59f5e6087d6b",
+      "editId": "2c31d065-895b-45f6-aba9-6cd434bef397",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Vírus",
+      "temporada": 2,
+      "episodio": 20,
+      "airDate": "2013-06-05T00:01:00Z",
+      "duracaoMs": 706000
+    },
+    {
+      "videoId": "c7e342b8-7e2d-413f-9473-50e8b869c9f9",
+      "editId": "f2e1914c-f99a-4482-8932-dd88af61c88e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Pônei",
+      "temporada": 2,
+      "episodio": 21,
+      "airDate": "2013-06-12T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "0e583114-6ab6-4c22-b6dc-ae8c60fccb8f",
+      "editId": "95dafa7d-1442-4e6a-85a1-0e24d04ef9a6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Herói",
+      "temporada": 2,
+      "episodio": 22,
+      "airDate": "2013-06-19T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "6c196f24-526d-4255-a864-f733ca804b04",
+      "editId": "0c284993-7b18-4ce6-864c-b652feb56ba0",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Sonho",
+      "temporada": 2,
+      "episodio": 23,
+      "airDate": "2013-06-26T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "683427e3-9633-43d5-adb9-424f43f7d529",
+      "editId": "0f8832fa-adca-4bf7-a031-7bdfbfb70333",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ajudante",
+      "temporada": 2,
+      "episodio": 24,
+      "airDate": "2013-07-03T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "2c7bfe7f-a908-468e-bde1-ae8f11703d0f",
+      "editId": "a8a22938-5e5d-4bc8-a801-2cf8dbebe316",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Foto",
+      "temporada": 2,
+      "episodio": 25,
+      "airDate": "2013-07-17T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "4fadda16-a16d-4ed0-844d-e5ec41ef4b06",
+      "editId": "7425fdb9-a887-4ed0-9fb3-8b1cb2daca43",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Tornozeleira",
+      "temporada": 2,
+      "episodio": 26,
+      "airDate": "2013-07-24T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "94780f62-22d6-4863-ba37-fc3a3a734d65",
+      "editId": "b4b30726-51fa-4172-a22e-6da1b9a2045a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Tempestade",
+      "temporada": 2,
+      "episodio": 27,
+      "airDate": "2013-07-31T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "1f5858d7-78eb-4887-a3f3-dd45400faec1",
+      "editId": "7dccedfa-cdd8-4bb7-9417-bb1379df329c",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Lição",
+      "temporada": 2,
+      "episodio": 28,
+      "airDate": "2013-08-07T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "0e9289b4-b225-44df-ae7e-57e9575ca8c8",
+      "editId": "b0bee043-5457-4fd0-b7d3-553ba6128cad",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Jogo",
+      "temporada": 2,
+      "episodio": 29,
+      "airDate": "2013-08-21T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "66c718ff-9b25-4cf1-a592-95632e90e55d",
+      "editId": "bc2c7bb9-de05-4576-8661-fb831f8b5399",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Limite",
+      "temporada": 2,
+      "episodio": 30,
+      "airDate": "2013-08-28T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "79b2343d-8ba6-493c-b495-1643b33edbec",
+      "editId": "8bd3d0c0-9091-4bc7-ab0f-f0fadff90dc3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Voz",
+      "temporada": 2,
+      "episodio": 31,
+      "airDate": "2013-09-10T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "3528eba9-1b74-4145-8075-a7874ba39d8d",
+      "editId": "949568b5-6c58-4a31-8ae2-11d753f2b128",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Promessa",
+      "temporada": 2,
+      "episodio": 32,
+      "airDate": "2013-09-17T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "cb0ad4cd-e8b3-4e7b-8a5a-a15acd1c5b19",
+      "editId": "6dd9d7dd-d93d-41b9-ad31-fb82db5f7945",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Caixa",
+      "temporada": 2,
+      "episodio": 33,
+      "airDate": "2013-10-01T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "73c91fba-7ece-4479-88f2-bd95520e6610",
+      "editId": "3cbb8b50-bd76-4886-a2d8-27219e90f2a1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Som",
+      "temporada": 2,
+      "episodio": 34,
+      "airDate": "2013-10-08T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "db92f0fb-1b03-4a72-b026-9dba81bddfc3",
+      "editId": "d7d6fa46-93aa-4af2-9c61-2b97e3e5c393",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Fita",
+      "temporada": 2,
+      "episodio": 35,
+      "airDate": "2013-10-15T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c1d3db7e-6e30-438a-8c5f-d225dadefaf9",
+      "editId": "070b2bea-71f0-4beb-a283-1829c41e239a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Casacos",
+      "temporada": 2,
+      "episodio": 36,
+      "airDate": "2013-11-05T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "0d0278f2-dab9-407e-9034-494d47ab8874",
+      "editId": "4cf08cef-7783-45f9-b033-1db4d054be6a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Internet",
+      "temporada": 2,
+      "episodio": 37,
+      "airDate": "2013-11-12T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "efd8b622-c5cc-42b3-990e-f07d9ae39677",
+      "editId": "fbee9ced-1d74-427e-a963-d51d2c47f40e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Plano",
+      "temporada": 2,
+      "episodio": 38,
+      "airDate": "2013-11-19T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c9452c8a-b218-433b-b04a-85ab19f7184b",
+      "editId": "5ae9476c-3fab-4824-bbbc-50e33b82a48d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Mundo",
+      "temporada": 2,
+      "episodio": 39,
+      "airDate": "2013-11-26T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "2b8412dc-4a55-4313-8c74-64db2769528d",
+      "editId": "a293e533-a895-4ade-a264-4550b8b0b250",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Final",
+      "temporada": 2,
+      "episodio": 40,
+      "airDate": "2013-12-03T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c52a1fed-a6a0-4dc1-a602-c2c6b28e7daa",
+      "editId": "ec691eae-0885-4f93-b93b-d01124379bda",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Crianças",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2014-06-05T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "6b54ab92-3411-4ae4-9b0c-95170840a79f",
+      "editId": "918af51d-a817-42b5-97c9-d0af27f6535e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Fã",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2014-06-05T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "a85fc51a-ea5d-4ea2-8d9c-f58b75fc4b16",
+      "editId": "671cebae-ccd8-4a44-a4f7-1e82212fe598",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Treinadora",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2014-06-12T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "52f49fb7-0f63-4e10-8def-b0b5b5e15ea3",
+      "editId": "7e61e64d-2792-43ec-83c9-63d2bfe2b4c6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Alegria",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2014-06-19T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "b0161cd0-3f6b-430d-b87b-f7fa02be0e38",
+      "editId": "9ff1e1b2-5214-4e32-b3de-356dcfe15d9c",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Filhote",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2014-06-26T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "66d0c16e-b6f5-4403-95a2-1da7b38cf609",
+      "editId": "b755cf05-867e-4c2d-b2e6-245422db2436",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Receita",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2014-07-03T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "f2957ac7-23f1-4bef-80b0-776a30a0d4a8",
+      "editId": "72d917d9-9a9c-4acc-a504-db2f87d4a7fe",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Nome",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2014-07-10T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "1445275c-08eb-4407-b014-3c0f61f678be",
+      "editId": "2a1cce36-e415-4376-89d8-77fab95d39dc",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Extras",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2014-07-17T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "4082e374-ab01-434f-9185-6b8c8dbe1a8e",
+      "editId": "8e145410-7424-49d8-af2e-f002f1742e13",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Incrível Mundo De Gumball",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2014-07-24T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c3a6c166-2e61-4084-a7e1-970f04c69f06",
+      "editId": "78808ded-14e8-443f-9374-0e076e44cfd9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Férias",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2014-07-31T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "9bffb72a-1865-4363-b9ba-3615d9a360b1",
+      "editId": "06d3fffc-027f-4a37-94df-9d92c10563b4",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Farsante",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2014-08-07T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "8e847f56-8b91-4e55-85a3-0f3dfbd705a2",
+      "editId": "240b0d29-b935-41ae-866a-0434f43e5ed0",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Vácuo",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2014-08-14T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "cdb36483-a773-49f4-9e9d-52579f269170",
+      "editId": "be2113f6-d219-45c8-8c89-255a2af9b1db",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Chefe",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2014-08-21T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "550390f2-846e-4e89-9187-7b02bb8fce4c",
+      "editId": "06b22df4-722b-439d-9302-13f2cea23233",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Golpe",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2014-08-28T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "a6ee9aff-5bd3-4c6f-8eb1-d778180b7d5f",
+      "editId": "be9a4fed-497d-432d-9b54-9ffcae151bee",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Lei",
+      "temporada": 3,
+      "episodio": 15,
+      "airDate": "2014-09-04T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c669db5d-79c3-4fb7-bf17-e48aed565a6b",
+      "editId": "426a4e8c-e1df-430d-b7c7-8b970cffa5ee",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Alergia",
+      "temporada": 3,
+      "episodio": 16,
+      "airDate": "2014-09-11T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "2335225c-21a7-4b93-a25d-0ab9de6c6d47",
+      "editId": "5d4ce6e2-586b-4cf7-bf60-6d8152ae38c2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Mães",
+      "temporada": 3,
+      "episodio": 17,
+      "airDate": "2014-09-18T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "011f3763-cfba-4e3e-b241-e67dbccbea55",
+      "editId": "d7ca5595-17c6-4dcb-b035-7aa591132ea9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Senha",
+      "temporada": 3,
+      "episodio": 18,
+      "airDate": "2014-09-25T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "851a01fd-e99f-44bf-94ae-cf48ca256b25",
+      "editId": "71733417-6958-47cf-aea7-cd472ee7be4e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Proscrastinadores",
+      "temporada": 3,
+      "episodio": 19,
+      "airDate": "2014-10-02T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c50750c4-f488-4cad-9363-2ef57abfba0e",
+      "editId": "0a19eb5b-9af8-4bed-9a88-b7465f5a650b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Casca",
+      "temporada": 3,
+      "episodio": 20,
+      "airDate": "2014-10-09T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "09f34f94-96b5-4b8a-92e8-dfc2668be527",
+      "editId": "76d89b8f-c04a-474f-b75f-1bbd3656098d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Obrigação",
+      "temporada": 3,
+      "episodio": 21,
+      "airDate": "2014-10-16T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "511711a1-a34c-4d66-8a8e-ec5892106983",
+      "editId": "25f328f4-18ac-4704-835a-7fb04d832bfb",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Manos",
+      "temporada": 3,
+      "episodio": 22,
+      "airDate": "2014-10-23T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "d3bd806e-ad0c-4433-ac82-bd786ce4b80a",
+      "editId": "71354a69-7b74-4f3f-b0b1-7deed1e39de7",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Espelho",
+      "temporada": 3,
+      "episodio": 23,
+      "airDate": "2014-10-30T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "ea34fbab-972b-47c1-ab54-d0fddbdc96c2",
+      "editId": "fa5763d3-4fb6-4fe9-92ef-4bc24376b7a9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Homem",
+      "temporada": 3,
+      "episodio": 24,
+      "airDate": "2014-10-30T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "c8c08971-3db1-4c6d-8e43-7a43d0c473d4",
+      "editId": "fb069fdf-c693-45f8-ae3d-dcf23f595db8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Pizza",
+      "temporada": 3,
+      "episodio": 25,
+      "airDate": "2014-11-13T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "d3a31fff-f8f4-4441-922e-3516c671b50e",
+      "editId": "d5f41644-374f-4c60-879c-8c31aec1b047",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Mentira",
+      "temporada": 3,
+      "episodio": 26,
+      "airDate": "2014-11-20T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "4340d8bb-1726-4691-9f12-9bcdfbffabbd",
+      "editId": "97e83013-3623-4bf3-95f4-4626c4daeacc",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Borboleta",
+      "temporada": 3,
+      "episodio": 27,
+      "airDate": "2015-01-08T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "9355c15a-4db7-4d4d-8586-cb75c2eafea3",
+      "editId": "9026ebff-76b9-4dc3-9d78-aa8a2f460d7b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Questão",
+      "temporada": 3,
+      "episodio": 28,
+      "airDate": "2015-01-08T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "627e5537-85f9-4ddd-b1e9-1086f610bb67",
+      "editId": "84ba1e88-9b47-483e-b278-a9bb60b3bd85",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Santo",
+      "temporada": 3,
+      "episodio": 29,
+      "airDate": "2015-01-15T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "b2d50b56-e96e-4999-a761-f25af683f1fc",
+      "editId": "25bddf02-0309-474b-bc42-0a41b16ae1bf",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Amigo",
+      "temporada": 3,
+      "episodio": 30,
+      "airDate": "2015-01-22T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "a7d4bacd-57fd-4827-82cc-0effe3e3c1da",
+      "editId": "31e96a12-5d62-438e-b8f8-6d416258b462",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Oráculo",
+      "temporada": 3,
+      "episodio": 31,
+      "airDate": "2015-01-29T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "fcc0e104-186a-40ed-9d28-78f3e2428444",
+      "editId": "c280feea-b29a-4a62-81c6-d31f7413f286",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Segurança",
+      "temporada": 3,
+      "episodio": 32,
+      "airDate": "2015-02-05T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "3d37d30e-34e8-4ced-99db-0a9807b18c89",
+      "editId": "45d79418-6469-4da1-bd38-a4be80499abe",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Sociedade",
+      "temporada": 3,
+      "episodio": 33,
+      "airDate": "2015-02-12T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "1bff511f-f497-4c23-84c2-b7779490794b",
+      "editId": "3bd0d374-b958-4d87-8b1d-7ccab91f72a1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Spoiler",
+      "temporada": 3,
+      "episodio": 34,
+      "airDate": "2015-02-19T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "babddc13-6f04-4707-895c-755c6d47bf67",
+      "editId": "d6fafbde-e125-4ddc-a4d7-222d39ad4501",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Cronômetro",
+      "temporada": 3,
+      "episodio": 35,
+      "airDate": "2015-02-26T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "1c201ca5-e7d8-4095-97ee-7cf9b987ac19",
+      "editId": "3edb9fe1-bfc5-4939-b3b4-f61eff2cf000",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ninguém",
+      "temporada": 3,
+      "episodio": 36,
+      "airDate": "2015-03-05T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "fd772d79-12f4-4bf5-9c76-5cb5ff97acc3",
+      "editId": "7ba1674a-eac1-456c-ad7e-746bf7716738",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Depressão",
+      "temporada": 3,
+      "episodio": 37,
+      "airDate": "2015-07-06T00:01:00Z",
+      "duracaoMs": 704000
+    },
+    {
+      "videoId": "df2f6a96-ab52-403f-bbd6-9e5dd5f33353",
+      "editId": "00aa1a6d-801a-4c3d-b487-f236488aff19",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Triângulo",
+      "temporada": 3,
+      "episodio": 38,
+      "airDate": "2015-07-08T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "0c455dab-8921-489e-8ca8-ad43f8bd1e4a",
+      "editId": "9b5dd568-5db2-424b-a5de-4af5732f2822",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Dinheiro",
+      "temporada": 3,
+      "episodio": 39,
+      "airDate": "2015-07-09T00:01:00Z",
+      "duracaoMs": 709000
+    },
+    {
+      "videoId": "47065c0c-dc3b-41c3-b9f1-9aca2207bda2",
+      "editId": "d534d6e9-5762-4092-8ebf-05b2f76be2e3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ovo",
+      "temporada": 3,
+      "episodio": 40,
+      "airDate": "2015-07-07T00:01:00Z",
+      "duracaoMs": 704000
+    },
+    {
+      "videoId": "75a54337-eac2-47c7-ba29-9e908d9e621b",
+      "editId": "c8afc00d-01f9-4685-95c0-bd3234053118",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Volta",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2015-07-10T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "e70dfa03-501c-4f0a-8564-0dcff78097be",
+      "editId": "7f1f8409-cdaa-4bc1-8668-b8ac77bbdbb0",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Inimigo",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2015-08-06T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "bd220ba6-8d7a-45bc-b436-ba8328dc01d8",
+      "editId": "5b244cc6-ea38-4484-9fd0-4e4d577bb25b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Grupo",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2015-08-13T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "a51ad97e-fa72-4244-a793-0211176ec23c",
+      "editId": "deade7f8-2e61-49f8-9bfb-85dd8b8f56a5",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Outros",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2015-08-20T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "91aa15be-b99e-4e9a-8502-5d2faa26d9f8",
+      "editId": "304eb79f-4530-41f6-8f45-a6cfedb3cbda",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Assinatura",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2015-08-27T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "9c3e3bb7-62cf-4984-b4fd-91dfd8cb7a34",
+      "editId": "ad38cb85-cf9a-4203-a098-cbcec1c43464",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Cheque",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2015-08-31T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "3a14a9a6-065b-4290-bff6-bf4cae0b9bd5",
+      "editId": "c406540e-a696-4820-8088-00e4f1408b8b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Pestinha",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2015-09-01T00:01:00Z",
+      "duracaoMs": 672000
+    },
+    {
+      "videoId": "7d9d6852-143c-4bca-81a1-8bc91687a908",
+      "editId": "0ab98a05-ff60-4a7c-bc5a-dc79e2bce199",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Venda",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2015-09-02T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "3b3c32c7-673c-4bc9-ae91-c259af15a287",
+      "editId": "799f4b0b-d7e3-4686-a35c-e0296009526b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Presente",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2015-09-03T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "13893b22-75f8-4312-ba74-ae8786c5436d",
+      "editId": "8baf75d1-de7d-45e7-8a7b-5484c144ba8a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Vaga",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2015-09-04T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "bbb0744d-a2a5-4f9c-9dbf-71df9ceed2be",
+      "editId": "f4227a3c-9520-47c1-afc7-3610a9dabac6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Rotina",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2015-10-05T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "76b6a1fc-37c3-4cd0-816a-b5111c5ca172",
+      "editId": "97f782e8-fc25-4353-89a2-c5204f102038",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Atualização",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2015-10-06T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "915fe5a5-583d-4f76-aebf-6f61a7bd607f",
+      "editId": "0345a90b-7768-422a-bf24-e59f1334de11",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Quadrinhos",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2015-10-07T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "009508ac-c455-41a2-b7db-884be3df2cd7",
+      "editId": "da3147ff-0018-4852-978e-2e68cb37ddd2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Romântico",
+      "temporada": 4,
+      "episodio": 14,
+      "airDate": "2015-10-08T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "d25420f9-11b0-4b9d-982a-37194f5b7a6c",
+      "editId": "f6852556-801b-4cfa-bd8a-a2b00c634678",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Vídeos",
+      "temporada": 4,
+      "episodio": 15,
+      "airDate": "2015-10-09T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "c67452ac-3be3-41ce-b712-6c8ff7b7cf6d",
+      "editId": "46c9a7d2-f13a-4503-8c92-ccb4337c94b1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Aprendiz",
+      "temporada": 4,
+      "episodio": 16,
+      "airDate": "2015-12-04T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "cdb97518-5ffb-490e-9bfc-3f48c90b902c",
+      "editId": "243b2b69-61f2-4732-9b1d-1026be76b6ec",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Abraço",
+      "temporada": 4,
+      "episodio": 17,
+      "airDate": "2015-12-11T00:01:00Z",
+      "duracaoMs": 690000
+    },
+    {
+      "videoId": "0e321449-7625-4453-a1e8-dc13ff154671",
+      "editId": "01929ecf-0b40-4d6d-bba4-4b74164a54c6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Malvada",
+      "temporada": 4,
+      "episodio": 18,
+      "airDate": "2015-12-18T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "66326bac-ab0e-4a93-b3ec-88fb90cae5df",
+      "editId": "fdf6d493-f7f0-4f22-b8cc-8763b38d06fd",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Traidor",
+      "temporada": 4,
+      "episodio": 19,
+      "airDate": "2016-01-28T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "03dfb4c8-16bf-43b8-af8a-030c0019a37c",
+      "editId": "5e204be6-92a5-4a36-96f1-07bb528aa7fe",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Origens - Parte 1",
+      "temporada": 4,
+      "episodio": 20,
+      "airDate": "2016-02-15T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "8c94fd16-af35-4fea-b587-36cf01ce879a",
+      "editId": "3c9920ad-627a-4634-91e0-97f7a173d9d3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Origens - Parte 2",
+      "temporada": 4,
+      "episodio": 21,
+      "airDate": "2016-02-15T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "8f1d5882-365e-4582-988b-722139ded2eb",
+      "editId": "69ba407d-657e-447b-9914-4bcfff8750aa",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Namorada",
+      "temporada": 4,
+      "episodio": 22,
+      "airDate": "2016-03-30T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "f35a1a2a-7aba-420f-9f28-1d9b6e1b475c",
+      "editId": "39ec0c34-1789-4a18-b236-594286d1c945",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Conselhos",
+      "temporada": 4,
+      "episodio": 23,
+      "airDate": "2016-04-21T00:01:00Z",
+      "duracaoMs": 697000
+    },
+    {
+      "videoId": "7c515e57-7877-4ff4-9ca5-14fb80ac8829",
+      "editId": "0d09ef55-9b11-44e2-b825-2ec963e8b334",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Sinal",
+      "temporada": 4,
+      "episodio": 24,
+      "airDate": "2016-04-28T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "a3509d85-e357-4218-a147-c7b3cf35b125",
+      "editId": "5e9c4e30-9d9b-4741-a1ca-9f8c3ed60c92",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Parasita",
+      "temporada": 4,
+      "episodio": 25,
+      "airDate": "2016-05-05T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "c04ce8d8-5c84-46b7-8bb4-ac27047877b4",
+      "editId": "3015dfd4-fa6b-49f2-8061-f9d939a02153",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Amor",
+      "temporada": 4,
+      "episodio": 26,
+      "airDate": "2016-05-12T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "eb5f0dbc-70f8-4362-8a4e-635c8d806025",
+      "editId": "fef90fdd-01b8-4086-b6ae-7e9c25603fa7",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Estranheza",
+      "temporada": 4,
+      "episodio": 27,
+      "airDate": "2016-05-19T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "ef24fcbe-2a8b-4c76-857b-4bd9c388d456",
+      "editId": "19973dd2-7058-4507-b791-f769c118d69e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ninho",
+      "temporada": 4,
+      "episodio": 28,
+      "airDate": "2016-05-26T00:01:00Z",
+      "duracaoMs": 695000
+    },
+    {
+      "videoId": "18ca7740-7ad9-456f-87b3-34480f15d12b",
+      "editId": "4440ade9-d538-4195-bc40-98d63584f990",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Pontos",
+      "temporada": 4,
+      "episodio": 29,
+      "airDate": "2016-06-02T00:01:00Z",
+      "duracaoMs": 696000
+    },
+    {
+      "videoId": "0f5da09c-605c-4c28-97f4-5278a90bd9df",
+      "editId": "a4b6eb7f-8bbd-4069-8bbc-bd5e4eb53921",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ônibus",
+      "temporada": 4,
+      "episodio": 30,
+      "airDate": "2016-06-09T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "a5388f9a-d8db-46ee-93f3-681971dd0ad8",
+      "editId": "9598713a-fce7-462c-a4fa-99cc60459d12",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Noite",
+      "temporada": 4,
+      "episodio": 31,
+      "airDate": "2016-06-16T00:01:00Z",
+      "duracaoMs": 695000
+    },
+    {
+      "videoId": "b3efb93d-6db8-4ae4-a2da-3f4925b70d9b",
+      "editId": "d5b955b7-8acc-422c-84b4-a0878d785666",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Mal-Entendidos",
+      "temporada": 4,
+      "episodio": 32,
+      "airDate": "2016-06-23T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "6e733652-38b3-47cd-acfb-608aeb5e5f41",
+      "editId": "6f1d751a-8167-4b74-8042-f1efa46395f4",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Raízes",
+      "temporada": 4,
+      "episodio": 33,
+      "airDate": "2016-08-15T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "f27605dc-025b-48bb-84d7-09bffe87cf37",
+      "editId": "792e8bc6-153c-446b-abc9-bda10191601d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Culpa",
+      "temporada": 4,
+      "episodio": 34,
+      "airDate": "2016-08-16T00:01:00Z",
+      "duracaoMs": 690000
+    },
+    {
+      "videoId": "7e4b26f2-a102-438b-8f4d-abfc77582b89",
+      "editId": "a347aa3c-0eb9-4347-a2b4-64dd176ed4d8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Tapa",
+      "temporada": 4,
+      "episodio": 35,
+      "airDate": "2016-08-17T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "3cf42e1f-6a29-4ee8-93ad-c3594fb1cb7f",
+      "editId": "6d805c14-8aa1-4496-927a-244bd817026b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Detetive",
+      "temporada": 4,
+      "episodio": 36,
+      "airDate": "2016-08-18T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "71d1dc88-e055-4875-a51b-24a24f808119",
+      "editId": "457a3c72-17ce-46f7-85d8-d98fa72fe9a9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Fúria",
+      "temporada": 4,
+      "episodio": 37,
+      "airDate": "2016-08-19T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "b68fc1b6-19d7-42b1-a01e-5490f1a922d9",
+      "editId": "6a87337f-61ae-4968-9fc5-4eca81656b74",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Conjunto",
+      "temporada": 4,
+      "episodio": 38,
+      "airDate": "2016-08-25T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "38bacdb4-7d96-45b4-ab70-a93d9f5373b0",
+      "editId": "be649cc9-0950-4d6d-93a7-b9576f68fd5e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Histórias",
+      "temporada": 4,
+      "episodio": 39,
+      "airDate": "2016-09-01T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "f2c989e8-dd5b-4fd3-95ba-a9198ce1fb05",
+      "editId": "998cfc98-9394-4dcc-a046-cb3d5f691237",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Desastre",
+      "temporada": 4,
+      "episodio": 40,
+      "airDate": "2016-09-05T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "f7c6b5a6-2fa3-439a-895d-361f8ede143d",
+      "editId": "8092d340-ca7c-4658-a3d5-74afdaafd0d9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Reprise",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2016-09-05T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "9ac067bc-9c84-4349-aed1-4074981497ad",
+      "editId": "9c5aa2e4-2078-4066-8a5e-ea1f79b1fc91",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Cara",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2016-09-08T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "2697bb8d-7d1b-46b2-a408-089764be3daa",
+      "editId": "a35ead70-e194-42ee-bc22-61e52ddc31e3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Tédio",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2016-09-15T00:01:00Z",
+      "duracaoMs": 696000
+    },
+    {
+      "videoId": "c25a63dc-d97e-4505-8249-013720687dc6",
+      "editId": "3e2da414-6770-4fb6-ac92-6894d13711a3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Visão",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2016-10-06T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "0b5e4194-dd5f-437e-b2e5-41599bd822e0",
+      "editId": "c7a01102-3cc2-473a-85f1-3172a86c4d38",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Escolhas",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2016-10-13T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "d199091b-42fc-498b-9ffb-bff635ba2046",
+      "editId": "83ae13f8-165c-4c35-8a1a-91c63bebca27",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Código",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2016-10-20T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "07fd030b-dfd7-4b2b-8714-fd8137544d5a",
+      "editId": "ba9a42a7-a61f-4eab-9916-af18109e8a01",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Golpe",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2016-10-27T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "26917cc0-4901-48cd-bc7a-a6682fb6e561",
+      "editId": "d973cf03-7f04-4920-ac17-623c464fa9fa",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Teste",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2016-11-03T00:01:00Z",
+      "duracaoMs": 690000
+    },
+    {
+      "videoId": "adb9f8a0-c7ea-42db-af2c-bcb86819b50d",
+      "editId": "d9bdce86-5854-4cda-b26e-de2931004faf",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Aplicativo",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2016-11-10T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "af72c9b8-0129-4d1b-bce0-14b8bd669d21",
+      "editId": "36e4aced-03d4-42f5-b23d-dd1f0518b8a0",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Comandos",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2016-11-10T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "e8bbaf8a-096b-4769-8d26-7feec7e127e6",
+      "editId": "2a518978-5885-4372-b419-3a8b69f5ad42",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Imitadores",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2017-02-06T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "0672bfe3-1cd5-4688-912e-b373920ae689",
+      "editId": "0bcff64b-986d-43fb-8cfa-0abd7906cb2d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Batata",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2017-02-07T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "bb8663c9-a735-42a5-9a78-d3f4726ace85",
+      "editId": "dbc36683-873e-40f8-a84c-19400f84d80c",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Confusão",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2017-02-08T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "63486a77-ef9c-4c3e-8b30-430f8ee415f3",
+      "editId": "240812b1-3c3c-4277-b65d-5a76fbd2ae01",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Liberdade",
+      "temporada": 5,
+      "episodio": 14,
+      "airDate": "2017-02-09T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "fb5fdf1e-ba75-4de8-b545-7e4b8c729ada",
+      "editId": "75b2997b-ea84-4d66-8f26-cb100933c8c1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Vaso",
+      "temporada": 5,
+      "episodio": 15,
+      "airDate": "2017-02-13T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "e6c94585-2db9-4991-bab9-35f14e851f0e",
+      "editId": "66ffbaa6-1c57-4578-b90e-7feebe177a45",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Cupido",
+      "temporada": 5,
+      "episodio": 16,
+      "airDate": "2017-02-14T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "477e9fac-85bb-4ec1-9c65-455837bf9dd8",
+      "editId": "39c3aab7-1145-40de-93ad-68d70672aa3a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Caixa",
+      "temporada": 5,
+      "episodio": 17,
+      "airDate": "2017-02-15T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "83a501f4-e032-4f91-ad4c-0ac72ec7ad22",
+      "editId": "d38b456f-7fce-49df-8406-f7d884e481e2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Videogame",
+      "temporada": 5,
+      "episodio": 18,
+      "airDate": "2017-02-16T00:01:00Z",
+      "duracaoMs": 695000
+    },
+    {
+      "videoId": "919d2ea8-7517-43fd-91bc-9c510251f9d3",
+      "editId": "d9cbd91f-07bf-4103-8a3b-54672889fd21",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Manobra",
+      "temporada": 5,
+      "episodio": 19,
+      "airDate": "2017-02-20T00:01:00Z",
+      "duracaoMs": 684000
+    },
+    {
+      "videoId": "6b15174e-458e-4792-9c08-f744214b8369",
+      "editId": "c7d92c1e-1752-4b87-86a1-459145046832",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Enganadores",
+      "temporada": 5,
+      "episodio": 20,
+      "airDate": "2017-02-21T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "6f8dc722-c250-46e7-b170-897035c21ec8",
+      "editId": "a0516caa-a45c-44a6-bf18-65c98a58bced",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ciclo",
+      "temporada": 5,
+      "episodio": 21,
+      "airDate": "2017-02-22T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "9cb5a860-ebef-4618-b710-d6edc99aef6f",
+      "editId": "ecfbbe00-72a9-4efe-9bbd-18e847425335",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Estrelas",
+      "temporada": 5,
+      "episodio": 22,
+      "airDate": "2017-02-23T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "a9224f08-1d40-42ba-9686-131fd5685100",
+      "editId": "df0610f0-a547-4069-a9ec-aa52be252898",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Notas",
+      "temporada": 5,
+      "episodio": 23,
+      "airDate": "2017-02-27T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "238b079d-4b32-4ff1-a523-91cd28c25260",
+      "editId": "0ab56af0-1fe7-494d-86e5-d786a332141b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Dieta",
+      "temporada": 5,
+      "episodio": 24,
+      "airDate": "2017-02-28T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "81ba77f7-6c95-4d7d-87ae-552e703f00b4",
+      "editId": "3d47cf07-a7a3-44f3-8eda-16edc92ddbd8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Ex",
+      "temporada": 5,
+      "episodio": 25,
+      "airDate": "2017-03-01T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "8bc8603d-add2-4e27-a79e-e856c9104b33",
+      "editId": "50879b19-4e0b-438d-be52-2eab2fb5fac6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Feiticeiro",
+      "temporada": 5,
+      "episodio": 26,
+      "airDate": "2017-03-02T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "2ac5e952-d83d-4cf6-b89f-524a7d05be58",
+      "editId": "454b54e0-f538-4eb4-b717-3d21d37e70bc",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Menu",
+      "temporada": 5,
+      "episodio": 27,
+      "airDate": "2017-03-06T00:01:00Z",
+      "duracaoMs": 674000
+    },
+    {
+      "videoId": "4621b20a-ebda-43ff-a5c0-e13ad3c1ae24",
+      "editId": "c1886568-4d96-4c99-9e6b-744c02fc63b1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Tio",
+      "temporada": 5,
+      "episodio": 28,
+      "airDate": "2017-03-07T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "ab5b775b-42de-4ed2-85fc-f3ae0cf3d241",
+      "editId": "6a455e13-180a-43ac-8fe5-55d9954f41be",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Esquisita",
+      "temporada": 5,
+      "episodio": 29,
+      "airDate": "2017-03-08T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "3f6bee60-1b56-4714-8e00-53abcfc32153",
+      "editId": "a54be63e-cabd-4c45-a161-78fb266f55a1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Assalto",
+      "temporada": 5,
+      "episodio": 30,
+      "airDate": "2017-03-09T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "622b2d30-f016-49fd-9256-0e58938541ea",
+      "editId": "5a1cb09f-ae0e-4a36-aaed-83d547ddc422",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Cantoria",
+      "temporada": 5,
+      "episodio": 31,
+      "airDate": "2017-09-01T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "6dc6a209-4203-4e7b-8430-f48892de198e",
+      "editId": "1a1007a9-7fdb-4dba-8523-44909448d032",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Melhor",
+      "temporada": 5,
+      "episodio": 32,
+      "airDate": "2017-09-08T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "848f6831-208e-4c4a-93fd-890d2cfbb0ae",
+      "editId": "a7bcc550-4b58-4c11-872e-464708fdaad9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Pior",
+      "temporada": 5,
+      "episodio": 33,
+      "airDate": "2017-09-15T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "afb5a8af-fade-491e-bdd6-16b2a1486e99",
+      "editId": "d8593db0-68f9-495b-afaf-bd643bc5ccc8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Trato",
+      "temporada": 5,
+      "episodio": 34,
+      "airDate": "2017-09-22T00:01:00Z",
+      "duracaoMs": 680000
+    },
+    {
+      "videoId": "ff7b467b-392e-4280-89d3-0b6d3b4b8280",
+      "editId": "e0caa550-2b88-4377-9a48-2d3f1927b1ba",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Pétalas",
+      "temporada": 5,
+      "episodio": 35,
+      "airDate": "2017-09-29T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "fa4b8472-3291-4b1d-aa96-0bc02032d50f",
+      "editId": "fa9a8c7e-bfb7-40ae-8889-3f8778901c76",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Fantoches",
+      "temporada": 5,
+      "episodio": 36,
+      "airDate": "2017-10-06T00:01:00Z",
+      "duracaoMs": 695000
+    },
+    {
+      "videoId": "e6995c44-b12a-4ba5-a3ea-2ef6d5c48a2f",
+      "editId": "f766ab01-aad7-41cb-a5b3-18f617057888",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Incômodo",
+      "temporada": 5,
+      "episodio": 37,
+      "airDate": "2017-10-13T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "f3acf9d9-0b0f-42b1-af49-b7a284e3d248",
+      "editId": "d84a2265-dee4-4fa9-baaf-d856326ce8ff",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Fila",
+      "temporada": 5,
+      "episodio": 38,
+      "airDate": "2017-10-20T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "9b29cdf6-33fa-47c6-8df9-f66623f10c30",
+      "editId": "468d029e-57da-4c7a-819e-9d05889fe89c",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Lista",
+      "temporada": 5,
+      "episodio": 39,
+      "airDate": "2017-11-03T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "e5d4b8e9-950a-491b-8ea2-423e1fd1efe8",
+      "editId": "48e174ca-c14a-4c0a-b1ef-8de537c35251",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Noticiário",
+      "temporada": 5,
+      "episodio": 40,
+      "airDate": "2017-11-10T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "49ea41c8-dfd9-4381-bccc-d0634ee4e05c",
+      "editId": "f1398d4f-599d-40d6-8a15-1cafec87ca04",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Rival",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2018-01-05T00:01:00Z",
+      "duracaoMs": 699000
+    },
+    {
+      "videoId": "66cb0d85-7ae2-4cfe-a64e-11ddce739596",
+      "editId": "896a9354-1307-45fd-8027-e623b1df048b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Moça",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2018-01-05T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "01d59880-89ea-49ba-a46b-c1a898a133c9",
+      "editId": "a9d91640-eb45-470b-b784-fc532ff2ac1b",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Trouxa",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2018-01-12T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "065a25cf-980e-4c97-9f48-aa994c7027bc",
+      "editId": "f1e2384f-d918-473b-896c-8469bd2eca77",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Vegetais",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2018-01-15T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "4b21b952-d8ca-49a1-a12c-980023e99972",
+      "editId": "f0f8addf-cc6a-474d-8ca7-f90eaaa04899",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Único",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2018-01-19T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "2486b900-94e7-4f74-b331-090b53aeb7a9",
+      "editId": "dbb9de7d-6ccc-4e92-a8d1-7fa0df89e7b3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Pai",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2018-01-26T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "47f5e1b9-e139-4ffc-af9d-7b1177ed68e6",
+      "editId": "b7380fd8-0c77-4370-87cd-09907ea75be7",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Esquisitice",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2018-02-02T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "303ace0b-880b-4df4-8913-6aec0629ded0",
+      "editId": "6e566e5f-5e91-44ac-8ffa-7d7683a4808a",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Jaula",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2018-02-09T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "7b6e130a-b464-4f68-b326-df9bb50809d8",
+      "editId": "7f173abc-42d5-40c0-8370-0487e9847425",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Fé",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2018-02-23T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "2d6b38bf-bbfe-47a5-8765-0273c3b81a34",
+      "editId": "ca6a040b-e430-4183-b784-c8e6bbe693e1",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Candidato",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2018-03-02T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "6c5d7699-f6f3-4b99-acca-40e0e346f3db",
+      "editId": "5dea46b6-cc2e-4965-8e13-59c6f2d73d55",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Alguém",
+      "temporada": 6,
+      "episodio": 11,
+      "airDate": "2018-03-09T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "8254a64b-785b-4a4d-bcf1-43bd03466b01",
+      "editId": "a82d63db-073b-4d1b-99e1-68ad720f20c6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Pacto",
+      "temporada": 6,
+      "episodio": 12,
+      "airDate": "2018-04-09T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "7accb956-1563-4093-9e13-a5f4ae3eedfe",
+      "editId": "d26c7944-8ef7-4424-be7a-5014f209606d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Vizinho",
+      "temporada": 6,
+      "episodio": 13,
+      "airDate": "2018-04-13T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "78e2bfbe-ced5-4835-93d2-ae1da083e967",
+      "editId": "b866a267-9627-4375-a77c-36f884702cc6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Casais",
+      "temporada": 6,
+      "episodio": 14,
+      "airDate": "2018-04-20T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "a68784c2-7c9a-4d89-8cd3-406a4fa03182",
+      "editId": "6fbe555b-e741-40e3-8af9-34ce42d8d3e9",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Cérebro",
+      "temporada": 6,
+      "episodio": 15,
+      "airDate": "2018-06-18T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "1ce7e39a-8834-4c15-b318-42c501d6aee0",
+      "editId": "1cd87fd6-14c3-4da8-878f-4ae06d925b7e",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Pais",
+      "temporada": 6,
+      "episodio": 16,
+      "airDate": "2018-06-18T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "abaf2097-70df-48e6-b2e1-95aa9e825cc1",
+      "editId": "cda52e05-c725-432c-b216-8b51b781827d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Fundador",
+      "temporada": 6,
+      "episodio": 17,
+      "airDate": "2018-06-18T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "5e48427d-1561-4361-a2b5-9eb0cebf51d2",
+      "editId": "d387abce-ff6c-4b2a-8867-ae041cc256da",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Educação",
+      "temporada": 6,
+      "episodio": 18,
+      "airDate": "2018-06-18T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "ed3ec940-1374-4c34-a378-001bf383fb4b",
+      "editId": "7177d861-4c98-4b5c-9489-6ce8b959f803",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Inteligência",
+      "temporada": 6,
+      "episodio": 19,
+      "airDate": "2018-06-18T00:01:00Z",
+      "duracaoMs": 699000
+    },
+    {
+      "videoId": "d40423f9-e379-4734-b432-d1d1ad0babcc",
+      "editId": "85e5f765-a29c-4e77-b74c-3d525c0dc646",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Poção",
+      "temporada": 6,
+      "episodio": 20,
+      "airDate": "2018-07-16T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "d3969f2b-3245-4b8c-a8de-41499de5d99e",
+      "editId": "280f427d-5942-47fa-8ae9-8ff514ab8d95",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Spinoffs",
+      "temporada": 6,
+      "episodio": 21,
+      "airDate": "2018-07-16T00:01:00Z",
+      "duracaoMs": 704000
+    },
+    {
+      "videoId": "5dacf1bc-4186-4aa3-af83-5ded09e8ff98",
+      "editId": "85be0d98-4f2a-420a-b0cb-d5ad602aecd2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Transformação",
+      "temporada": 6,
+      "episodio": 22,
+      "airDate": "2018-07-16T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "87f678f0-2846-4d0b-9668-778e2c06a88d",
+      "editId": "64f1a582-58bb-4b26-8c60-302f1c26e655",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Compreensão",
+      "temporada": 6,
+      "episodio": 23,
+      "airDate": "2018-07-16T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "da01438c-435f-40fc-beb9-efa694d4e776",
+      "editId": "9c5e9b92-9f84-45c6-94d0-ebf2e7f85a24",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Anúncio",
+      "temporada": 6,
+      "episodio": 24,
+      "airDate": "2018-07-16T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "b6afb71a-dfd9-4298-a654-81c0655504e1",
+      "editId": "39138eea-77e1-478e-8d84-90bb983333d8",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "Os Zumbis",
+      "temporada": 6,
+      "episodio": 25,
+      "airDate": "2018-10-19T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "6e9d475e-f6df-4cd3-9e45-d297798b56c7",
+      "editId": "4961677f-210b-4ddd-a8e8-cc2bad121817",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Fedor",
+      "temporada": 6,
+      "episodio": 26,
+      "airDate": "2018-11-05T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "254e3eca-d49f-40a1-b513-751aaa96126b",
+      "editId": "41a46c4b-bcb2-41cd-afef-2e88ad574da2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Reconhecimento",
+      "temporada": 6,
+      "episodio": 27,
+      "airDate": "2018-11-06T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "08d3625b-f49a-4761-a7d8-53bc723a4b24",
+      "editId": "fc9ae2a8-eb96-4a50-97be-8d36db0e6f04",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Formulário",
+      "temporada": 6,
+      "episodio": 28,
+      "airDate": "2018-11-07T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "baafa84e-50b7-49cf-8223-0cfdd962dee4",
+      "editId": "395fb1b4-f92a-450b-9e40-4f8047af6d15",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Drama",
+      "temporada": 6,
+      "episodio": 29,
+      "airDate": "2018-11-08T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "d60fa201-b1eb-4ced-b537-939e091185ed",
+      "editId": "f703415f-3e6b-4eef-9afa-577dadb1d529",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Parceira",
+      "temporada": 6,
+      "episodio": 30,
+      "airDate": "2018-11-09T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "a6867db3-e657-451a-9649-131b3ea05f44",
+      "editId": "72ce489d-7139-4b3b-b8f1-150695517cdb",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Bem",
+      "temporada": 6,
+      "episodio": 31,
+      "airDate": "2019-04-15T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "ad618a40-b835-458f-8553-00374afd903a",
+      "editId": "17096cca-a971-443a-b8f3-99027a452538",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Mestre",
+      "temporada": 6,
+      "episodio": 32,
+      "airDate": "2019-04-22T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "72fcdcb9-2b9d-40ab-a391-a589ea60c9fb",
+      "editId": "9f99ea38-76a5-46b3-9d63-ef793a4e6387",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Silêncio",
+      "temporada": 6,
+      "episodio": 33,
+      "airDate": "2019-04-29T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "ab1f9785-19b3-42e5-813e-b7028cc368a4",
+      "editId": "45f01300-5319-4914-9596-b2276f96f71f",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Futuro",
+      "temporada": 6,
+      "episodio": 34,
+      "airDate": "2019-05-06T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "e29cbb8c-3c92-4d54-bd09-5617e3785511",
+      "editId": "89de965a-cd63-42a9-bf8d-3758e2086fc2",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Desejo",
+      "temporada": 6,
+      "episodio": 35,
+      "airDate": "2019-05-13T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "a849ddb5-92fd-4851-9a0b-a8c4055a342b",
+      "editId": "5007ef12-c733-41cd-831b-5c820e467b40",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Fábrica",
+      "temporada": 6,
+      "episodio": 36,
+      "airDate": "2019-05-20T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "4048f23c-3e7e-4777-92f1-fecd67d5a257",
+      "editId": "f35c2d30-28bb-44df-9548-add2282851a6",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Agente",
+      "temporada": 6,
+      "episodio": 37,
+      "airDate": "2019-05-27T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "823b0daa-10a3-4e92-bc4d-7b813a008646",
+      "editId": "3cfb0a8f-68a5-44fc-9a8e-6bef03b0e895",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Rede",
+      "temporada": 6,
+      "episodio": 38,
+      "airDate": "2019-06-03T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "5b5bdf23-d08f-45fd-a778-d70d36edc702",
+      "editId": "8fb588c9-85fb-434e-9931-2c1782421816",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Furada",
+      "temporada": 6,
+      "episodio": 39,
+      "airDate": "2019-06-10T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "45f21287-87be-425c-ac3c-9d6ab221f330",
+      "editId": "a94255fb-57e3-4079-a393-0ab0c3ebf991",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Coração",
+      "temporada": 6,
+      "episodio": 40,
+      "airDate": "2019-06-10T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "e611ef97-b973-406f-8367-1b16598a17e9",
+      "editId": "b3acc55a-9f27-494b-b4b5-377de01c7ed3",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Revolta",
+      "temporada": 6,
+      "episodio": 41,
+      "airDate": "2019-06-17T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "24796ac3-023d-4f71-ab4e-c5871d684d13",
+      "editId": "08193acb-a520-4e93-a3bb-276671d1ee0d",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "As Decisões",
+      "temporada": 6,
+      "episodio": 42,
+      "airDate": "2019-06-17T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "347abe75-82b7-4d21-a768-dfaeb195c3ab",
+      "editId": "6025ec51-26a5-4e00-82bd-240b84983b8f",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "O Melhor Amigo",
+      "temporada": 6,
+      "episodio": 43,
+      "airDate": "2019-06-24T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "e01b009c-75f9-452e-9382-3666be5729ea",
+      "editId": "b9ff2965-850d-4281-a61a-6e83f0c2b7a5",
+      "showId": "18ad0649-f2dd-410d-8842-2ba2aa486fdb",
+      "nome": "A Inquisição",
+      "temporada": 6,
+      "episodio": 44,
+      "airDate": "2019-06-24T00:01:00Z",
+      "duracaoMs": 742000
+    }
+  ]
+}

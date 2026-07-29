@@ -1,0 +1,776 @@
+{
+  "slug": "mansao-foster",
+  "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+  "nomeOficial": "A Mansão Foster para Amigos Imaginários",
+  "capturadoEm": "2026-07-28T06:42:50.970Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "ef56c39d-f0b9-414d-b4e8-c0b1c20f2c9f",
+      "editId": "0a467450-adb0-4160-bacf-9e942b3a3c78",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "A Casa de Blu - Parte 1",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2004-08-13T00:01:00Z",
+      "duracaoMs": 1382000
+    },
+    {
+      "videoId": "ac280bed-b5ed-4bff-a165-14b46000aadc",
+      "editId": "4c964f4f-2823-4ad6-ab30-7663de0d9f1b",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "A Casa De Blu - Parte 2",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2004-08-13T00:01:00Z",
+      "duracaoMs": 1281000
+    },
+    {
+      "videoId": "c636e896-3d56-46a7-88c0-5d2782a33f6a",
+      "editId": "18f86b26-cb9b-46dd-aa9a-1aff041164f2",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "A Casa De Blu - Parte 3",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2004-08-13T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "33699fb9-b6c2-46d0-baba-30f06592ed7e",
+      "editId": "21698cc8-a319-4e57-a357-b93c28875b1d",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Viagem Ao Shopping",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2004-08-20T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "2bff7294-c2c1-4af9-ab0a-0c8f9fa23945",
+      "editId": "eb972cd4-723a-4dd1-ad3a-2cf5b7942f7b",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Problema Com Rabiscos",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2004-08-27T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "7f21bf3e-5844-4732-825b-7f65ac7b9288",
+      "editId": "86d6b96d-b312-4ff7-9f6e-3a7f3f23bcc7",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Tá Perdido",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2004-09-03T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "541666be-c09c-40e0-bbb8-cc7346340855",
+      "editId": "f266b4fd-9bee-4553-aeb8-78be544ea4ee",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Jantar Está Servido",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2004-09-10T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "de6936e6-fa7a-46b6-bf21-bd62c1ef052b",
+      "editId": "cd526a8c-39d3-4ffe-9566-fe30c7375aaf",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Coelho Na Internet",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2004-09-17T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "d38c3812-dbcd-4d62-8b7a-7e061ad0c514",
+      "editId": "bc054ec0-0e02-4876-9a78-510fb1a2c830",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Berry De Dar Medo",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2004-09-24T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "9078cc07-06c1-44f3-8928-8bbd3c5e7d76",
+      "editId": "4b9c0b3e-47a3-4de7-9b6e-2f1b65f1fd3e",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Amigo Red / Ligando Para Casa",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2004-10-01T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "221534d5-efce-4e78-bf88-708e8dde26de",
+      "editId": "a6702c29-488b-4b70-a316-9806516d5e3a",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Quem Deixou Os Cães Entrarem?",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2004-10-08T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "81470597-5194-404d-acb4-7ed7224f3e39",
+      "editId": "35bea80f-2f7f-444d-9335-2b23b709691c",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Dia De Adoção",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2004-10-15T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "67d1714d-5a16-4ab4-916a-5064ecb521b8",
+      "editId": "738c0720-f8ea-4086-a25d-4f6f78d91a4a",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Blu!",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2004-10-22T00:01:00Z",
+      "duracaoMs": 1279000
+    },
+    {
+      "videoId": "6e2721f6-2267-4d23-9c32-3cecf0ea1c48",
+      "editId": "e9e532e5-adc6-4fa1-a64a-515eedbbbcd7",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Tarde Festiva",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2005-01-21T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "4936aa6a-64d9-48ef-80de-ff11d666b6db",
+      "editId": "f316eb90-0dcc-4a23-909e-bdecf44987c4",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Grande Torneio",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2005-01-28T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "16889abc-d8ed-4b0e-9fcc-6de65c18564d",
+      "editId": "4575ed62-6909-45a9-960c-a7ad2ea9160c",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Minguado Quebra-Galho / Todos Sabem Que Foi O Bendy",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2005-02-04T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "730a7c52-23eb-4eae-b465-5a9e9caaa6d6",
+      "editId": "afa7db93-0b96-4b98-8291-f03ce3f221b8",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Colírio Para Os Olhos? / Os Irmãos Do Blu",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2005-03-04T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "731631cc-372d-45bd-80ce-7c101c6b086b",
+      "editId": "0f1ffb81-7592-42d5-90ad-6fd5ff3b4f06",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Biscoitos",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2005-03-11T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "5a822d58-e651-4413-bbc5-e0f68a3822f6",
+      "editId": "fe1551f8-aaca-4611-b1b1-e17bc3276154",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Frankie, Meu Amor",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2005-03-18T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "361f6932-2d36-48d3-ab9e-d142e2112638",
+      "editId": "d6da2e43-2b13-4c5e-874a-98e17c2d521b",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Mac É Papai",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2005-05-06T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "cc3be325-7704-4206-b837-b790000b7e92",
+      "editId": "68df8b09-3f1e-499a-a428-3f514f76bd8c",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Aperto",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2005-05-13T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "647c24db-88cb-4f0c-af6f-14c372d6c647",
+      "editId": "23576a62-4f82-4528-bfce-bd77527ba130",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Humoristas",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2005-05-20T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "65aea17a-7624-41ea-90b2-1ba0e7fd1edf",
+      "editId": "953a3cd7-1fdf-4356-9179-f7419c576052",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Doce Odor Do Sucesso",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2005-05-27T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "aaae251c-2f32-4899-a7a2-a53567838643",
+      "editId": "a1382f5a-20e8-4ef3-bd56-38939789fece",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Adeus, Nerd!",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2005-07-01T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "e5adf84b-81bd-4376-bdaa-0b2030edcc0d",
+      "editId": "1ffb1dfb-156b-48bc-86c5-374f4c7065c5",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Foi O Blu!",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2005-07-08T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "6342f57d-9d50-4306-a797-205ea8ec3255",
+      "editId": "9de57699-edf6-43ef-bd9b-e56ae5350a98",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Minha Suposta Esposa",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2005-07-15T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "a64cd1c2-53a7-483e-93ee-33cfb2ee21a7",
+      "editId": "568406cd-6987-4b68-a7c2-61f0faba8de7",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Luta De Monstros",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2005-07-22T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "5a5d98e9-baea-478a-b236-bee5a48a7218",
+      "editId": "156e563a-667f-41e0-b0b2-5c76e9574d6a",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Soluços E Arrotos",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2005-09-05T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "d87026c2-5325-4636-a0dc-c431556d0b35",
+      "editId": "2896d5a7-0aab-472b-a3d0-1fbcf718e3dc",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Acampamento",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2005-09-09T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "061c7bf0-669b-4ec8-84c8-3d6053e7a36f",
+      "editId": "e36eb0c2-69db-48b4-b357-9f24eb64aedc",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Uma Mansão Imaginária Para Amigos Invisíveis",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2005-09-19T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "fca23671-4b6d-4dd0-a591-568c26217840",
+      "editId": "52e5a816-2b86-403c-91ab-99c6dc4a9070",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Duquesa De Queixas",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2005-09-23T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "47e6b4a6-6bfd-4afe-b6aa-c52f15896971",
+      "editId": "76037c04-3319-4d65-a581-e85d80fcf326",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Os Amigos Vão À Europa",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2005-11-04T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "f390778e-efe8-4a14-aabd-f8a60166f9bf",
+      "editId": "747bf19a-05cb-4665-9402-451b7c832485",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Vai, Gu!",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2005-11-11T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "f64da1b4-c69f-4625-8f2c-75c4019eef2d",
+      "editId": "7572c97c-2864-4c47-9cab-f2abeea82b1c",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Crimes",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2005-11-18T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "ac6e3637-7a0c-45bb-a6fb-c385a4ca58a0",
+      "editId": "36cbfbbc-8cb6-4d57-b334-8643290367f4",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Terra Das Pulgas",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2005-11-25T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "b60d7f7e-db29-41a2-a811-e110454dbb39",
+      "editId": "aeb15df9-5356-4c5a-a2d3-707a94233b9e",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Um Filme Em Falso",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2006-02-10T00:01:00Z",
+      "duracaoMs": 1337000
+    },
+    {
+      "videoId": "bd140f29-3a53-4fc9-abf4-005ada04aeba",
+      "editId": "0d0472c8-dc7b-49b8-8aea-cf177edc6b1b",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Eleições Presidenciais",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2006-02-17T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "27b5168b-a573-4539-ae25-2589159063f2",
+      "editId": "c4e4f6fe-6b78-4edc-9c5a-a3843394c465",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Um Quarto Disputado",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2006-03-16T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "9468e846-6f26-4778-9483-a20f8253ce01",
+      "editId": "d53a3633-7448-4b76-bdef-5b24cbf471da",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Trocando Figurinhas",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2006-03-24T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "68970252-cc3a-4bba-b406-3165c94c820a",
+      "editId": "49c17487-bb9a-4a82-a48f-959d75758625",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Desafio Dos Super Amigos",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2006-03-24T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "e61b0ad6-c004-4a5c-9e5b-d8fed740831d",
+      "editId": "1a1e1012-cd0e-4b0c-b4bd-e48ccf7c248b",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "A Fotografia",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2006-05-05T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "80b15028-2e06-45ac-83fe-3f4ccde23c0b",
+      "editId": "8a6b4546-432c-49fb-954f-a79655b05202",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Aproveite O Dia?",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2006-05-12T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "fd5a5d2b-c1db-4eb5-a90f-b29321899a6b",
+      "editId": "0aa791c7-c828-4028-b48b-8838f715690f",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Briga De Vizinhos",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2005-05-19T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "d1621b53-5765-47dd-958d-4ce69a17feff",
+      "editId": "7f5d7ab1-b92d-4851-9123-3bd07ffef086",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Festinha Infernal",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2006-07-17T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "4f38aca6-4d62-4298-9fcc-bf8e3096b04b",
+      "editId": "8a9e1f0c-5844-4538-bc78-6297c80b84d8",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Surpresa Para Você",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2006-07-27T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "87438045-4f89-4741-a32a-4d7c871d1415",
+      "editId": "f622e88f-6b9a-499a-9809-12177ca2dcb3",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Ônibus",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2006-08-01T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "0cc36616-c938-4dd6-a419-fb3e2067082d",
+      "editId": "48e86e06-be34-4ab1-af14-21d43b4d17f8",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Grande Queijo",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2006-08-07T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "7b3df5c8-fc08-4bb5-9c1f-c486b2df1e7e",
+      "editId": "908adba5-1ab0-46c9-9949-eb7bde71136e",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Mansão Do Blu",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2006-11-03T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "e74dacba-50ed-45f1-b9c6-12e71e606ef3",
+      "editId": "07f28c10-2058-49e2-bb6f-3f50edab2d1f",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Emancipação Complicada",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2006-11-10T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "589e9fdb-093f-4b7c-a758-451203beb92f",
+      "editId": "a2cda2fa-6400-429b-9351-bea9198508ef",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Não Faça De Conta",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2006-11-17T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "7fc710fb-7be1-4da7-a8e4-3aaa7ec72912",
+      "editId": "e22c76c1-f7e8-4288-a152-bd346214b0c0",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Queijo A Go-Go",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2007-05-04T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "cc97ff75-1c39-4ca7-9ce9-bd41a5e1c108",
+      "editId": "bee6d55c-ac52-45b0-ac31-ca75bf41d64d",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Em Busca Do Minguado, Parte 1",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2006-11-23T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "09f2e08d-e38f-4e65-9fec-2bd9bc51c922",
+      "editId": "2a5defde-476c-4a35-b1e7-8fb4659d01c0",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Em Busca Do Minguado, Parte 2",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2006-11-23T00:01:00Z",
+      "duracaoMs": 1382000
+    },
+    {
+      "videoId": "17d997a6-33e3-4bf1-9579-3471b7a0dae7",
+      "editId": "1115b667-f446-4e6d-accd-8ecd458e32e5",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Penchinchas",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2007-05-18T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "1828213d-d724-4e4b-ad15-0daec748f97a",
+      "editId": "ee856e47-05f9-48aa-8384-53333637a47e",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "El Bien Bordado",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2007-06-08T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "f422f4dc-9e7d-4cf8-81a9-69625b15942d",
+      "editId": "07345218-9563-4b5f-8506-f36510b7decc",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Algo Velho, Algo Blu",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2007-06-15T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "f3b3530c-d43e-4414-87a4-cbd21eef38e7",
+      "editId": "3a3b3c68-4170-45bb-a136-a5dc4a7adae3",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Blu Supercara E A Batata Mágica Do Poder",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2007-09-10T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "e5dfc151-19e7-49af-979a-333dbb80b507",
+      "editId": "90ab18bc-4865-4f88-baa0-f078605eeb44",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Astro Do Rock",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2007-09-11T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "33f057f7-8297-46f4-a4a7-e781e7e9e325",
+      "editId": "3f326041-0f85-4577-9095-9ea833df49f7",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "A Noiva A Ser Batida",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2007-09-12T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "6b0b948f-4820-4888-aca8-c57db9ec9de0",
+      "editId": "152294f3-013c-41ca-bbc9-8efc1f139320",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Amizade Duvidosa",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2007-09-13T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "0b5bd2e0-b68e-475d-bf2b-25991233c96b",
+      "editId": "adfc5266-e434-47b2-945e-979825d10367",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "La Grán Premier",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2007-10-05T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "424563a6-846d-4a2a-9c91-f9e2348a7d11",
+      "editId": "ae28c561-01d0-4da8-9d14-874d5d94c700",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Pasadelo Na Mansão",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2007-10-12T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "95ed3863-d6b8-4d64-a821-49fa9174533d",
+      "editId": "2b7d38c6-e00f-4c76-bf63-5ca6a6ec57cc",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Eduardo, O Melhor",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2007-10-19T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "bd46679f-aae4-4501-b057-348e373a95f6",
+      "editId": "6cf98067-24ad-490f-823e-06a52cec3fff",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "O Grão De Erviha",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2007-11-22T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "492a5714-d2cc-412f-88e3-4259736cc78b",
+      "editId": "1ab588b1-6521-4fd8-a2dd-f0044853074a",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Coelho Animado",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2008-03-06T00:01:00Z",
+      "duracaoMs": 1332000
+    },
+    {
+      "videoId": "74fac0b6-7dda-48e4-a375-aa6720b995bc",
+      "editId": "cbe94f09-5259-462b-96d1-93baa81ece8f",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Jackie Khones E O Caso Do Cartão Da Biblioteca",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2008-03-13T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "52e24bfe-0aa9-49d3-beea-ed39f42eae85",
+      "editId": "694817b2-6fd5-4031-9152-9f4c964575dc",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Volta Ao Mundo",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2008-04-10T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "c92ee47d-f99f-441b-ac4e-7eb3b8dcce34",
+      "editId": "12b1481e-45e2-4138-bd1d-27a5901aae9e",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Pegadinha",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2008-04-24T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "cfb2733c-26ec-497e-bb50-72af671783cd",
+      "editId": "73b890a4-4ff5-474a-8d6d-f8e53841404f",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Blu Tube",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2008-05-08T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "2e11172e-85ab-4eff-a2bf-a4db2c1972b9",
+      "editId": "3cadbaf7-e829-40c4-a87f-78363b99f9b3",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Salve-Se Quem Puder",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2008-05-29T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "7c1ffb6a-35df-4b94-9b88-857818df608f",
+      "editId": "ddfc0f08-a899-4c47-82ea-639a747f3e16",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Blu Supercara E A Incrível Cerimônia Divertida Do Grande Criador",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2009-05-03T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "6d3c6d5c-69ee-4a42-98f9-329ebc374c9f",
+      "editId": "979df96e-cb01-45b8-85b6-a2c96563252c",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Desafios",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2009-05-03T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "3241cd04-f664-4bb1-a261-a4b8443c95d0",
+      "editId": "d13e96c6-2cd1-4c81-9b29-515b3b8b2981",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Leia E Chore",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2009-05-03T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "9215e0c6-d5f3-46be-ac29-ad580f9f49ad",
+      "editId": "924ad582-2eb9-4751-b124-4854268b6ee7",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Tolos E Regras",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2009-05-03T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "ad3b60b7-4741-45d7-8c6a-c9969fd01dcb",
+      "editId": "739d546d-6061-4f7c-855f-184ebf6e675f",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Tchau Pro Blu",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2009-05-03T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "4a46061e-ce05-42bc-957a-a93fbf2a44f9",
+      "editId": "aaedfb75-3f8d-4670-ac7f-e8fa6207b594",
+      "showId": "caec9e0f-0ebe-4b80-9bf4-4bd1836c7ff6",
+      "nome": "Cadê o Papai Noel?",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2005-12-01T00:01:00Z",
+      "duracaoMs": 1520000
+    }
+  ]
+}

@@ -1,0 +1,1304 @@
+{
+  "slug": "clarencio",
+  "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+  "nomeOficial": "Clarêncio, o Otimista",
+  "capturadoEm": "2026-07-28T06:46:34.377Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4"
+  ],
+  "episodios": [
+    {
+      "videoId": "23a98997-f737-43a0-bf49-37e7f014d4c0",
+      "editId": "cff3cf12-aed9-4be1-b19d-a1564fef1a81",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Masmorra da Diversão",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2014-04-14T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "ca461225-2efd-41cb-b589-79eb04407c27",
+      "editId": "b5984e83-db0f-414b-8995-f73361243a2d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Dia Bem Legal Com Uma Garota",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2014-04-14T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "2f82f871-15b6-4788-ac85-3a3f5365ccf9",
+      "editId": "cca8c7f5-b342-47ce-bd1e-0e73bbf7d87b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Mago Da Vassoura Da Grana",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2014-04-24T00:01:00Z",
+      "duracaoMs": 688000
+    },
+    {
+      "videoId": "564ec1e2-5afc-4fc7-a7f8-f4c97a62865d",
+      "editId": "bbf3911a-3ea9-4433-94b6-0b48f367f376",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Perdido No Supermercado",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2014-04-21T00:01:00Z",
+      "duracaoMs": 688000
+    },
+    {
+      "videoId": "5d5f76e7-418b-4ac2-b983-26009c084edd",
+      "editId": "bfcaf763-4374-47ba-9503-b505d7f9a33b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Os Milhões Do Clarence",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2014-04-28T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "cf4293ea-115c-4e47-8c3e-e324c3949c7f",
+      "editId": "72b90750-5544-4f63-9a7b-a8541b1a3959",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarence Arranja Uma Namorada",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2014-05-05T00:01:00Z",
+      "duracaoMs": 688000
+    },
+    {
+      "videoId": "93c53112-1648-410c-81e7-91c0c70c0eb1",
+      "editId": "8f8a5a10-e184-46aa-9ee3-a1f13a9eb49c",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Novo Brinquedo Do Jeff",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2014-05-12T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "77ac0574-0ba4-41bf-ac28-bcf5651634be",
+      "editId": "fb8b2a99-6f85-4ff8-a0c3-c819ce2abf2b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Jantar",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2014-06-12T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "e3d0657e-17b9-412a-ac2d-a7cc8159865a",
+      "editId": "83c8a0d7-7765-434d-915e-f8432d3fa669",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Buzina",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2014-06-19T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "4ad88ead-3d73-4b50-8b5f-ca4060849199",
+      "editId": "b6f65967-8e72-4d2b-afaa-bb9d39b5231e",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Caça Ao Dólar",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2014-06-26T00:01:00Z",
+      "duracaoMs": 684000
+    },
+    {
+      "videoId": "80751eb3-a2ae-4ad6-b379-97258fdb79e4",
+      "editId": "0306c2be-e40f-417f-b008-4e55346a8079",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Zoológico",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2014-07-03T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "83b3d760-59d7-4c9e-b479-ab3080b277dd",
+      "editId": "186e9f96-44e9-41be-b0d2-69dfaa149aac",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Acorda Pra Vida",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2014-07-10T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "4e4861f7-0dd7-4f01-bb45-665865d0bde1",
+      "editId": "c12fe001-4d69-4d32-bb8c-922f27a6c88e",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Homem Da Casa",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2014-07-17T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "a48577bd-0bbb-4a24-b151-387093fa1fcb",
+      "editId": "c16e2647-fdc6-4550-94c7-5eef5ec4faae",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Olhos De Lama",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2014-07-24T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "c194da83-4404-4cb4-a553-a14c3aa322b7",
+      "editId": "acfc11e4-efb4-421a-aa77-ac37df6e9db5",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Barco Dos Sonhos",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2014-07-31T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "30455710-0e27-4ba8-8b76-d2bfcf212025",
+      "editId": "b4c6045c-419c-4fbe-8cb6-f75f247f60f7",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Festa Do Pijama",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2014-08-07T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "ec7586aa-fbed-4b55-8c75-6ae5cfb7d777",
+      "editId": "2819338f-8463-4e62-acc2-b1a74942e62e",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Natureza",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2014-08-14T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "ff1a54e9-2dc5-4681-8680-67cd83d7a61d",
+      "editId": "421d4adb-8aa0-4547-9275-bcfc549bfa0d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Jeff Na Média",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2015-10-02T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "e9aa44e8-630a-47fc-886f-c9b6c7937a3d",
+      "editId": "2c48a9a5-ba05-4cee-9284-f2a1d91c7258",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Tarde Do Dia Da Lagartixa",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2014-10-09T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "d58b8780-cdb4-4122-8077-54f849f53995",
+      "editId": "cc2782fc-ba12-4a6f-b814-29c4a3cf5817",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Os Esquecidos",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2014-10-16T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "7fa8a968-9acb-4813-8606-33be73bba1b8",
+      "editId": "9975bec0-327a-40cc-82ff-4e62482a518f",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Lunchonete Do Bairro",
+      "temporada": 1,
+      "episodio": 21,
+      "airDate": "2014-10-23T00:01:00Z",
+      "duracaoMs": 666000
+    },
+    {
+      "videoId": "9d87f255-4ad6-406d-ad27-002721d307ea",
+      "editId": "30447086-e6d2-40a2-acbc-79839ec8bc04",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Festa Do Pijama Do Belson",
+      "temporada": 1,
+      "episodio": 22,
+      "airDate": "2014-10-30T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "df6e3fac-c181-4296-a0f5-2a53c1694a8b",
+      "editId": "1dfcdbe4-1a70-4671-a847-2bed18856f59",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Nojento Demais Pra Aguentar",
+      "temporada": 1,
+      "episodio": 23,
+      "airDate": "2014-11-06T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "b632fcc5-be85-44e6-a739-2ee48ba28c23",
+      "editId": "55289b64-e4cd-466a-bf02-9fd1a8210389",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Expansão De Piloto",
+      "temporada": 1,
+      "episodio": 24,
+      "airDate": "2014-11-13T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "1c12af83-58a8-41e7-91ea-ef4181694031",
+      "editId": "ccdd984a-2523-4c69-8187-849ece668734",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Pacientes",
+      "temporada": 1,
+      "episodio": 25,
+      "airDate": "2014-11-20T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "2e3c2f6f-a63c-4064-9151-9061d4f17e3c",
+      "editId": "82f59a5d-adac-4707-bbca-c803f3af24d7",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Escola Dos Frangos Da Cavalaria",
+      "temporada": 1,
+      "episodio": 26,
+      "airDate": "2014-12-01T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "106188d0-af6a-4db4-998a-64d5349f453a",
+      "editId": "bebdb8b8-e8d8-43fc-86bd-c461856d87f6",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Quem Não Arrisca. . .",
+      "temporada": 1,
+      "episodio": 27,
+      "airDate": "2014-12-02T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "a1de9218-0a07-4707-af5e-64177e0fd08a",
+      "editId": "c2dd5684-e312-4756-a684-8a77cb6e369c",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Educação No Hospital",
+      "temporada": 1,
+      "episodio": 28,
+      "airDate": "2014-12-03T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "4b7d1656-632b-4889-83af-0a8810f1816d",
+      "editId": "c21c7ad1-b2a0-4da2-8edd-9c9d99d48e0b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Jeff Ganha",
+      "temporada": 1,
+      "episodio": 29,
+      "airDate": "2014-12-04T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "f4fce74d-e15e-4f45-b20a-352ae10f9557",
+      "editId": "b84f4a69-9e15-4e59-a7f3-9f2ce472a0c7",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Suspenso",
+      "temporada": 1,
+      "episodio": 30,
+      "airDate": "2015-04-06T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "2affc327-9e7f-45f0-8c24-575b8c3d2dd7",
+      "editId": "e53d69fa-a373-412d-ae7b-f31e44b88364",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Chapéu Tartaruga",
+      "temporada": 1,
+      "episodio": 31,
+      "airDate": "2015-04-07T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "216fc51b-3a50-4fe6-acfb-48e06f6b5257",
+      "editId": "8e6d3179-ca89-41e0-a24f-b147dc15715d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Perseguição De Ganso",
+      "temporada": 1,
+      "episodio": 32,
+      "airDate": "2015-04-09T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "4e973536-5b4b-4b7d-8dc2-23970b17ab17",
+      "editId": "6a93516f-f036-43da-a0e1-b857f9682782",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Estrepolias Com O Peixinho Dourado",
+      "temporada": 1,
+      "episodio": 33,
+      "airDate": "2015-04-09T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "7640b496-0f8b-45f4-96a1-c1f925e7dfcc",
+      "editId": "070d8394-cafa-4291-a247-a2cf5cf4fbfc",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Chaminé",
+      "temporada": 1,
+      "episodio": 34,
+      "airDate": "2015-04-10T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "0d955e6b-8733-455f-965d-2b209b492d52",
+      "editId": "87165f50-6ea0-4f62-a7f6-f0d604f01b40",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Doenca Na Carta",
+      "temporada": 1,
+      "episodio": 35,
+      "airDate": "2015-04-16T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "bd129e3b-c8e0-4eaf-94ba-cdec9c5914cb",
+      "editId": "bd093cfa-4267-4cc7-84c4-5e0c6b17418d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Amigos De Faxina",
+      "temporada": 1,
+      "episodio": 36,
+      "airDate": "2015-04-23T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "abae9e2a-eabc-4f8c-a623-1d008fb1a7f1",
+      "editId": "9f9315e1-177c-48d8-a908-8d2dc13fe533",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Furação Dilliss",
+      "temporada": 1,
+      "episodio": 37,
+      "airDate": "2015-04-30T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "32e88a3c-45d8-4807-ac3c-d719d995891d",
+      "editId": "da857170-b3af-43aa-bf94-b22be15bb4ff",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Corrida",
+      "temporada": 1,
+      "episodio": 38,
+      "airDate": "2015-05-07T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "22704656-ffd1-416a-8bd8-5bd569dcaf90",
+      "editId": "f93fd7de-221e-4d20-8ba2-4189c5652e28",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Detenção",
+      "temporada": 1,
+      "episodio": 39,
+      "airDate": "2015-05-14T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "0f5034f6-1ce1-4bd0-af77-1dbefe076442",
+      "editId": "80418076-2c1d-43af-8afa-0731c8b99233",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Cabelêncio",
+      "temporada": 1,
+      "episodio": 40,
+      "airDate": "2015-05-21T00:01:00Z",
+      "duracaoMs": 691000
+    },
+    {
+      "videoId": "175fe63b-8e04-4789-976f-6001f8d9e705",
+      "editId": "a55ea00e-726e-4a1b-be84-a69bde7677b0",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Amiguinho",
+      "temporada": 1,
+      "episodio": 41,
+      "airDate": "2015-07-20T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "52704996-22c9-4c5b-b85d-4b19e7890fc3",
+      "editId": "89c767fc-8884-4ce3-bfe7-53c61b7fcfbd",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Chalmers Santiago",
+      "temporada": 1,
+      "episodio": 42,
+      "airDate": "2015-07-21T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "978ae25f-801e-475c-ac2d-e58165f684da",
+      "editId": "c0c7c6e7-e27e-4ca2-a62f-12559af814f6",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Caindo De Sono",
+      "temporada": 1,
+      "episodio": 43,
+      "airDate": "2015-07-22T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "624814db-3629-414c-95e4-52d511a17681",
+      "editId": "575420d5-5b4e-4b63-a220-a16f9c7efb7d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Parque Aquático",
+      "temporada": 1,
+      "episodio": 44,
+      "airDate": "2015-07-23T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "e796413c-86fb-44d5-a668-641b79da7dbf",
+      "editId": "cf60ad4d-999e-4205-abb6-760287c7d487",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Onde Os Chadões Selvagens Estão",
+      "temporada": 1,
+      "episodio": 45,
+      "airDate": "2015-07-24T00:01:00Z",
+      "duracaoMs": 680000
+    },
+    {
+      "videoId": "b43ddccc-0c34-472e-aa37-5d094fc69158",
+      "editId": "564673ab-5c04-4b1d-9b31-f997af86ef08",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Breenhn À Vista!",
+      "temporada": 1,
+      "episodio": 46,
+      "airDate": "2015-08-06T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "e789ca4c-e52c-4b7d-9ab0-1806221da189",
+      "editId": "771bd2f1-f430-4c0b-ab9c-808f72f9c7a2",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Problema Da Pizza Big Petey",
+      "temporada": 1,
+      "episodio": 47,
+      "airDate": "2015-08-13T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "e1bd5682-57b5-45a8-b7de-3506056ed3b6",
+      "editId": "81c9d454-cb9b-4103-af72-da1ae3f9de2f",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "A Separação",
+      "temporada": 1,
+      "episodio": 48,
+      "airDate": "2015-08-20T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "2ccb1951-6a8e-4a20-ad99-21e383cd5286",
+      "editId": "9900997e-bfcd-4512-b00a-b114bdb4789f",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Nos Sonhos",
+      "temporada": 1,
+      "episodio": 49,
+      "airDate": "2015-08-27T00:01:00Z",
+      "duracaoMs": 681000
+    },
+    {
+      "videoId": "06575a61-0698-4bef-af32-bf42d4441269",
+      "editId": "e91296b7-f878-48d6-b88a-77b039630cf9",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Equilibrado",
+      "temporada": 1,
+      "episodio": 50,
+      "airDate": "2015-09-03T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "e3619149-731f-49cf-a39b-ec156a94518b",
+      "editId": "3115d42b-94a3-4dca-b4ba-a575637dfc74",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Sustinho",
+      "temporada": 1,
+      "episodio": 51,
+      "airDate": "2015-10-27T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "e8a47eee-9b29-4996-b571-e2cea88e4193",
+      "editId": "1f367806-26b8-4c96-be7d-b9279cf35a07",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Interrogatorio",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2016-01-18T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "b88db669-2620-46c4-be8c-65b6c96b0c06",
+      "editId": "718da613-8da2-4977-b9ed-e8b9a4f52830",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Parquinho Perdido",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2016-01-18T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "aaa42b7e-7f32-455b-8761-563f9fe1a28d",
+      "editId": "8dfa76c4-fb81-4c03-a0b9-6747a637c0ef",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Homem Menino",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2016-01-19T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "a55eada5-8c7a-4caf-bd87-54a7bf6c9bff",
+      "editId": "f3a9e3bc-d212-44a1-b914-f362bdf47007",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Cacto Da Liberdade",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2016-01-20T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "18506c1c-e051-49e4-a694-71b8ff3a2fcd",
+      "editId": "e95266c5-c0ae-418e-901f-2b747cd32f76",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Nervoso Nas Alturas",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2016-01-21T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "55496b13-98a4-4d40-b008-9efd35758ed4",
+      "editId": "a62c61d8-badc-4d3e-9f47-2a2fd5a19344",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Fuga De Além Do Cósmico",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2016-01-22T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "9c361885-b1eb-4ec0-9719-df999b9e71e9",
+      "editId": "401724e8-3396-4f50-9f6c-2a55e4ca1e99",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Feira Medieval",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2016-01-28T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "b6570a5e-85ed-4be6-a10a-9d6183a6d592",
+      "editId": "a220ab5f-e2ff-4a6b-b8e6-e0ef099a1def",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Crimes Temporais",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2016-02-04T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "0bcc58f2-d745-4730-977e-52b33a77e3a9",
+      "editId": "04a047b9-48dd-4ff4-9c7f-42a59a2df0e0",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Sábado Na Escola",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2016-02-11T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "48719980-4207-4e66-a70b-d039e674d2bf",
+      "editId": "b33ec9e4-92e2-4154-b3ab-33f7ca2abc31",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Ataque Na Festa Do Quarteirão",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2016-02-18T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "c1530f99-56e1-49c8-a436-7c6fc893e2e4",
+      "editId": "7e32263c-e06f-490e-b11a-98f100c825f6",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Passeio Da Escola",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2016-02-25T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "8e9d0d22-6bbe-4c8e-8c3b-b2eaca979b59",
+      "editId": "4fcb828b-f2dc-4df0-9f98-968259b85f82",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Caça Ao Sorvete",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2016-03-03T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "92c17f06-3210-4fb0-9805-9215ed1431c2",
+      "editId": "d33e5e51-ac51-4511-9867-c8aa9696383c",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Empresário",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2016-03-10T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "96ef0463-c9a7-474b-afa6-ec5eefa9b49b",
+      "editId": "0b27ca74-6bba-4200-bf6c-4fce4563a0f1",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Irmãos Martelada",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "2016-03-17T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "1f2de58f-9c7f-467d-a895-f057d387175b",
+      "editId": "2ac98591-669e-4c4a-b363-d77423b9b6ec",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "As Caudas De Mardrynia",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "2016-03-25T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "0fe81ad7-be5c-4a79-90a1-44ae01d03143",
+      "editId": "0638ffa8-f2d6-48aa-8f66-0b7d28a32f51",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Wendle E O Olho De Coogan",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "2016-03-25T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "f4d7acad-bd63-4d83-bcbf-d4c2758d91de",
+      "editId": "e333f063-d6de-46fe-885a-adefadf2fd6e",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Trailer",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "2016-03-29T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "23477fbe-5480-46cf-acd7-fe6063cff8d2",
+      "editId": "0b2ce205-c064-4a72-a642-a77a27998b35",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Jogo",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "2016-04-21T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "edc57d1c-fabc-4e17-b01f-abf48fe4dd06",
+      "editId": "ecc78bce-f039-429c-aa0e-15e495ef7047",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Sumo Skatista",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2016-04-28T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "57820fe0-3b51-421a-8dfc-1c73ba8bc9e2",
+      "editId": "0209d119-0d71-4239-8541-34db03e3d04c",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Garota Misteriosa",
+      "temporada": 2,
+      "episodio": 20,
+      "airDate": "2016-05-05T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "82e91719-aac1-4a7a-ab13-4b264f687295",
+      "editId": "b81f57c3-45b9-4120-9d9f-6f301e3f061d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "A Substituta",
+      "temporada": 2,
+      "episodio": 21,
+      "airDate": "2016-05-12T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "4becad2b-c3cc-4f15-b834-784d464b7edf",
+      "editId": "22a502b7-c897-42cc-9bc0-aeb4b611f916",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Sala De Aula",
+      "temporada": 2,
+      "episodio": 22,
+      "airDate": "2016-05-19T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "f7db5c0a-d68c-467e-b9ef-5ef5a60b3af2",
+      "editId": "ad65db1f-4d06-4966-b77c-59e7cb46fb45",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Isolado",
+      "temporada": 2,
+      "episodio": 23,
+      "airDate": "2016-05-26T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "1652daab-3d1b-4f77-95c1-3ee962ea75f6",
+      "editId": "a1e47ff3-1795-4d5d-b2b0-0771cdfe432d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Segredo Do Jeff",
+      "temporada": 2,
+      "episodio": 24,
+      "airDate": "2016-06-02T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "e5be727e-b389-4708-a8a1-961d241d3eff",
+      "editId": "df57f0a5-c77f-4953-b9db-0d37e94bdbeb",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Corrida Espacial",
+      "temporada": 2,
+      "episodio": 25,
+      "airDate": "2016-06-09T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "e7cbff07-e967-474c-aa19-3811f87699aa",
+      "editId": "4f65efbe-5860-47df-90fb-397409a1241a",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Pais De Plantas",
+      "temporada": 2,
+      "episodio": 26,
+      "airDate": "2016-06-16T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "e1e73bc9-095c-41be-9946-a11189bdf550",
+      "editId": "b90fe4e9-0b37-432e-a4d9-330fb5774562",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Bucky E O Uivo",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2016-06-23T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "a472bc42-1a97-4735-9721-8ccaed611a6c",
+      "editId": "8b9f10a2-a737-4224-b669-924aec1273bb",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Minhocário",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2016-11-01T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "c6f744b5-f56e-4467-b050-645f6c33e316",
+      "editId": "2a5ee59e-b289-46f4-a739-68e5ba253d26",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "A Aventura Rexcelente De Clarêncio E Sumo",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2016-11-02T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "d48c3c43-42e5-4b68-8599-fce19b9ce05a",
+      "editId": "eb81d82f-6d5b-4ce4-ac5e-f5af09a5431b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Aniversário",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2016-11-03T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "2d5c8bbc-fdf4-4561-8213-08f019d6fa91",
+      "editId": "c91de40e-dfb7-4c76-8d96-df23d927cab9",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Árvore Da Vida",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2016-11-04T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "ba7cd8dc-a4a2-43bb-84da-552aefd7f74a",
+      "editId": "3d361cc9-8470-4e7a-88e1-10f9cee88f53",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Pique Bandeira",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2016-08-14T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "5975ee00-a642-4a67-9909-89f350818c3c",
+      "editId": "3acae975-0d7b-4479-9c94-145a4388a5d0",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Cloris",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2016-11-15T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "f08fa2c3-f909-487b-b805-79b19c79638e",
+      "editId": "10a5effb-bb12-45ad-97cd-9e22f92078f3",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Viagem Para Pescar",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2016-11-16T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "dc11a5d1-dbd8-42c5-a6a0-5dd876c4b9ed",
+      "editId": "f9959580-0d14-4945-854a-27d6c7358d01",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "A Mochila Do Belson",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2016-11-16T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "5703a32f-09ce-4922-a305-9cc54f336813",
+      "editId": "8073fe58-550e-4aa5-ade6-54e1ab886129",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Hotel",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2016-11-18T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "9572341a-40eb-4737-bd15-b1d3c1caf2d1",
+      "editId": "f950c7e0-99bc-4849-866d-7746e3155d21",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Natal Na Aba",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2016-12-01T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "52636d06-fdd3-4ac3-b519-1382abd086d6",
+      "editId": "aaef6922-f41d-4123-a902-6cd6e7a86826",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Herói Da Pizza",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2017-02-03T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "b10585e3-c42b-4c50-b803-3b7f6dbaf36c",
+      "editId": "6e2fc05a-40d3-4f37-bb74-91ba6ab30709",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Sumo Vai Pra Oeste",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2017-02-10T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "c3737341-130f-4df8-8d7c-16674b90de2d",
+      "editId": "d82164ac-16eb-4130-8933-31a79683c7c3",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Namorados",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2017-02-10T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "d1eb8eb0-91c6-41ee-a9f3-de53d88e3f04",
+      "editId": "612d0cd1-6cb1-4e65-a10f-1b6be6ff3156",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Para Presidente",
+      "temporada": 3,
+      "episodio": 15,
+      "airDate": "2017-02-17T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "932180c9-583e-47e2-846e-0901d01a07bc",
+      "editId": "850016fe-5909-4b13-8fd7-90c0c8e5405c",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Show De Rock",
+      "temporada": 3,
+      "episodio": 16,
+      "airDate": "2017-02-24T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "0de65d59-0896-4101-ab2e-96d1d989033c",
+      "editId": "fce3753b-4150-4b75-9972-217818413a54",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Fantasma",
+      "temporada": 3,
+      "episodio": 17,
+      "airDate": "2017-06-05T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "3d0cbe51-1f1c-41b3-94e9-b7d2b4499633",
+      "editId": "a984c840-f467-4521-892f-9d75c731a18f",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Jeffery Wendle",
+      "temporada": 3,
+      "episodio": 18,
+      "airDate": "2017-06-05T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "9ffd8831-8fc4-476d-8aa7-d19f9951961d",
+      "editId": "005d6dee-600a-4be1-8cbc-024915f23515",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Animais E Abrigos",
+      "temporada": 3,
+      "episodio": 19,
+      "airDate": "2017-06-05T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "c7199ecb-0b0d-47a5-a92c-ea599f734860",
+      "editId": "36998f9e-bf34-481b-9c9c-867151f41b72",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Zé Mané & Tio Caduco",
+      "temporada": 3,
+      "episodio": 20,
+      "airDate": "2017-06-05T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "7c17d7ba-e378-4df9-8dda-a1a19ab1664b",
+      "editId": "e8ca78a6-eff2-48a3-bc59-1bcd353f8fc7",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Tchau-Tchau, Baker",
+      "temporada": 3,
+      "episodio": 21,
+      "airDate": "2017-06-05T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "a56b1390-0c5e-4f5e-95c2-8e9146cb4104",
+      "editId": "4bedd5f6-fae6-4d11-a0ed-01591e9207c6",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Irmãos De Enchente",
+      "temporada": 3,
+      "episodio": 22,
+      "airDate": "2017-06-05T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "69aed11c-339d-4595-ba26-3ba3dee2111f",
+      "editId": "87f871c6-0b27-40aa-94b0-eebb3ba947da",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Piscina Pro Verão",
+      "temporada": 3,
+      "episodio": 23,
+      "airDate": "2017-06-06T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "da2899aa-5837-4986-8c2e-ab1d2c31eeff",
+      "editId": "d4dcad3c-a050-4117-902d-715948358991",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Grande Jogo",
+      "temporada": 3,
+      "episodio": 24,
+      "airDate": "2017-06-07T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "4c5a7810-f4bf-419b-a5de-dd776abca79e",
+      "editId": "7c2cc49a-f031-4f06-a5ac-3ab3745c8fb6",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Meninos Da Caixa Amaldiçoada",
+      "temporada": 3,
+      "episodio": 25,
+      "airDate": "2017-06-08T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "4b35b9fb-dc2b-49de-b383-db24827405c0",
+      "editId": "8424cedc-0c80-424c-8345-76b32c4c32f9",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Mãe Carateca",
+      "temporada": 3,
+      "episodio": 26,
+      "airDate": "2017-06-12T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "922c23d9-411c-4403-bdff-1d3912d5fb85",
+      "editId": "417c7fe0-7be0-45fb-aecb-f1bd032eb5d1",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Ama Shoop",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2017-06-13T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "d25493f8-3a32-4023-a2ef-b9892ce78cca",
+      "editId": "1a4f2003-5459-428b-a9b3-9080333f7a4d",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Rádio Pública",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2017-06-14T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "93147c17-7ee8-43d3-9703-c9f973a970c1",
+      "editId": "b70c9d82-a80e-43ad-a55d-8d648ab66ce3",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Chadão E A Maratona",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2017-06-15T00:01:00Z",
+      "duracaoMs": 673000
+    },
+    {
+      "videoId": "3130597e-4720-4dce-a3b2-2afa10b33e7e",
+      "editId": "04f6edb1-2d40-4a8e-8dc7-275ef179b1e9",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Policial Moody",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2017-06-19T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "f71e093e-11ba-4702-b7ed-2d2f5216634a",
+      "editId": "f7c2e886-7f6f-4d28-b088-d68d32c143c8",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Gilben Diferente",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2017-06-20T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "9b3c12bd-aeda-430c-8a6e-774e57a7b1ca",
+      "editId": "71ed1ec5-a37d-48c5-8b01-a250e93d7ca1",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Maneiro",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2017-06-21T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "bd58c3a6-df26-4bf9-b5f0-249b1e55ba51",
+      "editId": "b41ead49-9891-45f2-88c7-5d249bfd4f6a",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Espera No Carro",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2017-06-22T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "12244b8a-6613-47ee-8f6c-1147f2ec7e25",
+      "editId": "2d77c69f-c443-454a-8eef-51684c2d03a4",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Gato Perdido",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2017-06-26T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "583738a8-35d9-4e1f-a142-7a251e0270d2",
+      "editId": "04a21633-1af6-4c63-b02a-3ba419673024",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Grandes Problemas Na Pequena Aberdale",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2017-06-27T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "0e92eaee-19cf-48a5-b55d-57ddd4462ee8",
+      "editId": "9e7deee8-98fd-45db-8205-f264bcce226b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Dia Dos Desafios",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2017-06-28T00:01:00Z",
+      "duracaoMs": 681000
+    },
+    {
+      "videoId": "9bdc1a4b-b482-4882-b364-bb0d958af19f",
+      "editId": "dd744e7c-b532-494c-b7e2-c5b120044514",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "A Troca",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2017-06-29T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "b5b3b9fe-c812-4d80-b1bb-8c2953714357",
+      "editId": "faf81bb5-8d0d-46f2-b89f-c91c98ea7a3f",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Pesadelo Na Rua Aberdale: A Vingança Do Equilibrado",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2017-10-27T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "32731225-334d-4787-b94f-8cf605c448b4",
+      "editId": "5232ddf2-bfa0-4add-adad-ecea4cf4100e",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Chadão De Graças",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2017-11-17T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "e683276f-4da9-40c6-a3f5-6cb41c331600",
+      "editId": "3d1c026f-627e-4e85-84ec-44f97026feda",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "A Mente Do Sumo",
+      "temporada": 4,
+      "episodio": 14,
+      "airDate": "2018-06-10T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "dcec4559-42e7-4c7b-934f-73283099933b",
+      "editId": "bebd7796-2096-4f94-983d-aee207c8d9cb",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Dia De Bicho",
+      "temporada": 4,
+      "episodio": 15,
+      "airDate": "2018-06-10T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "87a39ad5-872c-40f6-b223-95f4d794ab78",
+      "editId": "44593df2-b86b-49ad-953c-fe17c8ab36d1",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "O Túnel",
+      "temporada": 4,
+      "episodio": 16,
+      "airDate": "2018-06-10T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "b79f4200-d53c-4b67-a968-7345c031a449",
+      "editId": "ce6e1b58-97c2-4cbc-b62a-35cc559f09cb",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Show De Talentos",
+      "temporada": 4,
+      "episodio": 17,
+      "airDate": "2018-06-10T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "31054a8e-692c-486f-b947-b92fa4fd9be3",
+      "editId": "2ce1f427-7af9-4b45-aa94-a843c880bc17",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Carrinho De Controle Remoto",
+      "temporada": 4,
+      "episodio": 18,
+      "airDate": "2018-06-10T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "5c03950f-082f-40b8-a0c3-40b145c02414",
+      "editId": "6a55d509-e81a-4d53-ab48-e6749d8b0982",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Rei Dos Cachorros",
+      "temporada": 4,
+      "episodio": 19,
+      "airDate": "2018-06-17T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "8a9cd2d2-a01c-456a-9327-cda130cc5b71",
+      "editId": "9ba7bcda-517e-4631-9758-d50d821406b7",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Pula-Pula",
+      "temporada": 4,
+      "episodio": 20,
+      "airDate": "2018-06-17T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "f2d2a327-8333-48b1-ba58-c73be3b4e7b8",
+      "editId": "996c676f-e4a1-4017-ba82-291fd1fbff7b",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio, O Filme",
+      "temporada": 4,
+      "episodio": 21,
+      "airDate": "2018-06-17T00:01:00Z",
+      "duracaoMs": 681000
+    },
+    {
+      "videoId": "35b54ced-0f1d-4177-9a52-325685c82744",
+      "editId": "0107d629-1c9b-4cac-98f7-aed56fdead42",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Belson Arranja Uma Namorada",
+      "temporada": 4,
+      "episodio": 22,
+      "airDate": "2018-06-17T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "e117a23c-c7b9-40af-96a8-b6c80d20b50a",
+      "editId": "1e2f106d-9d5c-46c1-8d50-47bc8710accd",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Cabeça De Tv",
+      "temporada": 4,
+      "episodio": 23,
+      "airDate": "2018-06-17T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "c77169b5-9362-404e-92f4-d7b8329481bf",
+      "editId": "86805d9c-9c09-4f7d-812b-47c8293ed243",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Clarêncio Educado",
+      "temporada": 4,
+      "episodio": 24,
+      "airDate": "2018-06-24T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "2b575f96-3476-4c95-a060-793347dd39f3",
+      "editId": "3ef7c794-8cc0-4c24-828b-a4282ba8a36e",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Locadora",
+      "temporada": 4,
+      "episodio": 25,
+      "airDate": "2018-06-24T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "bc4a6241-a490-4ccf-af6f-8974bad0136b",
+      "editId": "b305b8d3-6364-48df-a4e0-df15874e4e69",
+      "showId": "bbf38e08-8288-4594-88e3-e982a0dbf809",
+      "nome": "Qualquer Lugar, Menos Sumo",
+      "temporada": 4,
+      "episodio": 26,
+      "airDate": "2018-06-24T00:01:00Z",
+      "duracaoMs": 682000
+    }
+  ]
+}

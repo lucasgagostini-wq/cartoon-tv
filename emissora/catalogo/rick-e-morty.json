@@ -1,0 +1,929 @@
+{
+  "slug": "rick-e-morty",
+  "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+  "nomeOficial": "Rick & Morty",
+  "capturadoEm": "2026-07-28T06:50:18.065Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6",
+    "Temporada 7",
+    "Temporada 8",
+    "Temporada 9"
+  ],
+  "episodios": [
+    {
+      "videoId": "ef7d1c40-2ecc-471a-81a5-7fe06400240a",
+      "editId": "3a08cc38-df63-40a8-a300-dede99139409",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Piloto",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2013-12-02T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "98f5603d-7461-4968-8399-72da5d9302d8",
+      "editId": "e1c78ea0-7968-46a8-8c20-b84bff4e706f",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Cãortador de Grama",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2013-12-09T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "fcc7d036-2a20-4f3d-b20b-1bd1a2f23672",
+      "editId": "e7b461c2-d088-4a2d-934f-c83856286891",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Parque Anatômico",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2013-12-16T00:01:00Z",
+      "duracaoMs": 1315000
+    },
+    {
+      "videoId": "0cd59b30-b1bf-44cd-8f91-389ba3ff1f6f",
+      "editId": "8a6bc58e-8826-4e7a-8944-60782e3e6788",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Realidade Virtual",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2014-01-13T00:01:00Z",
+      "duracaoMs": 1266000
+    },
+    {
+      "videoId": "4b41ae32-b26c-4ca3-bc31-6fbc4b560805",
+      "editId": "0f4c9543-ca66-4de9-9ff0-2ca210925db2",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Revolta dos Meeseeks",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2014-01-20T00:01:00Z",
+      "duracaoMs": 1269000
+    },
+    {
+      "videoId": "da2dc9d2-548f-4be4-9224-d6628553b189",
+      "editId": "0135be26-2f1c-4fb8-8942-bee0a2e5eee5",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Poção do Rick 9",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2014-01-27T00:01:00Z",
+      "duracaoMs": 1289000
+    },
+    {
+      "videoId": "3fb72f2c-572f-41b3-b425-3f5b9df359b9",
+      "editId": "7ba9a4c2-abc8-4110-83b8-03c008493ccf",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "O Pequeno Gazorpazorp",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2014-03-10T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "9809c756-ab44-4381-b2a1-7dd4ff50e676",
+      "editId": "3ab33224-df68-4a29-9bb8-8b3d875f0db4",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Minutos Rixty",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2014-03-17T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "86bd4e6b-fa36-4013-b328-a3d8980deffc",
+      "editId": "8029a99c-f365-4366-8f60-13fda005d510",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Uma Loja do Diabo",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2014-03-24T00:01:00Z",
+      "duracaoMs": 1341000
+    },
+    {
+      "videoId": "2e0753e0-6d81-4181-87d0-c2d5c6db93de",
+      "editId": "e8fe2909-eab4-416a-aabe-146c1f63120a",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Contatos Imediatos",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2014-04-07T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "3aa7e642-4946-46a1-a724-17e7e4b717d0",
+      "editId": "aa07074d-6c4b-4adb-832c-a5b94f888526",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Negócio Arriscado",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2014-04-14T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "db50969a-8890-4d4d-a653-5709ed608ce4",
+      "editId": "ad623e77-c456-4044-9819-fa02ecb09fa9",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Fratura Temporal",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2015-07-26T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "9671af7b-e60d-46bb-ac9a-bf5c25a10cac",
+      "editId": "03877d7e-8538-436f-93d4-e62f58980d29",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Expresso da Meia-Noite",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2015-08-02T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "5153ad8a-1449-4b48-9878-3c52940515d0",
+      "editId": "4e30c977-c3b9-446a-9265-212d151434e1",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Assimilação Autoerótica",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2015-08-09T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "4ee4cbc7-01cf-457e-96ad-4448f6078b57",
+      "editId": "685be138-88e2-4901-b123-a454dc8d6a52",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Parasitas Invasores Alienígenas",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2015-08-16T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "35395e08-2b45-495a-8d3b-9c99b9bf7fdd",
+      "editId": "cc0596e2-a5e2-4001-b3dd-65285a554d00",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Planeta Música",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2015-08-23T00:01:00Z",
+      "duracaoMs": 1384000
+    },
+    {
+      "videoId": "c625eff5-3fc3-4021-8d53-4cf62452b3b6",
+      "editId": "06adeb90-505f-4522-b45d-5941f120143f",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Os Ricks Devem Estar Loucos",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2015-08-30T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "0d35b38e-266d-4910-9854-8474974701f4",
+      "editId": "5d33272c-cc41-4e76-89e1-24a6bfe46a44",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Confusão em Little Sanchez",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2015-09-13T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "e98edd69-e605-40b9-b5a7-82d5ec926dd4",
+      "editId": "0b6abedd-5777-49e2-a14e-a6f4ab02e3b1",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "TV Interdimensional 2: Desafiando o Destino",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2015-09-20T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "f134f19b-2846-4991-9c56-88ad63c76bab",
+      "editId": "59f5a66a-1a99-4feb-a097-6db44eabbfd3",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Olhe Quem Está Expurgando",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2015-09-27T00:01:00Z",
+      "duracaoMs": 1325000
+    },
+    {
+      "videoId": "d383e0c8-3ee1-4eec-89ca-72b78a1d96e0",
+      "editId": "68fadc92-ba19-4b0d-958e-7f4b558ff91c",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Casamento Intergaláctico",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2015-10-04T00:01:00Z",
+      "duracaoMs": 1382000
+    },
+    {
+      "videoId": "72925279-3a64-42cb-9a25-bb50da7dff5a",
+      "editId": "6dbb81e8-b9c7-459f-b1d5-2a17e435c061",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Rickapunhalada Ricksalvação",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2017-04-01T00:01:00Z",
+      "duracaoMs": 1402000
+    },
+    {
+      "videoId": "6456c764-2319-4d5f-b4aa-3bb1d5b1bece",
+      "editId": "416186b4-e065-4bd4-9acb-b71c1c273149",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rickcurtindo a Pedra",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2017-07-30T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "0fccfacc-8851-4187-8c7a-78c5f00589ab",
+      "editId": "21581bda-45b2-4507-bfed-68edb9790358",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick Pepino",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2017-08-06T00:01:00Z",
+      "duracaoMs": 1405000
+    },
+    {
+      "videoId": "611a8810-4215-496a-a7aa-6e7954e44fe9",
+      "editId": "cebbbbf4-7a3d-40fc-b2a9-25ed4a53f652",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Os Justiceiros 3: A Volta do Destruidor de Mundos",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2017-08-13T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "ef6855a6-e9e6-4e1a-99e7-19e42d5e889e",
+      "editId": "1a825fcd-ea95-4774-800d-8bece76a0845",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Conspiração Whirly Dirly",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2017-08-20T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "fab2208e-ba25-41ae-a479-68de294a0c91",
+      "editId": "5832b346-a0ad-4fc4-9ede-1725808fed7e",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Descanso e Ricklaxamento",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2017-08-27T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "9a3050cb-f040-42d7-9d61-4f4963d1c788",
+      "editId": "bb74060f-8254-4464-a02f-a3b6236d78ea",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Contos da Cidadela",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2017-09-10T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "0cb9e2a0-88d7-40de-afef-ddc26c67fefa",
+      "editId": "061e8170-6b4e-4917-8195-7a079212f235",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Pulverizadores de Mente do Morty",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2017-09-17T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "b44f8731-06ca-4aff-bd4f-847b987cb131",
+      "editId": "f7860285-7cec-4063-b751-611beb6a074e",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "O Abc da Beth",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2017-09-24T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "92b387cb-f3b2-4a2a-bcd8-8ccf3474f03a",
+      "editId": "df16e765-ef3e-47a4-88d4-db56cd9e41b0",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "O Mortyencontro Rickturiano",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2017-10-01T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "7d96dca0-2bbc-4ace-98e9-e7d81286601a",
+      "editId": "06d4e53b-06fa-45e0-a9c1-9f1064e0db71",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "No Limite da Morty: Rick, Morra Rickpita",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2019-11-10T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "137b812e-887a-4a38-ae7e-04186e4360e7",
+      "editId": "7cb000dd-88a7-474e-bb04-8befefcdce5d",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "O Velho e a Privada",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2019-11-17T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "9674e9f1-fff1-4e3c-822c-75b48d5a99dc",
+      "editId": "8972809d-6297-40a1-8df5-9848e2505137",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Um Estranho no Ninho de Morty",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2019-11-24T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "3d4c5062-61ff-4987-a04d-2334926af12e",
+      "editId": "6f8dc7f0-4568-44e1-84b6-84cf4b9b6841",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Fora da Lei e com Desordem: Unidade de Vítimas do Morty",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2019-12-08T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "3ea08cc5-73c5-4b3d-8de6-58a9359ed918",
+      "editId": "2ee7c08e-d129-4c0d-9cb8-d81eb0c32ec0",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rattlestar Ricklactica",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2019-12-15T00:01:00Z",
+      "duracaoMs": 1304000
+    },
+    {
+      "videoId": "4f78daf7-db00-4da5-b622-3308a75e71ea",
+      "editId": "d5a29102-51e0-4c75-a788-4e2d63633bba",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Fãs do Rick",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2020-05-03T00:01:00Z",
+      "duracaoMs": 1290000
+    },
+    {
+      "videoId": "85c2c929-4dbc-4a56-bbb3-70464bc2ecfe",
+      "editId": "9caf0ca2-c7ed-420f-8405-b36af785ecc2",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Os Sugadores",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2020-05-10T00:01:00Z",
+      "duracaoMs": 1277000
+    },
+    {
+      "videoId": "0828b042-a4f2-4607-9c57-9cb6669bd9d8",
+      "editId": "aa403a9b-efe8-4bf4-9369-454c92bb6808",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "O Tanque do Ácido",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2020-05-17T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "a107d3ef-28de-4091-a9a4-e38e3dec6868",
+      "editId": "c62d6f1a-b529-46c7-90ab-08acc882d524",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Gravidez",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2020-05-24T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "e2ee1f42-05e7-4e0a-a98f-d1d31f0112af",
+      "editId": "0b4e69a4-9a2e-4e7b-aab9-b47a4dcbba23",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Star Mort: O Retorno de Jerri",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2020-05-31T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "aefa63ae-6ea4-482a-a5d2-856be1fc6275",
+      "editId": "4d6c8be2-fdfa-42f5-87ba-d2e98c0889da",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Jantar para o Inimigo",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2021-06-20T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "7123b624-5e14-4d35-acfd-0a5a59079947",
+      "editId": "679e0072-115a-4d97-92f1-285810467b2c",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Mortyplicidade",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2021-06-27T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "bd603c5b-a972-4b16-84f3-01e58f7e6096",
+      "editId": "55e6907f-e266-4771-9482-0f58ff93c36d",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Morty e Planetinhas",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2021-07-04T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "524b9591-1bbc-4733-9c22-4056ce8bd88a",
+      "editId": "a05ee3b5-fde7-4118-9b22-ae38b1f4c8a1",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rickdependence Spray",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2021-07-11T00:01:00Z",
+      "duracaoMs": 1333000
+    },
+    {
+      "videoId": "8601f1de-49e4-4bda-a9a2-647f46fbd320",
+      "editId": "ebf42aff-1106-4c49-9e43-a10bd0553b71",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Noite Infernal",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2021-07-18T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "3a055c7f-5c2c-4f50-84ea-67fddad5e0de",
+      "editId": "c44730ea-15ba-41e2-8eca-85b5b89af2ee",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick e Morty Exploram o Dia de Ação de Graças",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2021-07-25T00:01:00Z",
+      "duracaoMs": 1410000
+    },
+    {
+      "videoId": "3d2fd1e6-9fcd-4eef-a9cd-e6f36f1ab494",
+      "editId": "9ef246a0-3ad0-4ee8-8583-9137f0a13a91",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Vício em Robôs Liberado",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2021-08-01T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "f9828899-c1fb-4141-a428-175cecc487a6",
+      "editId": "4c8633f2-5444-454d-bc44-02dd459ffaed",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick, o Salvador",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2021-08-08T00:01:00Z",
+      "duracaoMs": 1327000
+    },
+    {
+      "videoId": "1ec1336c-2d55-4c8f-85ae-14f0afd5ea1d",
+      "editId": "7e278391-a31f-4f26-ab29-5ce61778ba74",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Ressaca de Amor",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2021-09-05T00:01:00Z",
+      "duracaoMs": 1276000
+    },
+    {
+      "videoId": "85ab2781-a0b0-4745-b0c6-0d276417d23f",
+      "editId": "07b4a48e-0160-43be-ae09-59e185099295",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rickmurai Jack",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2021-09-05T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "c8b6ee11-e89d-4646-b0d6-69a0a1cce0f3",
+      "editId": "4096c2b7-17fd-4dd1-8f52-d62a2f96489f",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "À Deriva no Espaço",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2022-09-04T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "1c717ce0-a864-4373-b367-44ac6a52fb80",
+      "editId": "87f5b5e1-d36d-404c-8a4d-87c3df10283f",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick: Duro de Matar",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2022-09-11T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "ce25e32f-4b82-421a-96c9-81d4d2d38363",
+      "editId": "ef72e513-93d4-4b1a-b2c9-9bf0f18cc6cb",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Beth e o Amor-Próprio",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2022-09-18T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "96554663-76e5-4f98-8ac3-6a5fc7a74d32",
+      "editId": "6f6e5f36-1537-4d84-9bb5-6353da615c41",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Família Noturna",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2022-09-25T00:01:00Z",
+      "duracaoMs": 1245000
+    },
+    {
+      "videoId": "107e1e23-28b9-4f29-b961-131c6b8c7af6",
+      "editId": "334daa70-a45b-41db-abd2-0c6b5a7bcab7",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Biscoito da Sorte, Só Que Não",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2022-10-02T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "a1b25d26-3da0-4ad2-b477-3266c318abd0",
+      "editId": "76b0b731-de52-41ba-8566-73d8a2939c92",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick, Morty e os Dinossauros",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2022-10-09T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "5ab8f082-6ef4-4194-bbb4-9e9e3ea58df1",
+      "editId": "8039a7ff-3568-43f9-8ac1-7e0de71230bf",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Metarrealidade",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2022-11-20T00:01:00Z",
+      "duracaoMs": 1276000
+    },
+    {
+      "videoId": "aaae58b6-b491-4cc7-b472-df7de3547dc7",
+      "editId": "b3d807ff-7064-4318-a41d-9b714ebb79d0",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Cara do Mijo",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2022-11-27T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "ef47290d-37db-4325-af94-cae808b2f459",
+      "editId": "89dd285b-4f4b-4288-8101-b8bf20a8a5a1",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Presente de um Estranho",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2022-12-04T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "3e19a84a-1012-4a64-9d2b-a4e063337a3b",
+      "editId": "64231ea8-40b9-435a-9608-a279312af53d",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Natal Caótico",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2022-12-11T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "125a4d46-6f4c-43fc-b2db-73ae6c01519a",
+      "editId": "56767177-5a08-4b8e-a7d0-c49797d3a8a8",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Como Bunda Se Recuperou",
+      "temporada": 7,
+      "episodio": 1,
+      "airDate": "2023-10-15T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "c61eaa83-5674-483a-be75-8a3e0fc18cd1",
+      "editId": "30e76a77-03d6-453e-b8b9-54fd2cb68d75",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Armadilha Jerrick",
+      "temporada": 7,
+      "episodio": 2,
+      "airDate": "2023-10-22T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "50b96e12-b16b-4471-a293-3e0ee1c73bc4",
+      "editId": "b937e840-8bf6-4ec2-b8ff-d97ecfb6a66d",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Força Aérea Wong",
+      "temporada": 7,
+      "episodio": 3,
+      "airDate": "2023-10-29T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "4d0e15de-44c0-432e-b208-b092611f2672",
+      "editId": "f62b32d8-88c4-40ae-80b8-1600c07b4a78",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "É de Morty",
+      "temporada": 7,
+      "episodio": 4,
+      "airDate": "2023-11-05T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "b37d8b94-536a-4332-afca-6076c1389838",
+      "editId": "20109dd3-2df9-4c99-b939-507bb27571ae",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Não Mortificado",
+      "temporada": 7,
+      "episodio": 5,
+      "airDate": "2023-11-12T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "303c1330-e157-4211-be03-7435e68b5df1",
+      "editId": "990db12f-3700-4133-95d3-87fd0ad0837f",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick Defendendo Morty",
+      "temporada": 7,
+      "episodio": 6,
+      "airDate": "2023-11-19T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "db52c07e-7665-4a5b-9a0a-ef577027c8f9",
+      "editId": "54556c66-ad00-45a8-97c3-d7873edea8f5",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Uma (Con)Fusão Perigosa de Summer",
+      "temporada": 7,
+      "episodio": 7,
+      "airDate": "2023-11-26T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "61fb37f5-5baf-4307-ad22-a82fcb0f57df",
+      "editId": "95f6bee9-c436-4c46-a8d6-6127aa19a176",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Ascensão dos Numericones: O Filme",
+      "temporada": 7,
+      "episodio": 8,
+      "airDate": "2023-12-03T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "9927f4c1-9eae-489e-aecf-c8681b09ebc2",
+      "editId": "de9434ba-c142-472c-abeb-452771af705b",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Morty: Ragnarick",
+      "temporada": 7,
+      "episodio": 9,
+      "airDate": "2023-12-10T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "4b6075a5-32f8-4a23-a3a7-6199f151d0d1",
+      "editId": "21d41ecc-e96d-42c3-95fc-bb0f7373086c",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Não Tema Morty",
+      "temporada": 7,
+      "episodio": 10,
+      "airDate": "2023-12-17T00:01:00Z",
+      "duracaoMs": 1397000
+    },
+    {
+      "videoId": "0b1d4305-5e75-43ca-88b2-30e2c6aac25c",
+      "editId": "3928e4d2-419d-42ce-9ab9-067d98b56fb5",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Summer de Todos os Medos",
+      "temporada": 8,
+      "episodio": 1,
+      "airDate": "2025-05-25T00:01:00Z",
+      "duracaoMs": 1395000
+    },
+    {
+      "videoId": "7b13116b-882a-4ed3-a9ac-2e0816e4bc85",
+      "editId": "0d6f85ac-93dc-423e-ab62-8e92e6873a22",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Valquírickia",
+      "temporada": 8,
+      "episodio": 2,
+      "airDate": "2025-06-01T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "f0616068-d773-4aff-89c7-db0e0c64edf1",
+      "editId": "92cad0a3-7530-425c-9ff5-ad851102a1ab",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Homens em Rickonflito",
+      "temporada": 8,
+      "episodio": 3,
+      "airDate": "2025-06-08T00:01:00Z",
+      "duracaoMs": 1282000
+    },
+    {
+      "videoId": "60a9ac9d-38e7-4fc1-924e-3ae15115c9be",
+      "editId": "1207017b-ab09-48a9-8229-65cb3dfd9d87",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "A Última Tentação de Jerry",
+      "temporada": 8,
+      "episodio": 4,
+      "airDate": "2025-06-15T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "34462912-2074-4f36-a681-ef20d93bd612",
+      "editId": "5e8e6365-41e5-4a26-8657-92d9c2a2e4bb",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Foi um Crio Que PaRickssou em Morty Vida",
+      "temporada": 8,
+      "episodio": 5,
+      "airDate": "2025-06-22T00:01:00Z",
+      "duracaoMs": 1296000
+    },
+    {
+      "videoId": "e5b44961-3b48-46c8-8723-c37473db7ba5",
+      "editId": "f0c210b4-9c61-45c4-bf87-03dc4fd7bb2b",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "O Rickurioso Caso de Bethjamin Button",
+      "temporada": 8,
+      "episodio": 6,
+      "airDate": "2025-06-29T00:01:00Z",
+      "duracaoMs": 1314000
+    },
+    {
+      "videoId": "59620ec4-b831-4c29-9aac-42d0957382b7",
+      "editId": "16e4c44f-2d37-4827-bb6a-73ceb5e3bbef",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Maior Que a Rickção",
+      "temporada": 8,
+      "episodio": 7,
+      "airDate": "2025-07-06T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "e282141e-a962-4d16-8f61-08d70bbd940e",
+      "editId": "6286a87b-5193-49ff-a0bc-985556622c4d",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Nomortland",
+      "temporada": 8,
+      "episodio": 8,
+      "airDate": "2025-07-13T00:01:00Z",
+      "duracaoMs": 1341000
+    },
+    {
+      "videoId": "721f6652-16b7-431e-996c-f537011276c5",
+      "editId": "20d904ba-52eb-4952-8bc0-df68c30bef08",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Papis Morty",
+      "temporada": 8,
+      "episodio": 9,
+      "airDate": "2025-07-20T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "6acd5668-da54-4cfd-8579-b00c81e87c5f",
+      "editId": "ee106d6b-c641-48d2-b1a2-8e4acda3592c",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Hot Rick",
+      "temporada": 8,
+      "episodio": 10,
+      "airDate": "2025-07-27T00:01:00Z",
+      "duracaoMs": 1384000
+    },
+    {
+      "videoId": "4f95fb9a-88c6-4f95-926a-e50ca5a33af7",
+      "editId": "825368e7-08bb-4a56-a092-bf0a2dd337c2",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Quem Vai Rickar com Morty?",
+      "temporada": 9,
+      "episodio": 1,
+      "airDate": "2026-05-24T00:01:00Z",
+      "duracaoMs": 1333000
+    },
+    {
+      "videoId": "d338e883-37ed-4f06-8b6e-e84c203df0f3",
+      "editId": "2f8008e2-cd34-4a96-9c8a-4f53ca48736b",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Rick Dias, Sete Noites",
+      "temporada": 9,
+      "episodio": 2,
+      "airDate": "2026-05-31T00:01:00Z",
+      "duracaoMs": 1330000
+    },
+    {
+      "videoId": "1e76bf76-d741-4e59-a994-9e710c7ba331",
+      "editId": "0f25635b-ec0a-498a-8d52-12192c8701b6",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "RicKung Fusão",
+      "temporada": 9,
+      "episodio": 3,
+      "airDate": "2026-06-07T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "118f2539-83df-472d-862a-b9f24aba9dd4",
+      "editId": "c3d0cd51-4162-4901-bdc8-d07b2bceac50",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Nada É PaRick Sempre",
+      "temporada": 9,
+      "episodio": 4,
+      "airDate": "2026-06-14T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "afc3c80f-fada-4768-ae13-f539d8ad7e10",
+      "editId": "e24d7324-a658-4a92-b022-c4da740d2986",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Jer Bud: O Verme Amigo",
+      "temporada": 9,
+      "episodio": 5,
+      "airDate": "2026-06-21T00:01:00Z",
+      "duracaoMs": 1325000
+    },
+    {
+      "videoId": "7a1abe4a-ddab-4d21-b225-d4a3b4585a2e",
+      "editId": "75bb7117-40b8-40fe-b330-ce6a7e8959f8",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "ERickerHead",
+      "temporada": 9,
+      "episodio": 6,
+      "airDate": "2026-06-28T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "7e32d9b9-5e19-4a5a-af7e-54c7c180491c",
+      "editId": "ead826ec-20bd-4180-b023-c752dee31ce8",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "MortGully: Aventuras na FloRicksta Tropical",
+      "temporada": 9,
+      "episodio": 7,
+      "airDate": "2026-07-05T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "ee7aa67b-7fd6-4171-a194-c1ea3aa7643a",
+      "editId": "bccd67ed-1672-4f17-998c-09ea1cd75ab0",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Ríckiem Mort um Sonho",
+      "temporada": 9,
+      "episodio": 8,
+      "airDate": "2026-07-12T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "4c351980-1e83-4e21-b663-ff659daea110",
+      "editId": "f2cb0e42-476d-40f7-9692-dd964e9b32a4",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "AcampaMorty de Férias",
+      "temporada": 9,
+      "episodio": 9,
+      "airDate": "2026-07-19T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "6300ef68-8e6f-44d4-ba21-4d7de200a546",
+      "editId": "7c7761a6-60c5-4c70-853a-3a05a8fc13a1",
+      "showId": "ab553cdc-e15d-4597-b65f-bec9201fd2dd",
+      "nome": "Campo dos Sonhos",
+      "temporada": 9,
+      "episodio": 10,
+      "airDate": "2026-07-26T00:01:00Z",
+      "duracaoMs": 1357000
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "slug": "johnny-bravo",
+  "showId": "36783270-f344-487e-b98b-36337db5dea0",
+  "nomeOficial": "Johnny Bravo",
+  "capturadoEm": "2026-07-28T06:41:13.929Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4"
+  ],
+  "episodios": [
+    {
+      "videoId": "1d87d08c-2149-4c80-915c-2466f4ca3752",
+      "editId": "e278a915-e2b4-4c0d-bc63-841ee58e2e05",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Super Bobalhão / Confusões na Floresta / Falta de Tempo",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "1997-07-14T00:01:00Z",
+      "duracaoMs": 1308000
+    },
+    {
+      "videoId": "3d24c5bb-b366-4200-8bfa-3404b6db41b8",
+      "editId": "a8f15a02-555a-4401-84c0-ed29cacf786e",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Homem Sensível / Bravo Doo By Doo",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "1997-07-21T00:01:00Z",
+      "duracaoMs": 1313000
+    },
+    {
+      "videoId": "b37d2a05-f1e2-4c08-b9d5-db4a0a7d49ab",
+      "editId": "79f5a39a-35cb-43e2-8b1b-8038751da927",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Encontro com Um Antelope / Você Viu Um Touro Correndo por Aqui? / Crise de Biscoito",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "1997-07-28T00:01:00Z",
+      "duracaoMs": 1309000
+    },
+    {
+      "videoId": "f109e5fa-1cb1-4072-9504-2c7a1aa88ac2",
+      "editId": "f8730a05-f34b-4321-bbe9-d7839080562e",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Eu Costumava Ser Engraçado / Meu Querido Certinho / Era a Noite",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "1997-08-04T00:01:00Z",
+      "duracaoMs": 1310000
+    },
+    {
+      "videoId": "4e37298f-81dc-4b0f-8569-8eccd6e8b492",
+      "editId": "a32a2995-caa1-4c9d-ac62-df18a1f2bf49",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Amigos Bajuladores / sobre a Corcova / J.B. Encontra Farrah Fawcet",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "1997-08-11T00:01:00Z",
+      "duracaoMs": 1308000
+    },
+    {
+      "videoId": "4a1ff3aa-75f1-4bd1-b9f7-94f124c13f1f",
+      "editId": "538fdbfe-d43e-4018-94cd-ad8ba78c45b7",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Trapaça com a Manta / Fala Comigo Baby / Fracasso no Hip Hop",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "1997-08-28T00:01:00Z",
+      "duracaoMs": 1311000
+    },
+    {
+      "videoId": "1e277d6d-8b20-4035-95e9-e19043f164dd",
+      "editId": "37a9f1b5-eeed-4e30-8006-11e4662504c3",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Bravo, O Chato da Praia / O Dia em Que a Terra Não Mexeu Muito / a Pilha de Brinquedos Bagunçados",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "1997-08-25T00:01:00Z",
+      "duracaoMs": 1311000
+    },
+    {
+      "videoId": "81a2612b-9946-43f0-ab7f-2cdb9f682f39",
+      "editId": "e2a548c6-8f3a-4ce5-bee5-cea261908c9c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Professor Substituto / Um Lobo em Roupa de Garota / Tratamento Intensível",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "1997-09-01T00:01:00Z",
+      "duracaoMs": 1310000
+    },
+    {
+      "videoId": "570bb1fa-0250-431c-864b-f093cf4ea8e2",
+      "editId": "d0ea19da-ede1-4c7f-9231-70cdc5e9a3e1",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Jumbo Johnny / O Presente Perfeito / Bravo, James Bravo",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "1997-09-08T00:01:00Z",
+      "duracaoMs": 1308000
+    },
+    {
+      "videoId": "1804d45d-0991-493f-be59-995633919645",
+      "editId": "9da34ae4-b0b2-4e65-b528-7c9674cee041",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Enlouquecendo / Barry, O Criado / Envergonhado na Casa Branca",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "1997-12-01T00:01:00Z",
+      "duracaoMs": 1314000
+    },
+    {
+      "videoId": "7413676c-f9ab-4af5-9694-12712cc4d2c1",
+      "editId": "b473c3d5-58a1-4da1-94e6-1c29f04d8d60",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Homem Que Reclamou do Palhaço / Johnny Bonzinho / Pequena Tabita Falante",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "1997-12-08T00:01:00Z",
+      "duracaoMs": 1309000
+    },
+    {
+      "videoId": "7945d457-455d-448e-8844-b447ec957c4b",
+      "editId": "e32b173a-b796-480a-9f36-aa905c9d83b1",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Bravo Encontra Adam West / Numa Grande Furada / Johnny Bravo Encontra Donny Osmond",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "1997-12-15T00:01:00Z",
+      "duracaoMs": 1315000
+    },
+    {
+      "videoId": "f315a26b-bc0e-4ef2-9107-034b2007ee86",
+      "editId": "422c89e9-ebc8-41f3-8d77-e872476002c5",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Contrôle da Mente / Garôto das Selvas/ Senhor Macaco / Johnny Bravo E As Mulheres Amazonas",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "1997-07-07T00:01:00Z",
+      "duracaoMs": 1297000
+    },
+    {
+      "videoId": "4ddf7ccc-f46c-4d28-b556-a397333b78f4",
+      "editId": "e4f53b18-ae2b-4132-b783-e62f5a67a440",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Planeta Espacial Biquíni / Moby Burro / Um Gel para Johnny",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "1999-07-02T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "7a348c18-c46e-4e76-948e-55ba1afcb312",
+      "editId": "5f828fc6-3ce3-438b-941b-62ec3aea8f0f",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Pega Seu Fru Fru / O Inferno de Johnny / Tronco da Floresta",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "1999-07-30T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "f451cc2f-128a-44d6-8586-f6fb3396a640",
+      "editId": "ace7f9e0-59bd-4e6c-87a2-23f1bcba3d22",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Crise de Carma / A Estrela Está Machucada / O Principe E O Cabeça de Elefante",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "1999-08-09T00:01:00Z",
+      "duracaoMs": 1323000
+    },
+    {
+      "videoId": "c14d219f-e4af-4966-ba5b-3467ffd7160a",
+      "editId": "3dbddc74-16b1-40bc-947e-01806815483a",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Garras Garotão / Para Helga E de Volta / Garotão da Revista",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "1999-08-13T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "b48f88d3-f377-45ab-832f-6cc24a9f5384",
+      "editId": "f05af9ce-566a-4838-9840-675750f955bb",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Chato sem Fim / Johnny Prisioneiro / Bravo 13",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "1999-08-20T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "714bfe46-d779-4c58-bee9-78f0fde27439",
+      "editId": "58b105e2-cc36-4acc-a160-18930670be7c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Companheiros da Pesada / Teleton do Johnny / Anjo da Guarda de Johnny",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "1999-08-27T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "5a660a23-c45b-469f-b0bc-fbc968bccc59",
+      "editId": "ee474af1-dedf-4b41-b312-ee3670c363c9",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Eu Mosca / Idiota do Norte / Escola de Etiqueta",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "1999-09-03T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "7d9417aa-022a-4c5b-b175-253f0b3ee8f0",
+      "editId": "a1cb7968-b8d4-404f-8e0a-9a15a33ce439",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny E O Pé de Feijão / Um Garôto E Seu Passarinho / Macaco É Demais",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "1999-09-10T00:01:00Z",
+      "duracaoMs": 1295000
+    },
+    {
+      "videoId": "0ecefb71-68c7-434a-8e1e-14da3199ddda",
+      "editId": "2d129535-4fad-44ce-84c4-1781713e1dbe",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Pânico na Cidade da Carne Seca / Allien Confidencial / O Novo Namorado da Mamãe",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "1999-09-17T00:01:00Z",
+      "duracaoMs": 1323000
+    },
+    {
+      "videoId": "b863f980-e0c5-4328-8822-a5f2b5e3ee01",
+      "editId": "215dfab4-c10f-4b28-a34e-6c5895a3aa63",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Benvindo Bravo / O Homem com Barriga de Ouro / a Fazenda da Tia Katie",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "1999-09-24T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "2259c70c-c517-4f7a-8c47-691133d4ae8f",
+      "editId": "64e506da-2d56-4f07-8e35-de25019cf965",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Confusão na Lagoa / Johnny Vai Acampar / Sua Própria Liga",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "1999-10-01T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "70d18373-079e-428a-a890-fdd13b921652",
+      "editId": "38f4dbaa-4862-4eb7-853f-fe486fe52873",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Bravo Novo Johnny/ Que Testemunha / Carl Não Seja Orgulhoso",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "1999-10-08T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "57f7565e-e9d7-4fcb-98dd-ccc312fe57d8",
+      "editId": "b4a969a5-9e14-4129-a246-baaafffd9952",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Bravo Magnífico / Johnny E Julieta/ O Clã do Urso da Caverna",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "1999-10-15T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "c12eab83-5da8-4b1c-b773-2813dc71c9a1",
+      "editId": "47a7185b-848c-4561-96ed-b453e111a017",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny da Galáxia / O Dia de Folga de Damien / Noir Johnny",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "1999-10-22T00:01:00Z",
+      "duracaoMs": 1296000
+    },
+    {
+      "videoId": "29591c0e-f0dd-4546-87bd-4a2e8f07ab52",
+      "editId": "65761fe2-48e9-408c-8fd0-8bfb8fd5663b",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Viva O Idiota / Um Tolo para a Irmã Sara / Dias de Erros",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "1999-10-29T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "4cb8c8d0-0083-42e1-b3fb-0fcef8cf3239",
+      "editId": "d1a901d4-c37b-4568-ab47-298d2f8c39d4",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Pop Art / O Pateta do Rancho / Um Bolo Longe Demais",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "1999-11-05T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "3f46d5f0-00b1-4956-8060-379d43753c66",
+      "editId": "d231e062-71d0-4f13-9a5a-4922a873a293",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Olhe Quem Baba / Lei E Desordem / Dentes Ou Consequências",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "1999-11-12T00:01:00Z",
+      "duracaoMs": 1316000
+    },
+    {
+      "videoId": "e81badd3-4194-4b7d-bd6e-57c05d67ea85",
+      "editId": "b33bb352-66dc-40ea-b162-93ca2c264284",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Inafundável Johnny Bravo / Rashbobão / Amorzinho de Graça",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "1999-11-19T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "23b1016c-d6bb-4eab-8d05-84644c9a7204",
+      "editId": "8c449655-671d-4213-978f-8e411c5b108c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Bom Cavaleiro Johhny Bravo / O Garotão sem Pistas",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2000-01-07T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "a161b4b8-ae83-4b67-8ea2-7c325dd73db5",
+      "editId": "e687a854-7a99-4f28-b2c0-c8fff865cbf7",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Yukon Tolo / Johnny no Colégio / Mandem Os Clones",
+      "temporada": 2,
+      "episodio": 20,
+      "airDate": "2000-01-14T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "81ab64bc-5069-49fe-8f92-6af0a7888fe3",
+      "editId": "1f60fca1-508f-4fdb-8a47-cec0968b35db",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Loch Ness / Johnny Mamãezinha / Que Idiota",
+      "temporada": 2,
+      "episodio": 21,
+      "airDate": "2000-01-21T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "5cd07a96-dbe9-40fa-a489-41af9bdde6f1",
+      "editId": "89270d69-3c07-4ec0-b787-3724cec04c06",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Enquanto Fico Soluçando / Paraíso Marítimo / Johnny Deus Trovão",
+      "temporada": 2,
+      "episodio": 22,
+      "airDate": "2000-01-28T00:01:00Z",
+      "duracaoMs": 1316000
+    },
+    {
+      "videoId": "01981f6f-5e96-4271-90a6-a9f05d90502f",
+      "editId": "27ce7899-1ecd-4119-ac1a-4590a62e14d4",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Guia do Amor de Luke / Na Linha, Johnny / Johnny Fugitivo",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "cd283e51-c2c5-48cd-af96-3cc7cbd5f4ea",
+      "editId": "63d60dc2-af8f-4cd4-bd73-d3a5af872377",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Virtual / Caçados / Sigam Aquele Panaca",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "4e994d55-1612-429e-a439-296bdb49ced3",
+      "editId": "ee0e5ddf-1ca4-482c-9af1-d7c33cd7e0d1",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Candidato Johnny / Air Bravo / Johnny Seja Mau",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "e09c427d-e089-44af-b113-0c63aa438953",
+      "editId": "0173db45-2132-4c4d-9d04-b556c473a748",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Furo do Bravo / O Incrível Johnny Que Encolheu / contra Vento",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "746b5378-cbcc-4e16-b134-b8e2a9fe368e",
+      "editId": "c906596b-0e3a-4f66-93b9-8e0caa10007c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Caso de Johnny Bravo / Johnny Biosfera / Energia Pura",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "9b1c4bcf-1ec3-4412-abe1-398a5a121d0e",
+      "editId": "849269f1-4433-4be3-a54e-bcbbb9e006df",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Tolo por Um Dia / Só Sonhando / Alguns Gostam de Burro",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1323000
+    },
+    {
+      "videoId": "9b875345-e9f5-447e-87e8-60ee9be41b62",
+      "editId": "d0e38f44-c155-4dba-9b8f-4cc967c98589",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Piada Dental / Johnny Vermelhinho / Bolsa da Pesada",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "d5c74ea7-2a9b-452b-9c2a-790f2b52509a",
+      "editId": "c792b407-01b8-4b45-9a59-b79f145e6100",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Jurássico / Mascote da Academia / Johnny da Pesada",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1296000
+    },
+    {
+      "videoId": "28e577b9-8670-4cba-9aab-9cd5c321e6b4",
+      "editId": "f5f93632-cd4d-4a5b-9ebd-1627863c4f1b",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny no Gelo / Robô Mamãe / 20.000 Léguas Acima da Cabeça",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "be3f3202-dc69-4104-b283-0e360185fb06",
+      "editId": "f2e323eb-e58c-4fa0-818e-07ccd3ae7bf0",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Sonho com Johnny / Um Bravo Irado / Feira dos Malucos",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "02641b05-054c-4a30-b38b-89f977afb798",
+      "editId": "c92bfd3a-fa58-4de6-9a99-db19d751dcd6",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Uma Caminhada no Lado Estúpido / Bravo Estrela Solitária / Johnny Boneco",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "52c58db2-4c33-4e73-b830-81cb15f12631",
+      "editId": "771b9f1b-ef12-4579-82cc-18fe8432e8ef",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Grande Livro do Coelhinho / Enfrentando O Esquilo / Franken-Bravo",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "df6ca836-df4a-49b7-92ab-a21c601c5fad",
+      "editId": "53ba0ec4-1c94-471a-948d-f2bfb6ffbe45",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Senhor dos Links / Homem de Botas / Deslize Freudiano",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "efa8434c-3bbe-4f3e-a88e-8d5127c3f841",
+      "editId": "62fa7a0f-b985-4971-aa40-d55985335b75",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Irmão / Johnny Prisioneiro / Johnny Madeireiro",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "7bb4d401-7655-4d62-91f6-f6d34bc53129",
+      "editId": "93496003-8104-4f0c-aeee-efe1fcc92693",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Câmeras, Ação! / Trem Desgovernado / Um Desejo Corre por Ele",
+      "temporada": 3,
+      "episodio": 15,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "48839a9e-5a0f-4eda-914a-86f15582fea7",
+      "editId": "27a26f81-e1f7-4565-8216-2d3c28d5e75c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "A Ilha da Sra. Moreau / A Cor da Mostarda / Terceiro Idiota do Sol",
+      "temporada": 3,
+      "episodio": 16,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "87f09da0-3932-4902-8af0-128d4281c3b4",
+      "editId": "eb0872d8-8056-42a5-bf9d-0190d381f715",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Projeto da Bruxa de João E Maria / I.Q Johnny / Pegue O Fedorento",
+      "temporada": 3,
+      "episodio": 17,
+      "airDate": "2000-01-01T00:01:00Z",
+      "duracaoMs": 1314000
+    },
+    {
+      "videoId": "880e5136-fa9e-4411-99c1-6f736de4bb8a",
+      "editId": "d4613b1d-2f7b-4a9f-9706-473d7e53b0e0",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Bravo Vai para Hollywood",
+      "temporada": 3,
+      "episodio": 18,
+      "airDate": "2003-01-01T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "a7d986a9-b263-45ac-9640-3404f5af34c4",
+      "editId": "9ecf9b41-b0ff-48da-9a93-0feb7028f22e",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Problemas de Trânsito / O Meu Amigo Engraçado",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "bb326302-0f95-4fee-bbee-f40375e63540",
+      "editId": "42d97f3e-3abb-44b5-96f6-427cc7503736",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Como Ganhar El Toro Guapo / Jonny Bravo Vira Mulher",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1331000
+    },
+    {
+      "videoId": "af12fe70-af95-44b5-bc19-23141205472b",
+      "editId": "438d867f-77e1-49b0-8799-967c9d14d06c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Sozinho em Casa",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1249000
+    },
+    {
+      "videoId": "90e22a7d-5923-4371-9b23-873b4f69f7e0",
+      "editId": "b934fba9-86b5-48de-bc09-a4dd6f63248c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny Bravo Miniatura / de Volta do Futuro",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "307245ab-5714-4735-b0ac-77345e4729fd",
+      "editId": "7c62a11f-152c-4a46-b99f-f16d6050227a",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Isso É Que É Diversão / Non, Oui Sim para O Johnny",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "219b8573-3e64-466e-9a86-90798c0def6c",
+      "editId": "7251f223-4dc1-418c-812e-2cb67b866170",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "A Pazada / T de Tumulto",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "aa442ccf-4fad-4864-98a5-81f046214fe6",
+      "editId": "060083f5-72f8-45d6-8a98-82e7a59a7f4c",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Problema Grisalho / Vendo Demais",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "7fbf8d08-f9a2-4925-9531-25043af548e8",
+      "editId": "e429698c-b5ac-481a-abfe-4047d764c54f",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Homem Invisível / O Gostosão no Final deste Desenho",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "9f387b0b-df29-4438-aacc-34af2d8bcbdb",
+      "editId": "26617b3f-8287-486c-8021-d1e93a8b080a",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Antes E Depois / Tarde Demais",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "06601adf-2555-4bfe-8abb-1e062d10be50",
+      "editId": "cb581037-a3c8-4dca-82e4-d48349848ce7",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Programa de Proteção ao Alce / Ia Ba da Ba Bravo",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "748054c0-5bf1-4439-b4bb-056cbd5eeb24",
+      "editId": "e623a378-3918-47ce-aa23-40311362440e",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "Johnny BRAVO, Detetive da Tv / Namorando na Tv com Adam West",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "c379670b-4d6f-444b-98dd-024cd8296d9c",
+      "editId": "8154d32d-f54c-41a5-aa3d-510385d8c6df",
+      "showId": "36783270-f344-487e-b98b-36337db5dea0",
+      "nome": "O Novo Johnny Bravo / Amuleto da Sorte",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2004-01-01T00:01:00Z",
+      "duracaoMs": 1361000
+    }
+  ]
+}

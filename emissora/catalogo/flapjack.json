@@ -1,0 +1,473 @@
+{
+  "slug": "flapjack",
+  "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+  "nomeOficial": "As Trapalhadas de Flapjack",
+  "capturadoEm": "2026-07-28T06:45:34.272Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3"
+  ],
+  "episodios": [
+    {
+      "videoId": "8fc2fb71-33c3-4464-9e14-ee89a382a3fb",
+      "editId": "d6f207e4-74ad-49d1-9330-1b847a156d04",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Kid Níqueis / A Doce Vida",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2008-06-12T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "3ef51cb5-06ac-4693-89c8-c242831192dd",
+      "editId": "b2525c67-4c15-4f5b-941d-0055d2608f1a",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Várias Léguas Acima Do Mar / Mas Que Embrulho!",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2008-06-19T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "4ab0b61b-9f4c-4fbf-a519-53698db22278",
+      "editId": "be509357-1646-4e7e-9053-780820d931f4",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Barba E Corte De Cabelo... Dois Amigos! / Eu Te Vejo",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2008-06-05T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "6bd9608c-5ce4-440f-93ff-1f097cf425b2",
+      "editId": "0a7d2cae-cb4f-4589-83b3-55a87bbe90a4",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Várias Léguas Sob o Mar / Ilha Cammie",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2008-06-05T00:01:00Z",
+      "duracaoMs": 1384000
+    },
+    {
+      "videoId": "6a32f865-44c4-4930-b886-c9cad0824a2c",
+      "editId": "e3e015a9-cbbf-400a-be7d-6b2a79b9015b",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Escolado / Snarkizado",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2008-07-03T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "129947d1-886f-4030-b31d-1808459728a0",
+      "editId": "fdd0f06c-c80d-400d-8c7d-1d85c233b870",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Queimação Nos Pés / Me Dá A Minha Mão",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2008-07-10T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "fbb74da5-ec0d-4c9b-9de5-ec8fa07b12a3",
+      "editId": "e54346f2-35df-4ff2-a54c-6768a800997b",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Como O Oeste Era Divertido / O Falange É Um Rato Sujo",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2008-07-17T00:01:00Z",
+      "duracaoMs": 1381000
+    },
+    {
+      "videoId": "5d927667-f51c-473e-b28b-0e1d4438140a",
+      "editId": "b8114541-685c-4f18-8ff4-c30f9e896fe3",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Músculo De Sentar / \"Nó\" Tem Graça",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2008-07-24T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "7e5bd96c-09a9-4112-bf4e-7b0d59b60a03",
+      "editId": "35fe9cb2-6a6c-46e0-874e-5cb40d8d055e",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Procurando Amor Nas Barricas Erradas / Amigos De Barba",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2008-07-31T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "ac39ea44-269f-4893-a46d-f5cbdb0ad0ab",
+      "editId": "859f4a24-85ad-4712-b893-0cc92d4ca3ec",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Trocadilhos Com Trocadilho Mckale / Equilíbrio",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2008-08-07T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "d1797b31-f08f-46f0-aa46-71c380148aaf",
+      "editId": "76976259-3b95-483a-ac42-456461760ccb",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "A Ilha Do Gênio Mecânico / Vingança",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2008-08-14T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "c8d862d0-7ff6-49d8-9052-272fe61f3ebe",
+      "editId": "239764ce-a8d9-4982-a2f4-1123016a226e",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Ah, Irmão / O Outro Flapjack",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2008-08-21T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "84e00f07-d5df-4db7-aac7-a9a54db2faa8",
+      "editId": "e4bcfa62-2912-4c23-b007-39ad1a47f1e7",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Lidere E Chore / Ouriços Do Mar",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2008-12-04T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "a4297019-6c83-41f3-9bac-4f0bdd3d8e5f",
+      "editId": "b35a67d2-abcc-4f3a-b1f1-525a21baccd6",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Pernas Do Mar / Nada De Melado Pra Panqueca Velha",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2009-03-05T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "4ac3270a-68a3-4bc1-9fd3-9e3701773cab",
+      "editId": "41103d23-8280-4288-9978-d3eb1acd213b",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "O Homem Planta / Cabeças De Peixe",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2009-03-19T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "9ce84c37-15d1-4ede-bd6d-e5eac8d557ac",
+      "editId": "6a324839-da9d-40bc-ba3f-bef47bc5f1bf",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Falta Alguma Coisa / Vai Desejando...",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2009-06-11T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "2f30a43a-d329-4caf-911e-846e240c8af1",
+      "editId": "0e5448ea-be85-4b44-b951-bf5accf8d1c0",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Picadas De Amor / Ben Enganador",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2009-02-12T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "3a113185-5564-4622-88d3-bd460f77122b",
+      "editId": "6ebe162a-34de-4cb6-ba7b-efb740c4ea06",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Tempo De Baleias / A Tristeza Do Cruzeiro De Doces",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2009-02-12T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "bdb26924-f38b-4746-ba6e-48501883d049",
+      "editId": "7de951d6-e1b0-4729-b0ce-1f1225ff8f4f",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "O Meu Anjo Da Guarda Está Me Matando! / Meu Querido Diário",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2009-07-02T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "dc9519ee-b960-425c-8df7-e23c1247a315",
+      "editId": "44f6fde2-8afa-499d-b6b5-df788d166cab",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Diamantes No Esgoto / Ri-Ri Antiácido",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2009-07-16T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "cbab2568-21a6-40bf-ae1c-bdec3621dd49",
+      "editId": "ee58df03-c41d-433f-a5df-c421b0e448c1",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "A Garrafa Mágica / Atrás De Cortina",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2009-07-30T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "e0701b3f-8ebe-4704-ba9b-5a439a5aedcd",
+      "editId": "36155840-0a69-41ad-ab38-c8e94e6a2bed",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Feche A Porta / Quem Engana Quem?",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2009-08-06T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "bca516b3-1609-482a-bc5b-f1e3418c9d0d",
+      "editId": "1cdf236a-04dd-4d14-ac6a-6f015b62f04a",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Lá Na Lua / 100 Por Censo",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2009-08-13T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "aa1f4aa4-9614-4725-902e-7e5af8a73e2e",
+      "editId": "044ff5da-85a3-48b7-8124-5be02e5b46ee",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Tirando O Chapéu / Falange E Seu Problema Engraçado",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2009-08-20T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "19a3a9fd-f72b-4dc0-a7a2-31a8bdf8866b",
+      "editId": "ae42d805-4b0e-43db-b556-3fc6504958a8",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Uma Calça Chique / Problema Fofo",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2009-08-27T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "288eb2a3-ae96-4c32-88e4-19d8e454bc9a",
+      "editId": "02a64127-b566-4589-9554-cb05ac8a6d23",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Quem É Esse No Espelho? / Finais Infelizes",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2009-09-10T00:01:00Z",
+      "duracaoMs": 1382000
+    },
+    {
+      "videoId": "11670fc1-d4a7-4a75-b727-0f4c2d6a8b19",
+      "editId": "8a123e94-0031-4307-be8c-795bcf99f67d",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "S.S. Falange / Doce Casanova",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2009-09-24T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "7516ddb5-0482-471a-80e6-1fa0391f4644",
+      "editId": "de4dd444-b986-4deb-834b-a552eea89c1a",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Afundando O Navio / Willy",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2009-10-08T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "9f3f007e-af2b-4cf4-a9a6-f4981ed5dd7e",
+      "editId": "ca795eb0-f73b-4b03-845b-c9c05d3c731f",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "A Dor De Barriga Da Bolha / Cuidem Da Loja, Mas Não Olhem Na Gaveta",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2009-10-22T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "099560ae-27b3-47f5-ab53-12725196148b",
+      "editId": "bbf5adcc-8eef-4f26-875f-b2f595603afd",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Aposentadoria, Por Favor / Embaixo De Um Monstro Do Mar",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2009-11-05T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "37415141-d803-4371-a602-a413e2a0273e",
+      "editId": "f899cb8f-4762-4556-a378-3f66b8bebeb9",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Maré Baixa",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2009-12-03T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "04c3146c-9189-4590-b52b-2786f91f0e67",
+      "editId": "434c1969-192a-42b5-9439-0b145dd72506",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Flapjack Vai À Festa / Rreu Rramo Rrocê",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2009-11-19T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "3e73f2e1-6135-4811-a72f-6f9408d5048b",
+      "editId": "2bf009a4-1fb2-4c9f-aa80-8940364b12bc",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Vem Para Casa, Capitão / O Homem Mais Rápido Do Mundo",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2010-03-04T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "f598e1f3-c154-4ad3-8519-8352d7c9b89d",
+      "editId": "1330c158-57e1-4865-9453-ad271e27f664",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Ah, Que Animal! / A Volta De Saly Xarope",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "2010-03-18T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "302a904d-5e60-4a65-9487-281738e2c091",
+      "editId": "68f61480-3b8d-42a1-987d-0cf6afeb2c55",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Zé Preguiça / Dois Velhos E Um Baú",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "2010-04-11T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "f43e0a69-aa82-484b-8f29-ae2d86d2ff2a",
+      "editId": "6257201a-c96b-4cd8-8350-c6dc2080d1a8",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Bam! / Perdidos Em Terra",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "2010-04-25T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "6410d846-0bae-45c0-b82d-21078186eba3",
+      "editId": "6f40a0c6-e036-41ba-a411-31009e8dff45",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Só Um Beijo / Um Desejo Não Tão Bom",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "2010-05-09T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "309ffeb3-4ffe-460d-893d-d3a21af93384",
+      "editId": "d22a2bae-4de3-43ce-ad73-304c9eafa095",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "N De Navio / O Que Está Preocupando Você, Capitão?",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "2010-05-23T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "389f33ce-f4fa-4883-a0d6-0a2086d9440a",
+      "editId": "3027bc07-d971-494e-92d8-925e6dcaa2ae",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Sou Tão Orgulhoso... De Mim / Um Dia Sem Riso",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2010-06-06T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "7bcd5121-74a4-469a-be78-6774a18c5769",
+      "editId": "a904fe70-578d-466b-913b-d0a36597b2d8",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Todos A Bordo",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2010-06-20T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "d1bbbf98-aaf6-4988-b143-af7d087fd95b",
+      "editId": "4dd1fde3-9940-4769-8609-5d988af43baa",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Aventureiro Da Mentira / Quem Deixou Os Gatos Fugir?",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2010-08-16T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "548ebdc6-ce23-435f-9ac3-8fbc7eb4c574",
+      "editId": "1e9dd8ef-5087-4a23-8acd-7f6280e7ba66",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Tempestade De Sundaes / Falange Não Seja Um Herói",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2010-08-23T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "6d67e334-fb12-441f-acbd-aba007e3199c",
+      "editId": "0891f288-4f5d-47d7-bef4-a29f7ef4843d",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "O Monstro Dos Doces / Peixe Fora D'Agua",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2010-08-31T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "c179e9d4-cd5b-43c8-b200-803e29d1bcb6",
+      "editId": "4eb7beb9-e4ec-40ff-b07c-79138b1d1e3f",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Cuidado Com O Que Pescas... / Prefeito Não Pode",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2010-07-04T00:01:00Z",
+      "duracaoMs": 1384000
+    },
+    {
+      "videoId": "1adcb768-98d8-4fad-8026-aba2d0e248c7",
+      "editId": "484c044e-c273-470f-8184-307907dcd52d",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Acredito Em Tudo / Mentiroso, É Para Alugar?",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2010-07-18T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "ca759326-3495-40cc-b4df-fd1ba9fb44e1",
+      "editId": "3d892c68-768c-4ae0-8474-037bf68892ba",
+      "showId": "6f1381c9-9946-4f8c-9267-de1fddbac365",
+      "nome": "Amigo Doce / Estas Botas Foram Feitas Para Andar (No Seu Rosto)",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2010-08-01T00:01:00Z",
+      "duracaoMs": 1381000
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "fionna-e-cake",
+  "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+  "nomeOficial": "Hora de Aventura com Fionna e Cake",
+  "capturadoEm": "2026-07-28T06:49:27.928Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2"
+  ],
+  "episodios": [
+    {
+      "videoId": "0a6f1b19-2cb5-4eb1-9638-0f87c092519e",
+      "editId": "b596019d-53c8-41c5-9294-6816947b889c",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Fionna Campbell",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2023-08-31T00:01:00Z",
+      "duracaoMs": 1513000
+    },
+    {
+      "videoId": "b458e7be-3f5a-4402-ab74-172531a3beb3",
+      "editId": "4ee08b24-5e73-4b7c-9255-eea1278ad833",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Simon Petrikov",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2023-08-31T00:01:00Z",
+      "duracaoMs": 1574000
+    },
+    {
+      "videoId": "e0588cb7-c0dc-445c-8d91-c65371e9e671",
+      "editId": "a9d29687-9072-497c-b57d-a5e5b841f5d3",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Cake O Gato",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2023-09-07T00:01:00Z",
+      "duracaoMs": 1414000
+    },
+    {
+      "videoId": "672f461e-fbf8-4cd2-80b2-40d60e01f2e6",
+      "editId": "56a3d787-b672-4705-b828-d7dd67de4162",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Prismo o Mestre dos desejos",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2023-09-07T00:01:00Z",
+      "duracaoMs": 1433000
+    },
+    {
+      "videoId": "41dd48f7-90a8-4093-b1ed-3f3a0e45826c",
+      "editId": "7631e2ef-bfd3-4e85-a064-2d3fbbbac70c",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Destino",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2023-09-14T00:01:00Z",
+      "duracaoMs": 1473000
+    },
+    {
+      "videoId": "ec436f9b-dae0-4d90-a694-2af420d9cc02",
+      "editId": "e2a5712b-f4d3-46a4-bba1-697e1250f736",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Rei do Inverno",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2023-09-14T00:01:00Z",
+      "duracaoMs": 1472000
+    },
+    {
+      "videoId": "ea08b6e9-56a3-4cd2-8231-1e818e43ca48",
+      "editId": "0d4e1c2a-1497-4624-b838-6fb9f90c642d",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "A Estrela",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2023-09-21T00:01:00Z",
+      "duracaoMs": 1456000
+    },
+    {
+      "videoId": "e8458949-53c0-4adf-aeb6-6087ff22ae7c",
+      "editId": "fc8ce1d9-0357-4696-b885-51eeeaa3e161",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Jerry",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2023-09-21T00:01:00Z",
+      "duracaoMs": 1499000
+    },
+    {
+      "videoId": "a7f1ec31-f9d4-42fa-a196-5a6716298634",
+      "editId": "2eb847d3-17e8-4a64-9718-82f33e044045",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Casper & Nova",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2023-09-28T00:01:00Z",
+      "duracaoMs": 1457000
+    },
+    {
+      "videoId": "a519bc9e-c529-46e2-bb0d-ae25b36451c9",
+      "editId": "aa3cb5ce-5e83-49c3-9d8d-cc2690e8fb23",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Saúde",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2023-09-28T00:01:00Z",
+      "duracaoMs": 1576000
+    },
+    {
+      "videoId": "736818a5-90ad-49e2-9979-0a046805f7b7",
+      "editId": "e6d08019-3443-4528-a29f-240af46cfbf4",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "A Lebre e o Broto",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2025-10-23T00:01:00Z",
+      "duracaoMs": 1437000
+    },
+    {
+      "videoId": "ff0ac474-cfe9-47bc-a185-16ec3a959f5a",
+      "editId": "fb7fa399-a9b9-4536-a0ea-48d99c39e8a8",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Crocodilo que Mordeu um Tronco",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2025-10-30T00:01:00Z",
+      "duracaoMs": 1400000
+    },
+    {
+      "videoId": "1faebe0f-6fee-499b-91f3-743f4ab81133",
+      "editId": "4ce3e6bc-cab3-491a-80d1-ca2a45350088",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Leão de Brasas",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2025-11-06T00:01:00Z",
+      "duracaoMs": 1427000
+    },
+    {
+      "videoId": "304169e1-0681-4ad4-a48c-34f96350ccb9",
+      "editId": "88779d72-57ef-46ef-afb6-03cc682b45de",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Gato Que Virou a Caixa",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2025-11-13T00:01:00Z",
+      "duracaoMs": 1432000
+    },
+    {
+      "videoId": "be3770d5-a67a-4e89-adad-ff0bc51caab5",
+      "editId": "16e4a5ea-3ba8-4ede-9f77-1f65e0612116",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "A Borboleta e o Rio",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2025-11-20T00:01:00Z",
+      "duracaoMs": 1470000
+    },
+    {
+      "videoId": "280aec2c-141a-41a0-acda-eab61a29e127",
+      "editId": "5b483ae3-31b9-4f7e-bc9b-eacccc0aea39",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "A Ave no Relógio",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2025-11-27T00:01:00Z",
+      "duracaoMs": 1477000
+    },
+    {
+      "videoId": "cbd785b4-6e14-4031-ae8f-b27eec34ff3d",
+      "editId": "6388410f-fe7e-4bfa-b102-ae27011ab572",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "Lobos que Vagueiam",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2025-12-04T00:01:00Z",
+      "duracaoMs": 1499000
+    },
+    {
+      "videoId": "7146db72-1d14-4f8c-af28-b397e46b475c",
+      "editId": "1a51c77a-3db6-4360-aab0-c1a85e04cf4d",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Inseto que Cantava",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2025-12-11T00:01:00Z",
+      "duracaoMs": 1465000
+    },
+    {
+      "videoId": "94564c04-fdea-4216-b95e-144013d0824e",
+      "editId": "0276803d-f360-4ea7-bd15-d9e10ae7a732",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Verme e o Orquidário Dele",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2025-12-18T00:01:00Z",
+      "duracaoMs": 1487000
+    },
+    {
+      "videoId": "ba872bc0-a506-48da-8d1e-fcd997327a90",
+      "editId": "4f3818c6-7d62-48e2-ace7-baeb93e342c0",
+      "showId": "ec92dad5-265d-4b09-a27e-c7f7629cdfc3",
+      "nome": "O Urso e a Rosa",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2025-12-25T00:01:00Z",
+      "duracaoMs": 1515000
+    }
+  ]
+}

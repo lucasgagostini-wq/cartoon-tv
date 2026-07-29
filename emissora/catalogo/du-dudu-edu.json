@@ -1,0 +1,675 @@
+{
+  "slug": "du-dudu-edu",
+  "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+  "nomeOficial": "Du, Dudu e Edu",
+  "capturadoEm": "2026-07-28T06:42:14.122Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5"
+  ],
+  "episodios": [
+    {
+      "videoId": "7a2fbd22-bbe4-4be6-bfef-21d65d948005",
+      "editId": "6b63452c-e72a-471d-a7de-7efa1c5eae5f",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Os Intocáveis / Amarrados nos Dus",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "1999-01-04T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "e276ca68-0c2a-4e77-ba94-f8964bfdf69a",
+      "editId": "82dc669a-4a5b-440b-98b6-19c472495980",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Lá Se Vai o Du / Passando pelo Du",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "1999-01-11T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "aba4a79e-ff5e-4d9d-945e-f9b48ae291e0",
+      "editId": "2f7c9057-7d1c-4d85-b2d2-fa315d1e44d5",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Um Du Diferente / Sir Cadulot",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "1999-01-18T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "83ae9127-72e7-42fa-a845-a4f455fbd98d",
+      "editId": "799e117d-99af-4255-80ae-4dbf02e4f405",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "O Caso dos Dus / A Casinha na Árvore",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "1999-01-25T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "338c2be0-542a-4bbd-8e7f-0fbc48d78137",
+      "editId": "8be8d457-893f-4e4a-9403-06f8f59d7333",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Leia Tudo Sobre Du / Du Foto Rápida",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "1999-02-01T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "b5e90e42-0788-43b6-8528-78a158c1e9b0",
+      "editId": "2124433e-6fe1-491d-a041-900951c3554a",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Overdose de Du / Du Se Esconde",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "1999-02-08T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "3401c30e-da94-4be0-b770-367f95f95675",
+      "editId": "7e1995ae-e98f-45a2-8fdc-18619f880a61",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Olhe nos Meus Olhos / Pegue Seu Du",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "1999-03-01T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "695dcfdb-b802-42bc-a1f7-b63dc07b5e3f",
+      "editId": "e9bbb973-ce30-4fa5-b9a8-573c2d416df9",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Enganando o Du / Um Garoto e Seu Du",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "1999-03-08T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "3740ac64-1cfb-4445-b8bf-83c9e0d387a5",
+      "editId": "176b96db-0ac9-491c-93c3-cc3c386ce72b",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Sorria Du / A Mania de Du",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "1999-03-15T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "a5d18a56-c25b-4777-8b49-17f96314fb43",
+      "editId": "56df7299-c66a-4e76-8250-ab650eb62350",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Um Vidro de Du Quente / Du e as Pulga",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "1999-04-12T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "8cf8dbe5-20bd-4866-8a78-d24b5238f5bc",
+      "editId": "51593f18-15e7-4dd1-bcc2-b43c71c1cdf0",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Quem, o Quê, Onde Du? / Acompanhando aos Dus",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "1999-04-19T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "804855e7-2644-4107-8151-9ebc12160e32",
+      "editId": "ffb98fec-b008-4bdb-81f0-f77a1ce372c8",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Exagerados / Juramento Para o Du",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "1999-04-26T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "a3a62fdf-0ea7-4547-8e5b-69e31f8343bb",
+      "editId": "8820f4fd-9a07-4f59-adbf-fa731d6412f1",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Interpretan-du / Avante Dus",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "1999-06-11T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "0dde9108-9ce5-40c0-81bf-a3333e83e3c1",
+      "editId": "21cbf0e7-ccae-4749-86c0-b51bbdd47e18",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du Sabe Tudo / Querido Du",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "1999-11-26T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "c0c4195b-8012-4d56-ae17-b5931f9e4698",
+      "editId": "0c6e7505-834d-4345-b246-3f223b03c528",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Toc,toc, Quem É Du? / 1+1 Igual a Du",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2000-02-11T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "c7cac649-bc64-406d-9b32-99107263dc25",
+      "editId": "2347dbff-db6c-438d-9b54-21ea13870452",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Uni Duni Te Du / Preparar Apontar Du",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2000-03-03T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "1df8ebf3-3155-4d42-9a2f-205b260bc780",
+      "editId": "6b811896-a41e-45ee-ba23-c12b2bc08795",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Mão na Massa, Du / O Dente do Du",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2000-03-24T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "f74f5df9-7725-407b-95b9-6ae6df2a292a",
+      "editId": "6b9879a5-7fa5-4532-a505-6d9a91f0af08",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Como o Du / Mão na Massa Du",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2000-04-07T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "5b446717-9b13-4913-866e-7a1598ea86b0",
+      "editId": "bec8920b-bef7-48c0-a397-0d7c455af4a5",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Edu's Comida Caseira / Du Falador",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2000-05-12T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "4cfdb4c9-d444-475d-8ead-cdc0fc6f7b83",
+      "editId": "440883cb-77e9-4fd7-a90b-9c832aac0b00",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Chave pro Meu Du / Para Sir com Du",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2000-06-23T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "90a38c97-3145-412d-becd-d56c02a4e46e",
+      "editId": "1eb3fe9d-4f22-4b74-919d-919bc5d724fa",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du Urbano / Du Pare Olhe",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2000-07-21T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "3adc9c9a-5490-4785-a45d-a935f456e16a",
+      "editId": "4c62e2d0-5f45-473e-91be-24b8f47846e9",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Honra do Du / Du Remexido",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2000-08-04T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "59889a44-2fd0-41b5-a83d-f1baa456b663",
+      "editId": "c4b51272-cfea-411f-9f89-b719e33d4793",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Alugue um Du / Fora Du",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2000-08-18T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "e86caa8b-0734-4eb5-aba7-0b620fe21eb1",
+      "editId": "57ac4c4b-1cd6-4323-a1c6-8c2c41bbd2ce",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Espelho Espelho no Du / Du numa Meia Concha",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2000-09-08T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "70f082a7-20c4-4e6d-a649-18a3f2b1dc28",
+      "editId": "b9e71988-98df-4f7c-81b4-58bc5b516e7e",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du Queimadinho / Du Sapatos Altos",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2000-10-27T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "42eef0e6-ba80-46e1-80c0-af22c7df238f",
+      "editId": "492d2587-8504-4b60-929d-dabc4cef0629",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Fa La La Du / Chora Du",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2000-12-22T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "cbb22bcb-3546-402c-bcb5-ed6cb7c64c57",
+      "editId": "f9b00a8f-5dc2-470a-acba-91cd03a15155",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Gostaria Que Você Fosse o Du / Pequeno Du da Mamãe",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2001-02-23T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "6d958c61-e127-4eec-a126-332060c4886c",
+      "editId": "99c90e4c-e062-4d4f-a62a-f6ba614040b4",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Era uma Vez um Dudu / Somente para Seu Du",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2001-05-25T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "5575b764-ac34-4be8-9722-193beb0fa631",
+      "editId": "e1fb84b5-cd40-4571-a017-95468fe84a9d",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Veio do Du Espaço / Três Quadrados e um Du",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2001-09-19T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "4a4bc4f4-9cd6-4ffc-973c-ec87489d4f7d",
+      "editId": "e2e00c60-073e-4979-a9b6-110e1fc55dbf",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Dus Duelistas / A Esperteza de Du",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2001-11-23T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "9470e40c-c462-4e5a-a4a8-44066e2b5534",
+      "editId": "a4b174d9-5170-4748-bc6e-f840de280dc7",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Trabalho para Du / Du, Du em Diante",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2002-01-04T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "b26b9c35-55d7-44d7-bebd-39b43a4389d4",
+      "editId": "7748780e-7650-437a-91ef-54bdab1a0890",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "X Marca do Du / Daqui ao Du",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2002-01-25T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "aff26093-29c8-4672-8d3d-6ecd2f7578aa",
+      "editId": "e9748039-61fc-4fd2-99fc-9bf1c127fd1b",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du ou Coroa / Os Garotos Serão Dus",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2002-02-15T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "d9b35b1d-77ce-48d7-9cfc-e33300ea3207",
+      "editId": "fed08a59-e2ce-407b-a0a2-6ddfe94537fa",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Me Dá Me Dá Nunca / Meu Du Maneiro",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2002-03-08T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "cf217ca1-5b94-40cd-a9d1-325406068d0e",
+      "editId": "ab69cdb6-7083-4554-971e-7c1f94518353",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Pesadelo do Du / Du no Tesouro",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2002-03-22T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "11a6e91c-91b1-4962-af25-8850ccb34c9d",
+      "editId": "a678abc6-8184-4761-b124-8e0acc2e322e",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "A Sorte de Du / Du, Passa pra Mim",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2002-06-21T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "a3290afe-904e-4891-bc50-aa3854bf9485",
+      "editId": "4b00f6f1-a6fb-4968-879d-fec7b8b2efdf",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Irmão Pode Poupar um Du? / O Dia em Que o Du Parou",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2002-06-28T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "69d52789-5227-494c-8608-7b5bd9cfb51e",
+      "editId": "82608438-4b7c-4dd2-b08d-6bee455f3fe4",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Se Parece Ser um Du Parte 1 / Se Parece Ser um Du Parte 2",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2002-07-05T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "a31788f7-534a-4786-a4f9-b54d62b300e5",
+      "editId": "31d6fef6-120e-43ac-90a8-1f211b1e8866",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Não Empata o Meu Du / Uma Vez Errado, um Du Insiste",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2002-07-12T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "e54b42a4-281e-4b21-9ff1-67eaed0a1179",
+      "editId": "ee973721-48bd-48ba-8c06-9035e814b64c",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Um Du no Arbusto / Não Vejo Du",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2002-09-27T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "2819308a-ab5b-4da7-87f9-54e62195f16c",
+      "editId": "18471d4f-f906-44ab-a143-4f8cf0bfa785",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Tem um Du na Casa / Nasce um Du",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2002-11-01T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "b60b4e57-7f3e-43c2-bf28-c29d53f2c8a9",
+      "editId": "e48d8013-6bb2-4019-a91d-21572edb3246",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Um Tamanho Cabe no Du / Um Pé no Du",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2002-11-15T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "0b89c303-39f7-4a6b-a5d0-fce7d07c25fc",
+      "editId": "3dc574ee-46b8-41c3-b680-6eb0b04b82b0",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du Sequestrado / Um Desses Dus",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2003-08-24T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "ae4d37d5-a6c6-4f95-8598-4cacccf7e567",
+      "editId": "f761df4f-9af7-4350-aa40-c72c6cbd2f9f",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Chamam Ele de Sr. Du / Do Du para o Du",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2003-11-10T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "b1fa7957-57b3-4760-bfda-878ad40311f7",
+      "editId": "85157ba9-9f0f-4e49-b9e7-9664707b985b",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Melancolia do Du / Mudança nos Du's",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2003-11-17T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "663d8fcb-ba37-49d3-96a2-10fe6963e26a",
+      "editId": "a950f04d-12a8-47b3-9049-f07270f36007",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Seu Du Aqui / Bom e Velho Du",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2004-01-23T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "42347ad2-aa75-41b5-abc2-400d29287146",
+      "editId": "2fdc16dd-43c7-4d50-bd66-3e17a9f4fe88",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Burro Como um Du / Ligou pro Du Errado",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2004-01-30T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "3d98eadf-3ccb-4018-839c-1a7db124ebd8",
+      "editId": "2442030b-106d-41dc-b421-94cf7ef31c16",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du Ladrão / Um Surto de Du",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2004-02-06T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "9c846425-efff-4800-8d9f-f332562ae3c9",
+      "editId": "7035f56b-d64f-40ad-b64c-05a8dd976071",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Corram para o Seu Du / Me Entreguem o Du",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2004-02-13T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "db9ab90e-b09e-4444-b392-d01ff17028e7",
+      "editId": "c212a3cf-7c57-4e6b-b040-d44dde0629f9",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du sem Classe / Enganando Seu Du",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2004-02-20T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "2664e515-79c0-4617-a6fc-9a63bb418093",
+      "editId": "7c038771-6010-419b-be35-80b616252134",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Preso no Du / Postais do Du",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2004-02-27T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "c154b73c-41e4-416f-8460-f5ad2c2df7b2",
+      "editId": "ec122909-6ecb-4015-8830-e70d1fc696e2",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Crescendo com o Du Parte 1 / Crescendo com o Du Parte 2",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2004-11-05T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "3c2e55a4-69f4-4abf-8816-2d5923ca0115",
+      "editId": "7344baab-bffc-4f56-91ba-3eeb40cbb213",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Missão Du-Possível / De Qualquer Modo Diferente do Du",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2005-11-04T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "c113b0ed-c327-4d2f-bc30-de430d6d1b87",
+      "editId": "2dbdc8ea-b19b-419b-85fa-52d672ebd116",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Bum Bum Lá Se Vai o Du / Limpeza É Coisa dos Dus",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2005-11-11T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "4f89139e-0e16-4e8d-bca2-f53e909ff219",
+      "editId": "b4a0bafa-e973-4458-ab49-44897b899ec7",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Fora o Antigo, Viva o Novo Du",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2005-11-18T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "f60697ce-db8c-45c7-ac8d-3ed9050c006a",
+      "editId": "f119bd5d-9428-4ea0-9dad-02a4136da3be",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Sou o Du Curioso / Não Fale com o Du",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2005-11-25T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "c357399a-1b2a-44df-a62f-3e9dffb40926",
+      "editId": "5061246a-6f3c-4eec-adc6-e58b39dcf107",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du Discordante / Esperto Demais pro Du",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2006-03-31T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "7ffe915d-e8ca-43b6-9de1-f47c5cd8cfe6",
+      "editId": "89b2f192-1a6d-48d2-afaa-86d46c8d033f",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Quem Se Preocupa com o Du? / Escolha um Du",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2006-06-28T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "e5cab741-3d59-4008-bac7-99f3423151ba",
+      "editId": "badf4371-f620-4c0d-ae50-cb348ce72010",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Verdade ou Du / Não Vai Machucar um Du",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2006-07-03T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "bd43ccd7-7c90-43c5-812c-68982e9b608b",
+      "editId": "370f69ed-9bdc-4aa0-9368-5c987f322ec2",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du de Lata / O Bom, o Mal e o Du",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2006-08-14T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "37cf321b-fafd-4cfe-a370-3cf07c9d4300",
+      "editId": "00ff43c4-103d-4d25-87d0-19a9d2d967c3",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Du no Tight End / Entre Uma Pedra e um Lugar pro Du",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2006-08-28T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "55d9c396-fcaf-46f4-820f-a382e3430cb5",
+      "editId": "243a0951-3b0e-494a-9af0-f423dd8fb86b",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Apostando nos Dus / Sorria para o Du",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2007-04-13T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "f3291392-27cc-46c6-aa59-295f0b1eaea1",
+      "editId": "2d40363e-95d0-419b-a249-5d5511424bdf",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Corre, Du, Corre / Uma Cidade Chamada Du",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2005-01-01T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "ac9a3b22-a173-4671-ad44-9ee1bf926e7a",
+      "editId": "2f771b61-571f-47fa-9bf7-3984934fef4d",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Um Du Fortão",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2007-04-28T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "28c110f6-d7ea-4402-af98-a6ab7de9fa21",
+      "editId": "cefe641f-9843-4d3c-8bab-10b0c286e290",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Os Dus Estão Vindo",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2007-05-11T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "cfb186b7-5dd3-455f-a449-2e7913abbd4e",
+      "editId": "bfd5c016-ceea-4877-8f1e-d0e6d9a0ec55",
+      "showId": "f33ea1b0-72ef-4a9d-b53e-786aeaaa84bb",
+      "nome": "Posso Ficar com o Du? / Atenção ao Du",
+      "temporada": 5,
+      "episodio": 14,
+      "airDate": "2008-06-29T00:01:00Z",
+      "duracaoMs": 1368000
+    }
+  ]
+}

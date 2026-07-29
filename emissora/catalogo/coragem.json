@@ -1,0 +1,524 @@
+{
+  "slug": "coragem",
+  "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+  "nomeOficial": "Coragem, o Cão Covarde",
+  "capturadoEm": "2026-07-28T06:41:41.771Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4"
+  ],
+  "episodios": [
+    {
+      "videoId": "3e011553-761a-4624-96b9-8a3c05984494",
+      "editId": "d8d4b47d-667a-4727-b17d-ff127e3a7f7b",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Sombra do Coragem / Dr. Le Quack Especialista em Amnésia",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "1999-11-19T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "837be97b-24eb-4b7e-90e5-e69ccddc01a7",
+      "editId": "3e00735b-5b1e-4296-bd1b-acebd2d88fe9",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Coragem Encontra O Pé Grande / Cabeça Quente",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "1999-11-26T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "d1bad104-9884-42c4-9579-7f3510738b5f",
+      "editId": "3764fa54-ea2a-423d-96ff-cd7fb066c683",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "O Demônio Do Colchão / Fred Esquisitão",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "1999-12-03T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "6decfb51-90c6-4f05-88af-1db6c3dca68b",
+      "editId": "749da4a6-feb1-48e0-b919-27bedddd8cc3",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Os Irmãos Pato / Shirley, A Médium",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "1999-12-10T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "7f24563d-56dc-4c13-9874-6248136c6d05",
+      "editId": "5b9330f4-5ad6-4ac2-a177-0ea83bacb397",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Maldição Do Rei Ramses / O Pé Dominador",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2000-01-07T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "fe5ad3c8-4d21-4256-888e-bb115139216a",
+      "editId": "a1925465-163e-4c3b-aa7b-39677b63cffb",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "O Corcunda De Lugar Nenhum / Os Deuses Estão Virando Patos",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2000-01-14T00:01:00Z",
+      "duracaoMs": 1331000
+    },
+    {
+      "videoId": "a3473159-41d2-44ec-afb3-8b139f043dd4",
+      "editId": "5f3cca12-7e9f-4938-8512-49b7dc2599f8",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Rainha Da Poça Negra / Todo Mundo Quer Dirigir",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2000-01-21T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "ea558acb-127d-4e09-976a-994793cb1240",
+      "editId": "a2976e57-d777-46dd-a965-b15e4cc8d6c5",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "O Boneco De Neve / O Patinho Adorável, Encantador, Lindo",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2000-01-28T00:01:00Z",
+      "duracaoMs": 1329000
+    },
+    {
+      "videoId": "7edf31cf-f545-48db-8a81-3750bfa74dc1",
+      "editId": "67306587-cb27-439a-8db9-3cdca853e7d6",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Uma Noite No Hotel Katz / Ensopado Da Vovó",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2000-02-04T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "d5685530-626c-4f3a-854c-4d48887aa738",
+      "editId": "384a2a43-f8a4-47ce-9196-85fcc81a93ac",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Hamburger Com Personalidade / Klub Katz",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2000-02-18T00:01:00Z",
+      "duracaoMs": 1325000
+    },
+    {
+      "videoId": "872498b8-8f10-43cd-a9ff-dabbe871ef3a",
+      "editId": "70f0e788-f552-4f94-bfbc-49f9948907d6",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Noite Da Toupeira Lobisomem / Dia Das Mães",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2000-02-25T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "2c967f3e-6838-4853-887c-dcc2d10d8cf9",
+      "editId": "fcde7bc1-8783-4b48-99af-dcf8a87268c3",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Vingança Do Frango Espacial / Viagem Ao Centro De Lugar Nenhum",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2000-06-09T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "5ed5bd02-ebeb-483f-ad2b-878eb56a64ff",
+      "editId": "eb839663-11f7-411b-be08-8d2024e2ebde",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Pequena Muriel / O Grande Fusilli",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2000-07-14T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "043f5fa0-7323-408e-8ea2-45a347de47d8",
+      "editId": "5af40138-f1e8-4c9c-8552-485f5566f4ea",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Árvore Mágica De Lugar Nenhum / O Robô Randy",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2000-10-31T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "cd953503-eb10-4406-961f-5288d4d10579",
+      "editId": "e505aba9-810d-4637-b5c9-8cdc0460ffc2",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Maldição De Shirley / Coragem Em Na Cidade Grande",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2000-12-08T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "271f3456-64ac-489e-8753-f1266e5cc3b3",
+      "editId": "abb7098d-6a8e-40dc-9b17-5eb30fa22030",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Negócio De Familia / 1000 Anos De Coragem",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2000-12-29T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "033bf115-8447-4aee-86c1-09d20ca058f4",
+      "editId": "49fc7c35-1a35-405a-8ff6-92117147dbf2",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Coragem Encontra A Múmia / Muriel Invisível",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2001-01-19T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "4ffdf6d7-0ed2-4f0f-80ce-da5dcdf16a9e",
+      "editId": "10c1da0e-762f-4f26-942c-5beec31abef9",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Viveiro Humano / Missão Para O Sol",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2001-02-16T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "8d1b9d0e-306a-4094-b608-a3c4fa116a7d",
+      "editId": "dc3eebed-a35f-4dff-b146-7d273c8a4bd0",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Uma Mosca Chamada Coragem / A Loja De Dulces",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2001-03-16T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "eaeee545-9cbc-4d5c-9b55-77648ad03857",
+      "editId": "a1735014-a36a-4a89-9ace-a6fc32e8983e",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Tv De Lugar Nenhum / Muriel A Magnifica",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2001-04-13T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "b26a272d-d544-411c-af1f-73c3fa11bca5",
+      "editId": "ff426d6c-411e-4870-9e88-29eeb3461632",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Um Dia Cabeludo / O Boné Proibido De Ouro",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2001-05-18T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "5eb28d6f-a910-46ab-9d57-9514c0e3b86e",
+      "editId": "57178391-7853-4497-974e-efc7c1eaa9fa",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Serpente Do Rio Mal / O Transplante",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2001-06-01T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "3c689af3-0292-4554-9486-35d16d2cfbd6",
+      "editId": "ffea4550-51e7-4751-8240-54c3c23428d6",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Carro Quebrou, Telefone Sim / O Vaqueiro Coragem",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2001-10-26T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "179da798-a6e2-433f-b4dd-8c9b909e2cf3",
+      "editId": "24bb2046-48d9-43cd-b69e-c3b7dff2f29c",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "O Mordomo Malvado / O Fantasma Mcphearson",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2001-11-02T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "8626cc4d-8bf5-4143-ab3a-e94f596801ba",
+      "editId": "08a65d7c-8596-4f92-adfc-d435d2bd3c49",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Casa Do Descontentamento / A Revolta Da Baleia Da Areia",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2001-11-09T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "c17ead44-46e1-49ee-9a80-ab93d89f91fe",
+      "editId": "4a812347-c4f8-45f8-a34a-199f63830445",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Torre Do Doutor Zalost",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2002-01-11T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "d45cb40d-7117-4aad-80f3-48b7c8413ca2",
+      "editId": "eb38d354-1903-41e1-84f0-bdd5639caa8a",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Muriel Arruma Uma Sósia / Coragem Versus Mecacoragem",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2002-01-12T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "fd96907d-f7d5-4214-84a2-821f5c8d1452",
+      "editId": "155cfd04-c868-4eaf-bc4b-b1e6038c4c19",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Acampamento Do Terror / Um Disco Do Outro Mundo",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2002-02-08T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "b14c49fd-4da8-423d-8d95-bc0fe8f8c3c7",
+      "editId": "f0dd36d6-b235-455d-8311-b924d4150ec9",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Tempo Nublado / O Senhor Dos Sonhos Dorme",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2002-03-15T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "f5acd392-1b25-4094-9242-0e333e8fdf9d",
+      "editId": "a0256ebd-b6e3-4685-91a7-418fcd6d2334",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Disco Rigido Do Corage / A Cavalgada Das Valquírias",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2002-06-07T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "f933f0ec-f984-43d2-b9bb-11651ac23347",
+      "editId": "eb027961-3014-42bb-9816-5bc8918c4400",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Scuba-Scuba Doo / Conway O Contaminador",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2002-06-14T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "e883c8df-42b5-4a63-9e98-9fd8210642b5",
+      "editId": "1110e7b2-84d4-46c4-a9e4-2524dee1dcb2",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Kats No Fundo Do Mar / A Cortina Da Crueldade",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2002-06-21T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "9803d95c-cb17-44cb-be37-7476e1147000",
+      "editId": "34464de0-a827-440d-9f2d-5161bf17113d",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Banquete De Sapos / A Minhoca De Tulipa",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2002-06-28T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "b8d818b7-59ca-4277-b03a-2234d23d10d0",
+      "editId": "7697feef-acbb-4749-9e44-735a0ac5afd2",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Estamos No Maior Louvre / Noite De Espantalho",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2002-07-05T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "ff3d76cf-23a0-4a7b-b0bb-7bb28d0277a5",
+      "editId": "f70bbc93-2c98-4f89-8ef8-672a587906fc",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Mondo, O Mágico / Olha O Passarinho",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2002-07-12T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "07b9489d-6b0c-41a9-9faf-dee225966d24",
+      "editId": "a8cb88be-794e-45ee-976c-1b6a8dd0cc62",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Negócio Suspeito / Gente Nervosa E Má",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2002-07-19T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "75c5749c-3588-4ee8-8a71-4eb059257a24",
+      "editId": "8d021279-2fcf-4426-937f-9c3bea45234f",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Coragem-Abóbada Da Destruição / A Vingança Do Boneco De Neve",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2002-07-26T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "01473f71-6a1a-47d6-93c7-68e865461afe",
+      "editId": "901e1af5-7934-4ff8-84f2-abbe3b470e56",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Clube Da Colcha / Vento Enganador",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2002-08-02T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "b043a52a-bb03-45fb-9670-a67eac636147",
+      "editId": "7baa85f3-a634-4270-96b2-35614056e4dc",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Rei Do Flan / Coragem Dentro Do Vulcão",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2002-08-09T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "1344ee2a-e895-499a-b3cf-822a0cb043f3",
+      "editId": "59461791-dadd-4a83-96af-8a1f4d6ce0ec",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Estória De Um Castor / O Quebra-Nozes",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2004-11-26T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "2ac3fc99-cc51-40ab-ae20-664e3adbb585",
+      "editId": "b125b2c0-4c3e-4e79-a603-c0cad5c2c017",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Bum-Velho-Kilt-Sim / Visitas",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2002-09-13T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "abab064d-f9ef-4a2b-b792-a18b4bbe77f9",
+      "editId": "5825ba80-8335-44b5-83a8-3ec9ee5cbe0f",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "La Quack Balão / Vândalos Do Moinho",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2002-09-20T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "487b5d7e-63ae-4613-8bfc-c1c7ba81f720",
+      "editId": "06b5123c-800c-4f1d-9955-414639cff652",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Gripe Incomum / Fazendeiro-Caçador É Fazendeiro-Caçado",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2002-09-27T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "c1658ff2-3764-4378-9401-603dbc033c3f",
+      "editId": "74184473-3114-48bf-a23a-30a8845a9a7e",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "A Noiva Do Monstro Do Pântano / Dor Cabra Da Peste",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2002-10-04T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "b326a6df-152c-4013-a8de-eac8ff37ff2f",
+      "editId": "54b9eed5-22fc-436f-a294-7ffec277ee1c",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Perfis De Coragem / Muriel Explode",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2002-10-11T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "8ae48861-1809-4e48-b077-aa1e0c5469e9",
+      "editId": "34cdadaa-4487-4dfe-83fa-efc5eb51e044",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "O Tigre E O Cão / Muriel Muda",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2002-10-25T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "0ba1192f-13bc-4927-9259-0d861b4f2328",
+      "editId": "bed29080-0eef-49dc-9c3c-56cc2066d1e1",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Fazendeiro Aquático / Comida De Dragão",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2002-10-25T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "88d60526-7de0-4f09-ab83-9637a9a7901f",
+      "editId": "26b19862-eeab-4a88-a35a-946108fac7a6",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "O Último Fazedor De Estrelas / O Filho Do Frango Do Espaço",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2002-11-01T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "44edb77d-cdf5-465e-8f68-fc37b5f263ed",
+      "editId": "998022d1-ebab-42ad-bc83-7e89c23a5053",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Festa Da Vingança / Cura Corajosa",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2002-11-08T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "813d025f-ce95-4ab7-838c-d39c25420351",
+      "editId": "61036a64-a1b7-42f3-95eb-6b2fcc3714e8",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Cabaré Coragem / Fúria Da Bibliotecária",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2002-11-15T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "835dd484-c3d3-4c2a-9472-f12b33333ba2",
+      "editId": "0a1a2946-5d8e-4d17-a2a1-6cd5522b271f",
+      "showId": "7768bbde-9895-494b-8469-bd7ff909ac64",
+      "nome": "Lemgranças Do Passado De Coragem / Perfeito",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2002-11-22T00:01:00Z",
+      "duracaoMs": 1357000
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "slug": "primal",
+  "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+  "nomeOficial": "Primal",
+  "capturadoEm": "2026-07-28T06:51:04.879Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3"
+  ],
+  "episodios": [
+    {
+      "videoId": "81e56a75-cd48-41d8-a97b-26c9071581fb",
+      "editId": "bae2a994-0fb6-4fdc-bea5-d72e25b30ba3",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Spear e Fang",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2019-10-07T00:01:00Z",
+      "duracaoMs": 1292000
+    },
+    {
+      "videoId": "75f9f5f4-64e0-419c-8ab7-fe3d2f412c14",
+      "editId": "0b5ce4f9-9bb9-46c5-80b1-2ace9e5270bc",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Serpentes de Rio",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2019-10-08T00:01:00Z",
+      "duracaoMs": 1234000
+    },
+    {
+      "videoId": "7a7aaea2-5c99-4450-9073-729ef585fe4e",
+      "editId": "ed3f4ab0-cba7-417d-bad2-b9c5c5dfe84e",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Uma Morte Fria",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2019-10-09T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "9364660f-fe49-4d26-bc5d-38b09037f5b2",
+      "editId": "dddf50e6-2ede-4575-84bf-07ecc4af556c",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Terror Sob a Lua de Sangue",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2019-10-10T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "04824bad-4495-429a-ac22-d77e10a97a71",
+      "editId": "7fdb9132-2aad-4ebc-abf3-eea29d60cbec",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Fúria dos Homens-Macaco",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2019-10-11T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "96bb0f07-cbca-4d72-9abd-f764ad1f4709",
+      "editId": "5037f9ff-6042-47ac-8a84-ba8acf84e842",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Cheiro de Presa",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2020-10-04T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "296bf70e-0b96-4b79-b5e5-87dfbbd65d03",
+      "editId": "a561d89a-f956-4697-87a8-1621add891e8",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Peste da Loucura",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2020-04-01T00:01:00Z",
+      "duracaoMs": 1290000
+    },
+    {
+      "videoId": "2d665776-550f-4747-9766-d429cc8577a9",
+      "editId": "fa5956b7-046b-4635-b542-3ec3c6fa42d4",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Convenção dos Malditos",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2020-10-18T00:01:00Z",
+      "duracaoMs": 1386000
+    },
+    {
+      "videoId": "1db81796-c03f-4f8c-a91a-ca1c2729db0f",
+      "editId": "9e463971-df5f-4d24-8665-21922580d904",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Terror Noturno",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2020-10-25T00:01:00Z",
+      "duracaoMs": 1223000
+    },
+    {
+      "videoId": "9b9a80e1-c8f9-4923-9ad3-1869d11406d1",
+      "editId": "89d56bf2-ea33-4103-a9db-9f20e072111f",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Escravo do Escorpião",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2020-11-01T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "0236433e-b845-4615-934d-71924cae2462",
+      "editId": "ce068c96-8778-4132-a913-f7bce5b0a5a0",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Mar de Desespero",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2022-07-21T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "7474fb0f-c248-4cd0-b95a-8214339d8bb5",
+      "editId": "47dbc50b-701b-41e0-9341-2627897e9296",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Sombra do Destino",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2022-07-21T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "d015c3d6-d7b6-452b-a87e-970549c861cf",
+      "editId": "096c03b5-8555-41fd-bcdc-c5c4941f2929",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "A Aurora do Homem",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2022-07-28T00:01:00Z",
+      "duracaoMs": 1337000
+    },
+    {
+      "videoId": "1713cc12-bb43-47e2-b1bb-56219e87c4c1",
+      "editId": "d6e49602-8d38-447e-a012-681fe69d8a6a",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "A Névoa Vermelha",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2022-08-04T00:01:00Z",
+      "duracaoMs": 1390000
+    },
+    {
+      "videoId": "ba7c9629-726e-4c4d-b5de-8d4936175397",
+      "editId": "46837bbe-3ad0-40d7-a03a-6caaffd592aa",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "A Teoria Primordial",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2022-08-11T00:01:00Z",
+      "duracaoMs": 1252000
+    },
+    {
+      "videoId": "abc03538-6d55-4ead-baae-ca8fab905241",
+      "editId": "6a2c34bf-d752-4248-be37-355536a84f28",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Vidarr",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2022-08-18T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "6684ab40-37e8-4ea0-b6d1-07c7e4bc0a19",
+      "editId": "e1c88b47-c6b5-491d-913d-7c65cc3b7abd",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Colossaeus",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2022-08-25T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "768cec4b-835e-4acd-a291-7765fcc4afbf",
+      "editId": "592733b4-0bad-4a23-a3f7-f4f75782fed5",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Colossaeus - Parte II",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2022-09-01T00:01:00Z",
+      "duracaoMs": 1253000
+    },
+    {
+      "videoId": "1faad9bf-8247-4838-8253-bb17716c7a4d",
+      "editId": "82090017-6d1b-4bb5-942b-a912dca24c40",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Colossaeus - Parte III",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2022-09-08T00:01:00Z",
+      "duracaoMs": 1226000
+    },
+    {
+      "videoId": "6b11fccc-e458-43cd-9220-27ae8c7137ad",
+      "editId": "ec975142-1bfa-483b-8b3f-e026c63fcd14",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Ecos da Eternidade",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2022-09-15T00:01:00Z",
+      "duracaoMs": 1436000
+    },
+    {
+      "videoId": "a0b44c23-bbac-4b83-8c83-c42ceb63c362",
+      "editId": "42b1ddbc-ce58-4605-89e2-49a7d7898e4f",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "A Vingança da Morte",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2026-01-11T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "d61dcc9a-263f-4f25-a594-84cc10d447d5",
+      "editId": "8b9f355b-e525-455b-8fc5-3c3eda30149c",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Reino do Luto",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2026-01-18T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "94858dc6-5300-4934-8043-21581757342b",
+      "editId": "a761e4a3-d0c2-4a14-b76d-2b70d1d89860",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Festa da Carne",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2026-01-25T00:01:00Z",
+      "duracaoMs": 1296000
+    },
+    {
+      "videoId": "c0fd7be7-930d-40e8-a1ef-50793305c632",
+      "editId": "4671e453-a270-488f-9694-1c49b39f53e1",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Presa dos Selvagens",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2026-02-01T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "7ba8b58b-a614-41ff-b42c-89396508f2b5",
+      "editId": "61c3dacd-0fbd-4587-bbb8-d2fbcf4e3770",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Nenhuma Sombra Entre os Mortos",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2026-02-08T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "1c59efb1-838f-4e69-830a-a781720ce791",
+      "editId": "c48d6a1a-bd12-4ce6-a3ed-a52d27218577",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "Caverna Dos Horrores",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2026-02-15T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "560d1c30-d2f6-4b03-af9f-dcd1bea96827",
+      "editId": "be48b124-d022-4b0a-95c8-e3e0eac98b72",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Coração Do Morto-vivo",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2026-02-22T00:01:00Z",
+      "duracaoMs": 1340000
+    },
+    {
+      "videoId": "0fec0779-1f02-49b3-9158-15e1a8ac944e",
+      "editId": "53e5f13f-e12f-4683-8807-2a27dd6139b0",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Desague da Vida",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2026-03-01T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "8041f39f-a8a3-4bc8-bd74-2f3bfa54b9d6",
+      "editId": "27c70409-9434-413c-9e5a-6470365ae9d3",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "A Coroa Vazia",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2026-03-08T00:01:00Z",
+      "duracaoMs": 1312000
+    },
+    {
+      "videoId": "6c05d6bc-dfb5-4cd8-a5a3-8332b375c442",
+      "editId": "6bcb3c60-85b7-433b-b6f4-b7b7f8bcad98",
+      "showId": "59dc1d55-bb08-4bb4-85dd-d03e64f4fef1",
+      "nome": "O Eco da Eternidade",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2026-03-15T00:01:00Z",
+      "duracaoMs": 1365000
+    }
+  ]
+}

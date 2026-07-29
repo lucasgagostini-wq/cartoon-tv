@@ -1,0 +1,716 @@
+{
+  "slug": "outra-semana-no-cartoon",
+  "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+  "nomeOficial": "Outra Semana No Cartoon",
+  "capturadoEm": "2026-07-28T06:49:02.867Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "8091166c-751e-4fb9-ba26-19cdcebe6f1d",
+      "editId": "7fa42589-f431-4648-9428-47fea68c0d0d",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Rosquinhas",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2015-05-04T00:01:00Z",
+      "duracaoMs": 380000
+    },
+    {
+      "videoId": "f0508fb0-6482-48a7-a9b9-9a12678a5c9f",
+      "editId": "d630e062-9b62-44ed-bf78-c825686b1d53",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Contando E Misturando",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 362000
+    },
+    {
+      "videoId": "2495b000-0f2e-4895-90eb-ed657469f290",
+      "editId": "cb884fe2-116f-41b4-b1ca-84f44b4f6866",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Manteigas Espaciais E Frisbee Pizza",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 331000
+    },
+    {
+      "videoId": "8aa160a4-8cf5-49cf-99d9-aa51693eb7fe",
+      "editId": "bec9ee17-9125-43b3-914a-244db42d9845",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Mosca Fanstasma E Batatas Fritas",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 363000
+    },
+    {
+      "videoId": "00cd156a-007e-47fd-b4a2-b249c9c19593",
+      "editId": "73851c71-4482-4112-860f-076ac8bdc698",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Cozinhando Com O Cartoon",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 360000
+    },
+    {
+      "videoId": "5b066a0c-10c4-45e5-9249-3ede21fb3c5d",
+      "editId": "89391294-91c1-4d09-bb10-28da6a9f54dd",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Maneiro",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 365000
+    },
+    {
+      "videoId": "d3fc3399-8672-407b-abcc-c92233a08929",
+      "editId": "17870b79-0b09-4443-bfa3-caf66e8eceec",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Lixo Ao Cesto",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 365000
+    },
+    {
+      "videoId": "fe486ca4-63c9-4248-b993-b5c3d751609d",
+      "editId": "9ee3d645-9cdf-4d64-9420-aefe7e633d58",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Buzinástico",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 357000
+    },
+    {
+      "videoId": "788f5832-f759-44c8-8200-91ca1c3b833e",
+      "editId": "8d26c37c-6b10-48cb-87ed-29f132d782b4",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Torre Sem Finn",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 337000
+    },
+    {
+      "videoId": "a83d43f9-c6c3-41d6-9bea-45bcc0f01220",
+      "editId": "66d75d19-f2f3-4242-98a3-70d3ec5f70dc",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Notícias Felinas",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 372000
+    },
+    {
+      "videoId": "e9de9084-1226-407b-ac22-99bc1c4c4c8b",
+      "editId": "da2c5be2-aae9-4670-b44a-d458725756b4",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Confusões E Prisões",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 359000
+    },
+    {
+      "videoId": "f2da79ab-9d82-42b6-b911-e7ab61b4c728",
+      "editId": "5c03868e-7501-44ae-83b5-4229d3ca03a3",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "A Mãe Do João Banana",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 390000
+    },
+    {
+      "videoId": "eaf86e67-845f-4372-81c7-7ee31b4ef359",
+      "editId": "3853e9d7-4b25-4a93-8135-00f5fbabce48",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Restrospectiva 2015",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2015-01-01T00:01:00Z",
+      "duracaoMs": 414000
+    },
+    {
+      "videoId": "949a63c0-ca79-4d95-99fe-8aeef79170cd",
+      "editId": "1061bc98-78b2-4ef2-bbd4-32ac7d52e3d1",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Gatinhos Fofos",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 529000
+    },
+    {
+      "videoId": "6259fea6-d382-4c78-b214-1ac322786b48",
+      "editId": "fa4f026e-b7c8-4b9a-b27e-60f10da055e2",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Divertificador",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 544000
+    },
+    {
+      "videoId": "0875ccb9-f8ee-49d1-98bc-91bc12d936e5",
+      "editId": "8d210129-a0fe-48d0-94c4-51728d26ff0e",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Gilben",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 508000
+    },
+    {
+      "videoId": "e724a72f-9340-4685-a3f9-e47f61cf3ae1",
+      "editId": "94f786a8-76e5-47ce-9686-2aa962750620",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Muffin E Conspirações",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 552000
+    },
+    {
+      "videoId": "75a43df9-5296-498f-ae8c-2b2780c3723a",
+      "editId": "ba4c81de-f250-4418-95f9-b09143dab6e4",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Peronito Secundagem Favoritário",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 548000
+    },
+    {
+      "videoId": "fe7fb216-1e72-4a32-993d-b8c74230a252",
+      "editId": "cedefecd-6db2-4b67-918c-338a6c534607",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Expectativa/Realidade",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 589000
+    },
+    {
+      "videoId": "fb1f58ff-17b3-40f3-b969-9576d339b6d0",
+      "editId": "a285b81f-b8ff-4c5d-aee0-11367a555963",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "E Por Falar Em Cakças",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 572000
+    },
+    {
+      "videoId": "130aa023-44d7-4a08-88e8-736c19507182",
+      "editId": "c933fc98-9fa6-422d-9c7d-c84795f3aff3",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Steve Pixel",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 543000
+    },
+    {
+      "videoId": "0bce288e-9ba5-4bfa-9ad7-d796c486d470",
+      "editId": "c78aa610-0674-4e3e-b79e-ffaa71e5f283",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "O Bronzeado Do Greg",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 569000
+    },
+    {
+      "videoId": "e4631935-b220-4046-9ff4-906947301833",
+      "editId": "e531444f-d137-448e-9659-7b7050e01a61",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Amiguinho",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 535000
+    },
+    {
+      "videoId": "452f0522-f251-4d13-a40e-fb6afa622c42",
+      "editId": "30f43a7d-9eb4-4a96-b1f4-602698a2bd60",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Vermelho Raiva",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 549000
+    },
+    {
+      "videoId": "25bec362-3b28-44e0-a0e2-de242798930e",
+      "editId": "e0af0940-1bc9-4754-9fc7-e5e29ae84f4f",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "E O Informante É...",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 550000
+    },
+    {
+      "videoId": "b0fa7b08-d762-44f1-abaf-0ac893cb51f1",
+      "editId": "dc8b1890-e1d4-470b-ae25-11fe2e019920",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Especial: As Meninas Superpoderosas",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2016-01-01T00:01:00Z",
+      "duracaoMs": 442000
+    },
+    {
+      "videoId": "ee2379df-a9b8-41ae-aff0-ec86267b9489",
+      "editId": "c24e0bfd-dded-41ee-9da9-90fc2595695a",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Especial Ben 10",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 581000
+    },
+    {
+      "videoId": "845cbe06-fca0-4762-8593-5f8fcd3f02af",
+      "editId": "17aa4850-0918-4807-ac0d-799fddc40ab2",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Pássaros, Pássaros E Mais Pássaros",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 699000
+    },
+    {
+      "videoId": "c320332d-c220-4ce0-a610-c3daadd863ce",
+      "editId": "201cb01c-3a5f-4e66-a3c4-b09c6ef9902e",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Não Confie Em Ninguém",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 724000
+    },
+    {
+      "videoId": "41e585b4-81bd-493c-9200-65a2d925369c",
+      "editId": "083546a6-f01b-4cd8-a8e8-13c28f556bdb",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Pular Anúncio",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 717000
+    },
+    {
+      "videoId": "636be763-a7a3-405a-8efe-ad266b86b78b",
+      "editId": "1e2bd887-55e0-4013-81da-f9851209d934",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Momento Incômodo",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 665000
+    },
+    {
+      "videoId": "917cc461-bea9-426d-99b9-af7142f58bf1",
+      "editId": "1fa630d1-f143-4901-aca1-02b2c078b0dc",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Stu",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 676000
+    },
+    {
+      "videoId": "1b2e7e2b-6655-45cf-8954-5ad767bbaf97",
+      "editId": "9cbd3be0-3c0c-45b8-af3f-1775eac07a83",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Viagem No Tempo",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 716000
+    },
+    {
+      "videoId": "bb9f2202-5384-47bd-b063-a762e09e2380",
+      "editId": "26ebf869-c60a-4295-a878-af35c6770f94",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Todo Errado",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "7d38eb78-c3cf-4813-9dcb-252bf5b8f984",
+      "editId": "697ec6d9-bb4a-4ea9-82ac-6662fddd7201",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Laranja",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 710000
+    },
+    {
+      "videoId": "53b88964-7415-4709-ab3f-ba2b14cb1776",
+      "editId": "68818f19-e846-44b3-b9eb-ffde7ec41729",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Raivoso Johnson",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "c0720816-842e-4ff1-a69e-3688f9116093",
+      "editId": "3d99cd94-44ea-4f4d-9c80-1fc240a9cc69",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Carma Instantâneo",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 673000
+    },
+    {
+      "videoId": "1231e73c-831c-4394-bf8a-907acbfd30b1",
+      "editId": "14b10e6d-9d25-4ba0-acf1-827a7723022f",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Sorvete",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 662000
+    },
+    {
+      "videoId": "e061798d-6189-4fda-aa80-ff69637a4c95",
+      "editId": "10daecb6-befe-47bc-9202-dc099f0e0491",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "James Baxter",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 821000
+    },
+    {
+      "videoId": "fe6f78a6-8d32-46b7-b90b-d45a71c04a69",
+      "editId": "4c954f25-b43a-4a0c-a5a0-ef6bea5a69d8",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Especial Respondendo Comentários",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2017-01-01T00:01:00Z",
+      "duracaoMs": 946000
+    },
+    {
+      "videoId": "ae92bf26-59d9-4615-ac37-2acf517fa6db",
+      "editId": "98fd66b1-a404-49fd-aa33-08805fbc46b8",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Os Novatos",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 790000
+    },
+    {
+      "videoId": "2087187a-b9e4-4f23-9d86-9743b80df54e",
+      "editId": "f639ca90-d44c-423e-8d89-dedd15cbc62e",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "A Técnica Dos Troca Peles",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 754000
+    },
+    {
+      "videoId": "1a1423fb-3dc1-474a-95f9-033927367b35",
+      "editId": "78ac6c9f-39a3-4095-999a-d3153d3a82b8",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Tudo Sobre Jeff",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "c0b50b5f-7978-4295-854a-bc0f8ab81acc",
+      "editId": "16a1430e-9c75-4bc5-b8bc-bb81ec1bfbfb",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "1967",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 734000
+    },
+    {
+      "videoId": "eff98aa1-6b56-4daf-9b02-5ce0dc9d6c5b",
+      "editId": "62efe805-8d21-4be9-9300-17bb47da8a85",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Falafel",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 649000
+    },
+    {
+      "videoId": "7f2680fa-6841-4534-8c87-d9e524b9dc54",
+      "editId": "5573b0db-2996-47a8-a46e-995eb9118e3f",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Pausa Para Risos",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 703000
+    },
+    {
+      "videoId": "1a3d195c-c732-4515-9579-96989264c147",
+      "editId": "2a7fe522-b108-40b7-ac3f-3e3e58b4f35c",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Vocês Merecem",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 665000
+    },
+    {
+      "videoId": "9fea6635-fe2c-46cc-9074-7805b23c6f4f",
+      "editId": "cc691050-39ad-41c9-9bbc-3087f284423a",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Gumbald",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 659000
+    },
+    {
+      "videoId": "d28c40be-566d-4075-a3ff-e5177a772e65",
+      "editId": "3ce2c4cb-6f3f-40dd-9a07-82bea33e0696",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Aniversário Do Finn",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 699000
+    },
+    {
+      "videoId": "68efdf43-7710-43d7-9676-034aef4e9a15",
+      "editId": "da4c6783-5b13-4a8c-b6e3-916d1a5b8904",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Kevin",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 718000
+    },
+    {
+      "videoId": "b66931fb-0123-4462-aa6e-c268c12b88e9",
+      "editId": "3b468743-0e10-43be-bd6e-c36eb2abc984",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Pijama",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 661000
+    },
+    {
+      "videoId": "63375265-825a-4ef3-8ace-7c5ad527d16c",
+      "editId": "dcb30345-d12b-40c0-8495-40f930a003b8",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Bigode",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 734000
+    },
+    {
+      "videoId": "c75d5873-887c-4d1e-b7cd-2fffd3ce5f30",
+      "editId": "508294ef-a35b-4227-b879-299b3788774c",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Último Episódio Dessa Temporada",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2018-01-01T00:01:00Z",
+      "duracaoMs": 742000
+    },
+    {
+      "videoId": "e789ca30-9466-4dae-8e90-ae0368c38a29",
+      "editId": "ec2ff59e-2a52-49b5-841f-ab5705bdbcca",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Novo Alien",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "8bccdd46-0bf3-4700-b1b4-d70391c634ae",
+      "editId": "02efd71d-a55b-4e1b-a0a3-f96b69259776",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Amiguinha",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 699000
+    },
+    {
+      "videoId": "05336b25-2a6d-40c7-8e6a-f88c36c0838f",
+      "editId": "8d96215e-6c0c-489e-a345-c8e9827aefc6",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Qual É O Polar?",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 743000
+    },
+    {
+      "videoId": "68e84ee1-f8fc-42c5-a1f7-a46bbf51dfb9",
+      "editId": "2f6268fc-0fd3-4a2b-a9a9-2e09c0dff9ac",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Carla",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 702000
+    },
+    {
+      "videoId": "15316201-63d7-45ea-943d-050ecd7154d8",
+      "editId": "4bac2f63-4ce4-475f-9940-ae7b715c32b5",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Bola Da Discórdia",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "7c20c224-00d5-44d4-bee7-ee8671feac84",
+      "editId": "dda9a2c0-6ada-4d34-a2d7-3198eeceabf0",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Loranzo",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 760000
+    },
+    {
+      "videoId": "3fe41513-b211-4275-940e-4f206d4b0c65",
+      "editId": "6cdc3040-ed41-4b64-bb91-162ad7637cd3",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Bom Vizinho",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 758000
+    },
+    {
+      "videoId": "356b3379-10dc-4913-a1fb-7f13f4a7940a",
+      "editId": "3949e3cc-34d9-4287-9966-e062d70e8cb9",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Primeiro Round",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 705000
+    },
+    {
+      "videoId": "0c788895-b0be-44cc-95b3-0bd16e12545c",
+      "editId": "9a46b047-0a9a-4506-8de8-40017b79d09c",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Bate Aqui",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 697000
+    },
+    {
+      "videoId": "8587fb6c-135f-40ec-b1bd-73edda35879a",
+      "editId": "650a6b10-0d20-40d5-8e13-f8e8b662d5c9",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Por Quê Foram Presos?",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 702000
+    },
+    {
+      "videoId": "1b2f69ca-927d-4116-8bf9-f3584a647378",
+      "editId": "4cc94a0c-8fb5-4d2d-9193-735184305ca1",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Nunca Cante Vitória Antes Da Hora",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 702000
+    },
+    {
+      "videoId": "872356c3-b874-4e93-b40b-3551c2267feb",
+      "editId": "f76e7a99-2edf-4919-80ad-e2a6dd1f47e8",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Especial De Fim De Temporada",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2019-01-01T00:01:00Z",
+      "duracaoMs": 848000
+    },
+    {
+      "videoId": "6c7a70b8-c9d8-4dcc-b4f1-025da3db1a9f",
+      "editId": "9683c7eb-dce8-42b4-8fe7-b0980a840c23",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Outra Semana Em Casa",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2020-01-01T00:01:00Z",
+      "duracaoMs": 724000
+    },
+    {
+      "videoId": "51142357-7205-41ae-989f-03bc75c3ac52",
+      "editId": "dac38bfb-0e47-4532-8f96-50219942ad88",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Especial Looney Tunes",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2020-01-01T00:01:00Z",
+      "duracaoMs": 631000
+    },
+    {
+      "videoId": "a34b3071-8bbc-442d-9b67-4a377ac480b8",
+      "editId": "e797d560-61db-42c9-b960-5542ce8bdaec",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "A Máquina Do Tempo",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2020-01-01T00:01:00Z",
+      "duracaoMs": 722000
+    },
+    {
+      "videoId": "4dd472c0-73b9-4449-9db0-b8f15b027794",
+      "editId": "a61056fb-be1f-40db-99f6-ceef2b3bc9bc",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Especial Steven Universo",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2020-01-01T00:01:00Z",
+      "duracaoMs": 663000
+    },
+    {
+      "videoId": "c20ac88c-37aa-459c-84bb-0779ee21eba0",
+      "editId": "ad5b6214-bbe3-41c7-8455-630a2d05d2fb",
+      "showId": "7cb672ac-c8eb-4451-978f-9f110804052c",
+      "nome": "Episódio Final",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2020-01-01T00:01:00Z",
+      "duracaoMs": 976000
+    }
+  ]
+}

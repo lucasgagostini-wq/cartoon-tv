@@ -1,0 +1,302 @@
+{
+  "slug": "gumball-novo",
+  "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+  "nomeOficial": "O Mundo Maravilhosamente Estranho de Gumball",
+  "capturadoEm": "2026-07-28T06:45:10.911Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2"
+  ],
+  "episodios": [
+    {
+      "videoId": "0c850b22-06fc-47cc-baa0-8b155b80e9d2",
+      "editId": "99ef94c2-e52f-478c-bb56-82f057ede094",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Hambúrguer",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 752000
+    },
+    {
+      "videoId": "fdb21824-0ff0-475b-ae5b-e2e7f4a1528d",
+      "editId": "5f5801aa-9076-431a-b5a7-767e39404397",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Assistente",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "cebd61f5-3f53-4746-8ba1-9fbfb106c93d",
+      "editId": "e43d9b4f-dd6d-463b-93b1-132829d0bcd9",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Distância",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 665000
+    },
+    {
+      "videoId": "3153dd2f-0685-4f6a-8852-161cd3196666",
+      "editId": "1d87e0cc-c6f0-4299-b2e0-5052bfe19f9e",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Coisa",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "43e4a85a-5bb0-4b72-94d3-0ec26dab1dee",
+      "editId": "5f2ee634-ae6c-4746-9e27-b1bc8d218337",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "As Bundas",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "abe52082-e323-402b-9d03-15c40674c17a",
+      "editId": "b68a9272-4547-4e30-978f-9aaf44de5966",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Tráfego",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "6a93c2e7-1098-419c-b94f-b17ba28d5d55",
+      "editId": "f590a027-57b3-466d-bc04-f12b538852d4",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Astrológico",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 688000
+    },
+    {
+      "videoId": "0466c611-09b7-4736-89c1-0fc72aaca094",
+      "editId": "1d56b781-0f53-4bff-b409-ae133e51f30f",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Líder De Torcida",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "f64b1fc7-05ed-4ffc-9fcd-e46fac11a52f",
+      "editId": "7f10abb0-e483-47af-964d-3245f1279c26",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Chata",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 692000
+    },
+    {
+      "videoId": "0ca2b33b-7f03-45d6-b658-deb5c69c231d",
+      "editId": "8d95d525-759c-452f-a215-976b8f5f3ad8",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Professora",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 696000
+    },
+    {
+      "videoId": "d3004bc6-5e00-405c-87c8-607fd2f45f47",
+      "editId": "a9e0992b-b3d5-430f-86d6-57805395a76d",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Aplicativo",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "e53f8a53-5a9b-41a9-b300-59ba7cd430e5",
+      "editId": "8e9c9ac8-8362-4507-be4f-4000eb75c006",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Convite",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "e44cec31-540e-4d1c-8248-cbe3ddf06969",
+      "editId": "013b2db6-0829-4336-8c1c-4672438a1d0d",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Carta",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "ddf02d4d-0c51-4d3d-879f-35f92446b531",
+      "editId": "44406e5c-4d0f-40da-be65-bbba9b5eeee8",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Tripa",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 684000
+    },
+    {
+      "videoId": "5bb3c52e-7c66-428c-bda0-c525e009c751",
+      "editId": "bd385cb1-ddb7-48e0-9717-92a4e473236f",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Ruga",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 704000
+    },
+    {
+      "videoId": "58b00786-3251-4f0c-b5f4-2a8b293c5e3a",
+      "editId": "23f3ccdd-e744-4cf9-96ab-a500e8165711",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Gourmet",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "178e9d50-69c5-4bcd-85ec-b5d216cfc0f3",
+      "editId": "83c907c0-166b-4cbf-b095-2063d432aab6",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Piscina",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "147d155b-f95f-44eb-8f3d-59efa6224580",
+      "editId": "849bd115-ad17-4d58-b989-5728b1082ff3",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Retrato",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "bb8a1717-f6ca-48a0-ade1-81292c6c2efc",
+      "editId": "48d53a38-26a6-42ca-b524-bcc1e332756d",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Escalada",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "58c0d6cf-a5c1-49bd-942f-2752c3968edb",
+      "editId": "b80c0623-c92a-4305-84fb-09e9cd3df668",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Amadain",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2025-07-28T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "d4c15567-3d4b-4a4b-b4f4-c6b708d763fd",
+      "editId": "99092cdb-47e6-47c3-89c1-c9567eba5137",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Reescrita",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2026-02-02T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "e28348cc-d116-462c-ad77-f90fe8854be6",
+      "editId": "ba77d94b-6739-404f-a747-bcb7a01a82d3",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Desinscrita",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2026-02-02T00:01:00Z",
+      "duracaoMs": 693000
+    },
+    {
+      "videoId": "bc73d77b-55ac-48b3-bff8-6ab32e970b3a",
+      "editId": "03bf63c7-2ebd-43ec-86a0-bf5b8d1ff82c",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Convite Pra Festa Da Escola",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2026-02-02T00:01:00Z",
+      "duracaoMs": 677000
+    },
+    {
+      "videoId": "04fb5ded-849d-4299-8d90-a3717b607d85",
+      "editId": "369ca3e3-23d8-4ce3-9401-e3f2c4ebd201",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Trompete",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2026-02-02T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "dfe49ca7-ac72-41d7-b5b4-9d98363864da",
+      "editId": "b8abc500-6fb7-4aeb-a25a-39acd6842d8b",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Síntese",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2026-02-02T00:01:00Z",
+      "duracaoMs": 697000
+    },
+    {
+      "videoId": "b90bcf2c-c9f8-4383-8efb-35331e72b69a",
+      "editId": "7e04b443-d2a0-47e3-a3b7-91f73d94611f",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Placar",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2026-02-09T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "d1739af5-87b1-49cb-9bb5-5445939800d5",
+      "editId": "77163071-1412-4a96-8ee8-5932c512b203",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Diário",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2026-02-09T00:01:00Z",
+      "duracaoMs": 690000
+    },
+    {
+      "videoId": "38c2f516-76cf-4017-b101-3033c445da81",
+      "editId": "6dc33ae7-f53c-4edf-a28d-64ff94c6849e",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "A Punição",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2026-02-09T00:01:00Z",
+      "duracaoMs": 696000
+    },
+    {
+      "videoId": "d9acd9d1-4436-427d-99a5-ac240a756e21",
+      "editId": "71d81361-494c-4de0-820d-b9e3c381eabe",
+      "showId": "27b214cf-dbe5-49c8-9a99-43d4dc5989dd",
+      "nome": "O Esculacho",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2026-02-09T00:01:00Z",
+      "duracaoMs": 696000
+    }
+  ]
+}

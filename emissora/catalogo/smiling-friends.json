@@ -1,0 +1,283 @@
+{
+  "slug": "smiling-friends",
+  "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+  "nomeOficial": "SMILING FRIENDS",
+  "capturadoEm": "2026-07-28T06:50:41.479Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3"
+  ],
+  "episodios": [
+    {
+      "videoId": "3de5eefb-8054-4906-8ed8-75cd940c48ca",
+      "editId": "4627882d-ba7a-436b-b3fa-1b2a47c14229",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Desmond Vai Passear",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2020-03-31T00:01:00Z",
+      "duracaoMs": 726000
+    },
+    {
+      "videoId": "d4faef96-3712-4586-b35f-9b7cddeafb9c",
+      "editId": "36b5d4f2-e5f0-4bcc-b120-b086a0e1c1f2",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Sr. Sapo",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 673000
+    },
+    {
+      "videoId": "d0e07011-441a-4031-8802-5159721b7bd3",
+      "editId": "1fe53a39-cd08-47fd-975b-e0ab02ce088b",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Odisseia do Camarão",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "86ca06c8-09d5-42ee-8b29-86d835592635",
+      "editId": "72df5c22-9a96-455b-84b7-fe63fd07f6b4",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Especial de Halloween Bobo",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 654000
+    },
+    {
+      "videoId": "bee0af48-f9a6-4b86-a40c-4c3bb0e48045",
+      "editId": "3e963970-684b-40b9-906f-d7de7347e6eb",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Quem Matou Simon S. Salty Violentamente?",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "6210072b-2a84-4e9c-ba69-168582494ba5",
+      "editId": "741f6fa0-879d-4a9f-93db-3a653de8757f",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Floresta Encantada",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 673000
+    },
+    {
+      "videoId": "df30c797-61ab-4d7b-99bc-21b5bcf80156",
+      "editId": "2c4600cc-70ff-4f71-8e6b-649e5d6a4056",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Amigos da Cara Fechada",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 674000
+    },
+    {
+      "videoId": "ee8ac391-6bce-4114-8ce0-340efabdb162",
+      "editId": "1446adf4-f7ae-44ea-9148-ec7ca546378e",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Charlie Morre E Não Volta",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2022-01-10T00:01:00Z",
+      "duracaoMs": 684000
+    },
+    {
+      "videoId": "fa6292a7-7f25-4f72-88df-1416412faa3f",
+      "editId": "c16796d3-b64d-4e5c-ab17-ff0d82dcc55f",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Smiling Friends Vão para O Brasil",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2022-08-06T00:01:00Z",
+      "duracaoMs": 688000
+    },
+    {
+      "videoId": "36802efc-498a-471d-ba62-40ac4759b8de",
+      "editId": "192cdac2-0bea-4556-8c5d-9fdc9da861b2",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Gwimbly",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2024-04-01T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "ac5af6a7-7410-4252-86db-744a6bdbb0c6",
+      "editId": "aa223487-b9bc-4243-8dbd-4bb83794f7eb",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Senhor Presidente",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2024-05-12T00:01:00Z",
+      "duracaoMs": 684000
+    },
+    {
+      "videoId": "116ae7ad-996d-45c4-af73-9ee387bafffe",
+      "editId": "874c57fe-b637-43ea-9db2-7a719b79dd28",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "A Aventura Do Allan",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2024-05-19T00:01:00Z",
+      "duracaoMs": 685000
+    },
+    {
+      "videoId": "cd46ba6d-2d18-4796-b32a-176487ddfdef",
+      "editId": "dea5a4df-0045-48ae-8d3b-f80b36f1634e",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "O Chefe Encontra O Amor?",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2024-05-26T00:01:00Z",
+      "duracaoMs": 668000
+    },
+    {
+      "videoId": "34b51c84-ab01-4ee5-9b7e-99ce6561850f",
+      "editId": "38bf11a3-a001-41b3-a590-86f3e3265c52",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "O Ovo",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2024-06-02T00:01:00Z",
+      "duracaoMs": 686000
+    },
+    {
+      "videoId": "7e793378-17bf-4f13-a3da-980bcd6a3e3d",
+      "editId": "44059127-3b03-4df4-85d6-dcfc9badd7ba",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Charlie E Pim Contra O Alien",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2024-06-09T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "da618a9a-6568-4832-8842-b627285c704b",
+      "editId": "23d03853-97d8-44e5-9ee8-20538aebd7dd",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "A Joia Vermelha Mágica",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2024-06-16T00:01:00Z",
+      "duracaoMs": 659000
+    },
+    {
+      "videoId": "14113afe-03e8-498e-883a-bacd2dcc66a5",
+      "editId": "b352ec7c-effc-446f-afb0-9575c28fa8a1",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Pim Finalmente Fica Verde",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2024-06-23T00:01:00Z",
+      "duracaoMs": 665000
+    },
+    {
+      "videoId": "aec360da-ff6e-4cdb-b848-604141c18aee",
+      "editId": "839ee453-792e-4d29-9ee5-f45a36436a3c",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Samuel Bobo",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2025-10-05T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "4e4ccc39-65f4-4b9e-a389-51040c40953f",
+      "editId": "7b8dd863-a7eb-4fdc-a414-bb6b7819aaa1",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "A Viagem Incrível",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2025-10-12T00:01:00Z",
+      "duracaoMs": 674000
+    },
+    {
+      "videoId": "665c8ca1-d567-4e59-85ce-1984d3455cfe",
+      "editId": "b49dcdd8-fc91-46d4-8ebf-60b30e4df633",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "O Homem-Toupeira",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2025-10-19T00:01:00Z",
+      "duracaoMs": 681000
+    },
+    {
+      "videoId": "95fa8619-8380-4e6a-ba56-8f14196fe4ee",
+      "editId": "2e23ca93-3042-4b0a-bc42-f93b3c92a3c2",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "A Maldição Da Bruxa Verde",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2025-11-02T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "493698fe-e743-4e85-af61-4ac4291cf90b",
+      "editId": "4a4730c2-8a91-4415-9204-6adc89ae598c",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Pim E Charlie Salvam A Mãe Natureza",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2025-11-09T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "14650a8f-1345-4a32-be27-0769d80b960d",
+      "editId": "c838eea1-9dca-4f0c-ad24-c2e77a09efc3",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "A Volta Do Squim Não Foram",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2025-11-16T00:01:00Z",
+      "duracaoMs": 695000
+    },
+    {
+      "videoId": "036cb154-cccd-4369-886c-7be89ab32cb0",
+      "editId": "6eeba6af-40c0-4c26-84d1-23b68ffb50ef",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Shmaloogles",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2025-11-23T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "49566b03-a3d2-4bd4-b26b-fff5fb478c94",
+      "editId": "9dceed19-da84-4958-811e-e032d3cb9e26",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "O Episódio Do Glep",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2025-11-30T00:01:00Z",
+      "duracaoMs": 682000
+    },
+    {
+      "videoId": "c8a31129-3e25-4f7c-b703-2db83a174ffc",
+      "editId": "d17ab941-85b7-4cea-9beb-f33109e86706",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Friend-Bot (Version 12589218731809213528796879521)",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2026-04-12T00:01:00Z",
+      "duracaoMs": 676000
+    },
+    {
+      "videoId": "ad19aee7-9c2b-4895-9a62-0184f52cebb5",
+      "editId": "a473bf14-70e0-4d10-83f5-ba2b346efb70",
+      "showId": "b692705b-2f12-4a3d-ab4d-579124e0667c",
+      "nome": "Charlie's Uncle Dies and Doesn't Come Back",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2026-04-12T00:01:00Z",
+      "duracaoMs": 653000
+    }
+  ]
+}

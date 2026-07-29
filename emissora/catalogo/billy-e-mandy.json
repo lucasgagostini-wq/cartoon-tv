@@ -1,0 +1,796 @@
+{
+  "slug": "billy-e-mandy",
+  "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+  "nomeOficial": "As Terríveis Aventuras de Billy e Mandy",
+  "capturadoEm": "2026-07-28T06:52:04.987Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "18e852f4-f63b-44ea-8568-9f36ff4c28db",
+      "editId": "5de5688e-5d70-4333-9354-cef23b1b69d7",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Escola de Magia do Sapo Cururu / Puro-Osso na Escola / Monstros Cafonas",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2003-06-13T00:01:00Z",
+      "duracaoMs": 1273000
+    },
+    {
+      "videoId": "e094e336-4196-4ddb-a7fd-8f8d3a4f44e4",
+      "editId": "71e24cde-12d1-48f4-a263-df6baadaed18",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Noite Do Ceifador Humano / Brownies Do Mal",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2003-06-20T00:01:00Z",
+      "duracaoMs": 1244000
+    },
+    {
+      "videoId": "95848a36-964e-4e23-9b81-83666a1b21f6",
+      "editId": "86d46242-07d5-4748-9b03-e833b5997f83",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Mandy, A Tirana / Criando Caos / Um Casal Estranho Mesmo",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2003-06-27T00:01:00Z",
+      "duracaoMs": 1268000
+    },
+    {
+      "videoId": "739e1406-d59b-45d4-9f8e-cefe6ee0aa99",
+      "editId": "9000a614-fed7-42fe-95b9-9f6b168381a2",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Quem Matou Quem? / Menino Lobo",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2003-07-04T00:01:00Z",
+      "duracaoMs": 836000
+    },
+    {
+      "videoId": "bcbfe205-f181-4f6f-93aa-77738dfe9f2e",
+      "editId": "752168df-121f-4b4f-aa60-2a139fda2670",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Ceifador Apaixonado / Apaixonada / Amor Rima Com Dor",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2003-07-11T00:01:00Z",
+      "duracaoMs": 1260000
+    },
+    {
+      "videoId": "346da144-9b55-48c6-b4cf-ae6a980797a7",
+      "editId": "22f99d04-aa25-462d-9dc5-35ed7aa70984",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Gentileza Rastejante  / Fica Esperto / Puro Ôsshow",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2003-07-18T00:01:00Z",
+      "duracaoMs": 1252000
+    },
+    {
+      "videoId": "85691ca8-8834-4aa0-81ec-a69686235770",
+      "editId": "4ded8b06-21d4-4be9-abb5-c1c9ddd4ce55",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Filho Do Nergal / Puro-Osso De Freira / Dá-Lhe Kart 3000",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2003-07-25T00:01:00Z",
+      "duracaoMs": 1298000
+    },
+    {
+      "videoId": "d4b2f986-b351-4314-9359-83a8208887b9",
+      "editId": "43b33779-c00b-4f89-8006-3eeca198ce9f",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Pereba Do Billy / Hoss Delgado: O Exterminador De Espectros / Mandy Faz Cócegas Em Mim",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2003-08-22T00:01:00Z",
+      "duracaoMs": 1261000
+    },
+    {
+      "videoId": "26a87828-acd1-40f9-a4ec-87b6ceb6412f",
+      "editId": "5c09c2b1-1425-491e-98a9-be010a7802d8",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Billy E O Fortão / Eris É Humana / Problemas No Porão Do Billy",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2003-08-29T00:01:00Z",
+      "duracaoMs": 1253000
+    },
+    {
+      "videoId": "bfa26e67-8558-4f6c-b4cc-4048fc0f7b6e",
+      "editId": "3ea638ae-780a-463c-a296-f195484adf4b",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Batalha Das Bandas / Pequeno Rock De Horrores / Sonhe Um Pouquinho",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2003-09-05T00:01:00Z",
+      "duracaoMs": 1281000
+    },
+    {
+      "videoId": "c02c30ed-ae5c-4a1b-b03e-f156d458a789",
+      "editId": "9c801e1c-c374-4d45-9fc2-67fba76c5f71",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Billy E Mandy E O Ceifador Sinistro / Esqueletos No Banheiro / Dia Do Contra",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2003-09-06T00:01:00Z",
+      "duracaoMs": 1264000
+    },
+    {
+      "videoId": "c07c5b1b-a4f2-4cbb-b54d-3b09835cd676",
+      "editId": "bd003d27-90af-423a-8baf-49af5f9b278d",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Sai Da Minha Cabeça / Se Toca! / Dilema Mortal",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2003-09-13T00:01:00Z",
+      "duracaoMs": 1253000
+    },
+    {
+      "videoId": "5a051280-2d96-450b-9620-2dfa7fa1244b",
+      "editId": "14783c88-2207-4f49-b166-ef50c4637845",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Para Colégua Só Falta O \"U\" / Receitas Para Um Desastre / Um Pedido Tolo",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2003-09-20T00:01:00Z",
+      "duracaoMs": 1257000
+    },
+    {
+      "videoId": "bc56b9e2-871a-4e0d-9a1e-7daf2a4963c6",
+      "editId": "94a48dd4-6c77-4c58-b64e-2efcb3eb774c",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Puro-Osso Versus Mamãe / Parece Galinha",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2003-09-27T00:01:00Z",
+      "duracaoMs": 840000
+    },
+    {
+      "videoId": "bfbdc401-2da5-4c63-a9f4-e0d6849c950f",
+      "editId": "50a29ea9-8503-4711-91fd-c6a8e30506be",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Dia Das Bruxas Surpresa De Billy E Mandy",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2003-10-01T00:01:00Z",
+      "duracaoMs": 1419000
+    },
+    {
+      "videoId": "8dac499f-a884-4499-844a-26c30cead2b4",
+      "editId": "436c2d0c-5a6c-4cb4-98c5-b8b77cbd6f8d",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Lá Vem Burrice / Uma Triste Surpresa / Feras E Bárbaros",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2003-10-04T00:01:00Z",
+      "duracaoMs": 1268000
+    },
+    {
+      "videoId": "4dfcfcd8-f0ed-42c9-98a9-478e9b332d9c",
+      "editId": "9c3e4b09-5d66-475d-ad8f-7cfa02d3c32c",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Em Palpos De Aranha / Triciclo Do Terror",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2004-06-11T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "a1425f10-6507-4fec-8a9e-a72fe7722f85",
+      "editId": "9428515c-6cab-47ab-9f93-805934dd1077",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Trapaças Da Sorte / Nem O Corpo Atura",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2004-06-18T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "2d639266-94e0-40de-999d-5c2c85c482fd",
+      "editId": "f8442b29-0679-406f-962d-8f9880f49ed5",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Costeleta / Uma Vez Cicatriz",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2004-06-25T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "79defa7c-b259-4510-9001-84a0478a3649",
+      "editId": "e6b5d6d9-2ae6-4168-8cea-427fa54aa1fe",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Casa Da Dor / Uma Profecia Sinistra / O Cão Da Many Morde",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2004-07-02T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "f3c9c573-d941-495c-b178-f22cacca8955",
+      "editId": "3a8685a9-1fd8-497f-b99f-7dbd2cbc3143",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Crimes Da Carochinha / Ai, Minhas Vistas",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2004-07-09T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "280e469e-3da0-41e3-b94a-27769b35b24f",
+      "editId": "8ff33f49-5eed-4212-ae57-f768660bdbab",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Nigel Planter E A Câmara Dos Segredos / O Circo Do Medo",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2004-07-16T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "89452bf6-5d1c-42d2-8261-f14a6cf6b2d9",
+      "editId": "1f525fdc-2c70-4168-87fb-f6ef922e9f3a",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Bicho Papão / Que Venham Os Anões",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2004-07-23T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "8ddcfe69-41af-464c-87f0-fa8b8bc07091",
+      "editId": "87bf7a4d-445c-4877-b1e2-0c5667d91977",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Qual Veio Primeiro? / Professora Substituta",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2004-07-30T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "4011fd9d-e1cc-4328-9135-ef969f002f6d",
+      "editId": "1e7e0457-cc67-4b31-aad8-e14e69fc599f",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "/A Maldição Do Cavalheiro Negro",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2004-11-04T00:01:00Z",
+      "duracaoMs": 1271000
+    },
+    {
+      "videoId": "085691b7-2f6d-4768-bdae-046cca2f79ff",
+      "editId": "e6618702-13af-4e80-9bb4-0608ba72beba",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Ceifador Por Um Dia/Chickenball Z/Os Corredores Do Tempo",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2004-11-08T00:01:00Z",
+      "duracaoMs": 1268000
+    },
+    {
+      "videoId": "d3ba14a5-4819-46fd-bf99-d370acf0da98",
+      "editId": "7e28c922-3095-4aab-93da-aad2b2f0e827",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Super Zero / Doce Que Dói",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2004-10-01T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "2413f42c-2c9f-48c5-8fe2-e5a942cf1bf9",
+      "editId": "7278daf2-753f-440a-b8e7-15193997baa6",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Billy Barbado / Nervo Exposto",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2004-10-08T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "11a2847d-901a-4fd1-b5c4-8d4f98f07f9a",
+      "editId": "60f92d65-0df5-4f19-a3ab-5d48ca8e9fff",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Ataque Dos Palhaços / Caos Geral E Irrestrito",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2004-10-15T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "8cf9d4a3-437e-48f6-982b-988992dade60",
+      "editId": "ebd0afc4-7fac-466a-9f1b-13aee8455fe8",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Teste Do Tempo / Um Passeio Por Asgard",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2004-10-22T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "f490c24a-1b4f-41d8-a7a1-998a35e3215d",
+      "editId": "7d14fbde-b784-4ee2-8015-52b48b459ae2",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Que Houve Com Billy \"Sei Lá Das Quantas\" / Só Nós Dois E O Pus",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2004-10-29T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "b4870f68-39de-4c0c-a485-2320f1063ac9",
+      "editId": "417873d0-f9ec-487c-8952-6cb0b50107f7",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Marujo De Chocolate / O Bem, O Mal E Os Desdentados",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2004-11-05T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "53638659-4c80-4c94-bf77-cb43868e3306",
+      "editId": "40a3b26e-095c-463b-ab42-9ed2e48e24fb",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Mamãe Múmia / Brinquedos São Brinquedos",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2004-11-12T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "d98a825f-8ab2-470a-bbd2-151340f10d24",
+      "editId": "42f8860c-9cee-4669-9c8e-ec3a2cd9438b",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Clube Secreto Da Cobra",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2005-02-21T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "72eddf30-96af-4f25-b5d6-20b2cbac4a95",
+      "editId": "9479433e-b355-4cba-9695-664a71030377",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Ele Não Está Morto, Ele É Meu Mascote / Selvagem Da Motocicleta",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2005-04-16T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "2699fc15-b99e-4a7c-9018-ea930f70f3ec",
+      "editId": "5662cad3-da70-4582-bed5-4dd2a9cddd24",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Zumbis De Más Notícias",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2005-04-08T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "846b640d-a866-47a3-9b46-96fb44b2d651",
+      "editId": "6c42cbfe-ff0d-448d-b702-1d9ae8a2b400",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Nariz Fujão / O Problema Do Billy",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2005-04-15T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "1c441ea9-cce9-43db-8eee-8b6c273f0936",
+      "editId": "596de527-60dc-4b91-b848-78c7b8f72b37",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Ursinho Do Abraço Feliz / O Anel Decodificador Secreto",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2005-06-03T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "67ba6487-ce5c-4ffe-8c8f-f29dfa0e64b4",
+      "editId": "95ba7597-58ea-4e65-9e07-9a6173366f40",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Cachorro Dos Sonhos / Foice À Venda",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2005-06-10T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "a65b2ec8-9a79-4e86-9fbc-dc6c8211387c",
+      "editId": "65083383-0b03-48ba-804c-926c242134bb",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Ossos Da Sorte",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "2005-06-17T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "6fd2c50d-8815-499e-bdd7-edd355fead44",
+      "editId": "51cb4a79-0bba-4e00-87b3-c43d82ec8a69",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Teia Do Jeffy / Irwin Se Toca",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2005-07-22T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "41c2b960-3edc-4950-a067-95c12db97304",
+      "editId": "40a216d1-17c5-4571-889a-b986e58d9262",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Pato / Não É O Chupacabra Que Veio Me Ver?",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2005-06-24T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "d28f6bc4-bf71-4e69-a17c-e32095690fbc",
+      "editId": "e0403a6f-5be3-47a5-9005-1af04105b1f0",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Fecha Esse Zíper / Pulando Poças",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2005-06-27T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "8431418f-101b-4ff7-8ce9-8fa0555d46e3",
+      "editId": "5bda54b8-b131-4e4e-8361-98d3410279c1",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Calça De Corrida / Foice 2.0",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2005-06-28T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "386e7059-1d21-4565-b542-a44d6dd35d7e",
+      "editId": "03869132-fc8e-4a31-b5d1-b5ab2d013e73",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Pássaro De Fogo / As Balas Do Billy",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2005-06-29T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "35b7255a-e34e-47f2-97bf-ade9b9c0351d",
+      "editId": "a1489c01-ecf1-4f22-8288-901f0af706a2",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Billy Idiota / Lar Dos Anciões",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2005-06-30T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "7b1ba1c0-f4c6-4307-a0f1-6cb1f84f765a",
+      "editId": "0c7c6992-fee8-4ff5-99a4-c48275647da8",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Minha Linda Mandy",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2005-07-29T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "b9929e3f-95f8-4d6d-9876-feb8e4c75f30",
+      "editId": "00b354ff-94bf-408d-baa9-30dee91aa0f4",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Magia Adolescente / Adivinhe O Que Vem Para Jantar",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2005-08-05T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "42174a7f-7224-4dce-876c-202aa6988935",
+      "editId": "4e4004de-9087-4fe6-830b-1c661520df0d",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Mamãezinha Ferina / Árvore De Rapina",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2005-08-12T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "32838579-db5b-4082-bc8b-bcf5318d2663",
+      "editId": "5c2c43f4-de01-4cee-895f-86e40e7a1a81",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Purossâmbulo / O Panaca Do Centro Da Terra",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2005-10-07T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "0a2814a0-d93a-4469-be62-55e08bcaf6f3",
+      "editId": "6e467643-fbd1-4aa7-8a6d-1c0f8419b168",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Ecto Mala / Ecto Mala",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2005-10-14T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "d8cb7696-973f-4305-882f-11e4b4319033",
+      "editId": "fdd146c0-b1f9-48de-8fcd-5890ecb835b0",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Trote Do Catulu",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2005-10-21T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "4a35184c-4e24-48f5-afb6-ee7c37b5c32a",
+      "editId": "8cc55a7e-3eb0-4602-8fa0-b34b327ee866",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Billy Oceano / Billy Da Montanha",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2006-01-06T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "6da537c4-a759-4523-9c05-4812b523602e",
+      "editId": "7fa0c0e4-67b2-40a4-897f-f77de1624ff0",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Guardião Do Ceifado",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2006-01-13T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "f82b7859-81bf-48db-ad19-59cb2de2c935",
+      "editId": "8d7a1c45-7037-4219-9a1b-0a6b8688b8e6",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Amor Que Não Mostra A Cara / Major Requeijudo",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2006-01-20T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "7a0484a4-a69d-42af-ad30-baa582d09dca",
+      "editId": "76045db6-ce53-45ca-945b-695e94870907",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Primitivos Modernos / Billy E Mandy Gigantes Em Ataque Total",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2006-01-27T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "d49c06c5-ce80-4c70-aa79-30cef089e6db",
+      "editId": "7e642f44-1733-408f-847c-fbfc1bd8b024",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Jarda Mais Errada / Druida, Cadê Meu Carro",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2006-03-20T00:01:00Z",
+      "duracaoMs": 1381000
+    },
+    {
+      "videoId": "31b2ac30-1acb-410a-8bcd-9dfd5410cd18",
+      "editId": "12553eec-d476-49a9-8948-a2478f2c28ab",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Maluco Herbicida / Teoria Do Caos",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2006-03-21T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "c4d202cb-6236-4fb5-8fb7-1761e811357b",
+      "editId": "d09213f6-cd71-46b7-ae9b-1917391fad92",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Dia Do Puro-Osso / A Lancheira Da Pandora",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2006-03-22T00:01:00Z",
+      "duracaoMs": 1360000
+    },
+    {
+      "videoId": "098655e5-b0c3-42d6-af36-cf97db9e10f5",
+      "editId": "bd29a298-3d87-42f6-b890-64089eb3381a",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Billy & Mandy Contra Os Marcianos",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2006-03-23T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "092097a2-7cd0-4234-9020-7c59f59f62e9",
+      "editId": "a1e2c69f-84d4-42ac-9e67-d1e8089e8a58",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Debilóides E Dragões / Medo E Nojeira Em Endsville",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2006-05-12T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "2b6cd650-e5da-4e47-8e10-7c22e1e0a9cd",
+      "editId": "ac49f76c-afb3-4425-a93f-1070e2184f14",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Tarde Do Dia Dos Pais / Assusta Poppins",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2006-01-05T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "e977c3dd-ccba-49d3-80ac-897ef9497594",
+      "editId": "6c6c79d1-538e-4af6-8282-c57f59243a9f",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Macaco Cuco / Sangue-Bom E O Hip-Hop-Otamus",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2006-07-10T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "282c559d-a522-49ca-8e4c-3f1c3c052d52",
+      "editId": "1bb3197a-e9b2-4382-95ff-b89de499900c",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Mandiranha / A Volta De Fred-Fredburger",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2006-01-24T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "26e85dd3-366e-4c35-ae1a-d1687a8973c4",
+      "editId": "54c8e75d-a970-40ea-ab56-72de5021028a",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Unicórnio Grosseirão / Billy & Mandy, O Começo",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2006-08-09T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "10b138ac-1a34-469e-8533-f4248cc64c40",
+      "editId": "6c0e4425-db64-4aee-930d-2df7bbea61ba",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Tudo Quebra / O Desenho Que Não Ousa Dizer O Nome",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2006-10-06T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "00193acd-f7a3-432b-8e42-89efd74e0509",
+      "editId": "2c2146cd-b132-4877-8c62-5a867804dd6a",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Clube Secreto Da Cobra Versus Educação Física / Rei Tutem Putem",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2006-10-20T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "e4b82ccf-f099-427d-b02f-8385a911d8cf",
+      "editId": "8cc44882-6b80-4bd4-a3f2-345455249849",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "O Billy Tira \"A\" / Yeti Ou Não, Aí Vou Eu",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2007-03-02T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "bd6a1ccf-5111-4c03-8cc7-94ffd56d3905",
+      "editId": "a4937189-0c3f-4940-85af-d6af521b170c",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Pizza Do Nergal / Por Que Cargas D'Água?",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2007-03-09T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "90fdb731-77b8-4679-8441-5c13b5b8288f",
+      "editId": "1ccf203d-1120-40fb-a725-60b4385f8490",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Companhia, Alto! / Descontrole Da Raiva",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2007-03-16T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "e55fe5a2-63a6-4043-a606-91d4e010f816",
+      "editId": "6ab1c570-c940-4690-9ce3-e28c9b452a6f",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "É Um Pesadelo Te Acordar / Cuidado Com O Sapo Do Esgoto",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2007-03-23T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "539c170f-7cee-4b5e-9ab0-b96c08eecd99",
+      "editId": "8d0868be-484b-490e-8138-310f4ba1835c",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Mais Linda Estória De Amor Já Contada / Dimensão Detenção",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2007-04-06T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "a89803ae-bd5d-4875-a609-2dc47c62426e",
+      "editId": "b58e0b23-3fbc-41be-828c-0fde3e390307",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Queijo Da Lua",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2008-04-25T00:01:00Z",
+      "duracaoMs": 1493000
+    },
+    {
+      "videoId": "378176aa-78cd-4707-a7c5-1e56a56b0e06",
+      "editId": "dbeaa72d-332a-4da0-bd18-7457ff03c0cb",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Ira Da Aranha-Rainha - Primeira Parte",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2007-07-06T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "ab7a0939-7ce7-4bef-b45f-ea2c677ac9b8",
+      "editId": "0ffe6382-b32e-4194-ab4e-9be876472d4c",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "A Ira Da Aranha-Rainha - Segunda Parte",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2007-07-06T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "4ff425a9-1217-4c78-8695-bdb612f90ff2",
+      "editId": "4dc68f7b-c772-4082-a309-e4110904fcb6",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Drácula Deve Morrer / Contos Folclóricos",
+      "temporada": 6,
+      "episodio": 11,
+      "airDate": "2007-09-21T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "05e08f6d-0a8e-4c86-8116-884f8cdd424e",
+      "editId": "f7e6d866-cbd6-46e4-9206-de0c91afcf39",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "Nigel Planter E A Ordem Do Amendoim / A Incrível Mandy Encolhedora",
+      "temporada": 6,
+      "episodio": 12,
+      "airDate": "2007-09-28T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "dd691fa5-2fe0-4134-b666-dd004ce78fd4",
+      "editId": "9d47214d-d0d2-4515-950d-1e7be4827173",
+      "showId": "0fd9938a-862b-466d-999e-c4ece1d56e0c",
+      "nome": "El Dia De Los Muertos Estupidos / Queimação",
+      "temporada": 6,
+      "episodio": 13,
+      "airDate": "2007-11-09T00:01:00Z",
+      "duracaoMs": 1371000
+    }
+  ]
+}

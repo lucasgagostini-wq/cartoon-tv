@@ -1,0 +1,49 @@
+{
+  "slug": "terras-distantes",
+  "showId": "9141a8ca-0a07-4278-9488-1f7776597ed6",
+  "nomeOficial": "Hora De Aventura: Terras Distantes",
+  "capturadoEm": "2026-07-28T06:49:08.988Z",
+  "temporadasDropdown": [],
+  "episodios": [
+    {
+      "videoId": "63b45cd8-2d11-4ed2-9750-1869a8057686",
+      "editId": "2ea17bb7-20be-43cd-b0dd-d47ecf6e8c1c",
+      "showId": "9141a8ca-0a07-4278-9488-1f7776597ed6",
+      "nome": "Beemo",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2020-06-25T00:01:00Z",
+      "duracaoMs": 2696000
+    },
+    {
+      "videoId": "7d45bec7-501c-4015-b498-2973c3959b3b",
+      "editId": "cde07ad0-e1d3-4b30-8a55-29299ee2a543",
+      "showId": "9141a8ca-0a07-4278-9488-1f7776597ed6",
+      "nome": "Obsidiana",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2020-11-19T00:01:00Z",
+      "duracaoMs": 2708000
+    },
+    {
+      "videoId": "9748858f-91e9-42ae-9253-470f3aa2a386",
+      "editId": "fde90f5e-1b92-4b2e-8768-2a1878516738",
+      "showId": "9141a8ca-0a07-4278-9488-1f7776597ed6",
+      "nome": "Juntos Novamente",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2021-05-20T00:01:00Z",
+      "duracaoMs": 2778000
+    },
+    {
+      "videoId": "754686fd-5fc5-4570-a34f-6f32c00f9f13",
+      "editId": "099dfc09-8678-41c9-a721-937f6cbbed95",
+      "showId": "9141a8ca-0a07-4278-9488-1f7776597ed6",
+      "nome": "Cidade Dos Magos",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2021-09-02T00:01:00Z",
+      "duracaoMs": 2995000
+    }
+  ]
+}

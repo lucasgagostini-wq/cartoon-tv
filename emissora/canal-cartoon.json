@@ -1,0 +1,34 @@
+{
+  "nome": "Cartoon TV do Lucas",
+  "epoca": "2026-07-27",
+  "inicioDia": "06:00",
+  "metaMinutosBloco": 22,
+  "intervalo": { "slug": "outra-semana-no-cartoon", "aCadaBlocos": 3 },
+  "faixas": [
+    {
+      "rotulo": "Manhã dos clássicos",
+      "de": "06:00", "ate": "12:00",
+      "series": ["dexter", "coragem", "johnny-bravo", "meninas-a", "du-dudu-edu", "billy-e-mandy", "chowder", "mansao-foster"]
+    },
+    {
+      "rotulo": "Tarde era de ouro",
+      "de": "12:00", "ate": "18:00",
+      "series": ["hora-de-aventura", "apenas-um-show", "gumball", "flapjack", "titio-avo", "clarencio", "gumball-novo", "fitas-perdidas"]
+    },
+    {
+      "rotulo": "Noite de ação",
+      "de": "18:00", "ate": "22:00",
+      "series": ["ben10-a", { "slug": "ben10-forca-alienigena", "diasSemana": [2, 4, 6] }, "samurai-jack", "looney-tunes-cartoons", "terras-distantes"]
+    },
+    {
+      "rotulo": "Adult Swim",
+      "de": "22:00", "ate": "02:00",
+      "series": ["rick-e-morty", "smiling-friends", "primal", "fionna-e-cake"]
+    },
+    {
+      "rotulo": "Madrugada",
+      "de": "02:00", "ate": "06:00",
+      "series": ["coragem", "samurai-jack", "hora-de-aventura", "apenas-um-show"]
+    }
+  ]
+}

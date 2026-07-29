@@ -1,0 +1,534 @@
+{
+  "slug": "ben10-a",
+  "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+  "nomeOficial": "Ben 10 (id A)",
+  "capturadoEm": "2026-07-28T06:47:02.210Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4"
+  ],
+  "episodios": [
+    {
+      "videoId": "6fb32050-200a-4a06-be7d-3b304b08b4bf",
+      "editId": "5e3206b4-112b-4dd5-8caa-857d56958612",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "E Então Eram Dez",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2005-12-27T00:01:00Z",
+      "duracaoMs": 1404000
+    },
+    {
+      "videoId": "d315aeb1-763f-453e-b7ca-ccb61f3b1ecf",
+      "editId": "092b16ed-5fde-4368-8223-a49e7f18ee59",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Washington A.C.",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2006-01-13T00:01:00Z",
+      "duracaoMs": 1406000
+    },
+    {
+      "videoId": "963696cb-263a-44d3-9e40-d6d7f5ba3187",
+      "editId": "b4a63f3a-db4d-46d0-815a-0fa8b4d5d94a",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "O Krakken",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2006-01-14T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "5be8286e-e649-4b52-8e61-ac19b8ee1fc5",
+      "editId": "2cce3b29-9176-468d-947b-e487fa22df61",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Aposentadoria Permanente",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2006-01-21T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "794350f3-b193-4cfd-b1ec-97991e1b8097",
+      "editId": "ccba93d0-98e6-4eae-8059-a9c68832ac17",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Caçado",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2006-01-28T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "f85f7ad1-af97-4046-b3ce-cdecf23147d3",
+      "editId": "73019e8c-32d2-4be8-bb30-1cf4a7f4475e",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "O Pega-Turista",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2006-02-04T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "eaf2d634-ccff-4fbd-9710-0d40d2db928d",
+      "editId": "b2bfc03b-cc23-4d8d-8e2c-0595f7aba565",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Kevin Onze",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2006-02-11T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "1f5c41e3-66d6-47a2-9868-94c5dd6563b1",
+      "editId": "cfcda200-5852-4c95-9afd-e330ee36b843",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "A Aliança",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2006-02-18T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "33af6e5f-1cfb-4d09-8140-2acd4c157cfb",
+      "editId": "a86c89ab-4003-464a-b78e-fa7ab96e5b36",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "A Última Risada",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2006-02-25T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "4ed5a6f5-19fb-4a94-a9f7-9b98114a50b7",
+      "editId": "a9007748-e8ad-4944-b843-c995622da9e2",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Sorteada",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2006-03-04T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "18b6df5f-7407-471c-bb06-9fbbb649e90f",
+      "editId": "3badcba7-9019-4d0c-bf31-6b4f8af839b5",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Um Probleminha",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2006-03-11T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "47b2ba0b-b4fc-4d2b-b65f-0ababa01705d",
+      "editId": "a5ecb6c8-6b90-48a6-848f-28c2aa8bf3fd",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Efeitos Colaterais",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2006-03-18T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "c0299f14-ce86-41fb-b67c-5b125b967451",
+      "editId": "77648d77-e70a-4bbd-b432-e4a84c169201",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Segredos",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2006-03-25T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "4deb1e70-22be-4700-afc0-e13f2df41da4",
+      "editId": "2503e8f4-785f-4395-961a-14d5c98dbeea",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Verdade",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2006-05-29T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "305e1b04-44ac-4103-b033-c6c668f30142",
+      "editId": "67d31d23-cfc2-4de4-8c6d-81d8d9f5f28e",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "O Grande Carrapato",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2006-05-30T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "7a4843ec-8880-4e88-b80b-7f16f8e4fe5a",
+      "editId": "3a01b683-3c19-49e8-ab9f-01d0e8ece030",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Acusado",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2006-05-31T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "f2390dbe-d014-4643-94a2-3a7d019af3cb",
+      "editId": "ec87ad6d-6287-4287-a787-f8dda1f0b69c",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Gwen 10",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2006-06-01T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "287cb512-e80c-446f-996f-5dcf10a44d7f",
+      "editId": "599fbe8a-1ddf-4841-88eb-7a90397774ff",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Luta De Revanche",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2006-06-13T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "892a55df-35a6-4b6c-9aa3-067462a40ab1",
+      "editId": "2ca59340-5427-4236-8a8d-f9da18f9e308",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Força Galáctica",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2006-06-13T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "cd61faad-928c-4be0-9699-00d73130d151",
+      "editId": "21844259-db95-412a-ad2d-6c86f0a94230",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Acampamento Do Medo",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2006-06-21T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "aaea6db9-7cce-4f2c-8232-f455f888e335",
+      "editId": "79b3b661-1a97-4c3f-b2a0-25cfec28ce02",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Arma Poderosa",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2006-07-06T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "612c332e-629d-44dc-a45c-27c93deafe11",
+      "editId": "390e0a72-bdda-45ef-8590-45a46268b600",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Má Sorte",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2006-07-12T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "65a02f36-d56c-4265-9f47-8515dc431610",
+      "editId": "a8f89167-0b82-4c18-93af-b3d2a55ddec5",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Eles Se Escondem No Fundo",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2006-07-18T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "9c1e9c44-0990-4438-98d3-7037d672dd25",
+      "editId": "f37972e8-aed6-49f8-bca0-35c39af5b448",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Ataque Do Fantasmático",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2006-07-25T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "be8e030b-e976-4527-9ec3-be0beabcfdc6",
+      "editId": "62e6fe50-177a-40c4-a268-f40b594889e4",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Doutor Animal E O Raio Mutante",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2006-08-25T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "148d2847-23c1-453d-92f7-9acf6837cd72",
+      "editId": "ae5a8494-2a1f-4337-8c5b-90ce6360445a",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "De Volta Com Uma Vingança",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2006-10-09T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "198ba7b6-12d6-437f-86b1-cd977764d88b",
+      "editId": "ba4ef23a-9e67-4f5b-8706-62d33afd3fe5",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Loucura Noturna",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2006-12-02T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "8bbf648d-798a-4c5c-bb87-32582f08d49f",
+      "editId": "3135b2a9-890b-4d28-b6fe-4508cf7721a6",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Ben 10 Mil",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2006-11-25T00:01:00Z",
+      "duracaoMs": 1368000
+    },
+    {
+      "videoId": "c5a71e1c-c794-45da-8bbd-e1056bf13b98",
+      "editId": "23ea6133-1b17-42fa-b2a0-50c141ff1373",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Mudando De Corpo",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2006-12-09T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "f1957325-f51f-4df2-82ab-af50425d5d0e",
+      "editId": "ff73cc47-6dc2-4711-8813-30d09604026c",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Feliz Natal",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2006-12-11T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "0634f42d-6d3d-4026-b259-f26b5c0a1b2e",
+      "editId": "563800eb-8a50-4fd6-88ee-3aba538783fa",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Lobisben",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2006-02-17T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "287edb3f-e0e8-4184-bacc-83f2a3daaa55",
+      "editId": "4f4bd03c-e8b3-412a-a729-e2b4f7c02cc0",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Fim De Jogo",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2007-02-24T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "7f4fdaee-85a8-4b23-a08c-4ef7280c0a3f",
+      "editId": "bfe79e2e-c148-4cdf-86a2-29396348aa47",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Monstro Climático",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2007-03-24T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "9cb7c056-c941-4c82-a9e4-5bd7a607273b",
+      "editId": "a4ee00e1-038c-4245-9a24-3ed749ff7743",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "As Superaventuras Dos Heróis Alienígenas",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2007-03-03T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "63a6c415-7574-43d4-98cc-ba152a48c8f1",
+      "editId": "1862e51a-60ff-47f2-bf2f-67e9c10474d2",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Enrolados",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2007-03-10T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "8bcb1406-b31a-4148-91e5-ca48cd4113ac",
+      "editId": "1aab5d0f-39d3-4260-a94e-013b5f073612",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Os Desnaturados",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2007-03-17T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "d27b6d56-b8c7-4344-9780-b8d921ed3f66",
+      "editId": "c1d234e4-8ca7-479f-be17-50320ecfe853",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "O Retorno",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2007-04-07T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "0f80f438-eeaf-46c2-98f4-5cf938828ac1",
+      "editId": "20db1443-8a9e-48e8-a817-09177da2088f",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Tenha Medo Do Escuro",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2007-04-14T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "c517d1b8-73ad-426a-8a86-dd1210fa35e6",
+      "editId": "e4785e8b-4dff-474f-bc68-240292c6e007",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "A Visita",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2007-04-21T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "38938b42-ef8c-4283-aa3d-b1f8619598a0",
+      "editId": "922c4b69-64de-48f5-b9a0-d447662797b9",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "The Secret of the Omnitrix (Pt. 1)",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2007-08-10T00:01:00Z",
+      "duracaoMs": 1609000
+    },
+    {
+      "videoId": "fc14eaa1-402c-4b6f-a220-bbf83ed4d2e4",
+      "editId": "566c2f19-3817-4696-bad3-38e9490adfe4",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Segredo Do Omnitrix Parte 2",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2007-08-10T00:01:00Z",
+      "duracaoMs": 1315000
+    },
+    {
+      "videoId": "55d6818a-e207-4833-bfd5-888f781060f1",
+      "editId": "559bdbba-cfc3-4b3c-9c31-2f91bda733ac",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "The Secret of the Omnitrix (Pt. 3)",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2007-08-10T00:01:00Z",
+      "duracaoMs": 1483000
+    },
+    {
+      "videoId": "5d6fdcc3-28c8-4eaf-964d-b5c2a5d19a01",
+      "editId": "fd8c08df-c737-4193-9fed-bf43513b7ac8",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Dia Perfeito",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2007-07-14T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "6d4a515b-f5cf-43f6-a380-42ef93649903",
+      "editId": "a230eada-b56b-4f24-befd-2d6cd2ea9e39",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Divididos Conquistamos",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2007-07-19T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "83399ad8-23e3-49ca-9e23-496e4b0617a3",
+      "editId": "84046366-8ba3-4dab-a981-daf31619475c",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Não Beba Da Água",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2007-07-26T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "b23b2505-1d9d-4a3a-9085-1c03de13c6d3",
+      "editId": "835f9d2e-3764-4988-b641-bcfabfb1b875",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "O Grande Casamento Alienígena",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2007-08-02T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "63ba0714-631c-4be6-aa5a-684ab025e01f",
+      "editId": "338ba234-27eb-4eda-b696-8d081cc6ae8e",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Ben 10 Contra Os Estradeiros",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2007-09-22T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "6fc08bed-5d15-467d-b2d7-23bee8b6f830",
+      "editId": "f59421a3-77dd-485d-ae8e-75b6db2eb785",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Pronto Pra Briga",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2007-09-29T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "e4699615-d072-4ad4-9f57-a3f098a67d96",
+      "editId": "ec5d8e51-da99-4ffb-b53c-c72f9c10fb52",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Ken Dez",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2007-10-06T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "083ef52f-dfed-4974-98fe-dc1114cb2c2e",
+      "editId": "8bbe8fe9-d330-4d2c-abd5-c6364265d357",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Adeus E Já Vai Tarde",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2008-04-15T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "725364bc-482a-4499-b05e-5eda7de78ead",
+      "editId": "6eb9bb5f-7c54-440d-b7b9-75a56bd736cb",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Ben Dez Contra Os Dez Negativos - Parte 1",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2008-03-09T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "9aa1d3a1-1eea-49bb-9cc1-7c356b8a59bb",
+      "editId": "fb661bd7-492b-4830-941e-a8678e6d688d",
+      "showId": "78b6fa0c-47c4-4fdf-ad77-67a407efd900",
+      "nome": "Ben Dez Contra Os Dez Negativos - Parte 2",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2008-03-09T00:01:00Z",
+      "duracaoMs": 1375000
+    }
+  ]
+}

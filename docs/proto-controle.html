@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Controle Cartoon TV — 3 estilos</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 28px 20px 60px;
+    background: #16181d;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #8b93a7;
+  }
+  h1 { font-size: 15px; font-weight: 600; letter-spacing: .04em; color: #c9d1e0; margin: 0 0 4px; }
+  .sub { font-size: 12.5px; margin: 0 0 26px; }
+  .sub b { color: #c9d1e0; font-weight: 600; }
+  .row { display: flex; gap: 26px; align-items: flex-start; flex-wrap: wrap; }
+  .col { width: 380px; }
+  .rotulo { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 9px; color: #6f7891; }
+  .rotulo b { color: #d7dde9; }
+  .nota { font-size: 11.5px; line-height: 1.5; margin: 10px 2px 0; color: #7a8296; }
+
+  /* ---------- moldura da janelinha (barra de título do modo --app) ---------- */
+  .janela { border-radius: 7px; overflow: hidden; box-shadow: 0 14px 34px rgba(0,0,0,.5); }
+  .titulo {
+    height: 30px; display: flex; align-items: center; padding: 0 4px 0 10px;
+    font: 11.5px/1 'Segoe UI', sans-serif; gap: 7px;
+  }
+  .titulo .ico { width: 13px; height: 13px; border-radius: 3px; flex: none; }
+  .titulo .txt { flex: 1; opacity: .82; }
+  .titulo .btn { width: 30px; text-align: center; opacity: .65; font-size: 12px; }
+
+  /* ---------- corpo comum ---------- */
+  .app { padding: 13px; font-size: 12px; line-height: 1.45; }
+  .app .mono { font-family: Consolas, 'Cascadia Mono', 'Courier New', monospace; }
+  .bloco + .bloco { margin-top: 12px; padding-top: 11px; }
+  .cab { display: flex; align-items: center; gap: 7px; font-size: 10px; letter-spacing: .14em; margin-bottom: 8px; }
+  .cab .linha { flex: 1; height: 1px; }
+  .serie { font-size: 15px; letter-spacing: .02em; margin-bottom: 2px; }
+  .ep { margin-bottom: 1px; }
+  .meta { font-size: 11px; opacity: .72; margin-bottom: 9px; }
+  .barra { height: 9px; display: flex; align-items: center; letter-spacing: -.5px; overflow: hidden; white-space: nowrap; }
+  .resta { display: flex; justify-content: space-between; font-size: 11px; margin-top: 5px; }
+  .botoes { display: flex; gap: 7px; margin-top: 11px; }
+  .bt { flex: 1; text-align: center; padding: 7px 0; font-size: 11.5px; cursor: pointer; user-select: none; }
+  .lista { display: flex; flex-direction: column; gap: 1px; }
+  .item { display: flex; gap: 9px; padding: 3px 4px; font-size: 11.5px; }
+  .item .h { flex: none; width: 40px; opacity: .8; }
+  .item .n { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item .te { flex: none; font-size: 10.5px; opacity: .6; }
+  .item.int .n { opacity: .55; font-style: italic; }
+  .busca { display: flex; align-items: center; gap: 6px; padding: 5px 8px; font-size: 11.5px; margin-bottom: 8px; }
+  .busca input { flex: 1; background: none; border: 0; outline: none; font: inherit; font-family: Consolas, monospace; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip { padding: 3px 7px; font-size: 11px; cursor: pointer; }
+  .acao { display: flex; gap: 7px; margin-top: 10px; }
+
+  /* ============ V1 — CRT FÓSFORO ============ */
+  .v1 .titulo { background: #0b0f0b; color: #6ee88a; border-bottom: 1px solid #1c3a22; }
+  .v1 .titulo .ico { background: #2fe36a; box-shadow: 0 0 7px #2fe36a; }
+  .v1 .app { background: #050805; color: #35e070; font-family: Consolas, 'Cascadia Mono', monospace; position: relative; }
+  .v1 .app::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: repeating-linear-gradient(180deg, rgba(0,0,0,.28) 0 1px, transparent 1px 3px);
+  }
+  .v1 .bloco + .bloco { border-top: 1px dashed #17441f; }
+  .v1 .cab { color: #7dffab; text-shadow: 0 0 8px rgba(45,220,105,.5); }
+  .v1 .cab .linha { background: #17441f; }
+  .v1 .serie { color: #a8ffc4; text-shadow: 0 0 10px rgba(60,255,130,.45); font-weight: 700; }
+  .v1 .ep { color: #35e070; }
+  .v1 .barra { color: #2fe36a; text-shadow: 0 0 7px rgba(45,220,105,.55); }
+  .v1 .resta { color: #7dffab; }
+  .v1 .bt { border: 1px solid #26643a; color: #7dffab; background: #071206; }
+  .v1 .bt:hover { background: #0d2a13; }
+  .v1 .item:hover { background: #0d2a13; }
+  .v1 .item .h { color: #7dffab; }
+  .v1 .busca { border: 1px solid #26643a; color: #35e070; }
+  .v1 .busca input { color: #a8ffc4; }
+  .v1 .chip { border: 1px solid #1d4d2a; color: #35e070; }
+  .v1 .chip:hover { background: #0d2a13; color: #a8ffc4; }
+  .v1 .agora-dot { color: #2fe36a; }
+
+  /* ============ V2 — CMD DO WINDOWS ============ */
+  .v2 .titulo { background: #1f1f1f; color: #ccc; border-bottom: 1px solid #333; }
+  .v2 .titulo .ico { background: #0c0c0c; border: 1px solid #555; border-radius: 2px; }
+  .v2 .app { background: #0c0c0c; color: #cccccc; font-family: Consolas, 'Cascadia Mono', monospace; }
+  .v2 .bloco + .bloco { border-top: 1px solid #2a2a2a; }
+  .v2 .cab { color: #3b78ff; }
+  .v2 .cab .linha { background: #2a2a2a; }
+  .v2 .serie { color: #f9f1a5; font-weight: 700; }
+  .v2 .ep { color: #cccccc; }
+  .v2 .meta { color: #767676; }
+  .v2 .barra { color: #3b78ff; }
+  .v2 .resta { color: #9c9c9c; }
+  .v2 .resta b { color: #f9f1a5; }
+  .v2 .bt { border: 1px solid #3a3a3a; background: #161616; color: #ccc; }
+  .v2 .bt:hover { background: #252525; border-color: #3b78ff; color: #fff; }
+  .v2 .item:hover { background: #1c1c1c; }
+  .v2 .item .h { color: #3b78ff; }
+  .v2 .busca { border: 1px solid #3a3a3a; background: #161616; color: #767676; }
+  .v2 .busca input { color: #ccc; }
+  .v2 .chip { border: 1px solid #333; background: #161616; }
+  .v2 .chip:hover { border-color: #3b78ff; color: #fff; }
+  .v2 .agora-dot { color: #16c60c; }
+
+  /* ============ V3 — TUI MODERNA ============ */
+  .v3 .titulo { background: #171a21; color: #aab3c5; border-bottom: 1px solid #232833; }
+  .v3 .titulo .ico { background: linear-gradient(135deg,#ff8a3d,#ffd166); border-radius: 3px; }
+  .v3 .app { background: #0f1218; color: #aab3c5; font-family: Consolas, 'Cascadia Mono', monospace; }
+  .v3 .bloco { border: 1px solid #232833; border-radius: 5px; padding: 10px 11px; }
+  .v3 .bloco + .bloco { margin-top: 9px; padding-top: 10px; }
+  .v3 .cab { color: #5fd7c8; }
+  .v3 .cab .linha { background: #232833; }
+  .v3 .serie { color: #f2f5fa; font-weight: 700; }
+  .v3 .ep { color: #c3cbd9; }
+  .v3 .meta { color: #6b7488; }
+  .v3 .barra { color: #ff8a3d; }
+  .v3 .resta { color: #6b7488; }
+  .v3 .resta b { color: #ff8a3d; }
+  .v3 .bt { border: 1px solid #2c3240; border-radius: 4px; background: #171b23; color: #c3cbd9; }
+  .v3 .bt:hover { background: #1e2430; border-color: #5fd7c8; color: #fff; }
+  .v3 .item { border-radius: 3px; }
+  .v3 .item:hover { background: #171b23; }
+  .v3 .item .h { color: #5fd7c8; }
+  .v3 .busca { border: 1px solid #2c3240; border-radius: 4px; background: #171b23; color: #6b7488; }
+  .v3 .busca input { color: #e3e8f0; }
+  .v3 .chip { border: 1px solid #2c3240; border-radius: 3px; background: #171b23; }
+  .v3 .chip:hover { border-color: #ff8a3d; color: #fff; }
+  .v3 .agora-dot { color: #3ddc84; }
+</style>
+</head>
+<body>
+
+<h1>Controle Cartoon TV — protótipo, 3 estilos de console</h1>
+<p class="sub">Dados <b>reais</b> da grade de agora (Rick &amp; Morty T1E5 começou 01:16). Relógio e barra andam de verdade. Tamanho real da janelinha: <b>380px</b> de largura.</p>
+
+<div class="row" id="row"></div>
+
+<script>
+const SERIES = ['Dexter','Coragem','Johnny Bravo','Meninas Superpoderosas','Du Dudu e Edu','Billy e Mandy','Chowder','Mansão Foster','Hora de Aventura','Apenas um Show','Gumball','Flapjack','Titio Avô','Clarêncio','Ben 10','Samurai Jack','Looney Tunes','Rick & Morty','Smiling Friends','Primal','Fionna e Cake'];
+
+const NOAR = { serie:'RICK & MORTY', ep:'A Revolta dos Meeseeks', te:'T1 E5', inicio:'01:16', duracaoSeg: 21*60 };
+const SEGUIR = [
+  { h:'01:37', n:'Primal', te:'T1E5', int:false },
+  { h:'01:59', n:'Hora de Aventura com Fionna e Cake', te:'T1E5', int:false },
+  { h:'02:24', n:'intervalo — Outra Semana No Cartoon', te:'T3E7', int:true },
+  { h:'02:36', n:'Coragem, o Cão Covarde', te:'T1E7', int:false },
+  { h:'02:58', n:'Hora de Aventura', te:'T1E11', int:false },
+];
+
+const ESTILOS = [
+  { cls:'v1', nome:'CRT fósforo', desc:'Monitor verde de tubo, com scanlines. Nostálgico e muito legível de longe — combina com a ideia de "TV velha".' },
+  { cls:'v2', nome:'CMD do Windows', desc:'As cores exatas do Prompt de Comando: fundo #0C0C0C, azul #3B78FF, amarelo Consolas. É o mais literal ao que você pediu.' },
+  { cls:'v3', nome:'TUI moderna', desc:'Estilo lazygit/htop: painéis com borda, ciano e laranja. Continua monoespaçado, mas mais fácil de bater o olho e achar o horário.' },
+];
+
+function barra(pct, largura) {
+  const cheio = Math.round(pct * largura);
+  return '█'.repeat(cheio) + '░'.repeat(Math.max(0, largura - cheio));
+}
+function mmss(seg) {
+  seg = Math.max(0, Math.round(seg));
+  const m = Math.floor(seg / 60), s = seg % 60;
+  return m + 'min' + String(s).padStart(2, '0') + 's';
+}
+
+const row = document.getElementById('row');
+ESTILOS.forEach((e) => {
+  const col = document.createElement('div');
+  col.className = 'col';
+  col.innerHTML = `
+    <p class="rotulo"><b>${e.nome}</b></p>
+    <div class="janela ${e.cls}">
+      <div class="titulo">
+        <div class="ico"></div>
+        <div class="txt">Controle · Cartoon TV</div>
+        <div class="btn">&#8211;</div><div class="btn">&#9633;</div><div class="btn">&#10005;</div>
+      </div>
+      <div class="app">
+
+        <div class="bloco">
+          <div class="cab"><span class="agora-dot">&#9679;</span> NO AR <span class="linha"></span> <span class="relogio">--:--:--</span></div>
+          <div class="serie">${NOAR.serie}</div>
+          <div class="ep">${NOAR.ep}</div>
+          <div class="meta">${NOAR.te} &nbsp;·&nbsp; começou ${NOAR.inicio}</div>
+          <div class="barra js-barra"></div>
+          <div class="resta"><span>faltam <b class="js-resta">--</b></span><span class="js-pct">--%</span></div>
+          <div class="botoes">
+            <div class="bt">&#9197; pular</div>
+            <div class="bt">&#8617; voltar pra grade</div>
+          </div>
+        </div>
+
+        <div class="bloco">
+          <div class="cab">A SEGUIR <span class="linha"></span></div>
+          <div class="lista">
+            ${SEGUIR.map((s) => `
+              <div class="item ${s.int ? 'int' : ''}">
+                <span class="h">${s.h}</span>
+                <span class="n">${s.int ? '&#9656; ' : ''}${s.n}</span>
+                <span class="te">${s.te}</span>
+              </div>`).join('')}
+          </div>
+        </div>
+
+        <div class="bloco">
+          <div class="cab">TROCAR PARA <span class="linha"></span></div>
+          <div class="busca"><span>&#62;</span><input placeholder="filtrar série..." readonly></div>
+          <div class="chips">${SERIES.slice(0, 12).map((s) => `<span class="chip">${s}</span>`).join('')}<span class="chip">+9</span></div>
+          <div class="acao">
+            <div class="bt">&#9654; ver agora</div>
+            <div class="bt">&#8734; fila aleatória</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <p class="nota">${e.desc}</p>`;
+  row.appendChild(col);
+});
+
+// relógio + progresso reais
+const t0 = new Date(); const [hh, mm] = NOAR.inicio.split(':').map(Number);
+const inicioDate = new Date(t0.getFullYear(), t0.getMonth(), t0.getDate(), hh, mm, 0);
+setInterval(() => {
+  const agora = new Date();
+  const dec = (agora - inicioDate) / 1000;
+  const pct = Math.max(0, Math.min(1, dec / NOAR.duracaoSeg));
+  document.querySelectorAll('.relogio').forEach((el) => { el.textContent = agora.toTimeString().slice(0, 8); });
+  document.querySelectorAll('.js-barra').forEach((el) => { el.textContent = barra(pct, 30); });
+  document.querySelectorAll('.js-resta').forEach((el) => { el.textContent = mmss(NOAR.duracaoSeg - dec); });
+  document.querySelectorAll('.js-pct').forEach((el) => { el.textContent = Math.round(pct * 100) + '%'; });
+}, 1000);
+</script>
+</body>
+</html>

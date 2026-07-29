@@ -1,0 +1,99 @@
+{
+  "slug": "fitas-perdidas",
+  "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+  "nomeOficial": "Apenas Um Show: As Fitas Perdidas",
+  "capturadoEm": "2026-07-28T06:44:15.205Z",
+  "temporadasDropdown": [],
+  "episodios": [
+    {
+      "videoId": "f64a0367-2862-4548-9bdd-71e9cee51747",
+      "editId": "f8f4f608-2fa2-40ee-bcb4-8973899d7a45",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Conserte Aquela Fita/Lual do Saltitão",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2026-05-11T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "75bf867c-4fc7-4102-8bf8-a3eebc82ddb3",
+      "editId": "cac076c0-9668-48f3-ae13-c20a8381ac2b",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Jogos Afiados",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2026-05-11T00:01:00Z",
+      "duracaoMs": 676000
+    },
+    {
+      "videoId": "70937377-1d3f-408f-94fa-ba3330b9b233",
+      "editId": "c645efbe-f87f-41b9-bb13-eb76030a4b3d",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Cantinho do Cochilo",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2026-05-11T00:01:00Z",
+      "duracaoMs": 676000
+    },
+    {
+      "videoId": "dacb5e45-0e81-47a9-a7e6-769b9fbf5731",
+      "editId": "73ac0a14-523e-40d7-b817-0a331f77f60e",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Guerra de Cafeteiras",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2026-05-11T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "459ffecc-ff72-4d8e-bc78-b863c34d5659",
+      "editId": "bd5b45a5-dc18-4dcf-9299-f475c0664d56",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Boba ou Mascote",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2026-05-11T00:01:00Z",
+      "duracaoMs": 678000
+    },
+    {
+      "videoId": "5bae6bb8-ea4f-4695-b75e-b5d3979f363d",
+      "editId": "e24e1c5f-a273-48ef-932b-18100d541592",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Flor Cadáver",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2026-05-18T00:01:00Z",
+      "duracaoMs": 676000
+    },
+    {
+      "videoId": "e629eed4-74b1-4706-9b0b-5c2e2e8fe803",
+      "editId": "5400ff05-e1bf-4abf-a37d-a6be6228dbf4",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Imploranson",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2026-05-18T00:01:00Z",
+      "duracaoMs": 676000
+    },
+    {
+      "videoId": "e6fffbe9-5f0a-427d-9c00-1f8ccfa4dd5d",
+      "editId": "fce1fc81-b732-41f7-8878-132537821ff0",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "O Bom Mitch Ataca",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2026-05-18T00:01:00Z",
+      "duracaoMs": 675000
+    },
+    {
+      "videoId": "96f2cff7-3b07-432e-85ed-de46504a58a3",
+      "editId": "20d1c0a7-c465-4376-881b-a79e2b8552f4",
+      "showId": "a7dc956b-41da-4eef-b414-56acae63d895",
+      "nome": "Pernaltas",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2026-05-18T00:01:00Z",
+      "duracaoMs": 676000
+    }
+  ]
+}

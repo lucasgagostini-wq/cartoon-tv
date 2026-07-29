@@ -1,0 +1,635 @@
+{
+  "slug": "samurai-jack",
+  "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+  "nomeOficial": "Samurai Jack",
+  "capturadoEm": "2026-07-28T06:43:23.322Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5"
+  ],
+  "episodios": [
+    {
+      "videoId": "066c6fd5-d341-49ea-b31b-0ad14597a25d",
+      "editId": "184a93a6-c7e0-4172-b21c-5c16a710fe0d",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "I",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2001-08-10T00:01:00Z",
+      "duracaoMs": 1438000
+    },
+    {
+      "videoId": "12a91510-2339-4301-b2db-fe68070a61fd",
+      "editId": "d2745459-4c76-4899-88a8-f84cb082fce5",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "II",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2001-08-10T00:01:00Z",
+      "duracaoMs": 1418000
+    },
+    {
+      "videoId": "a9687b55-445f-4cf5-b20b-e9edbabb2c1f",
+      "editId": "a2692506-0044-451f-8211-ea684ddd1e37",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "III",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2001-08-10T00:01:00Z",
+      "duracaoMs": 1436000
+    },
+    {
+      "videoId": "14c0ec70-6874-41c2-90d6-d79088c00bfa",
+      "editId": "7f53c548-7149-4899-b331-9a831d4048d3",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "IV",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2001-08-13T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "e26da835-6447-4e28-a62f-ceead3c4e202",
+      "editId": "7340c504-cb20-4a6d-9b08-3aa2b6205ef7",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "V",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2001-08-20T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "fc9add79-f32c-4f17-8dfd-e0b7f6fc3359",
+      "editId": "889006a7-f5c6-4fa0-9284-abcf1e6c6fe0",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "VI",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2001-08-27T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "e031785a-85bb-48d1-a45a-7b41cb0479a7",
+      "editId": "8a65d89a-ef77-4968-b908-aa0d6c7eb337",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "VII",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2001-09-01T00:01:00Z",
+      "duracaoMs": 1411000
+    },
+    {
+      "videoId": "54271cba-8210-4f28-8443-c9466fbfaa60",
+      "editId": "f060ca24-09a0-4136-a980-f79091dfe39d",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "VIII",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2001-09-03T00:01:00Z",
+      "duracaoMs": 1313000
+    },
+    {
+      "videoId": "4f6c6826-6179-4ca0-9081-cf069d2fedc0",
+      "editId": "6895b4d0-2597-47db-b3f4-25c2619ef55a",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "IX",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2001-10-15T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "74fa662a-3688-434f-b55c-6c43798477ae",
+      "editId": "8eb6158e-f469-4564-b7b6-673692ab370c",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "X",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2001-10-29T00:01:00Z",
+      "duracaoMs": 1332000
+    },
+    {
+      "videoId": "5cbf7bf9-4aed-4977-b044-58540f816880",
+      "editId": "bf145a69-8b00-42bd-81c2-d5a33527c8cd",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XI",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2001-11-05T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "40f17e69-8c53-4b73-b687-946e8237d447",
+      "editId": "889ee09e-9308-4e0c-9e8f-ad0d81e3151b",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XII",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2001-11-26T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "c6b6cfe6-4d7c-4169-8e86-eb96d09478c1",
+      "editId": "9224dbcc-d6f3-45ca-ad50-cb1472bf6b2b",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XIII",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2001-12-03T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "3463469a-5005-4625-97f7-32a694ce7411",
+      "editId": "f0046ac7-7e37-4028-97db-4d9940b74662",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XIV",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2002-03-01T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "83aea457-02a3-4d9a-8d33-0debde6c8336",
+      "editId": "eb6ee31d-f34c-49e3-9655-79242e89a1bf",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XV",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2002-03-08T00:01:00Z",
+      "duracaoMs": 1347000
+    },
+    {
+      "videoId": "e67a5aaa-df95-4ecc-9dba-01593a8683d8",
+      "editId": "5daf7c67-2375-4a1e-b976-e4222a0bf1a5",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XVI",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2002-03-15T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "0d184f3f-c2d3-45ba-b23f-ed1c962d9a3f",
+      "editId": "0448a820-be44-4073-a51e-e9d6c2487607",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XVII",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2002-03-22T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "536cc12f-d221-4a46-b0f1-6d1bd7ec7f49",
+      "editId": "f2bfe1fc-cfac-4ce6-8629-eabfbf02ea22",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XVIII",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2002-03-29T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "a6e21f4d-86cb-4e6c-92e0-feb04e8df5e5",
+      "editId": "919ab2cf-3b1e-48da-a978-dd79d9beeb07",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XIX",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2002-04-05T00:01:00Z",
+      "duracaoMs": 1328000
+    },
+    {
+      "videoId": "cc9f5f09-7e76-4d61-bf1a-237d2fa6d311",
+      "editId": "26acd656-191e-4c8c-9ac3-ae5e0aa55773",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XX",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2002-04-12T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "d3bac65b-8750-4b0f-8803-880e4b53090f",
+      "editId": "6dd75d92-fc0e-4fc1-a2d2-bc22522b8e67",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXI",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2002-09-06T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "0c6a354f-e37b-4211-b60a-27672d3363db",
+      "editId": "0a2851b0-4d74-4cc6-a2dc-4ce36f479982",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXII",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2002-09-13T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "25b1b725-27cd-4771-b25a-7413a0a4bc77",
+      "editId": "d528ad82-1271-4920-aef7-d27b94454848",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXIII",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2002-09-20T00:01:00Z",
+      "duracaoMs": 1351000
+    },
+    {
+      "videoId": "c4246daa-a33d-41ac-bda2-b9631948edc2",
+      "editId": "80cc8baf-4be4-44dc-815e-f179c4f99d60",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXIV",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2002-09-27T00:01:00Z",
+      "duracaoMs": 1340000
+    },
+    {
+      "videoId": "a3d6dd4e-df17-4914-955b-e471a5b730b4",
+      "editId": "316dab81-762f-4b60-a60e-7a1fb520bea9",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXV",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2002-10-04T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "2039ad94-1054-475b-80dc-0bd6e70a8770",
+      "editId": "24e7797f-18d1-4f60-8391-e68883692cf6",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXVI",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2002-10-11T00:01:00Z",
+      "duracaoMs": 1341000
+    },
+    {
+      "videoId": "05c8f4f1-dfe5-4661-a9fd-b37273d7d84c",
+      "editId": "3f055ac7-1ae3-4686-ac9e-a37e4579f52e",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXVII",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2002-10-18T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "d4e18faf-28ae-4756-bc99-44b657299cce",
+      "editId": "fdb167ca-4939-4cf4-80fc-1dad6f6e5c2b",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXVIII",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2002-11-01T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "95d75277-b1a0-4c93-9d41-9f99908c599c",
+      "editId": "58815633-9c10-4ce3-aa1d-c9ef1dc8ecc6",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXIX",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2002-11-08T00:01:00Z",
+      "duracaoMs": 1323000
+    },
+    {
+      "videoId": "0ac9ddc3-77ff-4f35-b508-fbe7adf6fe7b",
+      "editId": "051fe8e4-beb9-42c6-bfaf-54d009ef98c6",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXX",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2002-11-15T00:01:00Z",
+      "duracaoMs": 1331000
+    },
+    {
+      "videoId": "91328a00-bebe-454d-b2a5-6675509c1a48",
+      "editId": "653ef338-3116-4a6c-8a2f-c74c833a195d",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXI",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2002-11-22T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "b7bc6270-49ac-459d-bd67-4b6197cf6dc6",
+      "editId": "c0a41dab-b6f3-475e-9fad-badb957099db",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXII",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2003-04-26T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "e6e93825-2aef-4773-b39d-dc0bdb5dd007",
+      "editId": "31c43771-a422-4e0b-a861-07c9371cab03",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXIII",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2003-05-03T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "6edf5917-a3c7-4ea7-a4f3-2a230352442b",
+      "editId": "a9695612-2ddf-49be-836d-afc072dd73bb",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXIV",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2003-05-10T00:01:00Z",
+      "duracaoMs": 1343000
+    },
+    {
+      "videoId": "835d0ba0-05c4-4523-a899-27c7e133df0e",
+      "editId": "8d7aae20-f791-4779-b1a3-38b32b4fdb50",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXV",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2003-05-17T00:01:00Z",
+      "duracaoMs": 1307000
+    },
+    {
+      "videoId": "fd884dfc-3459-4eed-a7b8-602b45c71706",
+      "editId": "6f86bd13-e35d-488c-a13a-2e66a7eb6973",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXVI",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2003-05-31T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "5c263a7e-0a80-4ef5-9c0c-cf7e5cf7d1c9",
+      "editId": "b9c8d0f4-9486-48df-aad3-1dce32059429",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXVII",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2003-08-16T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "ae906984-06d5-4903-b734-5329a8c0eda2",
+      "editId": "15f2a3ae-4a7b-4847-b997-2956af997090",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXVIII",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2003-08-16T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "9609b5f2-b05a-4888-a191-92442830a9e6",
+      "editId": "6a2b69b0-0a25-4528-8a83-5551d5c73352",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XXXIX",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "2003-08-26T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "2020dcb4-bb05-4642-a9e4-b627ef9fc3fd",
+      "editId": "49c8d9d5-f1a7-4d7d-94fc-1d36f5311b0b",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XL",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2003-06-14T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "2ca940d5-9641-4ed4-97de-5f6639724782",
+      "editId": "d3398e2d-3e18-411c-9a79-952747968489",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLI",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2003-06-21T00:01:00Z",
+      "duracaoMs": 1353000
+    },
+    {
+      "videoId": "d0e35f92-a3f6-4374-9663-0cc940570290",
+      "editId": "d7c3dcdd-81d3-4f30-a822-3dec540bb968",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLII",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2003-06-28T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "e69fc804-a72d-46db-93a3-2bb3c44b993a",
+      "editId": "b2139e02-6fa7-4469-b5ee-40c3e4d497aa",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLIII",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2003-08-23T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "61da2d53-2e68-4cdc-bb98-19ca0969711b",
+      "editId": "800fdb4d-daf1-40a9-adfb-4c666bc9c0da",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLIV",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2003-08-23T00:01:00Z",
+      "duracaoMs": 1340000
+    },
+    {
+      "videoId": "516b0e67-40ba-443f-8b57-77ec6bb873a1",
+      "editId": "9741169d-b35d-41a6-9406-d97d5ae30bd7",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLV",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2003-11-05T00:01:00Z",
+      "duracaoMs": 1349000
+    },
+    {
+      "videoId": "769295a4-6eef-4f2d-8d10-83e99dd79376",
+      "editId": "a166c145-798a-4c6b-a753-f674f17a3167",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLVI",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2003-11-12T00:01:00Z",
+      "duracaoMs": 1301000
+    },
+    {
+      "videoId": "47469cd2-2280-4428-9592-792d99d59932",
+      "editId": "1e021ca8-699a-4126-a610-0207ed026920",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLVII",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2003-11-19T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "dd4d8f84-47c8-44fb-9583-f991202c6793",
+      "editId": "eb8e7214-be26-4ffa-8278-797978bd1918",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLVIII",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2003-11-24T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "914ea885-adfa-4bf7-94da-08f739d80847",
+      "editId": "84ee6974-d453-4daa-ab79-1b76ba7bb61f",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XLIX",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2004-09-25T00:01:00Z",
+      "duracaoMs": 1363000
+    },
+    {
+      "videoId": "3e162a21-273e-4f77-b896-7025e020e73e",
+      "editId": "ee766b66-188d-4263-b0ec-d87de5ab65c8",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "L",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2004-09-25T00:01:00Z",
+      "duracaoMs": 1293000
+    },
+    {
+      "videoId": "5f6b229f-e433-4e1d-8f80-4f4686a662d2",
+      "editId": "04b60ecb-849b-4ba9-85f6-ddc65286c8e2",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "LI",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "2004-09-25T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "02a718f3-028b-4f66-87ea-71903cb6972e",
+      "editId": "7474117b-57bb-4aa5-a27e-20d90a3addbc",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "LII",
+      "temporada": 4,
+      "episodio": 13,
+      "airDate": "2004-09-25T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "985d1fbe-ed63-4793-a187-d649cd438932",
+      "editId": "a2dfa8e0-2e14-4808-a2ef-2aa78fe69be4",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCII",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2017-03-11T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "e27c7222-975c-4529-b41e-def1f45586f0",
+      "editId": "21ff4b29-d1e9-4e31-92ed-4ed50ab8eef4",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCIII",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2017-03-18T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "35058e9d-812a-478e-8dc9-afee675fd61f",
+      "editId": "2dda329f-922d-485c-bd4e-376fb954a061",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCIV",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2017-03-25T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "4e4e7218-2bae-4c12-9b05-961686416fd4",
+      "editId": "b3bc4c1a-1411-4b8a-82c4-a17e99933cb9",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCV",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2017-04-08T00:01:00Z",
+      "duracaoMs": 1334000
+    },
+    {
+      "videoId": "03b4b701-2df9-4465-aadb-6b248df9d1b4",
+      "editId": "23e9b6e5-0874-4e1f-aa90-f07f72e49fec",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCVI",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2017-04-15T00:01:00Z",
+      "duracaoMs": 1354000
+    },
+    {
+      "videoId": "87641385-3fc0-4531-8552-88eb5999de95",
+      "editId": "8c5522cd-6de3-4520-b823-c138b2573aa0",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCVII",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2017-04-22T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "9727a7c2-c30e-4755-a6ab-3047d039640f",
+      "editId": "520cf240-4f50-401c-9a29-bc3daff51eef",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCVIII",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2017-04-29T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "9f355492-d044-4850-a50f-0c9be6182aad",
+      "editId": "1b76428a-f674-420e-885d-d27c8eadf451",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "XCIX",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2017-05-06T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "349fdc47-ff89-44fa-b621-4f50a156c4ba",
+      "editId": "f8798344-9da4-4d51-a3ce-495a92476e16",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "C",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2017-05-13T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "a2ac39fb-460f-4962-be7c-9ecbcc79e56a",
+      "editId": "063e64b2-c8ec-4c56-95e7-cece68082636",
+      "showId": "3e782d6a-3f32-4494-af91-9110dd9ec558",
+      "nome": "CI",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2017-05-20T00:01:00Z",
+      "duracaoMs": 1359000
+    }
+  ]
+}

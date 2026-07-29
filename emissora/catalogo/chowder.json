@@ -1,0 +1,503 @@
+{
+  "slug": "chowder",
+  "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+  "nomeOficial": "Chowder",
+  "capturadoEm": "2026-07-28T06:51:28.253Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3"
+  ],
+  "episodios": [
+    {
+      "videoId": "c77397b4-5605-4d4e-8ece-d6f48ea38ab7",
+      "editId": "404b76bf-4475-4af7-8863-060d80106d95",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Burple Nurples/Shnitzel Faz Um Depósito",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2007-11-02T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "9b595a44-184d-4e43-811e-bbc314525f80",
+      "editId": "7c73e894-38a4-4782-a6bb-700f79282d3d",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Torta De Maça-Polegar-Rã /A Namorada De Chowder",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2007-11-04T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "e6b667fa-2c02-4196-a101-37c8b6858bdf",
+      "editId": "9db1424c-e6f3-4d72-9027-c5723d1f18b7",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Chicle Chocante/O Cinnamini Monstro",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2007-11-09T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "2612de2c-ae89-437e-91f6-e5416849b53c",
+      "editId": "a09e6077-d584-46e8-9b34-728c8ab1e3fd",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Certifritado/Os Feijões Cantantes",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2007-11-16T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "e8b246c1-d2f4-468a-a257-76c43e1eae4b",
+      "editId": "900a0475-365f-4ade-9c5c-8ae11d5a43ef",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Endereço Errado/O Cliente Errado",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2007-11-23T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "668032c3-c70c-46e6-bdb5-45e70c3c7f12",
+      "editId": "86d103bc-691a-4f20-93ea-0ae7cded5e47",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Noite De Mahongg/Amor Fedor",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2007-11-30T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "2bf17689-2fb2-4a32-a999-48b9f55f7327",
+      "editId": "a3ee06a2-a342-4298-95b3-7fff5881ccea",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Homem Sorvetão/A Dieta Flibber Flabber",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2007-12-07T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "fae1c899-ff0f-4316-97fd-1ed4cf2dd93a",
+      "editId": "3ca9717a-c95e-492b-8bab-1da1a0d229a7",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Gazpacho Dá Um Show/Sabor De Marzipã",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2007-12-14T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "24fad87b-ade1-4ef1-ac65-109d45cd41aa",
+      "editId": "56e39cc3-0887-47da-ab79-32e356e5b2c7",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Os Senhores Da \"Sugafruta\"/Os Elemelões",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2008-01-18T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "9e2b05da-a62b-48d3-b99d-5419e3dfac83",
+      "editId": "7e7addd8-a76d-4cea-bf1d-c9d998fdaef6",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Gosmabol/Mung Na Fossa",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2008-03-06T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "249f61ea-679c-4c75-887c-633407f733b6",
+      "editId": "6aac84d8-bdb2-42f1-b0cd-31599fccbd99",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Sono Pesado/O Toque Bolorento",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2008-04-03T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "68c028a1-7d27-4137-9e91-467b442c459f",
+      "editId": "395b357f-8934-4c4d-a17e-b46eaac70b65",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Seu Dispor/Chowder E O Sr. Fugu",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2008-05-01T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "25a9f460-e95e-45da-b8f6-1a316fbc9029",
+      "editId": "b52f6f58-b585-469b-947d-d4ab25beab88",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Vacation,The/Sleep Eater,The",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2008-06-05T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "c88c4cc2-81e3-4035-a673-6ab6deca846a",
+      "editId": "3a4be51d-51e9-48b8-907e-1ce51e9a3d36",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Azulnana Machucada/Shnitzel E O Farfel De Chumbo",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2008-06-12T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "dbff037a-f677-4ef8-929d-7fa0f788bf29",
+      "editId": "2db87f24-cad6-4531-8f2f-adedc5a47810",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Torta De Mil Quilos/Sanduiche De Rato",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2008-06-19T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "da09619d-f407-4ed2-a1d8-4495e6948774",
+      "editId": "bba3ccdd-0ab2-48fe-abae-b3d7c469d744",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Chowder Perde O Chapéu/Delícia Cerebral",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2008-06-26T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "f3c2b6a2-effc-4cd6-8cac-7f615039f19d",
+      "editId": "a9df33e4-af3f-45df-9657-2e8f020045fb",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Shnitzel Pede Demissão",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2008-07-03T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "afd30fba-c772-4e1e-907a-42d2a7f19098",
+      "editId": "79199b33-b7b5-4ff0-bfe7-94c2c81df31c",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Peça Quebrada/A Colheita De Mêssego",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2008-07-10T00:01:00Z",
+      "duracaoMs": 1367000
+    },
+    {
+      "videoId": "c37dce42-f1f8-487b-aae7-673f698c4f6f",
+      "editId": "454802e3-2ae4-442a-8f2a-0878afd49d6a",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Banido Da Barraca/Mão De Puff De Creme",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2008-07-17T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "16c8dfed-a7c6-428e-8eec-1988062b0f1a",
+      "editId": "a6c66f81-74b0-4220-86dc-211474d47574",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Jogos De Aprendiz",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2008-07-24T00:01:00Z",
+      "duracaoMs": 1381000
+    },
+    {
+      "videoId": "045a772a-ce3d-4d57-92ca-0ee9bff3b1ba",
+      "editId": "c21b3192-79dd-4259-b40a-ffbf37f6f931",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Panini Para Presidente/A Babá De Chowder",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2008-11-06T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "d170f846-6a00-4192-9f56-c99652b48d21",
+      "editId": "e7bd0e02-495b-41cd-85eb-7cf2259b7188",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Bafo De Fogo/Os Homens-Bola",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2008-11-13T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "ce2b8f71-1d09-4d13-97ce-86cd3a9012fa",
+      "editId": "b01ad804-0b7b-4f2f-9c04-78e5e87a9419",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Os Arborianos/Liquidação De Garagem",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2008-11-27T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "3a3049f6-5681-47ca-8e67-eb5c42d23f82",
+      "editId": "4c57f93c-92c5-4fbd-825a-f3318c58c5c0",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "É Natal, É Natal",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2013-12-24T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "193bd66b-f6da-452f-8aca-d14a2860d5c7",
+      "editId": "2e53b1e6-cedb-4519-82f8-0f8ffd4e0175",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Bufê De Chowder/A Frase De Efeito",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2008-12-11T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "f906c2da-a8bd-453b-aa20-503f87124343",
+      "editId": "bd5dd5a3-a093-4039-884b-030e526c581c",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Encontro Amoroso/Torrando A Grana",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2009-02-12T00:01:00Z",
+      "duracaoMs": 1365000
+    },
+    {
+      "videoId": "4d812ffa-71d8-4c11-a159-b6b0934a8f06",
+      "editId": "3fbfd484-13d3-4299-875e-c82818bb408f",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "As Damas Chapelões/O Labirinto Fatal",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2009-06-07T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "4863a5c3-e925-4acb-93cc-cad0d9761cc0",
+      "editId": "9e9fab33-1a11-4e5c-94de-2bbc37b80407",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Cruzeiro Festivo/Won-Ton Bombas",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2009-06-01T00:01:00Z",
+      "duracaoMs": 1379000
+    },
+    {
+      "videoId": "6dd26256-afcd-4056-a9f8-487e46720135",
+      "editId": "bda3c750-c1b9-41ce-862d-d6194119eefa",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Teste De Conhecimento Básico/Trufa Com Problemas",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2009-06-11T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "b3bbce6d-3ce8-4ccc-acd9-db2d88a435c9",
+      "editId": "6785f57e-2f7c-4018-8ea4-39ad0633850a",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Jantar Teatral, Parte 1/O Jantar Teatral, Parte 2",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2009-06-25T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "c3abe141-3c08-4d85-8b7d-bc19e649cbeb",
+      "editId": "f1da70b4-e46b-41b9-b1f3-226ea2eaf3aa",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Shnitzel Garotão/Gazpacho Contra-Ataca",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2009-07-06T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "a242333e-42b3-40f4-beb2-1597cd0771ce",
+      "editId": "fb9b52b4-ee89-42d9-9225-5a33cef90dbc",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Bolão/Gelo Cerebral",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2009-07-10T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "9070134a-7a5d-4013-a12d-4c5ad34a04c9",
+      "editId": "33fbef6a-c4c7-4ac2-9a2a-f4d7cc2bf692",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Placolito/O Carrocol",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2009-07-23T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "0191e4d7-3de9-4426-829f-08d38e075a13",
+      "editId": "6a5eab17-6472-435b-9460-85b5c10a29c2",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Podre Da Endivia/Filé Grande",
+      "temporada": 2,
+      "episodio": 14,
+      "airDate": "2009-07-30T00:01:00Z",
+      "duracaoMs": 1378000
+    },
+    {
+      "videoId": "7693c5c7-582d-4ebe-b262-b859946174b1",
+      "editId": "0ff364cd-00bc-49c2-9ebe-2d5523b9fbf0",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Pintando A Cidade/O Blecaute",
+      "temporada": 2,
+      "episodio": 15,
+      "airDate": "2009-08-06T00:01:00Z",
+      "duracaoMs": 1371000
+    },
+    {
+      "videoId": "3a33b8c6-ec74-4688-b23e-7e9ea0013f83",
+      "editId": "7e0be98d-c7c1-4349-adb5-39e6f8cc8e56",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Dadocleta/Receita Corrente",
+      "temporada": 2,
+      "episodio": 16,
+      "airDate": "2009-08-13T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "4c482f51-bb4d-4449-9214-2f824cfd278c",
+      "editId": "0562ebd8-9e20-4a6a-adaf-dc71384e9166",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Horta/Sheboodless!",
+      "temporada": 2,
+      "episodio": 17,
+      "airDate": "2009-08-20T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "3a6b6501-bbc4-481d-bfe2-4d7f73ac2e62",
+      "editId": "2e92cac9-e750-4b9b-8f12-3079d06bbeea",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Gazpacho Se Muda/Casamento Fedorento",
+      "temporada": 2,
+      "episodio": 18,
+      "airDate": "2009-09-09T00:01:00Z",
+      "duracaoMs": 1377000
+    },
+    {
+      "videoId": "447aaec4-ad0d-4fbc-ac90-596e7ad8af72",
+      "editId": "ba251514-2be4-40d5-b731-c9b08dfc7c3f",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Dia De Louvor Ao Aprendiz/O Bicho Da Uva",
+      "temporada": 2,
+      "episodio": 19,
+      "airDate": "2009-09-26T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "b403876d-a53a-4b3e-a95a-1a5e4c56a4d0",
+      "editId": "499cacd5-c72d-400e-a6db-69cdeb6d7ec3",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Feira Memorável/Conforto Final Em Tofu-Town",
+      "temporada": 2,
+      "episodio": 20,
+      "airDate": "2009-10-11T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "1250c594-35c8-44a3-b5d0-e95342aa9a53",
+      "editId": "5eba8bae-2a7b-40d0-8375-7da983398b73",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "A Casa Mais Apavorante Da Cidade Marzipã/O Frangomônio",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2009-10-22T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "b1e319f6-f9c4-4298-96ec-88add414b073",
+      "editId": "1ae8f0cf-2f05-4df7-86a3-96b07eef54cd",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Mãos Na Batedeira/A Explosuvas",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2009-10-15T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "9da74b7e-ed47-4ce0-b4d5-6c55971e8ef5",
+      "editId": "92fe30af-0bc2-4943-8cce-cc354a4df39e",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Escoteiros Aprendizes/O Panquecão",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2009-11-12T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "dedb1c89-59d2-4992-ae7c-173577bfb3aa",
+      "editId": "8e32c994-61cf-4c67-9b15-14af2ee580a7",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Un Toque De Pizzazz/Em Trajes Menores",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2009-12-03T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "b5431951-77f2-46e8-98b3-8e7d4de210f3",
+      "editId": "215792ba-6eaf-4e22-8d1f-a15299f8cba0",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Assalto/Pregando Uma Peça",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2010-01-07T00:01:00Z",
+      "duracaoMs": 1376000
+    },
+    {
+      "videoId": "62d487a5-e86b-45d1-834a-0a1d1f9b8fd8",
+      "editId": "f8cc9ab4-a3fd-4b08-910f-80b3445ef7b2",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "O Velho Do Tempo/A Revista Do Chowder",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2010-01-21T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "15436789-41e6-4c51-b928-aeea1c9396fb",
+      "editId": "3929ee54-17e7-4aef-9187-2355c43ac3a2",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Fim De Semana Na Casa Do Shnitzel/Papilo Gustativo",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2010-03-04T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "a3d4bfb3-4b77-4f83-bac2-e62e4e250c5e",
+      "editId": "a7676420-af02-4605-b1d0-d6cec91f2ab6",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Gazpacho!/Fruta Pum",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2010-03-18T00:01:00Z",
+      "duracaoMs": 1375000
+    },
+    {
+      "videoId": "d204069d-4174-457a-a7fe-57c05450adef",
+      "editId": "7eadb0f8-6e6d-4a0f-a188-abc6323a9b46",
+      "showId": "45347815-a950-4ed0-bf02-8b6297f672d2",
+      "nome": "Chowder Adulto",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2010-08-07T00:01:00Z",
+      "duracaoMs": 1378000
+    }
+  ]
+}

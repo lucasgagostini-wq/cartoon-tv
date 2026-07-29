@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Controle Cartoon TV — verde de tubo</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 26px 20px 60px; background: #14171a;
+    font-family: 'Segoe UI', system-ui, sans-serif; color: #8b93a7;
+  }
+  h1 { font-size: 15px; font-weight: 600; color: #c9d1e0; margin: 0 0 4px; }
+  .sub { font-size: 12.5px; margin: 0 0 24px; }
+  .sub b { color: #c9d1e0; }
+  .row { display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap; }
+  .col { width: 380px; }
+  .rotulo { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 9px; color: #6f7891; }
+  .rotulo b { color: #d7dde9; }
+  .nota { font-size: 11.5px; line-height: 1.55; margin: 11px 2px 0; color: #7a8296; }
+
+  /* ---------- tema base (estrutura da TUI que o Lucas aprovou) ---------- */
+  .janela { border-radius: 7px; overflow: hidden; box-shadow: 0 14px 34px rgba(0,0,0,.55); }
+  .titulo {
+    height: 30px; display: flex; align-items: center; padding: 0 4px 0 10px; gap: 7px;
+    font: 11.5px/1 'Segoe UI', sans-serif;
+    background: var(--barra-bg); color: var(--barra-fg); border-bottom: 1px solid var(--borda);
+  }
+  .titulo .ico { width: 13px; height: 13px; border-radius: 3px; flex: none; background: var(--verde); box-shadow: var(--glow-ico); }
+  .titulo .txt { flex: 1; opacity: .85; }
+  .titulo .btn { width: 30px; text-align: center; opacity: .6; font-size: 12px; }
+
+  .app {
+    padding: 12px; font-size: 12px; line-height: 1.45;
+    font-family: Consolas, 'Cascadia Mono', 'Courier New', monospace;
+    background: var(--bg); color: var(--texto);
+  }
+  .bloco { border: 1px solid var(--borda); border-radius: 5px; padding: 10px 11px; }
+  .bloco + .bloco { margin-top: 9px; }
+
+  .cab {
+    display: flex; align-items: center; gap: 7px; margin-bottom: 8px;
+    font-size: 10px; letter-spacing: .14em; color: var(--verde-dim); text-shadow: var(--glow-fraco);
+  }
+  .cab .linha { flex: 1; height: 1px; background: var(--borda); }
+  .cab .relogio { color: var(--verde); text-shadow: var(--glow); letter-spacing: .04em; }
+
+  .serie { font-size: 15px; font-weight: 700; color: var(--titulo-cor); text-shadow: var(--glow-titulo); margin-bottom: 2px; }
+  .ep { color: var(--texto-forte); margin-bottom: 1px; }
+  .meta { font-size: 11px; color: var(--texto-fraco); margin-bottom: 9px; }
+
+  .barra { height: 10px; display: flex; align-items: center; letter-spacing: -.5px; white-space: nowrap; overflow: hidden;
+           color: var(--verde); text-shadow: var(--glow); }
+  .barra .vazio { color: var(--trilha); text-shadow: none; }
+  .resta { display: flex; justify-content: space-between; font-size: 11px; margin-top: 5px; color: var(--texto-fraco); }
+  .resta b { color: var(--verde); text-shadow: var(--glow); font-weight: 600; }
+
+  .botoes, .acao { display: flex; gap: 7px; margin-top: 11px; }
+  .bt {
+    flex: 1; text-align: center; padding: 7px 0; font-size: 11.5px; cursor: pointer; user-select: none;
+    border: 1px solid var(--borda-bt); border-radius: 4px; background: var(--bt-bg); color: var(--texto-forte);
+  }
+  .bt:hover { background: var(--bt-hover); border-color: var(--verde); color: var(--titulo-cor); text-shadow: var(--glow-fraco); }
+
+  .lista { display: flex; flex-direction: column; gap: 1px; }
+  .item { display: flex; gap: 9px; padding: 3px 4px; font-size: 11.5px; border-radius: 3px; }
+  .item:hover { background: var(--bt-hover); }
+  .item .h { flex: none; width: 40px; color: var(--verde-dim); text-shadow: var(--glow-fraco); }
+  .item .n { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item .te { flex: none; font-size: 10.5px; color: var(--texto-fraco); }
+  .item.int .n { opacity: .55; font-style: italic; }
+
+  .busca { display: flex; align-items: center; gap: 6px; padding: 5px 8px; font-size: 11.5px; margin-bottom: 8px;
+           border: 1px solid var(--borda-bt); border-radius: 4px; background: var(--bt-bg); color: var(--verde-dim); }
+  .busca input { flex: 1; background: none; border: 0; outline: none; font: inherit; font-family: Consolas, monospace; color: var(--titulo-cor); }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip { padding: 3px 7px; font-size: 11px; cursor: pointer; border: 1px solid var(--borda-bt); border-radius: 3px; background: var(--bt-bg); }
+  .chip:hover { border-color: var(--verde); color: var(--titulo-cor); text-shadow: var(--glow-fraco); }
+
+  /* ============ A — VERDE DE TUBO SÓBRIO ============ */
+  .sobrio {
+    --bg: #0c110e; --barra-bg: #141b16; --barra-fg: #9db3a6; --borda: #1e2b22; --borda-bt: #24332a;
+    --texto: #9db3a6; --texto-forte: #c2d6c8; --texto-fraco: #66806f;
+    --titulo-cor: #e8fff0; --verde: #35e070; --verde-dim: #4f9a68; --trilha: #1d3325;
+    --bt-bg: #121a15; --bt-hover: #17231a;
+    --glow: none; --glow-fraco: none; --glow-titulo: none; --glow-ico: none;
+  }
+  /* ============ B — VERDE DE TUBO COM FÓSFORO ============ */
+  .fosforo {
+    --bg: #060b07; --barra-bg: #0c130e; --barra-fg: #7dd39a; --borda: #1a3322; --borda-bt: #204029;
+    --texto: #7fc99a; --texto-forte: #a5e6ba; --texto-fraco: #4f8a64;
+    --titulo-cor: #c8ffdb; --verde: #3dff85; --verde-dim: #45c876; --trilha: #14301d;
+    --bt-bg: #0a1509; --bt-hover: #10240f;
+    --glow: 0 0 8px rgba(61,255,133,.55); --glow-fraco: 0 0 6px rgba(61,255,133,.3);
+    --glow-titulo: 0 0 12px rgba(61,255,133,.4); --glow-ico: 0 0 8px #3dff85;
+  }
+  .fosforo .app { position: relative; }
+  .fosforo .app::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none; border-radius: 0 0 7px 7px;
+    background: repeating-linear-gradient(180deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px);
+  }
+</style>
+</head>
+<body>
+
+<h1>Controle Cartoon TV — estrutura TUI + verde de tubo</h1>
+<p class="sub">Mesma estrutura que você aprovou. Ciano e laranja viraram verde. Diferença entre as duas: <b>brilho de fósforo</b> (glow + scanlines) na da direita. Dados reais, relógio andando.</p>
+
+<div class="row" id="row"></div>
+
+<script>
+const SERIES = ['Dexter','Coragem','Johnny Bravo','Meninas Superpoderosas','Du Dudu e Edu','Billy e Mandy','Chowder','Mansão Foster','Hora de Aventura','Apenas um Show','Gumball','Flapjack'];
+const NOAR = { serie:'RICK & MORTY', ep:'A Revolta dos Meeseeks', te:'T1 E5', inicio:'01:16', duracaoSeg: 21*60 };
+const SEGUIR = [
+  { h:'01:37', n:'Primal', te:'T1E5', int:false },
+  { h:'01:59', n:'Hora de Aventura com Fionna e Cake', te:'T1E5', int:false },
+  { h:'02:24', n:'intervalo — Outra Semana No Cartoon', te:'T3E7', int:true },
+  { h:'02:36', n:'Coragem, o Cão Covarde', te:'T1E7', int:false },
+  { h:'02:58', n:'Hora de Aventura', te:'T1E11', int:false },
+];
+const TEMAS = [
+  { cls:'sobrio', nome:'A · verde de tubo sóbrio', desc:'Verde fósforo #35E070 sem brilho, fundo quase preto com tinte verde. Continua discreto e nítido — não cansa a vista se a janelinha ficar aberta o tempo todo do lado da TV.' },
+  { cls:'fosforo', nome:'B · verde de tubo com fósforo', desc:'Mesma coisa com glow no verde, scanlines e o cinza do corpo puxado pro verde. Parece monitor de tubo de verdade. Mais personalidade, um pouco menos de contraste no texto pequeno.' },
+];
+
+function mmss(s){ s=Math.max(0,Math.round(s)); return Math.floor(s/60)+'min'+String(s%60).padStart(2,'0')+'s'; }
+
+const row = document.getElementById('row');
+TEMAS.forEach((t) => {
+  const col = document.createElement('div');
+  col.className = 'col';
+  col.innerHTML = `
+    <p class="rotulo"><b>${t.nome}</b></p>
+    <div class="janela ${t.cls}">
+      <div class="titulo">
+        <div class="ico"></div><div class="txt">Controle · Cartoon TV</div>
+        <div class="btn">&#8211;</div><div class="btn">&#9633;</div><div class="btn">&#10005;</div>
+      </div>
+      <div class="app">
+        <div class="bloco">
+          <div class="cab">&#9679; NO AR <span class="linha"></span> <span class="relogio">--:--:--</span></div>
+          <div class="serie">${NOAR.serie}</div>
+          <div class="ep">${NOAR.ep}</div>
+          <div class="meta">${NOAR.te} &nbsp;·&nbsp; começou ${NOAR.inicio}</div>
+          <div class="barra"><span class="js-cheio"></span><span class="vazio js-vazio"></span></div>
+          <div class="resta"><span>faltam <b class="js-resta">--</b></span><span class="js-pct">--%</span></div>
+          <div class="botoes"><div class="bt">&#9197; pular</div><div class="bt">&#8617; voltar pra grade</div></div>
+        </div>
+        <div class="bloco">
+          <div class="cab">A SEGUIR <span class="linha"></span></div>
+          <div class="lista">${SEGUIR.map((s)=>`
+            <div class="item ${s.int?'int':''}"><span class="h">${s.h}</span><span class="n">${s.int?'&#9656; ':''}${s.n}</span><span class="te">${s.te}</span></div>`).join('')}
+          </div>
+        </div>
+        <div class="bloco">
+          <div class="cab">TROCAR PARA <span class="linha"></span></div>
+          <div class="busca"><span>&#62;</span><input placeholder="filtrar série..." readonly></div>
+          <div class="chips">${SERIES.map((s)=>`<span class="chip">${s}</span>`).join('')}<span class="chip">+9</span></div>
+          <div class="acao"><div class="bt">&#9654; ver agora</div><div class="bt">&#8734; fila aleatória</div></div>
+        </div>
+      </div>
+    </div>
+    <p class="nota">${t.desc}</p>`;
+  row.appendChild(col);
+});
+
+const hoje = new Date(); const [hh, mm] = NOAR.inicio.split(':').map(Number);
+const ini = new Date(hoje.getFullYear(), hoje.getMonth(), hoje.getDate(), hh, mm, 0);
+setInterval(() => {
+  const ag = new Date(), dec = (ag - ini) / 1000;
+  const pct = Math.max(0, Math.min(1, dec / NOAR.duracaoSeg)), cheio = Math.round(pct * 30);
+  document.querySelectorAll('.relogio').forEach(e => e.textContent = ag.toTimeString().slice(0,8));
+  document.querySelectorAll('.js-cheio').forEach(e => e.textContent = '█'.repeat(cheio));
+  document.querySelectorAll('.js-vazio').forEach(e => e.textContent = '░'.repeat(30 - cheio));
+  document.querySelectorAll('.js-resta').forEach(e => e.textContent = mmss(NOAR.duracaoSeg - dec));
+  document.querySelectorAll('.js-pct').forEach(e => e.textContent = Math.round(pct*100) + '%');
+}, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,796 @@
+{
+  "slug": "dexter",
+  "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+  "nomeOficial": "O Laboratório de Dexter",
+  "capturadoEm": "2026-07-28T06:39:45.687Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "21621b9e-b9a9-487b-84bd-1cfee85bde0f",
+      "editId": "632f651a-d5ca-4dbd-a4cb-09a496ee69b2",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Um Assistente Nada Especial / Os Super Amigos da TV / Fim de Jogo",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "1996-11-20T00:01:00Z",
+      "duracaoMs": 1325000
+    },
+    {
+      "videoId": "dff13dc8-5518-4c79-9c91-cb3e5969d345",
+      "editId": "ec742654-fc5c-4d1d-9acc-4fc1e021caf8",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Um Amor de Babá / O Quarto de Valhallen / A Máquina de Sonhos",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "1996-11-27T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "1ce42bf7-1a81-4d5b-a7f3-bec26529ca1c",
+      "editId": "fee3de94-f0ea-4037-92ca-e8590dac0b85",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Drama na Casa de Bonecas / A Namorada do Krunk / Um Francês Perfeito",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "1996-12-04T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "5e2c434c-7cb2-4778-b1c6-c10c62258057",
+      "editId": "d8d50e7f-f28d-400a-8080-4884e09d76b9",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Um Caso Espacial / Ratman / A Dívida de Dexter",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "1996-12-18T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "86a3b62d-ac9f-4aa8-9218-b1baaa008ff7",
+      "editId": "c3e49a01-949a-44ec-9cd8-19753ee5f616",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Rival do Dexter / A Abelha / Mandark",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "1996-12-25T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "88cbf138-6005-49a1-bde0-33483af190fa",
+      "editId": "e2a46384-2e7d-4790-852f-12c7fddbde32",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dee Dee Inflável / Insonha / Estória Monstruosa",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "1997-01-01T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "9594951d-861c-4cf9-9f77-fe75234f3b15",
+      "editId": "f1cf37b6-2cce-4901-945b-6971b05a6771",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dee Deemensional / Magmanamus / Combate Materno",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "1996-04-27T00:01:00Z",
+      "duracaoMs": 1313000
+    },
+    {
+      "videoId": "d0fa7852-c393-4103-86e7-803561ae8ef2",
+      "editId": "ed98009b-8972-4aeb-9170-ab87206857f8",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dexter no Esporte / Rasslor / A Assistente de Dexter",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "1996-05-04T00:01:00Z",
+      "duracaoMs": 1312000
+    },
+    {
+      "videoId": "b0491c51-640f-4024-b3f3-ab010f3964b9",
+      "editId": "c94c0b81-498c-4d58-acdb-5d50c3bce25a",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Rival do Dexter / Simion / O Velho Dexter",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "1996-05-11T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "7aae3171-1926-4168-aa10-4c8f77f41a9d",
+      "editId": "36ae0b0e-5428-4a05-b69b-6ee54976acb4",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Quarto da Dee Dee / Huntor / A Grande Irmã",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "1996-06-01T00:01:00Z",
+      "duracaoMs": 1308000
+    },
+    {
+      "videoId": "c791eb90-0083-4636-9867-c91eea7b5884",
+      "editId": "505339a9-fe83-4938-a423-fe9c3e52f08b",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Estilo Dee Dee / Fala Aí Tio Sam / A Tribo de Meninas",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "1996-12-11T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "b187733d-74fb-45b9-ab21-f6c701c5e83d",
+      "editId": "80e22125-1470-4082-80c5-623907ad8348",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Dinosauro Do Dexter / O Homem Do Realejo / Dexter O Bobalhão",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "1996-05-25T00:01:00Z",
+      "duracaoMs": 1308000
+    },
+    {
+      "videoId": "6e8b15ce-deaf-4b9c-b395-4e35059a1892",
+      "editId": "1cee4650-ffc5-470c-a6da-2bff3ea80082",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Problemas Dobrados / O Churrasqueiro / Câmbios",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "1996-05-18T00:01:00Z",
+      "duracaoMs": 1318000
+    },
+    {
+      "videoId": "b476e89e-1aa4-48ab-a4e9-6dbe1b77008e",
+      "editId": "1db14a3b-ea32-4427-ad5f-132f8c0c162e",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Uma Barba de Respeito / Quacor, A Ave / Patas de Formigas",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "1997-07-16T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "2a420365-f75a-4a76-81f3-2f0b6c1c5b60",
+      "editId": "f4eb5de3-db01-40fa-b485-fccb3b1afe86",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "A Mãe e o Rato / Chubby Cheese / O Robô Maluco",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "1997-07-23T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "13e0ce5c-82ca-4a99-aebf-7bb9b6e0cf87",
+      "editId": "692437a1-1197-42d1-8fd8-a44c119c1463",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dexter e Dee Dee / Pernil e Queda de Braço",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "1997-07-30T00:01:00Z",
+      "duracaoMs": 1350000
+    },
+    {
+      "videoId": "c7b5f887-7a4b-4c76-a3b0-c5269d89bcd7",
+      "editId": "23ea4568-0cfd-4ea5-8a7a-d5f43814ec2c",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Bateu a Fome / O Cuse Está Perdido / Esticando a Manhã",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "1997-07-30T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "20105c7d-8d03-4d75-bdfc-814e665bd6c4",
+      "editId": "bfe0a3a8-ae37-44ca-b3f2-dfd744c2d4de",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Caixinhos da Dee Dee e o Monstroness / Explosão / Arquivem-nos",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "1997-08-13T00:01:00Z",
+      "duracaoMs": 1321000
+    },
+    {
+      "videoId": "35c63ae0-140e-439e-a3c4-2444d58ce1f9",
+      "editId": "58eb706e-d89a-4362-8d10-a3420267cac2",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Mana Tem um Novo Interesse / Shoo, Gnome dos Sapatos / Laboratório Perdido",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "1997-08-20T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "8ff61983-76bf-446d-8d20-e4365b0279e3",
+      "editId": "a854afaf-4ee6-4ccc-98fd-321df3c49edb",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Etiquetas / Game Show / Viagem Fantástica",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "1997-08-27T00:01:00Z",
+      "duracaoMs": 1330000
+    },
+    {
+      "videoId": "77706c87-2d87-4575-9916-8077e39325eb",
+      "editId": "78d92dcc-eca3-4a9f-8efb-05895b6748f3",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Filé de Alma / O Disquete de Ouro",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "1997-09-03T00:01:00Z",
+      "duracaoMs": 1393000
+    },
+    {
+      "videoId": "f9b8f7fe-ddf6-401b-a434-5dffec9b5bfa",
+      "editId": "abc52dcd-4e61-49dc-97ea-2df23aaf5375",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Guerra na Neve / Boneco Não Incluído / Imitação 5",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "1997-09-10T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "c0c6386d-1f0d-4749-ad3e-aaaff40a8845",
+      "editId": "55ae90fd-1543-4576-960e-9abfa94cb541",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Ergh, Isso É Crescimento / Confusão Nuclear / Guerra dos Germes",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "1997-09-17T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "804d7f52-1be3-4f21-a3d6-9f425a2f103c",
+      "editId": "e52ad6c4-bdea-4f09-bffd-8070b6365693",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Dia Mais Duro de Todos / Ralado / Confusão no Oceano",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "1997-09-24T00:01:00Z",
+      "duracaoMs": 1325000
+    },
+    {
+      "videoId": "a65c9394-b718-4784-96d7-85513e1c33b0",
+      "editId": "162ed7e9-b89c-4ba9-9729-6f44a4c80f98",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Garôto do Onibus / Coisas Que Apanham à Noite / O Velho MacDexter",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "1997-10-01T00:01:00Z",
+      "duracaoMs": 1328000
+    },
+    {
+      "videoId": "6df18a2d-d87b-4f0d-8ae4-0c8205b8b254",
+      "editId": "f8b662b1-960d-4961-8c9b-8fb876fa912c",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Pé Grande Venha para Casa / Foto da Chegada",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "1997-10-08T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "e5e0b3e3-8b2c-4d7b-bd56-f34975ed417d",
+      "editId": "cab6dc94-f9c6-49a7-ad27-596d665980f5",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Ai, Ai, Olhos / Dee Dee e o Homem",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "1998-06-17T00:01:00Z",
+      "duracaoMs": 1294000
+    },
+    {
+      "videoId": "7b37a6b6-0507-43e4-b951-329396060736",
+      "editId": "a1158ace-a739-4df6-a113-c167eb67c668",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Não Convencional / O Dexter Está Sujo / Eu Quero Sorvete",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "1998-07-09T00:01:00Z",
+      "duracaoMs": 1327000
+    },
+    {
+      "videoId": "6d78d701-8a82-413f-9043-f033661d19d0",
+      "editId": "08d3a9ed-0c38-494f-8e16-b8667d32bef1",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Descodificação de Honra / A Melhor Mãe do Mundo / Super Idiota 2000",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "1998-07-10T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "a34cc479-2c67-4991-9c5f-906ce5a03baa",
+      "editId": "535d361f-46e7-460a-ac29-0db57b793247",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "A Tartaruga Biônica / Presente de Aniversário / O Chupa Cabra",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "1998-07-13T00:01:00Z",
+      "duracaoMs": 1329000
+    },
+    {
+      "videoId": "995f8d45-61e1-4437-acc6-2a12dcaadba1",
+      "editId": "9674b014-968b-40b7-b134-8fee51f1038f",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dee Dee Quer Cantar / Super Dexter em Ação / Eu Quero o Meu Ursinho",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "1998-07-14T00:01:00Z",
+      "duracaoMs": 1327000
+    },
+    {
+      "videoId": "78a5ffe8-6bef-4ac2-916f-746f9813f7fc",
+      "editId": "88b9b4cd-89d8-4f70-a0de-0c81f9ee4ecd",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Biscoito do Azar / O Rei do Bolinho",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "1998-07-15T00:01:00Z",
+      "duracaoMs": 1327000
+    },
+    {
+      "videoId": "ad2919bd-6c63-46f7-9bd4-f5d33fa12fdf",
+      "editId": "ed7c05c2-bd7f-422a-9cc1-63860dfb68e0",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dia de Fotografia / Nossa, Isso É Que É Esticar / A Prisão de Dexter",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "1998-07-16T00:01:00Z",
+      "duracaoMs": 1327000
+    },
+    {
+      "videoId": "917b5d4a-6902-4123-b450-ed42635fe22b",
+      "editId": "b8003df6-a379-4285-85c2-117829c5eed1",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Não Seja Criança / Peltra / Esquadrão Girl",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "1998-07-17T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "0f76c0c7-71be-4f4b-9065-b6e4e19b3b2f",
+      "editId": "5e6b03b4-4e7b-4cb3-b482-8f636b77268a",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "É Hora de Esporte / Cusalugupagu / O Projeto Da Dee Dee",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "1998-07-20T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "fda587d3-2b94-421d-8924-bde1c293c783",
+      "editId": "a8f7a4ea-ecf9-46f4-9302-33101540e971",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Cheios até a Borda / O Rabo Da Dee Dee / Sem Energia",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "1998-07-21T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "4fe8aa14-5a57-4b94-a2c3-9cd5d49dad24",
+      "editId": "b0bd0476-cf34-46d8-bf95-786a3b6ec161",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Irmã Mãe / A Gargalhada",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "1998-07-22T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "22d09dc9-e38c-4753-965f-09478a503cf1",
+      "editId": "74d9de88-9294-4562-a646-d47679b92ae4",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Uma Estória / Cupon da Loucura / Melhor Molhado",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "1998-07-23T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "01d73a3d-79a5-40f7-ade3-ad53e510aff3",
+      "editId": "f3e3a8b2-1135-450e-93c1-d55d4523dd7a",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Gas Crítico / Vamos Salvar o Mundo Seu Idiota / O Garoto Comun",
+      "temporada": 3,
+      "episodio": 13,
+      "airDate": "1998-07-24T00:01:00Z",
+      "duracaoMs": 1328000
+    },
+    {
+      "videoId": "e2e60c3b-6150-49ba-b678-518519661928",
+      "editId": "26d6f009-1057-4ff7-82d5-c98a8736ab8d",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Duelo de Titãs / Cupins Famintos / Você Acredita Nisso",
+      "temporada": 3,
+      "episodio": 14,
+      "airDate": "1998-07-27T00:01:00Z",
+      "duracaoMs": 1745000
+    },
+    {
+      "videoId": "d33bec9e-ad02-438f-a198-1257614053bf",
+      "editId": "29369c3d-e198-47cf-bb52-f00c8b5fcd0a",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Papai Está Perturbado / Rachaduras / Isso É Usar a Cabeça",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "1998-03-04T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "f2892df1-08a1-49db-a239-76ccf6eb34df",
+      "editId": "6d97ec38-354b-4237-8234-5d1d081b9146",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Pé Preto e Magricela / Armadilha de Vingança / O Papagaio",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "1998-03-11T00:01:00Z",
+      "duracaoMs": 1330000
+    },
+    {
+      "videoId": "4b94b6ee-391f-4a68-9851-d66a115d6704",
+      "editId": "cb2f6cb7-b30c-4dd4-8377-2468e715d3d2",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Luzes Obscuras / Uma Velha Canção de Laboratório / Mal Concertado",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "1998-03-18T00:01:00Z",
+      "duracaoMs": 1329000
+    },
+    {
+      "videoId": "21a72d2b-0cfa-43ea-b957-ed01f44a3513",
+      "editId": "ac7a30a6-eb7c-43ca-8bb7-0a3d9eee2f8f",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Ao Contrário / Caindo na Própria Armadilha / Sol, Surf e Ciência",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "1998-03-25T00:01:00Z",
+      "duracaoMs": 1343000
+    },
+    {
+      "videoId": "8b67184d-ea52-476e-b988-e020728ad597",
+      "editId": "5a55126b-eeaa-4648-8b44-decb6f13d225",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dexter Contra Papai Noel / Dôr na Boca / Dexter e Computador Pegam Mandark",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "1998-04-01T00:01:00Z",
+      "duracaoMs": 1330000
+    },
+    {
+      "videoId": "da96d172-e5c2-47fc-ae34-641d0e405950",
+      "editId": "3073e5ea-eecc-455b-bbb0-4b72ec1c95f1",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "A Rival da Dee-dee / Ligeiramente Paranóica / Jogo por Jogo",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "1998-04-29T00:01:00Z",
+      "duracaoMs": 1344000
+    },
+    {
+      "videoId": "ed7ff746-e3af-409d-8cee-9705efb2e3a0",
+      "editId": "e4948fcc-01a1-4fd4-8cf8-632bf64aedf0",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Super Confusões / Laboreto",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "1998-05-06T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "99b0584b-ce2b-4941-b054-ecd8e4151dbb",
+      "editId": "29407c00-bf17-4b8c-9c45-f238100174b2",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "A Batalha Final",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "1998-06-15T00:01:00Z",
+      "duracaoMs": 1475000
+    },
+    {
+      "videoId": "47e257e7-3e37-4e0d-8b12-a474ada73581",
+      "editId": "1354653f-ee3a-4473-99f7-eb55ebae2b2f",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Os Robôs / Gelécas Alieniginas Que Controlam a Sua Mente / Deslocado no Espaço",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "1998-07-28T00:01:00Z",
+      "duracaoMs": 1326000
+    },
+    {
+      "videoId": "7fbd1819-a831-404f-8f59-2737798ab095",
+      "editId": "f0a8d902-55bd-4e29-a4a3-ce1c77e47362",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "A Velha Chama / Não Seja um Herói /Meu Marciano Favorito",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "1998-07-30T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "9ec85e89-2480-4ea1-9a13-28395ae5ada9",
+      "editId": "9cd298b4-dfda-485f-a800-f9bc4b14243c",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Competição da Rota de Jornal / A Velha Troca de Quartos / Bincadeira na Casa da Árvore",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "1998-07-31T00:01:00Z",
+      "duracaoMs": 1330000
+    },
+    {
+      "videoId": "65408583-851b-4b07-b728-54b34780e5b4",
+      "editId": "d3adb84d-efe7-42b6-b6a9-0501dc8f3d34",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Que Sono / Sotaque Odiado / A Pescaria",
+      "temporada": 4,
+      "episodio": 12,
+      "airDate": "1998-08-03T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "0ec86613-d375-40eb-a97e-63ce62b03df8",
+      "editId": "209d34e6-9c4a-426b-b3b1-0a88094e3573",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Variavelmente Limpo / Estória do Pai / Irmão de Pé",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2001-11-18T00:01:00Z",
+      "duracaoMs": 1333000
+    },
+    {
+      "videoId": "253fdb8e-24bf-4e7e-bec5-0b88354526e4",
+      "editId": "15cb8e14-4db0-45a7-8194-14c3cb346319",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Conversa da Mente / Estória do Quakor / Mãedark",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2001-11-18T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "c3a21285-9f0d-41f2-b29f-40f453c0c9cc",
+      "editId": "bf86c0e2-4a79-4e49-b411-27342e0f374d",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Tomando Atitude / Uma Experiência de Laboratório Fracassada / O Avô de Todas as Invenções",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2001-11-30T00:01:00Z",
+      "duracaoMs": 1324000
+    },
+    {
+      "videoId": "c37164be-d512-4df7-a02b-f7db8459fc2c",
+      "editId": "95848587-77f9-408c-9fb9-31d92c81f317",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Empinando a Motocicleta / O Desenho da Mãe / O Lado Rolê da Lua",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2002-01-18T00:01:00Z",
+      "duracaoMs": 1327000
+    },
+    {
+      "videoId": "3cfbac2a-6b87-49ee-a8c0-773b0046ffbc",
+      "editId": "2be4de0b-4b3e-40b9-87b9-5a8e12dcd507",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Se Eu Me Lembro Bem / Um Desenho de Mandark / Tele Trauma",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2002-02-22T00:01:00Z",
+      "duracaoMs": 1334000
+    },
+    {
+      "videoId": "d3cbed11-519e-414b-a055-606debdcbadb",
+      "editId": "99f2c109-a409-487b-8857-00710565fa09",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Um Garoto Chamado Susan / Laboratório em Fuga",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2002-03-29T00:01:00Z",
+      "duracaoMs": 1334000
+    },
+    {
+      "videoId": "dd765f35-e46d-4c75-8e83-b3cd40d6996c",
+      "editId": "28e55523-15b4-43e4-ab08-13fb8743ccb8",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Reiniciar em Dos / Dee Dee Usa a Imaginação / Banheiro Feminino",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2002-06-07T00:01:00Z",
+      "duracaoMs": 1320000
+    },
+    {
+      "videoId": "541a2116-2041-4298-bd2b-35604f805af8",
+      "editId": "ecfd2f2b-f601-42b3-a31f-2b50bd1ffb3d",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Momento Mágico / Um Desenho Mudo / Os Opostos Se Atraem",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2002-06-14T00:01:00Z",
+      "duracaoMs": 1329000
+    },
+    {
+      "videoId": "98a50b2b-ab51-4be2-aa6f-f13ad56579c6",
+      "editId": "47dba1d2-0b6e-4984-b0a5-e4dff477fabd",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Alívio em Quadrinhos / Terceiro Desenho do Pai / Robô Dexo 3000",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2002-06-21T00:01:00Z",
+      "duracaoMs": 1311000
+    },
+    {
+      "videoId": "f7d98b74-94c6-40e9-9120-7beab3b78da1",
+      "editId": "59d7a307-a3b8-47b6-b5fa-b5c3801b8432",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Luva à Primeira Vista / Desenho do Pai e da Mãe / Cheiro de Vitória",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2002-06-28T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "4d7f8ccc-3014-4270-bc1c-94f5ec5b241f",
+      "editId": "3cc13a76-e98c-4872-b119-ee4ed1a52269",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Meu Irmão / Terceiro Desenho do Pai / Teste de Barra",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2002-07-05T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "45edf104-177a-4d95-b4ef-151ac19bd619",
+      "editId": "e1872952-c3c1-44a2-9cd5-7446624f5513",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Minha Nossa, Cadê o Peepers? / Vai, Familia Dexter! Vai",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2002-07-12T00:01:00Z",
+      "duracaoMs": 1323000
+    },
+    {
+      "videoId": "bd45570d-2639-4646-9e8e-43d41a59d589",
+      "editId": "241a14c4-a81f-4997-a930-36d354baccb1",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Táticas de Medo / Meu Pai Contra Teu Pai",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2004-07-11T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "57e66fcf-79f1-493f-a072-de6a82a12988",
+      "editId": "f3e9f4b5-6bf9-4cc3-b444-c9af3e486842",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Beau Arrumadinho / Lembra de Mim? / Lab-Exagerando",
+      "temporada": 5,
+      "episodio": 14,
+      "airDate": "2002-11-22T00:01:00Z",
+      "duracaoMs": 1325000
+    },
+    {
+      "videoId": "477d2211-94b3-496e-9407-b725422cb8e8",
+      "editId": "337ee9ad-60ab-44ec-a70b-69583b3d400c",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Erro de Sist-irmã / Maus Hábitos com a TV / Biblioteca do Dexter",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2003-04-24T00:01:00Z",
+      "duracaoMs": 1311000
+    },
+    {
+      "videoId": "d661759a-94bf-49ed-bd82-ab5b48ec5efd",
+      "editId": "f354d5a9-5c35-4fe2-8c80-5fdb4a089527",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Jogo da Bola de Cristal / Monstruosi Dee Dee / Dorminhoco Andando",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2003-05-02T00:01:00Z",
+      "duracaoMs": 1301000
+    },
+    {
+      "videoId": "b4e1efcf-315a-49f2-835d-42a2dfc09ef8",
+      "editId": "3a6cb82c-05cf-4170-a64d-311206428b6a",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Pequeno Dilema de Dexter / Falso Chapéu / D ao Quadrado",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2003-05-09T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "e6c6b8c0-c6a7-4eb9-b747-c70211f05e50",
+      "editId": "fb4983d4-8a55-4af9-872b-75cbdeb8da3f",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Faixa de Cabeça / Casa de Bichos de Pelúcia / Tinta Usada",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2003-05-16T00:01:00Z",
+      "duracaoMs": 1323000
+    },
+    {
+      "videoId": "c4ee4f51-79d9-4e4d-879f-1684e87a41d5",
+      "editId": "8a4fe645-cc91-4933-8f9d-655292c943c3",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Menininha Apaixonada / Mãe de Xadrez / Papai Sabe Nada",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2003-05-23T00:01:00Z",
+      "duracaoMs": 1341000
+    },
+    {
+      "videoId": "61bee740-c7be-4c90-a312-84805f5ad8a7",
+      "editId": "ff766ec9-8140-4d74-99e9-0a77977fd109",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Dexter o Bárbaro / A Era dos Tubérculos / Olhos Sensíveis",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2003-05-30T00:01:00Z",
+      "duracaoMs": 1322000
+    },
+    {
+      "videoId": "6b85992a-aa8b-42d3-9d12-1abd577f5928",
+      "editId": "02bff530-de70-4127-af35-2c8d57ec8629",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Babá Gata / Mandark da Montanha / Dois Gênios Juntos para Sempre",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2003-09-05T00:01:00Z",
+      "duracaoMs": 1313000
+    },
+    {
+      "videoId": "1cfdf430-d321-4db9-bacd-98158f7ea556",
+      "editId": "4a55e5fb-afca-49b6-8384-92507092fd11",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Altura Invisível / Erros do Passado / A Loucura Chama",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2003-09-12T00:01:00Z",
+      "duracaoMs": 1304000
+    },
+    {
+      "videoId": "e76b3876-8f75-4560-b905-9dfa14e212f3",
+      "editId": "31cfc396-59ea-41be-be28-388eaf83f651",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Voice Over / A Loura Liderando o Louro / Ladrão de Quadrinhos",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2003-09-19T00:01:00Z",
+      "duracaoMs": 1339000
+    },
+    {
+      "videoId": "13cb3254-ff34-403f-ba84-1a5c43b7a066",
+      "editId": "70605d89-2853-4824-921d-9add781ee13a",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Farra do Golfe / Corrida Louca do Dexter",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2003-09-26T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "d837d60d-2fb4-4b47-8611-2060d613c398",
+      "editId": "239675ff-ce6b-4331-ae84-6e060e6e9efb",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "O Laboratório do Amanhã / Coceira de Galinha / Bazar Caseiro",
+      "temporada": 6,
+      "episodio": 11,
+      "airDate": "2003-11-04T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "bf3784c3-9856-4bbd-94c4-67a03efffe7a",
+      "editId": "8522528f-13aa-47fa-9030-494dadbb69a9",
+      "showId": "0f292408-bfdd-4d2d-9de1-b531bc85cbb3",
+      "nome": "Eles Sabem Golpes / Injustiça Poética / Comédia das Penas",
+      "temporada": 6,
+      "episodio": 12,
+      "airDate": "2003-11-20T00:01:00Z",
+      "duracaoMs": 1306000
+    }
+  ]
+}

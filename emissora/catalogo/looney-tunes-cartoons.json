@@ -1,0 +1,836 @@
+{
+  "slug": "looney-tunes-cartoons",
+  "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+  "nomeOficial": "Looney Tunes Cartoons",
+  "capturadoEm": "2026-07-28T06:48:25.943Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "31ed7e52-b90e-47d9-9b14-5d6eac77e2e5",
+      "editId": "29f7a11d-7e63-4b3d-b381-dc11a02a7474",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "A Maldição do Pássaro Macaco / Planeta Murcho / Briga de Braço",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "87528ad7-83cd-4e7f-bb54-14af0f7ee009",
+      "editId": "9d20ac4c-8ef5-4253-84b0-bc33afa8c7a9",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "A fera da liga / Mini Hortelino / Bombeiro baderneiro",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 702000
+    },
+    {
+      "videoId": "4326922f-3372-4223-8453-48aa752f9b63",
+      "editId": "7d47bbe1-dd85-4bde-86a0-0e1dfe4e0258",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Bu! Apiu-piute / Desentupidor / Relação pegajosa",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 637000
+    },
+    {
+      "videoId": "7fcef41f-3865-4ce8-aacd-7da423da62f0",
+      "editId": "71b97a8e-27bd-487b-8878-7f340e1abd11",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Dor no gelo / Visão em túnel / Coelho de piscina",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 722000
+    },
+    {
+      "videoId": "5c631ced-c7d4-4bff-b27d-ce4a08c55d49",
+      "editId": "b9a3ffb4-923c-4763-920f-477852e54ad8",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Montanha de implicância / Simbioceronte",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 683000
+    },
+    {
+      "videoId": "ac728575-826a-4492-be2a-c951cc7dda35",
+      "editId": "59c12d96-864e-4f13-90db-263f622fd380",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Curso de abutre / Boca alienígena gigante / Cimento fresco",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 687000
+    },
+    {
+      "videoId": "cf517ce9-3b8b-46a7-955d-9082a116db07",
+      "editId": "ecdb8671-9616-4538-b713-663194404bd4",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Eufrazino da Sibéria / Buraco móvel / Desistindo do rebanho / Marvin ao meio",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 684000
+    },
+    {
+      "videoId": "51d4e286-2392-44b6-82f3-937c7e6334d5",
+      "editId": "bde9f337-bac9-47f8-8afd-8d7456ac4148",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho suspeito / Cacte se for capaz / Banho dividido",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 651000
+    },
+    {
+      "videoId": "bb7b5473-d4d0-401a-b07f-e1d35431d4da",
+      "editId": "f1c8b03e-6b4e-4358-bb83-1e4dadeeb360",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pato com atraso / Abelhas / Vincent Van Lino",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 740000
+    },
+    {
+      "videoId": "4fab8681-c0c5-41f4-8328-31c41fe771cc",
+      "editId": "e5111d49-8bf1-4ba0-bc87-02488d6c976a",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho capilar / Treta com a TNT / Pato encanado",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "2020-05-27T00:01:00Z",
+      "duracaoMs": 751000
+    },
+    {
+      "videoId": "6c120f27-7e01-4012-adbd-13d2259a4f69",
+      "editId": "7fdad6db-3258-43ba-a314-f4c792b618ce",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Patoccino / Buraco móvel / Casa de gato",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 721000
+    },
+    {
+      "videoId": "1a842108-e446-4f50-8e89-fc942e7cd213",
+      "editId": "35252e99-2d7a-4e51-b9c4-9fae69c63168",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Gangue acorrentada / Poste telefônico / Caindo nessa",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 711000
+    },
+    {
+      "videoId": "47b4ff08-1a65-4477-8600-592561038d14",
+      "editId": "507b2406-703c-41ce-8044-1e496c618c42",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Taziador / Mini marciano / Controle do clima",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 761000
+    },
+    {
+      "videoId": "b6ac91b3-94d1-4573-801b-b4c369090716",
+      "editId": "3e1ec644-1054-4a32-a28b-4ae0fcc57439",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Lepre-chato / Bandeira que não fica reta / Bravo novo lar",
+      "temporada": 1,
+      "episodio": 14,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 680000
+    },
+    {
+      "videoId": "ab4ac7a1-99e6-4251-b6cd-512ae93694e9",
+      "editId": "ff07d9a9-5fa7-4af8-879d-30f6d0ec3a98",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "The Case of Porky's Pants / Fully Vetted",
+      "temporada": 1,
+      "episodio": 15,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 756000
+    },
+    {
+      "videoId": "5c070241-6e8e-4b9a-a2be-554607f6f37b",
+      "editId": "03f45af4-147c-4ed8-9a88-6c852615b176",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelhadicador / Planeta dividido / Pato das vendas",
+      "temporada": 1,
+      "episodio": 16,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 662000
+    },
+    {
+      "videoId": "1ed2401d-d172-4988-8301-3a7b91858582",
+      "editId": "a48e1fc3-455c-4edf-9af6-fea9c413a4ee",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Gaguinho arremessador / Plataforma / Pato, pato, bum",
+      "temporada": 1,
+      "episodio": 17,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 720000
+    },
+    {
+      "videoId": "e354d518-0bc6-40c0-85e5-f1f36e2e2343",
+      "editId": "8fb1e248-7e37-4a2f-ab8e-8d8a4d20f420",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Postalgeist / Bigorna / Hortelino, o coelho",
+      "temporada": 1,
+      "episodio": 18,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 663000
+    },
+    {
+      "videoId": "2bd870e9-5743-467f-8043-0172bddd3e3f",
+      "editId": "ac2a89c9-8981-4f3e-a19a-e76f87cbabf9",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Graxa sem graça / Multiplicar e conquistar / O porco e a vaga",
+      "temporada": 1,
+      "episodio": 19,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 664000
+    },
+    {
+      "videoId": "35268ff9-5184-4978-9dae-407e90c8e8c2",
+      "editId": "6031d492-17fe-44c0-996d-78cdb7f14761",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Shell-Shocked / Daffy Dentist",
+      "temporada": 1,
+      "episodio": 20,
+      "airDate": "2021-01-21T00:01:00Z",
+      "duracaoMs": 725000
+    },
+    {
+      "videoId": "e2be0cac-586f-448c-9fda-c9904c7742ca",
+      "editId": "0863580a-dbff-4083-b564-69eddf0c5fdd",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Bugs Bunny's 24 Carrot Holiday Special",
+      "temporada": 1,
+      "episodio": 21,
+      "airDate": "2020-12-03T00:01:00Z",
+      "duracaoMs": 1687000
+    },
+    {
+      "videoId": "56ff6aa9-1d74-451a-9cb4-9b63edcf3d52",
+      "editId": "f330e31f-b4b2-4ef3-92cb-a699a5a06048",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Problemas com o puma / Bola de boliche / Patolino copiado",
+      "temporada": 1,
+      "episodio": 22,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 689000
+    },
+    {
+      "videoId": "e706b610-fe66-4d76-9348-93788a5991b7",
+      "editId": "08eaaafb-6ad1-41ce-8606-b986c0503551",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Chavástrofe / Martelando a toca do coelho / Sede diabólica",
+      "temporada": 1,
+      "episodio": 23,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 654000
+    },
+    {
+      "videoId": "472764bf-514b-4fb5-b4c0-9b0e726b2a77",
+      "editId": "52a764ca-6fff-4429-a969-d94f70ad59c8",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Doninhando / Sem tempo",
+      "temporada": 1,
+      "episodio": 24,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 674000
+    },
+    {
+      "videoId": "9bf47941-e8f9-4ba1-9433-58487253ee27",
+      "editId": "0758bb0a-fc2c-4d24-982c-a3f085806983",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho em alta velocidade / Biquinho abutre: Cascavel / Lelé do coco",
+      "temporada": 1,
+      "episodio": 25,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 748000
+    },
+    {
+      "videoId": "eada46a1-44fc-4298-977a-11ed75c54646",
+      "editId": "e678b9d4-5afa-47e3-a06e-0c23bdc5b4e0",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho recompensa / Toca do coelho: Cueca / Lanchinho complicado",
+      "temporada": 1,
+      "episodio": 26,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 646000
+    },
+    {
+      "videoId": "5be41e14-c3d8-48db-aa92-6aa6c81bd3a1",
+      "editId": "44f60245-bd84-4d00-8404-82e434f5f054",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Advopato / Biquinho abutre: rato / Coiote sobre rodas",
+      "temporada": 1,
+      "episodio": 27,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 640000
+    },
+    {
+      "videoId": "917ece42-7679-4b22-a956-73ff11cff50e",
+      "editId": "b46c6783-87b0-4b12-a23f-a567b59d5091",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Vovó pugilista / Patolino vidente: famoso / Furada",
+      "temporada": 1,
+      "episodio": 28,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 700000
+    },
+    {
+      "videoId": "35cc45e4-2cea-4458-ae8c-c70368a227da",
+      "editId": "65c69140-2016-4b7d-83fe-5e1bae986729",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Marv ataca! / Um lobo em peles baratas",
+      "temporada": 1,
+      "episodio": 29,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 711000
+    },
+    {
+      "videoId": "576594c0-e960-45d4-a848-16a4306e983f",
+      "editId": "2b2e4d12-ed7b-49d5-8799-d2f0e7218d7c",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "A foto perfeita / Poste: Gancho / Rasante",
+      "temporada": 1,
+      "episodio": 30,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 559000
+    },
+    {
+      "videoId": "eb219097-dd4d-4a48-83eb-9bcb830e55d2",
+      "editId": "c433e601-4298-4562-b584-8454194a00dd",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Encharcadores de janelas / Poste: Corda bamba / Dor de sela",
+      "temporada": 1,
+      "episodio": 31,
+      "airDate": "2021-04-29T00:01:00Z",
+      "duracaoMs": 666000
+    },
+    {
+      "videoId": "7137acc1-149e-4023-a887-4beeca3050e3",
+      "editId": "b79e050a-b320-4c7b-9c49-92bcb8086526",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Amiga múmia / Poste: Poste encolhendo / Caindo na estrada",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 679000
+    },
+    {
+      "videoId": "5ac61acc-3547-4ff8-aa8f-75eacdbd734e",
+      "editId": "56370674-736f-4c13-a4a7-fe5bd9e3c8ad",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Vermelho, branco e azucrinando / Biquinho abutre: coelho / Porquinho a jato",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 641000
+    },
+    {
+      "videoId": "4efe8976-293f-4dcd-be9e-ecb435639518",
+      "editId": "f9f752fd-8b0d-4442-85f5-31dc840f2d2e",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pato de apoio emocional / Fim da coleira: tênis / Pode me adotar!",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 781000
+    },
+    {
+      "videoId": "dfc390fe-a4d6-4cf0-ab97-d95a4616bd72",
+      "editId": "dc45d56e-5179-4323-b724-985196c6e3da",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Rover irritante / Mel do amor / Estações de batalha",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 761000
+    },
+    {
+      "videoId": "f648f771-e6c0-4c64-b31d-d97b1ff0b42d",
+      "editId": "1eca2ffe-2514-4c5a-8f8c-cb954ef7089a",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Osso duro / Relaxamento",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 695000
+    },
+    {
+      "videoId": "8e5d5fc2-22c8-4c03-a479-eda1e3acdd06",
+      "editId": "7aa8f838-10ef-435e-b3ce-ebe299de9aad",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho rechonchudo / Lava-jato",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 740000
+    },
+    {
+      "videoId": "5e4629ed-37ff-4b0e-bc8c-f40bd7f523e3",
+      "editId": "0311dd30-2819-494d-95fe-c6a10685973a",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pato sob medida / Poste: Ventilador / Asfalto e bateria",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 708000
+    },
+    {
+      "videoId": "23fcb908-bffb-481a-978b-ddeab986113f",
+      "editId": "33ab582c-9988-4665-b3a2-16c57b1d3ef8",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Batalha pelo beliche / Fim da coleira: Puxando o tapete / Bobão de ar quente",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 715000
+    },
+    {
+      "videoId": "34a0652b-e048-440c-93cb-61cb39373bad",
+      "editId": "8d606497-7ca6-475e-9b61-c5e7ea0a3048",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pernalonga enterrando / Confusão em patinação",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 690000
+    },
+    {
+      "videoId": "799bdd85-8b12-4d69-bfd6-be744c60d871",
+      "editId": "431ac268-3d76-47a5-9df1-16d351b5351e",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Monte Nuncaest / Poste: Tirolesa / Veloz e equilibrado",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2021-07-08T00:01:00Z",
+      "duracaoMs": 600000
+    },
+    {
+      "videoId": "fe35c471-c6dd-408c-b9c2-563c9d316436",
+      "editId": "89bcb765-94a3-420e-8b78-70ebfe899c38",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Teste de Peste / Fim da Coleira: Apagando a Coleira / Escolinha de Abutre",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2021-08-19T00:01:00Z",
+      "duracaoMs": 965000
+    },
+    {
+      "videoId": "180ca823-e701-4ef8-8703-b0165cbd61ce",
+      "editId": "aa630779-ea03-480d-be61-0638294b08c1",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Eufra-Mérica / Colocando o Gato pra Fora: Porta Giratória / Ladrão de Churrasco",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 783000
+    },
+    {
+      "videoId": "30540846-376d-4c8e-ae61-eff48c20d610",
+      "editId": "528c3655-1997-47ca-a3af-3321a629a4a8",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Feliz Piu-Piu-Versário / Patolino Vidente: Novo Amor / Mola pra Frente",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 694000
+    },
+    {
+      "videoId": "f0cca646-d078-46a8-909b-4b9b4e4e2d7d",
+      "editId": "548710dd-6634-4c98-9da8-695dfe7c7a7e",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Culpa do Felino / Patolino Parado no Trânsito: Habilitação de Barco / Strikes Azarados",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 807000
+    },
+    {
+      "videoId": "16f8716e-dbdd-4c95-994e-085af23e8491",
+      "editId": "b143e63a-b24a-4095-b1a2-c1c1d37c3007",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Cro-Magburros / Caçador Premiado",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 759000
+    },
+    {
+      "videoId": "c9122866-417b-4947-920f-3a785b8b27c4",
+      "editId": "9f9de2c0-5301-4c6e-9ae4-05863afe5796",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Patinho de Banho / Quadro com Alvo / Máquina de Sanduíche de Coelho / Janela",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 699000
+    },
+    {
+      "videoId": "fc5e8576-99f7-4f6e-9dfc-8b294a3a7b5b",
+      "editId": "38184177-dde6-469d-b9ce-cda6ba7b6efd",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Perdoe a Jardineira / Colocando o Gato pra Fora: Achatado na Porta / Pato Olhando para Baixo",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 744000
+    },
+    {
+      "videoId": "b178a1ab-be3e-46da-857e-63a92df29ef4",
+      "editId": "164baf63-7e26-40f6-aebf-f665b306fd11",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Lição Nº9 do Espaço Sideral / Vendedor de Balões: Babuíno / Portal Kombat",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 698000
+    },
+    {
+      "videoId": "8657a0d7-1b81-4603-b483-d2a842c43cc8",
+      "editId": "a2733884-436a-4301-9c00-e3b18377412f",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Mortalidade Virtual / Patolino Parado no Trânsito: Leões / Minerando perigo",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 823000
+    },
+    {
+      "videoId": "de3e69d8-6a40-422e-b8d8-1ff429f209b9",
+      "editId": "7bfcc990-ac7e-402a-aaa4-5593d01451e4",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Trapaceando / A Espada da Derrota",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2021-11-25T00:01:00Z",
+      "duracaoMs": 824000
+    },
+    {
+      "videoId": "c477fd55-ff3c-4479-8894-bef640f34488",
+      "editId": "7497fd53-c56d-40e5-a155-4e47f0b8825a",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Circo de Desastres / Olho / Pancada Principal",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 799000
+    },
+    {
+      "videoId": "0d56046b-d54a-4990-9e2b-3c9cb431bc2f",
+      "editId": "a8b798fd-4d1f-4391-911f-0f5db95fcad1",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Batendo Baquetas / Toca do Coelho 2 / Avistando Aves",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 814000
+    },
+    {
+      "videoId": "30314b92-f5f4-4d64-92c4-585ac03b0c11",
+      "editId": "5d972dff-e1e3-485a-8935-4f8020d6aeb7",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Bebê está Preso / Avião Escadas / Mentes Práticas",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 735000
+    },
+    {
+      "videoId": "eae838f1-7e19-47ee-b74f-32eb16e48bba",
+      "editId": "ad7d0bd8-8add-4024-8fc1-a7c3c1d5708f",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Anzol, Linha e Mala / Vendedor de Balões: Tudo Estoura / Não Pise na minha Esteira",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 660000
+    },
+    {
+      "videoId": "8de7e893-9cef-4403-8158-a2cc51e74df0",
+      "editId": "0486738c-7291-4fcf-a9a4-ca6c975624c3",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Amanchiante / O Peueguino",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 788000
+    },
+    {
+      "videoId": "a0599c9c-c434-4326-9588-06dd27c2fcda",
+      "editId": "b7c17db0-d9a1-4973-ba82-949875f9a9e8",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Entocados / Patolino Mágico: Esfregão Normal",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 603000
+    },
+    {
+      "videoId": "180961c2-63d6-4d48-a932-a4e46b6ed33b",
+      "editId": "12c98cae-1daa-464a-91d0-bfb7c014653c",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Observabobos / Fim da Coleira / Vendedor de Balões",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 606000
+    },
+    {
+      "videoId": "7788b1c2-f4b2-429f-ab67-f49868499c82",
+      "editId": "40e22ce7-c68b-454e-a381-bef6652a013f",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Canário do Grand Canyon / Uma Burrada Só",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 780000
+    },
+    {
+      "videoId": "eb9c39d1-8295-4f1a-ac55-0bf9c501b7db",
+      "editId": "a785dc4c-234e-47db-9b05-64807d89fb3e",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Velório para Hortelino / Bode do Amor",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 860000
+    },
+    {
+      "videoId": "f4eedfe2-a8de-4dba-b1ce-741207982b9a",
+      "editId": "82c834dd-5bd9-46a8-8d94-04b3f0908775",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pegadinhas / Rabada",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2022-01-20T00:01:00Z",
+      "duracaoMs": 769000
+    },
+    {
+      "videoId": "f2537c9a-6da3-4d22-be2e-cad44d8e0125",
+      "editId": "1e934065-8bba-4c4c-a7be-072e8e2d8fd2",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Especial de Dia dos Namorados dos Looney Tunes Chocopato",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2022-02-03T00:01:00Z",
+      "duracaoMs": 904000
+    },
+    {
+      "videoId": "eec4d2c2-db17-4304-81cf-d14aee9a5492",
+      "editId": "b80336c6-ef5d-4d28-a122-03dffa1645a9",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pernalonga no Assustáculo de Hallowgrito Sustos no Cemitério",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2022-09-29T00:01:00Z",
+      "duracaoMs": 1729000
+    },
+    {
+      "videoId": "6494b522-4f75-4ac2-b402-4a9500ce6dff",
+      "editId": "415dc4f7-4ff5-4d85-add3-21e26db26aef",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Arranhando o Céu / Vendedor de Balões: Cabisbaixo / O Diabo e a Imensidão Azul",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 727000
+    },
+    {
+      "videoId": "db73b842-9631-47aa-a68d-55a146928c93",
+      "editId": "dbf46b38-a1d3-453c-a881-4dd3a4e362fd",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Brigando por Migalhas / Toca do Pernalonga 2: Mini Pernalonga / Obstrução na Construção",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 859000
+    },
+    {
+      "videoId": "25d5747b-9923-4b93-95e1-52a090f46245",
+      "editId": "667ca2e6-2df0-4c4b-9a56-ab026ffa421e",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Eufrazino Samurai / Toca do Pernalonga 2: Colmeia / Manés no Escuro",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 832000
+    },
+    {
+      "videoId": "47961095-830d-4eee-a57f-19e036acefb4",
+      "editId": "e8e22f0d-2647-4245-a9bd-623cd3f7fe90",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Locação Dolorosa / Aninhado",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 890000
+    },
+    {
+      "videoId": "d041e1a7-89ad-4ba6-b5a1-f92f78b8013d",
+      "editId": "56c24520-6ff7-4da5-80a2-bdd6c73eb2ac",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Pena da Noiva / Patolino Mágico: Escolha uma Carta / Toca do Pernalonga 2: Cascavéis",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 622000
+    },
+    {
+      "videoId": "04c3d545-f032-4468-8800-6b9834363f13",
+      "editId": "4766fef0-ab47-462c-99ac-f21c9163f693",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Perturbando na Piscina / Botando o Gato pra Fora: Dentro-Fora / Coelho na Mira",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 970000
+    },
+    {
+      "videoId": "b738d894-b833-4919-8f8e-f57d53e957ab",
+      "editId": "17f38fae-9934-4d43-b95a-053aba395caf",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Oficina do Piu-Piu / Patolino no Trânsito: Cabine Telefônica / Hortelino Onisciente",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 948000
+    },
+    {
+      "videoId": "a196413f-7240-4ad7-82c1-f22ee530eda9",
+      "editId": "05f8597b-a205-4154-8fcf-3bc0e08830ed",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Vivendo um Sonho / Temporada de Pato: Hologramas / Enganar até Assar",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 813000
+    },
+    {
+      "videoId": "099cd511-1270-470c-9027-bac46c603d84",
+      "editId": "0ccdc4cc-8681-47fd-bf0b-1005ccd8c432",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelhinho dos Quadrinhos / Vendedor de Balões: Todos os Balões / Invasão Felina",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2023-04-06T00:01:00Z",
+      "duracaoMs": 964000
+    },
+    {
+      "videoId": "16299b4d-7fd5-468a-be25-096d1971f062",
+      "editId": "0b7066be-ef5f-44cf-bbb2-e1855ec74a89",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Prendas de aniversário / Patolino Mágico: Vintage / Guerra de Banho",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 859000
+    },
+    {
+      "videoId": "70f55a4d-3954-4930-80fe-52869e41b4b8",
+      "editId": "151d7c99-1420-460d-9e92-e2f344d906e1",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Confusão até Oregon / Caça ao Pato: Apito de Pato / A vida é uma praia",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 908000
+    },
+    {
+      "videoId": "498335d1-908a-4b66-90a8-eb9229ed5d78",
+      "editId": "b34fc500-b128-4d36-8824-e75845c11e39",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "A pérola dos meus sonhos / Toca do Pernalonga 2: Descendo pelo ralo / Confusão de ferro",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 844000
+    },
+    {
+      "videoId": "1dba715d-01fd-49cc-bc18-f1440bef3018",
+      "editId": "f238fb27-b4ac-4746-b135-9b028ffe8af5",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Jogos de hospedagem / Colocando o Gato pra Fora: Pintura / Inverno Faminto",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 787000
+    },
+    {
+      "videoId": "128e7ca6-a882-4549-857f-42880abe9e54",
+      "editId": "3a55d18e-ca0a-426e-a7b3-5346d7d6cccb",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "A suíte do Piu-Piu / Patolino Mágico: Cortado ao Meio / Menu do deserto",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 874000
+    },
+    {
+      "videoId": "b0c4d486-5c49-4c61-a051-0f304645101d",
+      "editId": "d0085419-7e90-4abf-abfb-1c4aa7d61712",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho Abduzido / Patolino Vidente: Emprego Novo / Temporada de Pato",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 651000
+    },
+    {
+      "videoId": "73347781-f744-4fbe-b4c1-fb27a282ab6d",
+      "editId": "85bafa70-b5e1-4758-901f-8f6442f7c83e",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Sorte Felina / Amor Espinhento",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 902000
+    },
+    {
+      "videoId": "35dceabc-3c70-4226-a11d-35da45beeda3",
+      "editId": "f8a1906d-dcb9-42a3-8a83-1980f52be050",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "E o Vento Errou / Patolino Mágico: Pé de Porco / Encrenca no Cinema",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 850000
+    },
+    {
+      "videoId": "c61b9c4b-2e55-4c94-ae36-328f23f5fe68",
+      "editId": "8ddfa3f1-19e0-4b92-aa15-7b42bbe38837",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Coelho no Parque de Diversões / Temporada de Pato: Besta / Fisgada pelo Gato",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2023-07-27T00:01:00Z",
+      "duracaoMs": 950000
+    },
+    {
+      "videoId": "bde7d240-e53d-445e-acb5-e6dc44f9ad29",
+      "editId": "51b255ee-4d1e-4f58-97ed-1072651ce756",
+      "showId": "e90f1b95-4825-4f3d-bbe2-4cbc82dc7229",
+      "nome": "Patolino na Malucolândia",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2024-06-13T00:01:00Z",
+      "duracaoMs": 404000
+    }
+  ]
+}

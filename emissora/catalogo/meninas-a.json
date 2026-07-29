@@ -1,0 +1,806 @@
+{
+  "slug": "meninas-a",
+  "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+  "nomeOficial": "As Meninas Superpoderosas (id A)",
+  "capturadoEm": "2026-07-28T06:40:22.396Z",
+  "temporadasDropdown": [
+    "Temporada 1",
+    "Temporada 2",
+    "Temporada 3",
+    "Temporada 4",
+    "Temporada 5",
+    "Temporada 6"
+  ],
+  "episodios": [
+    {
+      "videoId": "f6a8635f-8000-4b39-b3c3-cb6749af34ec",
+      "editId": "4a22cae3-012e-40dc-be2c-afd6d036faa6",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Um Dia de Cão / As Aparências Enganam",
+      "temporada": 1,
+      "episodio": 1,
+      "airDate": "1998-11-18T00:01:00Z",
+      "duracaoMs": 1359000
+    },
+    {
+      "videoId": "06427d87-eebf-4a62-a95d-8288bb0bc792",
+      "editId": "0c040a25-9a2c-4d53-9112-c23b1371815f",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Baratas Não São Barato / As Falsas Super Poderosas",
+      "temporada": 1,
+      "episodio": 2,
+      "airDate": "1998-11-25T00:01:00Z",
+      "duracaoMs": 1362000
+    },
+    {
+      "videoId": "a9725ea3-e7a2-4a1f-a136-6832941c3c8e",
+      "editId": "6f88db84-e154-4b31-aaa5-8e61e0e2145c",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "O Polvilhão / Combatendo A Gripe",
+      "temporada": 1,
+      "episodio": 3,
+      "airDate": "1998-12-02T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "346fa909-d1bf-4e19-b56d-8feb6a0981fb",
+      "editId": "8f1b295e-cd11-4f91-b0ee-1164141cdb53",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Docinho Está Apaixonada / O Que É Meu É Meu",
+      "temporada": 1,
+      "episodio": 4,
+      "airDate": "1998-12-09T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "64b280c6-1bf2-4309-97ce-960e339bc74a",
+      "editId": "304d0a0b-f0e7-42a3-9aa0-00353061e34b",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "O Bicho Papão / Abracadaver",
+      "temporada": 1,
+      "episodio": 5,
+      "airDate": "1998-12-16T00:01:00Z",
+      "duracaoMs": 1356000
+    },
+    {
+      "videoId": "72cf989b-e518-4672-9e8e-0f905cd8eca6",
+      "editId": "68754361-6610-4ef2-aebc-6785827e5c4d",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Teletrotes / Isso É Que É Amor",
+      "temporada": 1,
+      "episodio": 6,
+      "airDate": "1998-12-23T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "9b481603-5ee9-4181-b790-418614f6f4b2",
+      "editId": "1210f7f2-101b-4449-a3ac-859398f51c0d",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "A Grande Competição / A Volta De Macaco Loco",
+      "temporada": 1,
+      "episodio": 7,
+      "airDate": "1999-01-06T00:01:00Z",
+      "duracaoMs": 1348000
+    },
+    {
+      "videoId": "8bd50f28-cc51-4253-a315-ffcd49b5e26e",
+      "editId": "3f058035-90b6-43d6-8172-af97ff24f6f3",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Cola E' Pra Colar / E' De Congelar",
+      "temporada": 1,
+      "episodio": 8,
+      "airDate": "1999-01-13T00:01:00Z",
+      "duracaoMs": 1355000
+    },
+    {
+      "videoId": "0ee7aa4b-8e6f-4b60-96a7-678f2efcb654",
+      "editId": "1775d099-b3b1-4d6e-bc14-ed9492c18897",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Gracinha Perversa / Fatos Explícitos",
+      "temporada": 1,
+      "episodio": 9,
+      "airDate": "1999-01-20T00:01:00Z",
+      "duracaoMs": 1315000
+    },
+    {
+      "videoId": "535047c7-27bc-42dc-9086-8668733042fc",
+      "editId": "206ed12b-f082-447c-a4df-eca9690c97be",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "O Gato Malvado / Destituam Fuzzy",
+      "temporada": 1,
+      "episodio": 10,
+      "airDate": "1999-01-27T00:01:00Z",
+      "duracaoMs": 1374000
+    },
+    {
+      "videoId": "869b2f8f-3ced-45ff-9b20-76f3721d8b66",
+      "editId": "454045ef-b6cb-419d-b4fa-666cc42972f8",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Mais Uma Do Macacoloco / Brinca Para Variar",
+      "temporada": 1,
+      "episodio": 11,
+      "airDate": "1999-02-03T00:01:00Z",
+      "duracaoMs": 1398000
+    },
+    {
+      "videoId": "11587167-4874-4a40-a95c-fcda93a34f41",
+      "editId": "884f2842-bc4f-458d-8a79-ef9982919889",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Os Meninos Desordeiros",
+      "temporada": 1,
+      "episodio": 12,
+      "airDate": "1999-04-07T00:01:00Z",
+      "duracaoMs": 1314000
+    },
+    {
+      "videoId": "d9acd442-8815-4218-8284-f4e9d67ad2b4",
+      "editId": "5337a9c1-7506-49a2-88a1-a3bfd35fe6b2",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Uh Oh... Dynamo",
+      "temporada": 1,
+      "episodio": 13,
+      "airDate": "1999-05-26T00:01:00Z",
+      "duracaoMs": 1178000
+    },
+    {
+      "videoId": "702a2ebf-026e-4769-8f17-401e9c019e70",
+      "editId": "e36b1d58-da6b-4cf0-86e4-c38eb1348750",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "O Convencido Não É Querido / Aprendendo A Lição",
+      "temporada": 2,
+      "episodio": 1,
+      "airDate": "1999-06-25T00:01:00Z",
+      "duracaoMs": 1405000
+    },
+    {
+      "videoId": "b938ba8c-0ba4-4040-8a43-8c653a8da38b",
+      "editId": "cc0506e1-f4e5-48b3-aa86-84bd96b5400a",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Colecionador / Super Vilão",
+      "temporada": 2,
+      "episodio": 2,
+      "airDate": "1999-07-23T00:01:00Z",
+      "duracaoMs": 1383000
+    },
+    {
+      "videoId": "62efebf7-1a61-42ad-a2bc-17417f79c95b",
+      "editId": "22f2f7ee-4396-4ec6-9975-cb3e60a1ac92",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Festa De Aniversário / Cansados Demais",
+      "temporada": 2,
+      "episodio": 3,
+      "airDate": "1999-08-20T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "d3b3f320-8039-4d6d-8c02-0f1f36097d71",
+      "editId": "329a343f-a558-4145-8739-52d5f65de52f",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Vença O Verde / Triste E Suja",
+      "temporada": 2,
+      "episodio": 4,
+      "airDate": "1999-09-10T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "9b49d6d7-d508-46dd-a582-81f63f3ae7fd",
+      "editId": "f9bfd19d-1967-4faf-aeaa-2fab46a2f247",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "O Plano Do Sonho / Bobeou, Dançou",
+      "temporada": 2,
+      "episodio": 5,
+      "airDate": "1999-09-24T00:01:00Z",
+      "duracaoMs": 1343000
+    },
+    {
+      "videoId": "43b4a9f4-1b03-4e49-b201-4b8c0b0b8c9a",
+      "editId": "59e29e6d-aa5c-49a6-848d-20f2242ec092",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Não Estrague O Dia / Los Dos Locos",
+      "temporada": 2,
+      "episodio": 6,
+      "airDate": "1999-10-08T00:01:00Z",
+      "duracaoMs": 1441000
+    },
+    {
+      "videoId": "a956eb06-2380-492e-a41e-dc4a872ceb7a",
+      "editId": "612f156d-0180-4fc7-839f-5c23c5f35024",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Uma Florzinha Muito Especial / Horário De Inverno",
+      "temporada": 2,
+      "episodio": 7,
+      "airDate": "1999-11-26T00:01:00Z",
+      "duracaoMs": 1405000
+    },
+    {
+      "videoId": "9a3a295a-281d-45da-8790-d8b08398911b",
+      "editId": "9fefc8e3-7135-4cf2-88e8-60a2fe76cb40",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Trabalho De Macacoloco / Confusão De Estimação",
+      "temporada": 2,
+      "episodio": 8,
+      "airDate": "2000-02-13T00:01:00Z",
+      "duracaoMs": 1331000
+    },
+    {
+      "videoId": "956eddcf-7511-4f19-9ed7-ab4af81c2e90",
+      "editId": "27e5c8c9-d220-4f8e-9911-6e0fc3275ac9",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Diabo Imaginário / Cheio De Piolho",
+      "temporada": 2,
+      "episodio": 9,
+      "airDate": "2000-03-17T00:01:00Z",
+      "duracaoMs": 1337000
+    },
+    {
+      "videoId": "b328c3b8-8bd0-4218-9e5f-1fdc5f9ceb11",
+      "editId": "2fd06110-8568-482a-bc87-1566ccc7b58c",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "A Melhor Aventura Em Dia De Chuva / Só Sobremesas",
+      "temporada": 2,
+      "episodio": 10,
+      "airDate": "2000-04-28T00:01:00Z",
+      "duracaoMs": 1385000
+    },
+    {
+      "videoId": "d9a40a0a-6180-43c5-9236-4f3d4b6865fa",
+      "editId": "037f17b7-da5d-4e3a-afc6-404aecd5e5ff",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Irmã / Segredo",
+      "temporada": 2,
+      "episodio": 11,
+      "airDate": "2000-05-26T00:01:00Z",
+      "duracaoMs": 1274000
+    },
+    {
+      "videoId": "3b53dff4-c94b-439d-a824-13fee7f60ff2",
+      "editId": "66fd34da-9b23-4d9b-8c31-4a1c5002ac02",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Demônio Da Velocidade/A Droga Do Macaco",
+      "temporada": 2,
+      "episodio": 12,
+      "airDate": "2000-06-02T00:01:00Z",
+      "duracaoMs": 1341000
+    },
+    {
+      "videoId": "056ea7f4-d7cf-451e-8bee-09bd9ff2a2b3",
+      "editId": "58d7f893-34e1-48f0-8d5d-c82aad2531f0",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Algo De Errado / Cochilando Com O Inimigo",
+      "temporada": 2,
+      "episodio": 13,
+      "airDate": "2000-06-30T00:01:00Z",
+      "duracaoMs": 1460000
+    },
+    {
+      "videoId": "a408baad-c9ff-4fb1-a08c-f0bd92985284",
+      "editId": "278a76c3-49bd-41c7-9190-ddd6ea18ee09",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Velhinhos Curvados / O Evento Da Cabeleireira",
+      "temporada": 3,
+      "episodio": 1,
+      "airDate": "2000-07-28T00:01:00Z",
+      "duracaoMs": 1437000
+    },
+    {
+      "videoId": "094c4cc9-d4e6-4059-b044-d01605451cdc",
+      "editId": "106d0721-2115-4663-b54d-409e219aa95a",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Fora Da Cidade / Medo De Criança",
+      "temporada": 3,
+      "episodio": 2,
+      "airDate": "2000-08-18T00:01:00Z",
+      "duracaoMs": 1224000
+    },
+    {
+      "videoId": "6b1d62ed-84d0-4686-af5a-a560021d44db",
+      "editId": "ad0960d8-a5b0-43e7-8823-b9ed2c146cce",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Crise Cruzada",
+      "temporada": 3,
+      "episodio": 3,
+      "airDate": "2000-09-08T00:01:00Z",
+      "duracaoMs": 1088000
+    },
+    {
+      "videoId": "3d60a644-0d33-4284-af58-ded993a4fc31",
+      "editId": "f7a5453c-02b5-4b7e-9214-b96d55c94dcb",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Visão Da Lindinha / Comprando E Resmungando",
+      "temporada": 3,
+      "episodio": 4,
+      "airDate": "2000-09-15T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "f08692a9-0468-4da5-9ae1-5ec460c1f4f8",
+      "editId": "e8f88246-686b-422f-b459-ff32c5c17342",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Sacudindo Twiggy / Irresponsável",
+      "temporada": 3,
+      "episodio": 5,
+      "airDate": "2000-09-22T00:01:00Z",
+      "duracaoMs": 1139000
+    },
+    {
+      "videoId": "08129415-4bc1-4d93-b7f2-5ac5663b81b7",
+      "editId": "8c7c35ee-f344-44e6-a429-87b048d6d7fd",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Três Meninas E Um Monstro / Macacos Vêem, Cachorros Fazem",
+      "temporada": 3,
+      "episodio": 6,
+      "airDate": "2000-10-06T00:01:00Z",
+      "duracaoMs": 1192000
+    },
+    {
+      "videoId": "999a086e-1a99-44d9-9352-31b6d9b8c77c",
+      "editId": "6d186d29-7d55-42ba-bf2b-abfdf6e4a00d",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Jóia De Prateleira / Super Zeros",
+      "temporada": 3,
+      "episodio": 7,
+      "airDate": "2000-10-20T00:01:00Z",
+      "duracaoMs": 1454000
+    },
+    {
+      "videoId": "9dc0267e-99a5-4caf-a1d6-731899636e51",
+      "editId": "0587205a-2693-4174-b417-5e8b67c25a70",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Doce É Chique / Catastrofe",
+      "temporada": 3,
+      "episodio": 8,
+      "airDate": "2000-11-10T00:01:00Z",
+      "duracaoMs": 1352000
+    },
+    {
+      "videoId": "087d3178-6a9f-42b2-ad75-5b95395c1c7c",
+      "editId": "405c6280-c22a-42a6-9244-874389c50dc6",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Bobão De Ar Quente / As Manobras São Nossas",
+      "temporada": 3,
+      "episodio": 9,
+      "airDate": "2000-12-01T00:01:00Z",
+      "duracaoMs": 1431000
+    },
+    {
+      "videoId": "66aafc08-fd9c-450b-bf22-e33ce32e0bf3",
+      "editId": "976276e4-e5ac-4257-bf9a-073bdd939bbb",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Professor Poderoso",
+      "temporada": 3,
+      "episodio": 10,
+      "airDate": "2001-01-05T00:01:00Z",
+      "duracaoMs": 1153000
+    },
+    {
+      "videoId": "cad0ab9a-76d2-4acd-bcc6-4286a9674583",
+      "editId": "fda9cfd5-ffe8-4442-b1db-f23d9b16ec3d",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Decadencia Moral / Conhecendo Os \"Beat Alls\"",
+      "temporada": 3,
+      "episodio": 11,
+      "airDate": "2001-02-09T00:01:00Z",
+      "duracaoMs": 1537000
+    },
+    {
+      "videoId": "3ecfa268-7138-4c2e-907c-65faa4adbb14",
+      "editId": "10188e91-8f05-4395-bf8e-a671706bd80a",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "O Sugador De Mentes / De Igual Para Igual",
+      "temporada": 3,
+      "episodio": 12,
+      "airDate": "2001-03-09T00:01:00Z",
+      "duracaoMs": 1446000
+    },
+    {
+      "videoId": "716ad461-9932-4e2c-be2a-d8476145285b",
+      "editId": "30816b57-b580-4b3a-83f3-72484acb1b45",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Farsa Do Cinema",
+      "temporada": 4,
+      "episodio": 1,
+      "airDate": "2001-04-20T00:01:00Z",
+      "duracaoMs": 1271000
+    },
+    {
+      "videoId": "f8e26770-65cb-428d-88cf-55566b1c5880",
+      "editId": "02d671fb-ecd9-43ed-93ad-bed095341b39",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Volta Loco",
+      "temporada": 4,
+      "episodio": 2,
+      "airDate": "2001-05-04T00:01:00Z",
+      "duracaoMs": 1302000
+    },
+    {
+      "videoId": "c341c0ef-9e0c-4f11-bc86-2a13869dcbc9",
+      "editId": "8aea4113-a4ea-44f2-8ff0-444a71592a61",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Confusão Garantida / Lanche Poderoso",
+      "temporada": 4,
+      "episodio": 3,
+      "airDate": "2001-10-12T00:01:00Z",
+      "duracaoMs": 1244000
+    },
+    {
+      "videoId": "c50af8d7-124f-474c-8b79-b895b58320dd",
+      "editId": "9390cc33-62b1-487e-8e1a-2bc251bc6954",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Charada Dele",
+      "temporada": 4,
+      "episodio": 4,
+      "airDate": "2002-06-21T00:01:00Z",
+      "duracaoMs": 1205000
+    },
+    {
+      "videoId": "762c6364-a5b8-4247-8638-f52d25bbd57f",
+      "editId": "5d30a3ab-ec90-4312-8bbd-02330da1ca95",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Aliado Forçado",
+      "temporada": 4,
+      "episodio": 5,
+      "airDate": "2002-06-28T00:01:00Z",
+      "duracaoMs": 1258000
+    },
+    {
+      "videoId": "2de8cea5-e27f-4844-b23d-a54c25d898b2",
+      "editId": "ede5898b-d003-4c6b-a0ef-38d2c85da75d",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Bala Perdida",
+      "temporada": 4,
+      "episodio": 6,
+      "airDate": "2002-07-05T00:01:00Z",
+      "duracaoMs": 1370000
+    },
+    {
+      "videoId": "428ffacf-3eda-4a9c-be21-533aabbfcc8b",
+      "editId": "35b3f7e9-6c29-4914-81ce-31875413e43e",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Dá Um Tempo",
+      "temporada": 4,
+      "episodio": 7,
+      "airDate": "2002-07-12T00:01:00Z",
+      "duracaoMs": 1252000
+    },
+    {
+      "videoId": "e420a3be-7417-4c8c-acd9-7cfb0f6fbdac",
+      "editId": "a4149cf1-c5d6-4725-bbf6-79b403e8d9ba",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Tudo Riscado",
+      "temporada": 4,
+      "episodio": 8,
+      "airDate": "2002-07-19T00:01:00Z",
+      "duracaoMs": 1144000
+    },
+    {
+      "videoId": "d98222af-6ee4-4eb3-ba8d-aa83c9219973",
+      "editId": "299874dc-3bb1-4cb5-939f-6998a6a7fc57",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Somente Associados",
+      "temporada": 4,
+      "episodio": 9,
+      "airDate": "2002-07-26T00:01:00Z",
+      "duracaoMs": 1309000
+    },
+    {
+      "videoId": "0f52ea73-0be9-4c8c-90f6-1648a5b839f7",
+      "editId": "d5523355-8812-4c56-8207-c56cd00f58f9",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Super Amigas",
+      "temporada": 4,
+      "episodio": 10,
+      "airDate": "2002-08-02T00:01:00Z",
+      "duracaoMs": 1317000
+    },
+    {
+      "videoId": "57c14b5a-966a-4765-adcc-68f8876128d5",
+      "editId": "5d06f87b-db1d-4061-b962-a262be86297c",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Nano Do Norte",
+      "temporada": 4,
+      "episodio": 11,
+      "airDate": "2002-08-09T00:01:00Z",
+      "duracaoMs": 1229000
+    },
+    {
+      "videoId": "d3ad0417-257e-449d-9213-fb88c6139d95",
+      "editId": "d60c4939-1370-433d-8d72-cc26819a5f75",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Querendo A Keane / Florzinha Ruinzinha",
+      "temporada": 5,
+      "episodio": 1,
+      "airDate": "2002-12-06T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "1d1632d4-dac0-482b-95f9-fdca1ab4f280",
+      "editId": "5f363fe7-ca8b-45a4-adb2-c2bb50190fe9",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Paranóia Poderosa",
+      "temporada": 5,
+      "episodio": 2,
+      "airDate": "2002-12-13T00:01:00Z",
+      "duracaoMs": 1268000
+    },
+    {
+      "videoId": "842d8d3b-e372-421a-9d18-0a547143588a",
+      "editId": "3a7671c9-6654-4f1e-b12a-c0439932fac7",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Cidade Monstruo / Calem Caozinho",
+      "temporada": 5,
+      "episodio": 3,
+      "airDate": "2003-09-05T00:01:00Z",
+      "duracaoMs": 1380000
+    },
+    {
+      "videoId": "80278a28-5082-4719-93ce-b778317b8dfe",
+      "editId": "8e595b49-abe6-4b4e-9d63-6daf2e019fd6",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "A Torrada Da Cidade / Dividir E Conquistar",
+      "temporada": 5,
+      "episodio": 4,
+      "airDate": "2003-09-12T00:01:00Z",
+      "duracaoMs": 1335000
+    },
+    {
+      "videoId": "4aaef680-e81e-4b4f-b66c-d0c06a4733dd",
+      "editId": "dbfdc8ff-8e46-436c-844f-f970f3222fac",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Ladrão Alarmado / Casamento Forçado",
+      "temporada": 5,
+      "episodio": 5,
+      "airDate": "2003-09-19T00:01:00Z",
+      "duracaoMs": 1328000
+    },
+    {
+      "videoId": "0f93f5b4-975a-461a-b79d-ec8ea02984d7",
+      "editId": "a80f52c9-7bc3-43d7-ae59-f72979db6dc7",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Salvem Macaco Louco / Criatura Substituta",
+      "temporada": 5,
+      "episodio": 6,
+      "airDate": "2003-09-26T00:01:00Z",
+      "duracaoMs": 1342000
+    },
+    {
+      "videoId": "e89718bb-0c76-41f8-9656-c9d4c0dcc484",
+      "editId": "5cd6191e-5e19-451e-9f00-a6f4355196d2",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Os Meninos Voltam À Cidade",
+      "temporada": 5,
+      "episodio": 7,
+      "airDate": "2003-11-06T00:01:00Z",
+      "duracaoMs": 1345000
+    },
+    {
+      "videoId": "e44e14a3-5021-47ec-ae0b-fe79b4d87595",
+      "editId": "521eb5fc-dc10-4867-b6ee-2f0054a5ba63",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Problemas De Xixi / Brinquedos De Meninos",
+      "temporada": 5,
+      "episodio": 8,
+      "airDate": "2003-11-13T00:01:00Z",
+      "duracaoMs": 1336000
+    },
+    {
+      "videoId": "60b96bc1-2588-4549-a95c-0d45ff5c7e5f",
+      "editId": "3e28ecb4-ba2d-442d-a90b-4553c0d30134",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Não Semeie O Mal / Cidade De Lembraville",
+      "temporada": 5,
+      "episodio": 9,
+      "airDate": "2003-11-25T00:01:00Z",
+      "duracaoMs": 1331000
+    },
+    {
+      "videoId": "b0840102-2ac5-4e68-aa97-e30c76e76582",
+      "editId": "4f942af0-5018-4037-9c7d-7dc32fd82ff4",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Mentindo Pela Casa / Lindinho",
+      "temporada": 5,
+      "episodio": 10,
+      "airDate": "2004-01-09T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "50342223-4841-4278-9e61-bf89e1c6263a",
+      "editId": "73f70956-574d-4e8d-b2b4-a040b5d910b9",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Documentário / As Meninas Suavizaram",
+      "temporada": 5,
+      "episodio": 11,
+      "airDate": "2004-01-16T00:01:00Z",
+      "duracaoMs": 1346000
+    },
+    {
+      "videoId": "961c75cd-0e56-4119-bfd6-fe00715078f5",
+      "editId": "10994515-1e9d-48fd-9734-c3890b4eaaab",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Xingamentos / Ataque Por Dinheiro",
+      "temporada": 5,
+      "episodio": 12,
+      "airDate": "2004-04-02T00:01:00Z",
+      "duracaoMs": 1338000
+    },
+    {
+      "videoId": "fd6783fb-db13-4bb3-93e5-65b661a25c2e",
+      "editId": "2be38030-7d02-4a74-b262-4ec26d86a99e",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Tratamento De Silêncio / Doce E Amargo",
+      "temporada": 5,
+      "episodio": 13,
+      "airDate": "2004-04-09T00:01:00Z",
+      "duracaoMs": 1319000
+    },
+    {
+      "videoId": "cf6eeb53-17bf-4f6d-8539-75b262418e5d",
+      "editId": "9b72d946-1c3b-4406-a514-84f1e7d3b394",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Amigos Primatas / Golpe De Estado",
+      "temporada": 5,
+      "episodio": 14,
+      "airDate": "2004-04-16T00:01:00Z",
+      "duracaoMs": 1391000
+    },
+    {
+      "videoId": "d716a701-bc85-4e0d-aba5-df1db256a865",
+      "editId": "68e38ec7-b69d-4270-b9b1-55060f3ade2a",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "É Zen Para Mim / Fala, Tio",
+      "temporada": 5,
+      "episodio": 15,
+      "airDate": "2004-04-23T00:01:00Z",
+      "duracaoMs": 1358000
+    },
+    {
+      "videoId": "31354d18-3c9f-4950-b4ad-0ed20f402574",
+      "editId": "64e6a44e-4c37-4f86-9ce3-a143021e192c",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Cheiro De Confusão / A Volta De Dynamo",
+      "temporada": 6,
+      "episodio": 1,
+      "airDate": "2004-04-30T00:01:00Z",
+      "duracaoMs": 1357000
+    },
+    {
+      "videoId": "1467d9e2-2cd1-46d9-a958-57306866aceb",
+      "editId": "86227c31-20c3-42dc-bd3e-695316d0e9fe",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Loco Linguagem / Opa, Eu Fiz De Novo",
+      "temporada": 6,
+      "episodio": 2,
+      "airDate": "2004-05-07T00:01:00Z",
+      "duracaoMs": 1372000
+    },
+    {
+      "videoId": "443954fe-5092-4ec3-b8b2-5231e32ee410",
+      "editId": "27ce86bd-e473-47d8-9904-54a00c108d20",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Pintando Problema",
+      "temporada": 6,
+      "episodio": 3,
+      "airDate": "2004-05-14T00:01:00Z",
+      "duracaoMs": 1261000
+    },
+    {
+      "videoId": "f2ea87e4-0023-48da-93d5-6ccf5c644c0e",
+      "editId": "2eea2962-7294-459a-8cc7-6c6c1394739b",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Um Pequeno Mal-Entendido / O Prefeito Dos Sonhos",
+      "temporada": 6,
+      "episodio": 4,
+      "airDate": "2004-06-25T00:01:00Z",
+      "duracaoMs": 1308000
+    },
+    {
+      "videoId": "adfd6afc-f6b4-453b-8369-fc7d5cc1a076",
+      "editId": "3caf09a3-85ec-44e2-b9c8-711bc83dae9f",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Disputa De Paternidade / Loucos Esquilos",
+      "temporada": 6,
+      "episodio": 5,
+      "airDate": "2004-07-07T00:01:00Z",
+      "duracaoMs": 1361000
+    },
+    {
+      "videoId": "2d9195a0-174a-4b6b-a969-b453aa841233",
+      "editId": "619d610b-678c-44b3-8690-fadefa2f4052",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Aspirações",
+      "temporada": 6,
+      "episodio": 6,
+      "airDate": "2004-07-09T00:01:00Z",
+      "duracaoMs": 1216000
+    },
+    {
+      "videoId": "a7dca6f4-d167-4f72-a16f-ebd8a0048864",
+      "editId": "04ac0cb7-ab98-46e5-9260-ad684311041a",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Esse Não É O Meu Bebê / Macaco Diz",
+      "temporada": 6,
+      "episodio": 7,
+      "airDate": "2004-07-16T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "180f8cdc-cbc4-47a3-994d-e78208ac626d",
+      "editId": "c6dd09d5-6367-456a-9e39-2da9427c3ce0",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Dor Solar / Cidade De Choroville",
+      "temporada": 6,
+      "episodio": 8,
+      "airDate": "2004-07-23T00:01:00Z",
+      "duracaoMs": 1369000
+    },
+    {
+      "videoId": "272b11bb-ad12-4ee5-87fd-5b48ccb87e87",
+      "editId": "0ce93951-beb9-421d-82a7-5096f5dff672",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Oeste Em Pedaços",
+      "temporada": 6,
+      "episodio": 9,
+      "airDate": "2004-07-30T00:01:00Z",
+      "duracaoMs": 1306000
+    },
+    {
+      "videoId": "9704835f-808e-4ecf-aa3f-2126b2e27a5f",
+      "editId": "8b92d677-93ee-4e66-837a-491c1086d5ab",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Poderosas Loucamente Misturadas / Velas Em Ação",
+      "temporada": 6,
+      "episodio": 10,
+      "airDate": "2004-08-20T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "e058e9fe-955a-497f-ab2a-edc78e0f8458",
+      "editId": "1eced23e-b1ca-4169-9059-f74c8c403837",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Engrossando / Qual É A Grande Idéia?",
+      "temporada": 6,
+      "episodio": 11,
+      "airDate": "2004-08-27T00:01:00Z",
+      "duracaoMs": 1366000
+    },
+    {
+      "videoId": "b6012e9b-dfb8-481e-988b-3d9a14cd6d38",
+      "editId": "b7ddd600-c2b8-43be-82d1-38809f94a4b3",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Nada Especial / Quadrilha Vizinha",
+      "temporada": 6,
+      "episodio": 12,
+      "airDate": "2005-03-25T00:01:00Z",
+      "duracaoMs": 1373000
+    },
+    {
+      "videoId": "6626b359-b43d-4b88-b3b9-d103a8d97936",
+      "editId": "68b18ae4-eeeb-4d1a-9f8f-89f413155fea",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "Vejo Um Desenho Engraçado Em Seu Futuro / Polvi Sumido",
+      "temporada": 6,
+      "episodio": 13,
+      "airDate": "2005-03-25T00:01:00Z",
+      "duracaoMs": 1364000
+    },
+    {
+      "videoId": "49281d9b-dcf2-45a5-a84c-2a9c8077f89b",
+      "editId": "912a9d55-8ce4-4778-bae6-5c444c4d3c0c",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "As Meninas Superpoderosas: Véspera de Natal",
+      "temporada": 6,
+      "episodio": 14,
+      "airDate": "2003-12-24T00:01:00Z",
+      "duracaoMs": 2644000
+    },
+    {
+      "videoId": "3ee104e4-1408-4683-897c-82f935e0029b",
+      "editId": "40e3aada-567a-4181-a041-4e13e5c9e46b",
+      "showId": "3365f7bf-14b5-4982-9c1e-dbdd6f08770e",
+      "nome": "As Meninas Superpoderosas Detonam!",
+      "temporada": 6,
+      "episodio": 15,
+      "airDate": "2009-01-19T00:01:00Z",
+      "duracaoMs": 1362000
+    }
+  ]
+}
