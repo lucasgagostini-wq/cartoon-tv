@@ -76,12 +76,11 @@
   #erro { margin-top:8px; font-size:11px; color:#e07a35; min-height:14px; }
 
   /* link pro celular — só aparece no controle do PC */
-  #fone { margin-top:9px; display:flex; align-items:center; gap:7px; font-size:10.5px; }
-  #fone .url { flex:1; color:var(--verde-dim); overflow:hidden; text-overflow:ellipsis;
-               white-space:nowrap; user-select:all; }
-  #fone .copiar { flex:none; padding:3px 8px; border:1px solid var(--borda-bt); border-radius:3px;
-                  background:var(--bt-bg); cursor:pointer; }
-  #fone .copiar:hover { border-color:var(--verde); color:var(--titulo); }
+  #fone .url { margin-top:7px; font-size:10.5px; color:var(--verde-dim); text-align:center;
+               overflow:hidden; text-overflow:ellipsis; white-space:nowrap; user-select:all; }
+  .bt.destaque { border-color:var(--verde-dim); color:var(--titulo); }
+  .bt.destaque:hover { background:var(--bt-hover); border-color:var(--verde); }
+  .bt.feito { border-color:var(--verde); color:var(--verde); }
 
   /* No celular tudo cresce: dedo não acerta alvo de 7px, e hover não existe. */
   @media (pointer: coarse), (max-width: 520px) {
@@ -145,10 +144,12 @@
       <div class="bt" id="bt-cancelar">cancelar</div>
     </div>
     <div id="erro"></div>
-    <div id="fone" class="oculto">
-      <span>&#128241;</span><span class="url" id="fone-url"></span>
-      <span class="copiar" id="fone-copiar">copiar</span>
-    </div>
+  </div>
+
+  <div class="bloco oculto" id="fone">
+    <div class="cab">NO CELULAR<span class="linha"></span></div>
+    <div class="bt destaque" id="fone-copiar">&#128241; copiar link do controle</div>
+    <div class="url" id="fone-url"></div>
   </div>
 </div>
 
@@ -344,9 +345,20 @@ $('bt-confirmar').onclick = () => {
 $('bt-cancelar').onclick = () => { editando = null; marcados.clear(); pintarChips(); ligarAcoes(); };
 
 $('fone-copiar').onclick = async () => {
-  const txt = $('fone-url').textContent;
-  try { await navigator.clipboard.writeText(txt); avisar('link copiado — abra no celular'); }
-  catch (e) { avisar('copie na mão: ' + txt); }
+  const bt = $('fone-copiar'), txt = $('fone-url').textContent;
+  try {
+    window.focus();   // clipboard recusa com "Document is not focused"
+    await navigator.clipboard.writeText(txt);
+    bt.textContent = '✓ copiado — cole no celular';
+    bt.classList.add('feito');
+    setTimeout(() => { bt.innerHTML = '&#128241; copiar link do controle'; bt.classList.remove('feito'); }, 2500);
+  } catch (e) {
+    // clipboard pode falhar sem gesto/permissão: seleciona pra ele copiar no Ctrl+C
+    const r = document.createRange();
+    r.selectNodeContents($('fone-url'));
+    getSelection().removeAllRanges(); getSelection().addRange(r);
+    avisar('selecionei o link — copie com Ctrl+C');
+  }
 };
 
 $('filtro').oninput = pintarChips;
