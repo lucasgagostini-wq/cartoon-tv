@@ -7,7 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test televisor/*.test.js",
+    "tv": "node televisor/tv.js",
+    "grade": "node emissora/gerar-grade.js",
+    "controle-mock": "node televisor/controle-servidor.js --mock"
   },
   "keywords": [],
   "author": "",

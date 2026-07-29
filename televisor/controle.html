@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Controle · Cartoon TV</title>
+<style>
+  :root {
+    --bg:#0C110E; --borda:#1E2B22; --borda-bt:#24332A;
+    --texto:#9DB3A6; --texto-forte:#C2D6C8; --texto-fraco:#66806F;
+    --titulo:#E8FFF0; --verde:#35E070; --verde-dim:#4F9A68; --trilha:#1D3325;
+    --bt-bg:#121A15; --bt-hover:#17231A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; padding:12px; background:var(--bg); color:var(--texto);
+    font:12px/1.45 Consolas,'Cascadia Mono','Courier New',monospace;
+    user-select:none; overflow-x:hidden;
+  }
+  .bloco { border:1px solid var(--borda); border-radius:5px; padding:10px 11px; }
+  .bloco + .bloco { margin-top:9px; }
+  .cab { display:flex; align-items:center; gap:7px; margin-bottom:8px;
+         font-size:10px; letter-spacing:.14em; color:var(--verde-dim); }
+  .cab .linha { flex:1; height:1px; background:var(--borda); }
+  .cab .relogio { color:var(--verde); letter-spacing:.04em; }
+  .serie { font-size:15px; font-weight:700; color:var(--titulo); margin-bottom:2px;
+           overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .ep { color:var(--texto-forte); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .meta { font-size:11px; color:var(--texto-fraco); margin-bottom:9px; }
+  .barra { height:10px; letter-spacing:-.5px; white-space:nowrap; overflow:hidden; color:var(--verde); }
+  .barra .vazio { color:var(--trilha); }
+  .resta { display:flex; justify-content:space-between; font-size:11px; margin-top:5px; color:var(--texto-fraco); }
+  .resta b { color:var(--verde); font-weight:600; }
+  .botoes,.acao { display:flex; gap:7px; margin-top:11px; }
+  .bt { flex:1; text-align:center; padding:7px 0; font-size:11.5px; cursor:pointer;
+        border:1px solid var(--borda-bt); border-radius:4px; background:var(--bt-bg); color:var(--texto-forte); }
+  .bt:hover { background:var(--bt-hover); border-color:var(--verde); color:var(--titulo); }
+  .bt.off { opacity:.3; cursor:default; }
+  .bt.off:hover { background:var(--bt-bg); border-color:var(--borda-bt); color:var(--texto-forte); }
+  .lista { display:flex; flex-direction:column; gap:1px; min-height:20px; }
+  .item { display:flex; gap:9px; padding:3px 4px; font-size:11.5px; border-radius:3px; }
+  .item .h { flex:none; width:40px; color:var(--verde-dim); }
+  .item .n { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .item .te { flex:none; font-size:10.5px; color:var(--texto-fraco); }
+  .item.int .n { opacity:.55; font-style:italic; }
+  .busca { display:flex; align-items:center; gap:6px; padding:5px 8px; font-size:11.5px; margin-bottom:8px;
+           border:1px solid var(--borda-bt); border-radius:4px; background:var(--bt-bg); color:var(--verde-dim); }
+  .busca input { flex:1; background:none; border:0; outline:none; font:inherit; color:var(--titulo); user-select:text; }
+  .chips { display:flex; flex-wrap:wrap; gap:4px; max-height:104px; overflow-y:auto; }
+  .chips::-webkit-scrollbar { width:6px; }
+  .chips::-webkit-scrollbar-thumb { background:var(--borda-bt); border-radius:3px; }
+  .chip { padding:3px 7px; font-size:11px; cursor:pointer;
+          border:1px solid var(--borda-bt); border-radius:3px; background:var(--bt-bg); }
+  .chip:hover { border-color:var(--verde); color:var(--titulo); }
+  .chip.sel { border-color:var(--verde); color:var(--titulo); background:var(--bt-hover); }
+  .badge { font-size:9.5px; letter-spacing:.1em; padding:1px 5px; border:1px solid var(--verde-dim);
+           border-radius:3px; color:var(--verde); max-width:150px; overflow:hidden;
+           text-overflow:ellipsis; white-space:nowrap; }
+  .oculto { display:none; }
+  #desligada { padding:22px 4px; text-align:center; color:var(--texto-fraco); }
+  #desligada b { display:block; color:var(--verde); font-size:14px; margin-bottom:6px; }
+  #erro { margin-top:8px; font-size:11px; color:#e07a35; min-height:14px; }
+</style>
+</head>
+<body>
+
+<div id="desligada" class="bloco oculto"><b>TV desligada</b>abra pelo atalho “Cartoon TV”</div>
+
+<div id="painel">
+  <div class="bloco">
+    <div class="cab">&#9679; NO AR <span id="badge" class="badge oculto"></span><span class="linha"></span><span id="relogio" class="relogio">--:--:--</span></div>
+    <div id="serie" class="serie">—</div>
+    <div id="epi" class="ep">—</div>
+    <div id="meta" class="meta">—</div>
+    <div class="barra"><span id="cheio"></span><span id="vazio" class="vazio"></span></div>
+    <div class="resta"><span>faltam <b id="resta">--</b></span><span id="pct">--%</span></div>
+    <div class="botoes">
+      <div class="bt" data-cmd="pular">&#9197; pular</div>
+      <div class="bt off" id="bt-voltar" data-cmd="voltar-grade">&#8617; voltar pra grade</div>
+    </div>
+  </div>
+
+  <div class="bloco">
+    <div class="cab"><span id="cab-seguir">A SEGUIR</span><span class="linha"></span></div>
+    <div id="lista" class="lista"></div>
+  </div>
+
+  <div class="bloco">
+    <div class="cab">TROCAR PARA<span class="linha"></span></div>
+    <div class="busca"><span>&#62;</span><input id="filtro" placeholder="filtrar série..." autocomplete="off" spellcheck="false"></div>
+    <div id="chips" class="chips"></div>
+    <div class="acao">
+      <div class="bt off" id="bt-ver" data-cmd="ver-agora">&#9654; ver agora</div>
+      <div class="bt off" id="bt-fila" data-cmd="fila">&#8734; fila aleatória</div>
+    </div>
+    <div id="erro"></div>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let series = [], selecionado = null, assinaturaLista = '';
+
+const mmss = (s) => { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + 'min' + String(s % 60).padStart(2, '0') + 's'; };
+const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+function avisar(msg) {
+  $('erro').textContent = msg || '';
+  if (msg) setTimeout(() => { if ($('erro').textContent === msg) $('erro').textContent = ''; }, 4000);
+}
+
+// --- chips: só re-renderizam quando o usuário mexe, nunca no poll de 1s -------
+function pintarChips() {
+  const f = norm($('filtro').value);
+  const vis = series.filter((s) => !f || norm(s.nome).includes(f) || s.slug.includes(f));
+  $('chips').innerHTML = vis.map((s) =>
+    '<span class="chip' + (s.slug === selecionado ? ' sel' : '') + '" data-slug="' + s.slug + '">' + s.nome + '</span>').join('')
+    || '<span style="color:var(--texto-fraco)">nenhuma série</span>';
+  for (const c of $('chips').children) {
+    if (!c.dataset.slug) continue;
+    c.onclick = () => { selecionado = selecionado === c.dataset.slug ? null : c.dataset.slug; pintarChips(); ligarAcoes(); };
+  }
+}
+
+function ligarAcoes() {
+  for (const id of ['bt-ver', 'bt-fila']) $(id).classList.toggle('off', !selecionado);
+}
+
+// --- atualização vinda do /estado: mexe só em texto, nunca recria o DOM -------
+function pintar(e) {
+  const viva = !!(e && e.ligada && e.agora);
+  $('desligada').classList.toggle('oculto', viva);
+  $('painel').classList.toggle('oculto', !viva);
+  if (!viva) return;
+
+  const a = e.agora;
+  const pct = a.duracaoSeg ? Math.max(0, Math.min(1, a.decorridoSeg / a.duracaoSeg)) : 0;
+  const cheio = Math.round(pct * 30);
+  const emFila = e.origem === 'fila';
+
+  $('relogio').textContent = new Date().toTimeString().slice(0, 8);
+  $('serie').textContent = a.serie;
+  $('epi').textContent = a.nome;
+  $('meta').textContent = 'T' + a.temporada + ' E' + a.episodio + '  ·  ' +
+    (e.origem === 'grade' ? 'começou ' + a.inicio : 'fora da grade');
+  $('cheio').textContent = '█'.repeat(cheio);
+  $('vazio').textContent = '░'.repeat(30 - cheio);
+  $('resta').textContent = mmss(a.restanteSeg);
+  $('pct').textContent = Math.round(pct * 100) + '%';
+
+  const badge = $('badge');
+  badge.classList.toggle('oculto', e.origem === 'grade');
+  if (e.origem !== 'grade') badge.textContent = emFila ? 'FILA · ' + e.fila.serie : 'ZAP';
+  $('bt-voltar').classList.toggle('off', e.origem === 'grade');
+  $('cab-seguir').textContent = emFila ? 'FILA ALEATÓRIA' : 'A SEGUIR';
+
+  // a lista só é redesenhada quando muda de verdade
+  const itens = e.aSeguir || [];
+  const assin = JSON.stringify(itens);
+  if (assin !== assinaturaLista) {
+    assinaturaLista = assin;
+    $('lista').innerHTML = itens.map((s) =>
+      '<div class="item' + (s.intervalo ? ' int' : '') + '"><span class="h">' + s.hora +
+      '</span><span class="n">' + (s.intervalo ? '▸ ' : '') + s.serie +
+      '</span><span class="te">' + s.te + '</span></div>').join('')
+      || '<div class="item"><span class="n">—</span></div>';
+  }
+}
+
+async function comando(tipo) {
+  const precisaSlug = tipo === 'ver-agora' || tipo === 'fila';
+  if (precisaSlug && !selecionado) return;
+  try {
+    const r = await fetch('/comando', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(precisaSlug ? { tipo, slug: selecionado } : { tipo }),
+    });
+    if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
+    if (precisaSlug) { selecionado = null; pintarChips(); ligarAcoes(); }
+    atualizar();
+  } catch (err) { avisar('a TV não respondeu'); }
+}
+
+async function atualizar() {
+  try { pintar(await (await fetch('/estado')).json()); }
+  catch (err) { pintar(null); }
+}
+
+document.querySelectorAll('.bt[data-cmd]').forEach((b) => {
+  b.onclick = () => { if (!b.classList.contains('off')) comando(b.dataset.cmd); };
+});
+$('filtro').oninput = pintarChips;
+$('filtro').onkeydown = (ev) => {
+  if (ev.key === 'Escape') { $('filtro').value = ''; pintarChips(); }
+  if (ev.key === 'Enter') {                       // Enter = ver agora a primeira da lista
+    const primeiro = $('chips').querySelector('.chip');
+    if (primeiro) { selecionado = primeiro.dataset.slug; comando('ver-agora'); }
+  }
+};
+
+// O Chrome estrangula setInterval em janela de fundo. Ao voltar o foco, atualiza na hora
+// em vez de esperar o próximo tick — senão o controle mostra estado velho por segundos.
+document.addEventListener('visibilitychange', () => { if (!document.hidden) atualizar(); });
+window.addEventListener('focus', atualizar);
+
+(async () => {
+  try { series = await (await fetch('/series')).json(); } catch (e) { series = []; }
+  pintarChips(); ligarAcoes();
+  atualizar();
+  setInterval(atualizar, 1000);
+  // Se a janelinha nasceu antes da TV entrar no ar, o catálogo veio vazio: tenta de novo.
+  setInterval(async () => {
+    if (series.length) return;
+    try { series = await (await fetch('/series')).json(); if (series.length) pintarChips(); } catch (e) {}
+  }, 3000);
+})();
+</script>
+</body>
+</html>

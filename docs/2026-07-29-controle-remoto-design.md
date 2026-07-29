@@ -147,11 +147,42 @@ perfil do Max, que está em uso pelo Playwright. O Chrome memoriza tamanho e pos
 
 ## Como testar
 
-1. `node fila.js --teste` — casos de zap, fila aleatória (sem repetição até esgotar), pular e voltar pra
-   grade. Sem browser.
-2. `node controle-servidor.js --mock` — serve um `/estado` falso pra ajustar a UI com a TV desligada.
+1. `npm test` (= `node --test televisor/*.test.js`) — 27 testes com o runner nativo do Node 26, sem
+   instalar nada: zap, fila aleatória (sem repetição até esgotar), reembaralhamento, imutabilidade do
+   override, rotas e erros do servidor, e persistência do volume. Sem browser.
+2. `npm run controle-mock` — serve um `/estado` falso pra ajustar a UI com a TV desligada.
 3. Ao vivo: ligar a TV, abrir o controle, clicar em cada botão e conferir o `tv-log.txt`.
 4. Volume: ajustar no Max, forçar uma troca pelo controle, confirmar que voltou no mesmo nível.
+
+## Resultado da implementação (29/07, 02:00–02:10)
+
+Tudo abaixo foi medido, não estimado.
+
+| verificação | resultado |
+|---|---|
+| Testes | 27/27 verdes |
+| Latência do comando | o log registra `Comando do controle` e `NO AR` **no mesmo segundo** (`Promise.race` funcionando); vídeo tocando 3,6–5,3s depois |
+| `ver-agora` | `origem=zap`, entrou em Dexter T3E1 do início |
+| `fila` | `origem=fila`, 26 restantes, painel mostrando a fila (`--:--`) e não a grade |
+| `pular` na fila | T2E1 → T1E8, seguiu em `origem=fila` com 25 restantes |
+| `voltar-grade` | voltou ao Primal **aos 21min19s** — entrou no meio, como especificado |
+| Volume | `preferencias.json` nasceu sozinho com `0.1` (o valor real do player); forçado `0.25`, sobreviveu a uma troca + 3 ticks do vigia |
+| Porta ocupada | log `⚠️ controle indisponível (EADDRINUSE) — a TV segue normal` e a TV tocou sem falhar |
+| Janelinha | 400×700 em modo `--app`; DOM lido via CDP: painel visível, 28 chips, fundo `rgb(12,17,14)` |
+
+### Duas correções que só apareceram no teste ao vivo
+
+1. **O `.vbs` abria cedo demais.** Ele esperava HTTP 200 do `/estado`, mas o servidor sobe *antes* do
+   primeiro programa entrar no ar — a janelinha nascia mostrando "TV desligada". Agora espera
+   `"ligada":true`.
+2. **Janela de fundo congela o `setInterval`.** Adicionados `visibilitychange` e `focus` pra atualizar na
+   hora em que a janelinha volta pro foco, em vez de esperar o próximo tick.
+
+### Armadilha de diagnóstico registrada
+
+`PrintWindow` **não captura o conteúdo do Chrome** (composição em GPU) — devolve frame congelado ou moldura
+vazia. Isso produziu duas evidências falsas durante o teste. Para inspecionar uma janela `--app`, use CDP
+(`--remote-debugging-port` + `Runtime.evaluate`) e leia o DOM; é o único método que se provou confiável aqui.
 
 ## Fora de escopo
 

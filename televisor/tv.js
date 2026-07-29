@@ -6,10 +6,15 @@
 // Uso: node tv.js          (Ctrl+C ou fechar a janela = desligar)
 const { chromium } = require('playwright-core');
 const path = require('path');
-const { gerarAte } = require('../emissora/gerar-grade');
+const { gerarAte, carregarCatalogos } = require('../emissora/gerar-grade');
 const { INIT_SCRIPT, faixaDoMinuto } = require('./vinheta');
+const { decidir, criarOverride } = require('./fila');
+const { iniciarControle } = require('./controle-servidor');
+const { lerVolume, gravarVolume } = require('./preferencias');
 
 const TICK_MS = 5000;
+const PORTA_CONTROLE = 4599;
+const ARQ_PREF = path.join(__dirname, 'preferencias.json');
 
 function agoraInfo() {
   // Dia de programação começa 06:00; antes disso vale a grade de ontem
@@ -21,17 +26,28 @@ function agoraInfo() {
   return { diaStr, minutos };
 }
 
+// Estado vivo da TV. É a ÚNICA coisa que o servidor de controle lê — ele nunca fala
+// com o Playwright. Por isso /estado responde instantâneo e não pesa no player.
+const estado = {
+  ligada: false, override: null, origem: 'grade',
+  entry: null, iniciadoEmMs: 0,
+  ultimoTempoVideo: 0, ultimaLeituraMs: 0,
+  proximos: [],
+};
+const catalogos = carregarCatalogos();
+let resolverComando = null; // acordado pelo POST /comando
+
 function programaAtual() {
   const { diaStr, minutos } = agoraInfo();
   const { grade } = gerarAte(diaStr);
-  for (let i = 0; i < grade.length; i++) {
-    const g = grade[i];
-    const fimMin = g.inicioMin + g.duracaoMs / 60000;
-    if (minutos >= g.inicioMin && minutos < fimMin) {
-      return { entry: g, offsetSeg: Math.max(0, Math.floor((minutos - g.inicioMin) * 60)), proximo: grade[i + 1] || null };
-    }
-  }
-  return null;
+  const d = decidir({ grade, minutosDia: minutos, override: estado.override, agoraMs: Date.now(), catalogos });
+  estado.override = d.override;
+  estado.origem = d.origem;
+  if (!d.entry) return null;
+  estado.proximos = d.origem === 'grade'
+    ? grade.filter((g) => g.inicioMin > d.entry.inicioMin).slice(0, 5)
+    : grade.filter((g) => g.inicioMin > minutos).slice(0, 5);
+  return { entry: d.entry, offsetSeg: d.offsetSeg, proximo: d.proximo };
 }
 
 const urlDe = (g) => 'https://play.hbomax.com/video/watch/' + g.videoId + '/' + g.editId;
@@ -59,7 +75,70 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   const page = ctx.pages()[0] || (await ctx.newPage());
   let desligada = false;
   let fimLimpo = false; // true = janela fechada; false = saiu por erro
-  ctx.on('close', () => { desligada = true; fimLimpo = true; });
+  ctx.on('close', () => { desligada = true; fimLimpo = true; estado.ligada = false; });
+
+  // --- controle remoto -------------------------------------------------------
+  // Porta ocupada não pode derrubar a TV: avisa e segue sem controle.
+  iniciarControle({
+    porta: PORTA_CONTROLE,
+    obterEstado: () => {
+      if (!estado.ligada || !estado.entry) return { ligada: false };
+      const e = estado.entry;
+      const decorrido = estado.ultimaLeituraMs
+        ? estado.ultimoTempoVideo + (Date.now() - estado.ultimaLeituraMs) / 1000
+        : (Date.now() - estado.iniciadoEmMs) / 1000;
+      const durSeg = e.duracaoMs / 1000;
+      const emFila = !!(estado.override && estado.override.tipo === 'fila');
+      return {
+        ligada: true, origem: estado.origem,
+        fila: emFila ? { serie: estado.override.serie, restantes: estado.override.restante.length } : null,
+        agora: {
+          serie: e.serie, nome: e.nome, temporada: e.temporada, episodio: e.episodio, inicio: e.inicio,
+          duracaoSeg: Math.round(durSeg),
+          decorridoSeg: Math.max(0, Math.min(Math.round(durSeg), Math.round(decorrido))),
+          restanteSeg: Math.max(0, Math.round(durSeg - decorrido)),
+        },
+        // Em fila, o "a seguir" mostra a fila sorteada — nunca a grade, senão a
+        // janelinha mostraria uma coisa e a TV tocaria outra.
+        aSeguir: emFila
+          ? estado.override.restante.slice(0, 5).map((ep) => ({
+              hora: '--:--', serie: estado.override.serie,
+              te: 'T' + ep.temporada + 'E' + ep.episodio, intervalo: false }))
+          : estado.proximos.map((g) => ({
+              hora: g.inicio, serie: g.serie,
+              te: 'T' + g.temporada + 'E' + g.episodio, intervalo: !!g.intervalo })),
+      };
+    },
+    obterSeries: () => Object.values(catalogos)
+      .map((c) => ({ slug: c.slug, nome: c.nome, eps: c.episodios.length }))
+      .sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR')),
+    enviarComando: (c) => {
+      if (c.tipo === 'ver-agora' || c.tipo === 'fila') {
+        const ov = criarOverride(catalogos, c.slug, c.tipo === 'fila' ? 'fila' : 'zap',
+          (Date.now() ^ 0x5bf03635) >>> 0, Date.now());
+        if (!ov) return { ok: false, erro: 'serie sem episodio valido: ' + c.slug };
+        estado.override = ov;
+      } else if (c.tipo === 'voltar-grade') {
+        estado.override = null;
+      } else if (c.tipo === 'pular') {
+        if (estado.override) {
+          // fila -> proximo sorteado; zap -> volta pra grade. Basta "envelhecer" o
+          // iniciadoEm: o fila.js trata o episodio como terminado na proxima decisao.
+          estado.override = { ...estado.override, iniciadoEm: Date.now() - estado.override.atual.duracaoMs - 1 };
+        } else {
+          // na grade -> antecipa o proximo item, do inicio (fica adiantado; decisao da spec)
+          const prox = estado.proximos[0];
+          if (!prox) return { ok: false, erro: 'nao ha proximo na grade' };
+          estado.override = { tipo: 'zap', slug: prox.slug, serie: prox.serie, seed: 0,
+            atual: prox, restante: [], iniciadoEm: Date.now() };
+        }
+      }
+      if (resolverComando) { resolverComando(); resolverComando = null; } // troca em <1s
+      log('Comando do controle: ' + c.tipo + (c.slug ? ' ' + c.slug : ''));
+      return { ok: true };
+    },
+    aoErro: (e) => log('⚠️ controle indisponível (' + e.code + ') — a TV segue normal'),
+  });
 
   // Tela de perfil na primeira carga
   await page.goto('https://play.hbomax.com/', { waitUntil: 'domcontentloaded' });
@@ -76,6 +155,9 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
     const prog = programaAtual();
     if (!prog) { log('Grade sem programa agora — tentando de novo em 30s'); await page.waitForTimeout(30000); continue; }
     const { entry, offsetSeg } = prog;
+    estado.ligada = true; estado.entry = entry;
+    estado.iniciadoEmMs = Date.now() - offsetSeg * 1000;
+    estado.ultimoTempoVideo = offsetSeg; estado.ultimaLeituraMs = Date.now();
     const alvo = urlDe(entry);
     log('NO AR: ' + entry.slug + ' T' + entry.temporada + 'E' + entry.episodio + ' — ' + entry.nome +
       (offsetSeg > 10 ? ' (entrando aos ' + Math.floor(offsetSeg / 60) + 'min' + (offsetSeg % 60) + 's)' : ''));
@@ -104,17 +186,21 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       let rodouEm = null;
       for (let i = 0; i < 60; i++) {
         await page.waitForTimeout(500);
-        const ok = await page.evaluate((seg) => {
+        const volSalvo = lerVolume(ARQ_PREF);
+        const ok = await page.evaluate(({ seg, vol }) => {
           const v = document.querySelector('video');
           if (!v) return false;
-          v.muted = false; v.volume = 1;
+          v.muted = false;
+          // Sem preferência salva, NÃO mexe no volume — deixa o Max mandar.
+          // (antes era v.volume = 1, e a TV abria sempre no máximo)
+          if (vol != null && Math.abs(v.volume - vol) > 0.01) v.volume = vol;
           if (v.paused) v.play().catch(() => {});
           if (v.currentTime > 0.5 && !v.paused && v.readyState >= 3) {
             if (seg > 15 && Math.abs(v.currentTime - seg) > 20) v.currentTime = seg;
             return true;
           }
           return false;
-        }, offsetSeg).catch(() => false);
+        }, { seg: offsetSeg, vol: volSalvo }).catch(() => false);
         if (ok) { rodouEm = ((Date.now() - t0) / 1000).toFixed(1); break; }
       }
       if (rodouEm) {
@@ -142,7 +228,15 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       const deadline = Date.now() + Math.max(5000, fimEmMs);
       let ultimoTempo = -1, paradas = 0;
       while (!desligada && Date.now() < deadline) {
-        await page.waitForTimeout(Math.min(TICK_MS, Math.max(500, deadline - Date.now())));
+        // Promise.race: ou passa o tick, ou chega um comando do controle. Sem isso o
+        // clique ficaria preso até 5s dentro do waitForTimeout.
+        const espera = page.waitForTimeout(Math.min(TICK_MS, Math.max(500, deadline - Date.now())));
+        const veioComando = await Promise.race([
+          espera.then(() => false),
+          new Promise((r) => { resolverComando = () => r(true); }),
+        ]);
+        resolverComando = null;
+        if (veioComando) break;
         // Autoplay do Max desviou pra outro vídeo? Corrige.
         if (!page.url().includes(entry.videoId)) {
           if (Date.now() >= deadline - TICK_MS) break; // fim natural, deixa trocar
@@ -152,8 +246,16 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
         // Player travado? (tempo não anda 3 checagens seguidas)
         const t = await page.evaluate(() => {
           const v = document.querySelector('video');
-          return v ? { tempo: v.currentTime, pausado: v.paused } : null;
+          return v ? { tempo: v.currentTime, pausado: v.paused, vol: v.volume } : null;
         }).catch(() => null);
+        if (t) {
+          // alimenta o /estado sem que o servidor precise falar com o Playwright
+          estado.ultimoTempoVideo = t.tempo; estado.ultimaLeituraMs = Date.now();
+          // aprende o volume quando o Lucas mexe no controle do próprio Max
+          if (typeof t.vol === 'number' && Math.abs(t.vol - (lerVolume(ARQ_PREF) ?? -1)) > 0.01) {
+            gravarVolume(ARQ_PREF, t.vol);
+          }
+        }
         if (t && !t.pausado) {
           if (Math.abs(t.tempo - ultimoTempo) < 0.3) { paradas++; } else { paradas = 0; }
           ultimoTempo = t.tempo;
@@ -178,6 +280,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       await new Promise((r) => setTimeout(r, 10000));
     }
   }
+  estado.ligada = false;
   log(fimLimpo ? 'TV desligada (janela fechada).' : 'TV desligada (saiu do loop sem fechamento — investigar).');
   await ctx.close().catch(() => {});
 })().catch((e) => { console.error('ERRO FATAL: ' + e.message); process.exit(1); });
