@@ -101,19 +101,36 @@ function avancarOverride(ov, agoraMs, catalogos) {
   return { ...ov, seed, atual: entryDeEpisodio(prox.slug, prox.serie, prox.ep), restante: resto, iniciadoEm: agoraMs };
 }
 
-function programaDaGrade(grade, minutosDia) {
+// Identifica uma exibição específica da grade (o mesmo episódio pode aparecer em
+// horários diferentes, então a chave inclui o minuto de início).
+const chaveExibicao = (g) => g.videoId + '@' + g.inicioMin;
+
+// `consumidos` = exibições que já foram ao ar fora do horário (por causa do "pular") ou
+// que o Lucas pulou. Sem isso, ao antecipar um programa a TV voltava pro que ele acabou
+// de pular e depois repetia o que ele acabou de assistir inteiro. (medido 29/07)
+function programaDaGrade(grade, minutosDia, consumidos) {
+  const jaFoi = (g) => consumidos && consumidos.has(chaveExibicao(g));
   for (let i = 0; i < grade.length; i++) {
     const g = grade[i];
     const fimMin = g.inicioMin + g.duracaoMs / 60000;
     if (minutosDia >= g.inicioMin && minutosDia < fimMin) {
-      return { entry: g, offsetSeg: Math.max(0, Math.floor((minutosDia - g.inicioMin) * 60)), proximo: grade[i + 1] || null };
+      if (!jaFoi(g)) {
+        return { entry: g, offsetSeg: Math.max(0, Math.floor((minutosDia - g.inicioMin) * 60)), proximo: grade[i + 1] || null };
+      }
+      // este já passou: adianta pro próximo que ainda não foi, tocando do início
+      for (let j = i + 1; j < grade.length; j++) {
+        if (!jaFoi(grade[j])) {
+          return { entry: grade[j], offsetSeg: 0, proximo: grade[j + 1] || null, adiantado: true };
+        }
+      }
+      return { entry: null, offsetSeg: 0, proximo: null };
     }
   }
   return { entry: null, offsetSeg: 0, proximo: null };
 }
 
 // A única função que o tv.js chama. Devolve o override ATUALIZADO — nunca muta o que recebeu.
-function decidir({ grade, minutosDia, override, agoraMs, catalogos }) {
+function decidir({ grade, minutosDia, override, agoraMs, catalogos, consumidos }) {
   let ov = override;
 
   // Consome os episódios que já terminaram desde a última decisão.
@@ -133,7 +150,7 @@ function decidir({ grade, minutosDia, override, agoraMs, catalogos }) {
     };
   }
 
-  return { ...programaDaGrade(grade, minutosDia), origem: 'grade', override: null, fila: null };
+  return { ...programaDaGrade(grade, minutosDia, consumidos), origem: 'grade', override: null, fila: null };
 }
 
-module.exports = { decidir, criarOverride, avancarOverride, embaralhar, entryDeEpisodio, programaDaGrade, montarFila };
+module.exports = { decidir, criarOverride, avancarOverride, embaralhar, entryDeEpisodio, programaDaGrade, montarFila, chaveExibicao };

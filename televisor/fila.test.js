@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { decidir, criarOverride, embaralhar, entryDeEpisodio, montarFila } = require('./fila');
+const { decidir, criarOverride, embaralhar, entryDeEpisodio, montarFila, chaveExibicao } = require('./fila');
 
 // --- fixtures ---------------------------------------------------------------
 const ep = (n, t, e, min) => ({ nome: n, temporada: t, episodio: e, duracaoMs: min * 60000,
@@ -160,6 +160,54 @@ test('playlist ignora slug inexistente mas funciona com os válidos', () => {
 
 test('playlist só com slugs inválidos devolve override null', () => {
   assert.equal(criarOverride(CATALOGO, ['nada', 'nem-isso'], 'fila', 1, T0, 'X'), null);
+});
+
+// --- pular na grade: nada de repetir episódio -------------------------------
+// Cenário real do Lucas (29/07): ele pula o EP-A, assiste o EP-B inteiro e quer que a TV
+// siga pro EP-C — sem voltar pro que pulou nem repetir o que acabou de ver.
+const GRADE3 = [
+  { inicio: '02:36', inicioMin: 156, duracaoMs: 22 * 60000, slug: 'a', serie: 'A', nome: 'EP-A', temporada: 1, episodio: 1, videoId: 'vA', editId: 'eA', intervalo: false },
+  { inicio: '02:58', inicioMin: 178, duracaoMs: 12 * 60000, slug: 'b', serie: 'B', nome: 'EP-B', temporada: 1, episodio: 2, videoId: 'vB', editId: 'eB', intervalo: false },
+  { inicio: '03:10', inicioMin: 190, duracaoMs: 12 * 60000, slug: 'c', serie: 'C', nome: 'EP-C', temporada: 1, episodio: 3, videoId: 'vC', editId: 'eC', intervalo: false },
+];
+const decG3 = (o) => decidir({ grade: GRADE3, catalogos: CATALOGO, ...o });
+
+test('sem marcar nada, a grade volta pro programa do horário (comportamento base)', () => {
+  const d = decG3({ minutosDia: 160, override: null, agoraMs: T0, consumidos: new Set() });
+  assert.equal(d.entry.nome, 'EP-A');
+});
+
+test('pular: ao acabar o antecipado, NÃO volta pro episódio que foi pulado', () => {
+  const consumidos = new Set([chaveExibicao(GRADE3[0]), chaveExibicao(GRADE3[1])]);
+  const ov = { tipo: 'zap', slug: 'b', serie: 'B', seed: 0, atual: GRADE3[1], restante: [], iniciadoEm: T0 };
+  const d = decG3({ minutosDia: 172, override: ov, agoraMs: T0 + 12 * 60000 + 1, consumidos });
+  assert.equal(d.origem, 'grade');
+  assert.equal(d.entry.nome, 'EP-C', 'devia seguir pro EP-C, não voltar pro EP-A pulado');
+});
+
+test('pular: no horário do episódio já assistido, NÃO repete', () => {
+  const consumidos = new Set([chaveExibicao(GRADE3[0]), chaveExibicao(GRADE3[1])]);
+  const d = decG3({ minutosDia: 179, override: null, agoraMs: T0, consumidos });
+  assert.equal(d.entry.nome, 'EP-C', 'estava no horário do EP-B, que já foi assistido inteiro');
+});
+
+test('exibição adiantada vem marcada com adiantado:true (pro tv.js registrar)', () => {
+  const consumidos = new Set([chaveExibicao(GRADE3[0])]);
+  const d = decG3({ minutosDia: 160, override: null, agoraMs: T0, consumidos });
+  assert.equal(d.entry.nome, 'EP-B');
+  assert.equal(d.adiantado, true);
+  assert.equal(d.offsetSeg, 0, 'programa adiantado toca do início');
+});
+
+test('grade toda consumida devolve entry nula em vez de repetir', () => {
+  const consumidos = new Set(GRADE3.map(chaveExibicao));
+  assert.equal(decG3({ minutosDia: 160, override: null, agoraMs: T0, consumidos }).entry, null);
+});
+
+test('chaveExibicao separa o mesmo episódio em horários diferentes', () => {
+  const manha = { ...GRADE3[0], inicioMin: 156 };
+  const tarde = { ...GRADE3[0], inicioMin: 800 };
+  assert.notEqual(chaveExibicao(manha), chaveExibicao(tarde));
 });
 
 // --- utilitários ------------------------------------------------------------

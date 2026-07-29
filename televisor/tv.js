@@ -9,7 +9,7 @@ const path = require('path');
 const fs = require('fs');
 const { gerarAte, carregarCatalogos } = require('../emissora/gerar-grade');
 const { INIT_SCRIPT, faixaDoMinuto } = require('./vinheta');
-const { decidir, criarOverride } = require('./fila');
+const { decidir, criarOverride, chaveExibicao } = require('./fila');
 const { iniciarControle } = require('./controle-servidor');
 const { lerVolume, gravarVolume } = require('./preferencias');
 
@@ -35,6 +35,9 @@ const estado = {
   ultimoTempoVideo: 0, ultimaLeituraMs: 0,
   volume: null, videosNaPagina: 0,
   proximos: [],
+  // exibições da grade que já foram ao ar fora do horário, ou que o Lucas pulou.
+  // Zera quando vira o dia de programação (senão a grade de amanhã nasceria furada).
+  consumidos: new Set(), diaConsumidos: null,
 };
 const catalogos = carregarCatalogos();
 let resolverComando = null; // acordado pelo POST /comando
@@ -52,10 +55,14 @@ const playlists = carregarPlaylists();
 function programaAtual() {
   const { diaStr, minutos } = agoraInfo();
   const { grade } = gerarAte(diaStr);
-  const d = decidir({ grade, minutosDia: minutos, override: estado.override, agoraMs: Date.now(), catalogos });
+  if (estado.diaConsumidos !== diaStr) { estado.consumidos = new Set(); estado.diaConsumidos = diaStr; }
+  const d = decidir({ grade, minutosDia: minutos, override: estado.override, agoraMs: Date.now(),
+    catalogos, consumidos: estado.consumidos });
   estado.override = d.override;
   estado.origem = d.origem;
   if (!d.entry) return null;
+  // Programa da grade tocado ANTES da hora não pode tocar de novo no horário dele.
+  if (d.origem === 'grade' && d.adiantado) estado.consumidos.add(chaveExibicao(d.entry));
   estado.proximos = d.origem === 'grade'
     ? grade.filter((g) => g.inicioMin > d.entry.inicioMin).slice(0, 5)
     : grade.filter((g) => g.inicioMin > minutos).slice(0, 5);
@@ -153,6 +160,10 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
           // na grade -> antecipa o proximo item, do inicio (fica adiantado; decisao da spec)
           const prox = estado.proximos[0];
           if (!prox) return { ok: false, erro: 'nao ha proximo na grade' };
+          // marca os DOIS: o que ele pulou (pra TV nao voltar pra ele) e o antecipado
+          // (pra nao repetir quando o relogio chegar no horario dele).
+          if (estado.entry && estado.origem === 'grade') estado.consumidos.add(chaveExibicao(estado.entry));
+          estado.consumidos.add(chaveExibicao(prox));
           estado.override = { tipo: 'zap', slug: prox.slug, serie: prox.serie, seed: 0,
             atual: prox, restante: [], iniciadoEm: Date.now() };
         }

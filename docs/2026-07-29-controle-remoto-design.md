@@ -166,7 +166,7 @@ Tudo abaixo foi medido, não estimado.
 | `fila` | `origem=fila`, 26 restantes, painel mostrando a fila (`--:--`) e não a grade |
 | `pular` na fila | T2E1 → T1E8, seguiu em `origem=fila` com 25 restantes |
 | `voltar-grade` | voltou ao Primal **aos 21min19s** — entrou no meio, como especificado |
-| Volume | `preferencias.json` nasceu sozinho com `0.1` (o valor real do player); forçado `0.25`, sobreviveu a uma troca + 3 ticks do vigia |
+| Volume | `preferencias.json` nasceu sozinho com `0.1` (o valor real do player); forçado `0.25`, sobreviveu a uma troca + 3 ticks do vigia. **Confirmado pelo Lucas em 29/07** após parar de religar a TV: 3 trocas sem uma única linha `Volume aprendido`, com volume real = salvo |
 | Porta ocupada | log `⚠️ controle indisponível (EADDRINUSE) — a TV segue normal` e a TV tocou sem falhar |
 | Janelinha | 400×700 em modo `--app`; DOM lido via CDP: painel visível, 28 chips, fundo `rgb(12,17,14)` |
 
@@ -178,7 +178,15 @@ Tudo abaixo foi medido, não estimado.
 2. **Janela de fundo congela o `setInterval`.** Adicionados `visibilitychange` e `focus` pra atualizar na
    hora em que a janelinha volta pro foco, em vez de esperar o próximo tick.
 
-### Armadilha de diagnóstico registrada
+### Armadilhas de diagnóstico registradas
+
+**Relato de bug durante sessão de teste que reinicia o processo é indistinguível do bug real.** O Lucas
+relatou o som voltando alto *depois* do fix do volume. Investiguei duas hipóteses — número de elementos
+`<video>` na página e `v.volume` divergindo do salvo — e **as duas caíram na medição**. A causa era o
+próprio teste: eu havia religado a TV ~8 vezes, e o vigia só grava o volume de 5 em 5s, então cada
+religada perdia o ajuste feito nos segundos anteriores. Estabilizar o ambiente antes de investigar teria
+poupado as duas hipóteses erradas.
+
 
 `PrintWindow` **não captura o conteúdo do Chrome** (composição em GPU) — devolve frame congelado ou moldura
 vazia. Isso produziu duas evidências falsas durante o teste. Para inspecionar uma janela `--app`, use CDP
