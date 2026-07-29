@@ -7,7 +7,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const TIPOS_VALIDOS = new Set(['ver-agora', 'fila', 'playlist', 'pular', 'voltar-grade']);
+const TIPOS_VALIDOS = new Set(['ver-agora', 'fila', 'playlist', 'playlist-avulsa', 'pular', 'voltar-grade']);
 
 function json(res, status, corpo) {
   res.writeHead(status, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' });
@@ -23,7 +23,8 @@ function lerCorpo(req) {
   });
 }
 
-function iniciarControle({ porta = 4599, obterEstado, obterSeries, obterPlaylists, enviarComando, aoErro }) {
+function iniciarControle({ porta = 4599, obterEstado, obterSeries, obterPlaylists,
+                          salvarPlaylist, excluirPlaylist, enviarComando, aoErro }) {
   const server = http.createServer(async (req, res) => {
     const rota = (req.url || '').split('?')[0];
 
@@ -38,10 +39,31 @@ function iniciarControle({ porta = 4599, obterEstado, obterSeries, obterPlaylist
     if (req.method === 'GET' && rota === '/series') return json(res, 200, obterSeries());
     if (req.method === 'GET' && rota === '/playlists') return json(res, 200, obterPlaylists ? obterPlaylists() : []);
 
+    if (req.method === 'POST' && rota === '/playlists/salvar') {
+      const corpo = await lerCorpo(req);
+      if (!corpo || !Array.isArray(corpo.series)) return json(res, 400, { erro: 'payload invalido' });
+      if (!String(corpo.nome || '').trim()) return json(res, 400, { erro: 'a playlist precisa de um nome' });
+      // barrado aqui, na borda, e não só no tv.js: playlist vazia não toca nada
+      if (!corpo.series.length) return json(res, 400, { erro: 'escolha ao menos uma serie' });
+      if (!salvarPlaylist) return json(res, 400, { erro: 'edicao indisponivel' });
+      const r = salvarPlaylist(corpo);
+      return r && r.ok ? json(res, 200, { ok: true }) : json(res, 400, { erro: (r && r.erro) || 'recusado' });
+    }
+
+    if (req.method === 'POST' && rota === '/playlists/excluir') {
+      const corpo = await lerCorpo(req);
+      if (!corpo || !corpo.id) return json(res, 400, { erro: 'id obrigatorio' });
+      if (!excluirPlaylist) return json(res, 400, { erro: 'edicao indisponivel' });
+      const r = excluirPlaylist(corpo.id);
+      return r && r.ok ? json(res, 200, { ok: true }) : json(res, 400, { erro: (r && r.erro) || 'recusado' });
+    }
+
     if (req.method === 'POST' && rota === '/comando') {
       const corpo = await lerCorpo(req);
       if (!corpo || !TIPOS_VALIDOS.has(corpo.tipo)) return json(res, 400, { erro: 'comando invalido' });
-      const r = enviarComando({ tipo: corpo.tipo, ...(corpo.slug ? { slug: corpo.slug } : {}) });
+      const r = enviarComando({ tipo: corpo.tipo,
+        ...(corpo.slug ? { slug: corpo.slug } : {}),
+        ...(Array.isArray(corpo.series) ? { series: corpo.series } : {}) });
       return r && r.ok ? json(res, 200, { ok: true }) : json(res, 400, { erro: (r && r.erro) || 'recusado' });
     }
 
@@ -61,8 +83,12 @@ module.exports = { iniciarControle };
 if (require.main === module && process.argv.includes('--mock')) {
   const t0 = Date.now();
   let origem = 'grade';
+  const mockPlaylists = [
+    { id: 'favoritos', nome: 'Favoritos', series: ['rick-morty', 'gumball', 'primal', 'chowder'] },
+  ];
+  const portaMock = Number(process.env.PORTA_MOCK) || 4599;  // outra porta = testar com a TV no ar
   iniciarControle({
-    porta: 4599,
+    porta: portaMock,
     obterEstado: () => {
       const d = Math.floor((Date.now() - t0) / 1000) % 1260;
       return {
@@ -80,14 +106,30 @@ if (require.main === module && process.argv.includes('--mock')) {
     obterSeries: () => ['Dexter', 'Coragem', 'Johnny Bravo', 'Gumball', 'Titio Avô', 'Primal', 'Rick & Morty',
       'Apenas um Show', 'Samurai Jack', 'Clarêncio', 'Chowder', 'Flapjack']
       .map((n) => ({ slug: n.toLowerCase().replace(/\W+/g, '-'), nome: n, eps: 40 })),
+    obterPlaylists: () => mockPlaylists.map((p) => ({
+      id: p.id, nome: p.nome, slugs: p.series, series: p.series, eps: p.series.length * 40 })),
+    salvarPlaylist: ({ id, nome, series }) => {
+      const p = id && mockPlaylists.find((x) => x.id === id);
+      if (p) { p.nome = nome; p.series = series; }
+      else mockPlaylists.push({ id: nome.toLowerCase().replace(/\W+/g, '-'), nome, series });
+      console.log('[mock] playlist salva:', nome, series);
+      return { ok: true };
+    },
+    excluirPlaylist: (id) => {
+      const i = mockPlaylists.findIndex((x) => x.id === id);
+      if (i < 0) return { ok: false, erro: 'nao encontrada' };
+      console.log('[mock] playlist excluida:', mockPlaylists[i].nome);
+      mockPlaylists.splice(i, 1);
+      return { ok: true };
+    },
     enviarComando: (c) => {
-      console.log('[mock] comando:', c);
+      console.log('[mock] comando:', JSON.stringify(c));
       if (c.tipo === 'ver-agora') origem = 'zap';
-      else if (c.tipo === 'fila') origem = 'fila';
+      else if (c.tipo === 'fila' || c.tipo === 'playlist' || c.tipo === 'playlist-avulsa') origem = 'fila';
       else if (c.tipo === 'voltar-grade') origem = 'grade';
       return { ok: true };
     },
     aoErro: (e) => { console.error('mock:', e.message); process.exit(1); },
   });
-  console.log('mock em http://127.0.0.1:4599');
+  console.log('mock em http://127.0.0.1:' + portaMock);
 }

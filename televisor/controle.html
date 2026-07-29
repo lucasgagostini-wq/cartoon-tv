@@ -42,11 +42,18 @@
   .item .n { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .item .te { flex:none; font-size:10.5px; color:var(--texto-fraco); }
   .item.int .n { opacity:.55; font-style:italic; }
-  .item.pl { cursor:pointer; border:1px solid var(--borda-bt); background:var(--bt-bg); padding:5px 7px; }
+  .item.pl { cursor:pointer; border:1px solid var(--borda-bt); background:var(--bt-bg); padding:5px 7px; align-items:center; }
   .item.pl:hover { border-color:var(--verde); background:var(--bt-hover); }
   .item.pl:hover .n { color:var(--titulo); }
   .item.pl .h { width:14px; color:var(--verde); }
   .item.pl + .item.pl { margin-top:4px; }
+  .item.pl .acoes { display:flex; gap:2px; margin-left:6px; }
+  .item.pl .acoes b { padding:2px 6px; border-radius:3px; font-weight:400; color:var(--texto-fraco); }
+  .item.pl .acoes b:hover { background:var(--borda-bt); color:var(--titulo); }
+  .item.pl.nova { border-style:dashed; opacity:.75; }
+  .item.pl.nova:hover { opacity:1; }
+  #contador { font-size:9.5px; color:var(--verde); letter-spacing:.06em; }
+  #bt-salvar { flex:0 0 42px; }
   .busca { display:flex; align-items:center; gap:6px; padding:5px 8px; font-size:11.5px; margin-bottom:8px;
            border:1px solid var(--borda-bt); border-radius:4px; background:var(--bt-bg); color:var(--verde-dim); }
   .busca input { flex:1; background:none; border:0; outline:none; font:inherit; color:var(--titulo); user-select:text; }
@@ -95,12 +102,17 @@
   </div>
 
   <div class="bloco">
-    <div class="cab">TROCAR PARA<span class="linha"></span></div>
+    <div class="cab"><span id="cab-trocar">TROCAR PARA</span><span class="linha"></span><span id="contador"></span></div>
     <div class="busca"><span>&#62;</span><input id="filtro" placeholder="filtrar série..." autocomplete="off" spellcheck="false"></div>
     <div id="chips" class="chips"></div>
-    <div class="acao">
+    <div class="acao" id="acao-normal">
       <div class="bt off" id="bt-ver" data-cmd="ver-agora">&#9654; ver agora</div>
-      <div class="bt off" id="bt-fila" data-cmd="fila">&#8734; fila aleatória</div>
+      <div class="bt off" id="bt-fila" data-cmd="fila">&#8734; fila</div>
+      <div class="bt off" id="bt-salvar" title="salvar as séries marcadas como playlist">&#128190;</div>
+    </div>
+    <div class="acao oculto" id="acao-edicao">
+      <div class="bt" id="bt-confirmar">&#10003; salvar “<span id="nome-edicao"></span>”</div>
+      <div class="bt" id="bt-cancelar">cancelar</div>
     </div>
     <div id="erro"></div>
   </div>
@@ -108,7 +120,9 @@
 
 <script>
 const $ = (id) => document.getElementById(id);
-let series = [], playlists = [], selecionado = null, assinaturaLista = '';
+let series = [], playlists = [], assinaturaLista = '';
+let marcados = new Set();   // séries marcadas nos chips (seleção múltipla)
+let editando = null;        // { id, nome } quando está editando uma playlist
 
 const mmss = (s) => { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + 'min' + String(s % 60).padStart(2, '0') + 's'; };
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -123,28 +137,90 @@ function pintarChips() {
   const f = norm($('filtro').value);
   const vis = series.filter((s) => !f || norm(s.nome).includes(f) || s.slug.includes(f));
   $('chips').innerHTML = vis.map((s) =>
-    '<span class="chip' + (s.slug === selecionado ? ' sel' : '') + '" data-slug="' + s.slug + '">' + s.nome + '</span>').join('')
+    '<span class="chip' + (marcados.has(s.slug) ? ' sel' : '') + '" data-slug="' + s.slug + '">' +
+    (marcados.has(s.slug) ? '✓ ' : '') + s.nome + '</span>').join('')
     || '<span style="color:var(--texto-fraco)">nenhuma série</span>';
   for (const c of $('chips').children) {
     if (!c.dataset.slug) continue;
-    c.onclick = () => { selecionado = selecionado === c.dataset.slug ? null : c.dataset.slug; pintarChips(); ligarAcoes(); };
+    c.onclick = () => {
+      if (marcados.has(c.dataset.slug)) marcados.delete(c.dataset.slug); else marcados.add(c.dataset.slug);
+      pintarChips(); ligarAcoes();
+    };
   }
 }
 
 function ligarAcoes() {
-  for (const id of ['bt-ver', 'bt-fila']) $(id).classList.toggle('off', !selecionado);
+  const n = marcados.size;
+  $('contador').textContent = n ? n + ' marcada' + (n > 1 ? 's' : '') : '';
+  $('acao-normal').classList.toggle('oculto', !!editando);
+  $('acao-edicao').classList.toggle('oculto', !editando);
+  $('cab-trocar').textContent = editando ? 'EDITANDO PLAYLIST' : 'TROCAR PARA';
+  if (editando) { $('nome-edicao').textContent = editando.nome; return; }
+  $('bt-ver').classList.toggle('off', n !== 1);   // "ver agora" é de uma série só
+  $('bt-fila').classList.toggle('off', n < 1);
+  $('bt-salvar').classList.toggle('off', n < 1);
 }
 
-// --- playlists: clique único já põe pra tocar --------------------------------
+// --- playlists: clique toca; ✎ edita; ✕ exclui -------------------------------
 function pintarPlaylists() {
-  $('bloco-playlists').classList.toggle('oculto', !playlists.length);
-  if (!playlists.length) return;
   $('playlists').innerHTML = playlists.map((p) =>
     '<div class="item pl" data-id="' + p.id + '" title="' + p.series.join(' · ') + '">' +
     '<span class="h">&#8734;</span>' +
     '<span class="n">' + p.nome + '</span>' +
-    '<span class="te">' + p.series.length + ' séries · ' + p.eps + ' eps</span></div>').join('');
-  for (const el of $('playlists').children) el.onclick = () => comando('playlist', el.dataset.id);
+    '<span class="te">' + p.series.length + '&nbsp;séries</span>' +
+    '<span class="acoes"><b data-edit="' + p.id + '" title="editar as séries">&#9998;</b>' +
+    '<b data-del="' + p.id + '" title="excluir">&#10005;</b></span></div>').join('')
+    + '<div class="item pl nova" id="pl-nova"><span class="h">+</span>' +
+      '<span class="n">nova playlist com as marcadas</span></div>';
+
+  for (const el of $('playlists').children) {
+    if (el.id === 'pl-nova') { el.onclick = () => novaPlaylist(); continue; }
+    el.onclick = (ev) => {
+      const alvo = ev.target.closest('b');
+      if (alvo && alvo.dataset.edit) return editarPlaylist(alvo.dataset.edit);
+      if (alvo && alvo.dataset.del) return excluirPlaylist(alvo.dataset.del);
+      comando('playlist', el.dataset.id);
+    };
+  }
+}
+
+function editarPlaylist(id) {
+  const p = playlists.find((x) => x.id === id);
+  if (!p) return;
+  editando = { id: p.id, nome: p.nome };
+  marcados = new Set(p.slugs || []);
+  $('filtro').value = '';
+  pintarChips(); ligarAcoes();
+  avisar('marque e desmarque as séries, depois salve');
+}
+
+function novaPlaylist() {
+  if (!marcados.size) return avisar('marque as séries primeiro, ali embaixo');
+  const nome = prompt('Nome da playlist:', '');
+  if (!nome || !nome.trim()) return;
+  salvar({ nome: nome.trim(), series: [...marcados] });
+}
+
+async function excluirPlaylist(id) {
+  const p = playlists.find((x) => x.id === id);
+  if (!p || !confirm('Excluir a playlist "' + p.nome + '"?')) return;
+  try {
+    const r = await fetch('/playlists/excluir', { method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ id }) });
+    if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
+    await carregarCatalogo();
+  } catch (e) { avisar('a TV não respondeu'); }
+}
+
+async function salvar({ id, nome, series }) {
+  try {
+    const r = await fetch('/playlists/salvar', { method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ id, nome, series }) });
+    if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
+    editando = null; marcados.clear();
+    await carregarCatalogo();
+    avisar('playlist salva');
+  } catch (e) { avisar('a TV não respondeu'); }
 }
 
 // --- atualização vinda do /estado: mexe só em texto, nunca recria o DOM -------
@@ -190,15 +266,19 @@ function pintar(e) {
 
 async function comando(tipo, idDireto) {
   const precisaSlug = tipo === 'ver-agora' || tipo === 'fila' || tipo === 'playlist';
-  const slug = idDireto || selecionado;
+  // "fila" com várias marcadas vira uma playlist na hora, sem precisar salvar nada
+  const varias = tipo === 'fila' && !idDireto && marcados.size > 1;
+  const slug = idDireto || [...marcados][0];
   if (precisaSlug && !slug) return;
   try {
+    const corpo = varias
+      ? { tipo: 'playlist-avulsa', series: [...marcados] }
+      : (precisaSlug ? { tipo, slug } : { tipo });
     const r = await fetch('/comando', {
-      method: 'POST', headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(precisaSlug ? { tipo, slug } : { tipo }),
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(corpo),
     });
     if (!r.ok) { const j = await r.json().catch(() => ({})); return avisar('recusado: ' + (j.erro || r.status)); }
-    if (precisaSlug && !idDireto) { selecionado = null; pintarChips(); ligarAcoes(); }
+    if (precisaSlug && !idDireto) { marcados.clear(); pintarChips(); ligarAcoes(); }
     atualizar();
   } catch (err) { avisar('a TV não respondeu'); }
 }
@@ -211,12 +291,19 @@ async function atualizar() {
 document.querySelectorAll('.bt[data-cmd]').forEach((b) => {
   b.onclick = () => { if (!b.classList.contains('off')) comando(b.dataset.cmd); };
 });
+$('bt-salvar').onclick = () => { if (!$('bt-salvar').classList.contains('off')) novaPlaylist(); };
+$('bt-confirmar').onclick = () => {
+  if (!marcados.size) return avisar('a playlist não pode ficar vazia');
+  salvar({ id: editando.id, nome: editando.nome, series: [...marcados] });
+};
+$('bt-cancelar').onclick = () => { editando = null; marcados.clear(); pintarChips(); ligarAcoes(); };
+
 $('filtro').oninput = pintarChips;
 $('filtro').onkeydown = (ev) => {
   if (ev.key === 'Escape') { $('filtro').value = ''; pintarChips(); }
-  if (ev.key === 'Enter') {                       // Enter = ver agora a primeira da lista
+  if (ev.key === 'Enter') {                       // Enter = marcar a primeira da lista filtrada
     const primeiro = $('chips').querySelector('.chip');
-    if (primeiro) { selecionado = primeiro.dataset.slug; comando('ver-agora'); }
+    if (primeiro) { marcados.add(primeiro.dataset.slug); $('filtro').value = ''; pintarChips(); ligarAcoes(); $('filtro').focus(); }
   }
 };
 

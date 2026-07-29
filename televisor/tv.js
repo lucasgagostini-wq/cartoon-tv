@@ -42,15 +42,35 @@ const estado = {
 const catalogos = carregarCatalogos();
 let resolverComando = null; // acordado pelo POST /comando
 
-// Playlists: filas que alternam entre várias séries. Editáveis em emissora/playlists.json
-// sem tocar em código; um arquivo quebrado não pode impedir a TV de ligar.
+// Playlists: filas que alternam entre várias séries. Editáveis pelo controle OU direto em
+// emissora/playlists.json; um arquivo quebrado não pode impedir a TV de ligar.
+const ARQ_PLAYLISTS = path.join(__dirname, '..', 'emissora', 'playlists.json');
+
 function carregarPlaylists() {
   try {
-    const j = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'emissora', 'playlists.json'), 'utf8'));
+    const j = JSON.parse(fs.readFileSync(ARQ_PLAYLISTS, 'utf8'));
     return (j.playlists || []).filter((p) => p.id && p.nome && Array.isArray(p.series));
   } catch (e) { return []; }
 }
-const playlists = carregarPlaylists();
+let playlists = carregarPlaylists();
+
+function gravarPlaylists() {
+  const conteudo = {
+    _comentario: 'Playlists do Lucas. Cada uma vira uma fila aleatoria que ALTERNA entre as series: nenhuma domina, mesmo tendo 10x mais episodios que a outra. Editavel pelo controle remoto ou aqui na mao (os slugs sao os nomes dos arquivos em emissora/catalogo/).',
+    playlists,
+  };
+  try { fs.writeFileSync(ARQ_PLAYLISTS, JSON.stringify(conteudo, null, 2)); return true; }
+  catch (e) { log('⚠️ não consegui gravar playlists.json: ' + e.message); return false; }
+}
+
+// slug legível e estável a partir do nome, sem colidir com playlist existente
+function idDeNome(nome, ignorarId) {
+  const base = nome.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'playlist';
+  let id = base, n = 2;
+  while (playlists.some((p) => p.id === id && p.id !== ignorarId)) id = base + '-' + n++;
+  return id;
+}
 
 function programaAtual() {
   const { diaStr, minutos } = agoraInfo();
@@ -134,9 +154,37 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       .sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR')),
     obterPlaylists: () => playlists.map((p) => ({
       id: p.id, nome: p.nome,
+      slugs: p.series.filter((s) => catalogos[s]),          // pro controle marcar os chips ao editar
       series: p.series.filter((s) => catalogos[s]).map((s) => catalogos[s].nome),
       eps: p.series.reduce((n, s) => n + (catalogos[s] ? catalogos[s].episodios.length : 0), 0),
     })),
+
+    // Salvar/excluir playlist pelo controle. Grava no mesmo playlists.json que dá pra
+    // editar na mão — a interface é só um jeito mais rápido de mexer no arquivo.
+    salvarPlaylist: ({ id, nome, series }) => {
+      const limpo = (series || []).filter((s) => catalogos[s]);
+      if (!limpo.length) return { ok: false, erro: 'escolha ao menos uma serie' };
+      const titulo = (nome || '').trim();
+      if (!titulo) return { ok: false, erro: 'a playlist precisa de um nome' };
+      const existente = id ? playlists.find((p) => p.id === id) : null;
+      if (existente) {
+        existente.nome = titulo; existente.series = limpo;
+      } else {
+        playlists.push({ id: idDeNome(titulo), nome: titulo, series: limpo });
+      }
+      if (!gravarPlaylists()) return { ok: false, erro: 'nao consegui gravar o arquivo' };
+      log('Playlist salva: ' + titulo + ' (' + limpo.length + ' séries)');
+      return { ok: true };
+    },
+    excluirPlaylist: (id) => {
+      const i = playlists.findIndex((p) => p.id === id);
+      if (i < 0) return { ok: false, erro: 'playlist nao encontrada' };
+      const nome = playlists[i].nome;
+      playlists.splice(i, 1);
+      if (!gravarPlaylists()) return { ok: false, erro: 'nao consegui gravar o arquivo' };
+      log('Playlist excluída: ' + nome);
+      return { ok: true };
+    },
     enviarComando: (c) => {
       if (c.tipo === 'ver-agora' || c.tipo === 'fila') {
         const ov = criarOverride(catalogos, c.slug, c.tipo === 'fila' ? 'fila' : 'zap',
@@ -148,6 +196,14 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
         if (!p) return { ok: false, erro: 'playlist nao encontrada: ' + c.slug };
         const ov = criarOverride(catalogos, p.series, 'fila', (Date.now() ^ 0x5bf03635) >>> 0, Date.now(), p.nome);
         if (!ov) return { ok: false, erro: 'playlist sem episodio valido: ' + p.nome };
+        estado.override = ov;
+      } else if (c.tipo === 'playlist-avulsa') {
+        // varias series marcadas nos chips, sem salvar nada: playlist so pra esta sessao
+        const validas = (c.series || []).filter((s) => catalogos[s]);
+        if (!validas.length) return { ok: false, erro: 'nenhuma serie valida na selecao' };
+        const nome = validas.length + ' séries';
+        const ov = criarOverride(catalogos, validas, 'fila', (Date.now() ^ 0x5bf03635) >>> 0, Date.now(), nome);
+        if (!ov) return { ok: false, erro: 'selecao sem episodio valido' };
         estado.override = ov;
       } else if (c.tipo === 'voltar-grade') {
         estado.override = null;
