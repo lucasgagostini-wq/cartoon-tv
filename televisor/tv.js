@@ -93,6 +93,9 @@ const urlDe = (g) => 'https://play.hbomax.com/video/watch/' + g.videoId + '/' + 
 const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] ' + m);
 
 (async () => {
+  // Mede o que faltava: abrir o Chrome com o perfil de ~510 MB é a maior parte do tempo
+  // entre clicar no atalho e a TV aparecer, e não estava em lugar nenhum do log.
+  const t0Processo = Date.now();
   const ctx = await chromium.launchPersistentContext(path.join(__dirname, '.chrome-profile'), {
     channel: 'chrome', headless: false, viewport: null,
     // ignoreDefaultArgs: sem isso o Playwright passa --disable-component-update
@@ -232,14 +235,40 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   });
 
   // Tela de perfil na primeira carga
+  const t0Boot = Date.now();
   await page.goto('https://play.hbomax.com/', { waitUntil: 'domcontentloaded' });
+
+  // Cobre a home do Max enquanto a TV arranca. A vinheta normal não pega aqui: ela só
+  // monta quando existe payload no localStorage, e no boot ainda não existe — então o
+  // Lucas ficava ~40s olhando a home do streaming (relatado 29/07).
+  // pointer-events:none pra não bloquear o clique no perfil que vem logo abaixo.
+  await page.evaluate(() => {
+    if (document.getElementById('cartoontv-boot')) return;
+    const el = document.createElement('div');
+    el.id = 'cartoontv-boot';
+    el.style.cssText = 'position:fixed;inset:0;z-index:2147483646;pointer-events:none;' +
+      'background:#0C110E;display:flex;align-items:center;justify-content:center;' +
+      "font:600 clamp(18px,4vw,42px)/1.4 Consolas,'Cascadia Mono',monospace;" +
+      'color:#35E070;letter-spacing:.22em;text-align:center;';
+    el.innerHTML = '<div>CARTOON TV<div style="font-size:.42em;color:#4F9A68;letter-spacing:.3em;' +
+      'margin-top:1.1em">ligando<span id="ctv-pts"></span></div></div>';
+    document.documentElement.appendChild(el);
+    let n = 0;
+    setInterval(() => { const p = document.getElementById('ctv-pts'); if (p) p.textContent = '.'.repeat(n++ % 4); }, 400);
+    // se a página trocar o body por baixo, remonta
+    new MutationObserver(() => {
+      if (!document.getElementById('cartoontv-boot')) document.documentElement.appendChild(el);
+    }).observe(document.documentElement, { childList: true });
+  }).catch(() => {});
+
   await page.waitForTimeout(4000);
   try {
     const prof = page.getByText('Lucas', { exact: true }).first();
     if (await prof.isVisible({ timeout: 2500 })) { await prof.click(); await page.waitForTimeout(3000); }
   } catch (e) { /* já entrou direto */ }
 
-  log('=== TV ligada — ' + new Date().toLocaleDateString('pt-BR') + ' ===');
+  log('=== TV ligada — ' + new Date().toLocaleDateString('pt-BR') + ' === (Chrome: ' +
+    ((t0Boot - t0Processo) / 1000).toFixed(1) + 's + home: ' + ((Date.now() - t0Boot) / 1000).toFixed(1) + 's)');
   let ligando = true;
   let ultimoVideoId = null;
   while (!desligada) {
