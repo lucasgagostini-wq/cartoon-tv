@@ -91,7 +91,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
 
   // --- controle remoto -------------------------------------------------------
   // Porta ocupada não pode derrubar a TV: avisa e segue sem controle.
-  iniciarControle({
+  const servidorControle = iniciarControle({
     porta: PORTA_CONTROLE,
     obterEstado: () => {
       if (!estado.ligada || !estado.entry) return { ligada: false };
@@ -325,4 +325,10 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   estado.ligada = false;
   log(fimLimpo ? 'TV desligada (janela fechada).' : 'TV desligada (saiu do loop sem fechamento — investigar).');
   await ctx.close().catch(() => {});
+  // O servidor de controle segura o event loop: sem fechar, o processo node fica VIVO
+  // depois de a TV desligar, ocupando a porta 4599. O atalho seguinte subia uma instância
+  // que não conseguia a porta, e o controle via o zumbi respondendo `ligada:false` e ficava
+  // esperando pra sempre. (medido 29/07, PID 30872 sobrevivendo 8min ao fim da TV)
+  try { servidorControle.close(); } catch (e) {}
+  process.exit(0);
 })().catch((e) => { console.error('ERRO FATAL: ' + e.message); process.exit(1); });
