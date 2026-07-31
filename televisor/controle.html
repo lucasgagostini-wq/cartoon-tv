@@ -108,7 +108,7 @@
 
 <div id="painel">
   <div class="bloco">
-    <div class="cab">&#9679; NO AR <span id="badge" class="badge oculto"></span><span class="linha"></span><span id="relogio" class="relogio">--:--:--</span></div>
+    <div class="cab">&#9679; NO AR <span id="badge" class="badge oculto"></span><span class="linha"></span><span id="fone-topo" class="oculto" title="copiar link do controle pro celular" style="cursor:pointer;margin-right:8px">&#128241;</span><span id="relogio" class="relogio">--:--:--</span></div>
     <div id="serie" class="serie">—</div>
     <div id="epi" class="ep">—</div>
     <div id="meta" class="meta">—</div>
@@ -288,6 +288,7 @@ function pintar(e) {
   // link do celular: só faz sentido no controle do PC, e só se a máquina tem IP de rede
   if (e.linkCelular && !CHAVE) {
     $('fone').classList.remove('oculto');
+    $('fone-topo').classList.remove('oculto');
     $('fone-url').textContent = e.linkCelular;
   }
 
@@ -358,6 +359,19 @@ $('fone-copiar').onclick = async () => {
     r.selectNodeContents($('fone-url'));
     getSelection().removeAllRanges(); getSelection().addRange(r);
     avisar('selecionei o link — copie com Ctrl+C');
+  }
+};
+
+// 📱 do topo: mesmo copiar, sempre visível sem rolar
+$('fone-topo').onclick = async () => {
+  const ic = $('fone-topo');
+  try {
+    window.focus();
+    await navigator.clipboard.writeText($('fone-url').textContent);
+    ic.textContent = '✓';
+    setTimeout(() => { ic.innerHTML = '&#128241;'; }, 2500);
+  } catch (e) {
+    $('fone').scrollIntoView({ behavior: 'smooth' });   // fallback: leva até o bloco de baixo
   }
 };
 
