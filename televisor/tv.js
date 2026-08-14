@@ -122,6 +122,12 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   let desligada = false;
   let fimLimpo = false; // true = janela fechada; false = saiu por erro
   ctx.on('close', () => { desligada = true; fimLimpo = true; estado.ligada = false; });
+  // Fechamento (janela fechada na mão ou crash do Chrome) chega como exceção na operação
+  // em voo. É função porque os DOIS pontos que esperam — o boot e o loop — precisam da
+  // mesma regra: enquanto só o loop tinha, fechar a janela durante os 4s de boot escapava
+  // pro catch de fora e virava "ERRO FATAL" com exit 1 (14/08, tv-log das 01:12).
+  const ehFechamento = (e) => desligada || page.isClosed() ||
+    /has been closed|Target closed|browser has disconnected/i.test(e.message);
 
   // --- controle remoto -------------------------------------------------------
   // Porta ocupada não pode derrubar a TV: avisa e segue sem controle.
@@ -271,11 +277,18 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
     }).observe(document.documentElement, { childList: true });
   }).catch(() => {});
 
-  await page.waitForTimeout(4000);
-  await escolherPerfil(page, log);
+  try {
+    await page.waitForTimeout(4000);
+    await escolherPerfil(page, log);
+  } catch (e) {
+    if (!ehFechamento(e)) throw e;
+    desligada = true; fimLimpo = true;
+  }
 
-  log('=== TV ligada — ' + new Date().toLocaleDateString('pt-BR') + ' === (Chrome: ' +
-    ((t0Boot - t0Processo) / 1000).toFixed(1) + 's + home: ' + ((Date.now() - t0Boot) / 1000).toFixed(1) + 's)');
+  if (!desligada) {
+    log('=== TV ligada — ' + new Date().toLocaleDateString('pt-BR') + ' === (Chrome: ' +
+      ((t0Boot - t0Processo) / 1000).toFixed(1) + 's + home: ' + ((Date.now() - t0Boot) / 1000).toFixed(1) + 's)');
+  }
   let ligando = true;
   let ultimoVideoId = null;
   while (!desligada) {
@@ -418,7 +431,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       // então a exceção vinha antes de `desligada` virar true e todo desligamento
       // normal aparecia no log como "Erro no player" (28/07: 3 sessões assim).
       // ⚠️ Um crash do Chrome cai no mesmo balde — o Playwright não distingue os dois.
-      if (desligada || page.isClosed() || /has been closed|Target closed|browser has disconnected/i.test(e.message)) {
+      if (ehFechamento(e)) {
         desligada = true; fimLimpo = true; break;
       }
       log('🔴 Erro no player: ' + e.message.slice(0, 100) + ' — tentando de novo em 10s');
