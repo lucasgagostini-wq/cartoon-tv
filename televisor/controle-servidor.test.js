@@ -141,3 +141,26 @@ test('porta ocupada chama aoErro em vez de derrubar o processo', async () => {
   assert.equal(capturado.code, 'EADDRINUSE');
   a.server.close(); b.close();
 });
+
+// Caso real de 10/09/2026: um servidor de preview de OUTRO projeto estava em 127.0.0.1:4599.
+// O Windows deixou o controle subir em 0.0.0.0:4599 junto, sem erro nenhum — e quem respondia
+// pra janelinha (que fala com 127.0.0.1) era o intruso. O controle abria a página errada.
+// (cleanup no finally: se a asserção estourar com os servidores abertos, o runner nunca sai)
+test('outro programa já em 127.0.0.1 na mesma porta: aoErro é chamado mesmo com o bind em 0.0.0.0 passando', async () => {
+  const http = require('node:http');
+  const intruso = http.createServer((req, res) => { res.writeHead(404); res.end('404 ' + req.url); });
+  await new Promise((r) => intruso.listen(PORTA, '127.0.0.1', r));
+  let capturado = null;
+  const b = iniciarControle({
+    porta: PORTA, host: '0.0.0.0', obterEstado: () => ({ ligada: true }), obterSeries: () => [],
+    enviarComando: () => ({ ok: true }), aoErro: (e) => { capturado = e; },
+  });
+  try {
+    await new Promise((r) => setTimeout(r, 800));
+    assert.ok(capturado, 'aoErro devia ter sido chamado: quem responde em 127.0.0.1 é o intruso, não o controle');
+    assert.equal(capturado.code, 'EADDRINUSE');
+  } finally {
+    intruso.close();
+    b.close();
+  }
+});

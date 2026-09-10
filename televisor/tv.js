@@ -244,7 +244,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       log('Comando do controle: ' + c.tipo + (c.slug ? ' ' + c.slug : ''));
       return { ok: true };
     },
-    aoErro: (e) => log('⚠️ controle indisponível (' + e.code + ') — a TV segue normal'),
+    aoErro: (e) => log('⚠️ controle indisponível: ' + (e.message || e.code) + ' — a TV segue normal'),
   });
 
   const linkFone = linkCelular(PORTA_CONTROLE);

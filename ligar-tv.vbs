@@ -3,17 +3,28 @@ Set sh = CreateObject("WScript.Shell")
 Set fso = CreateObject("Scripting.FileSystemObject")
 base = fso.GetParentFolderName(WScript.ScriptFullName)
 
-Function TvNoAr()
-  TvNoAr = False
+' Devolve o corpo da resposta de /estado (qualquer status), ou "" se ninguem respondeu.
+Function RespostaEstado()
+  RespostaEstado = ""
   On Error Resume Next
   Set req = CreateObject("MSXML2.XMLHTTP")
   req.Open "GET", "http://127.0.0.1:4599/estado", False
   req.Send
-  If Err.Number = 0 And req.Status = 200 Then
-    If InStr(req.responseText, """ligada"":true") > 0 Then TvNoAr = True
-  End If
+  If Err.Number = 0 Then RespostaEstado = req.responseText
   Err.Clear
   On Error Goto 0
+End Function
+
+Function TvNoAr()
+  TvNoAr = InStr(RespostaEstado(), """ligada"":true") > 0
+End Function
+
+' Alguem respondeu, mas nao e a TV (a resposta nem tem "ligada"): outro programa esta na porta.
+' Aconteceu em 10/09/2026 com um servidor de preview de outro projeto - a janelinha abria a
+' pagina errada. O Windows deixa a TV subir em 0.0.0.0 mesmo com 127.0.0.1 ocupado.
+Function Intruso()
+  resp = RespostaEstado()
+  Intruso = (resp <> "" And InStr(resp, """ligada""") = 0)
 End Function
 
 ' Usa o Node que vem junto na instalacao; so cai pro Node do sistema se nao houver.
@@ -29,8 +40,16 @@ sh.Run "cmd /c " & nodeExe & " tv.js >> tv-log.txt 2>&1", 0, False
 ' janelinha nascer mostrando "TV desligada" — o servidor sobe antes do 1o programa.
 For i = 1 To 60
   If TvNoAr() Then Exit For
+  If Intruso() Then Exit For
   WScript.Sleep 1000
 Next
+
+If Intruso() Then
+  MsgBox "A porta 4599 esta ocupada por outro programa, entao o controle nao consegue falar com a TV." & vbCrLf & vbCrLf & _
+         "Feche o outro programa (no terminal: netstat -ano | findstr :4599 mostra o PID) e abra o controle de novo." & vbCrLf & _
+         "Nao precisa religar a TV.", vbExclamation, "Cartoon TV - Controle"
+  WScript.Quit
+End If
 
 ' Abre a janelinha DIRETO, nao via abrir-controle.vbs: aquele script liga a TV quando nao
 ' a encontra, entao chama-lo daqui poderia render duas instancias.

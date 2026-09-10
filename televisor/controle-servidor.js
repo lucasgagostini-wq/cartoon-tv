@@ -1,4 +1,4 @@
-// Servidor da janelinha de controle. Escuta SÓ em 127.0.0.1.
+// Servidor da janelinha de controle. A janelinha fala com 127.0.0.1; o tv.js pede 0.0.0.0 pro celular alcançar.
 //
 // REGRA DE OURO: este módulo não conhece Playwright, não conhece a grade e nunca toca no player.
 // Ele recebe callbacks e devolve o que elas disserem. Assim /estado responde instantâneo (é leitura
@@ -6,6 +6,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const TIPOS_VALIDOS = new Set(['ver-agora', 'fila', 'playlist', 'playlist-avulsa', 'pular', 'voltar-grade']);
 
@@ -38,7 +39,10 @@ function autorizado(req, chave) {
 function iniciarControle({ porta = 4599, host = '127.0.0.1', chave = null,
                           obterEstado, obterSeries, obterPlaylists,
                           salvarPlaylist, excluirPlaylist, enviarComando, aoErro }) {
+  // Assinatura deste processo: a sondagem lá embaixo confere se quem responde em 127.0.0.1 somos nós.
+  const marca = crypto.randomBytes(8).toString('hex');
   const server = http.createServer(async (req, res) => {
+    res.setHeader('x-cartoon-tv', marca);
     const rota = (req.url || '').split('?')[0];
 
     if (!autorizado(req, chave)) return json(res, 403, { erro: 'chave invalida' });
@@ -86,7 +90,28 @@ function iniciarControle({ porta = 4599, host = '127.0.0.1', chave = null,
   });
 
   // Porta ocupada não pode derrubar a TV: avisa e segue sem controle.
-  server.on('error', (e) => { if (aoErro) aoErro(e); else throw e; });
+  const falhar = (e) => { if (aoErro) aoErro(e); else throw e; };
+  server.on('error', falhar);
+  // 🪤 No Windows, outro programa em 127.0.0.1:porta NÃO impede o bind em 0.0.0.0:porta: os dois sobem
+  // juntos, sem erro, e quem responde à janelinha (que fala com 127.0.0.1) é o outro. Aconteceu em
+  // 10/09/2026 com um servidor de preview: o controle abria a página errada. Por isso, depois de subir,
+  // batemos em 127.0.0.1 e conferimos a assinatura. Achou intruso? Avisa, mas NÃO fecha o servidor:
+  // quando o intruso sair, o 127.0.0.1 cai no nosso 0.0.0.0 e o controle volta sem religar a TV (provado 10/09).
+  server.on('listening', () => {
+    // agent: false + Connection: close = conexão NOVA. Reaproveitar socket keep-alive do agente global
+    // sondaria quem atendeu da última vez, não quem está na porta agora.
+    const req = http.get({ host: '127.0.0.1', port: porta, path: '/estado', timeout: 2000,
+                           agent: false, headers: { connection: 'close' } }, (res) => {
+      res.resume();
+      if (res.headers['x-cartoon-tv'] === marca) return;
+      const e = new Error('outro programa já responde em 127.0.0.1:' + porta + ' (o controle abriria a página errada). ' +
+        'Feche-o (netstat -ano | findstr :' + porta + ' mostra o PID) e o controle volta sozinho, sem religar a TV');
+      e.code = 'EADDRINUSE';
+      falhar(e);
+    });
+    req.on('timeout', () => req.destroy());
+    req.on('error', () => {});   // ninguém respondeu = não dá pra concluir nada; o bind já passou, segue
+  });
   server.listen(porta, host);
   return server;
 }
