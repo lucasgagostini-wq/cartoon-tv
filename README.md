@@ -67,7 +67,7 @@ node televisor/configurar.js          # login (primeira vez)
 node televisor/capturar-series.js     # lê o catálogo da sua conta
 node emissora/gerar-grade.js          # imprime a grade de hoje
 node televisor/tv.js                  # liga a TV
-npm test                              # 48 testes, sem browser
+npm test                              # 64 testes, sem browser
 ```
 
 No Windows, `ligar-tv.vbs` liga a TV sem piscar console (é o alvo do atalho).
