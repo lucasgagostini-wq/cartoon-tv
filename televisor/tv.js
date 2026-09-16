@@ -16,6 +16,7 @@ const { escolherPerfil } = require('./configuracao');
 const { chave, linkCelular } = require('./rede');
 const { criarTelaCheia } = require('./tela-cheia');
 const { salvarRetomada, carregarRetomada } = require('./retomada');
+const { precisaSeek } = require('./posicao');
 
 const chaveControle = chave();
 
@@ -98,6 +99,7 @@ function programaAtual() {
 
 const urlDe = (g) => 'https://play.hbomax.com/video/watch/' + g.videoId + '/' + g.editId;
 const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] ' + m);
+const fmtSeg = (s) => Math.floor(s / 60) + 'min' + Math.floor(s % 60) + 's';
 
 (async () => {
   // Mede o que faltava: abrir o Chrome com o perfil de ~510 MB é a maior parte do tempo
@@ -353,11 +355,11 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       await page.goto(alvo, { waitUntil: 'domcontentloaded' });
 
       // Espera o vídeo REALMENTE rodar (mede o tempo de troca) e aplica seek+som
-      let rodouEm = null;
+      let rodouEm = null, tempoInicial = null;
       for (let i = 0; i < 60; i++) {
         await page.waitForTimeout(500);
         const volSalvo = lerVolume(ARQ_PREF);
-        const ok = await page.evaluate(({ seg, vol }) => {
+        const ok = await page.evaluate(({ vol }) => {
           // A página do Max tem mais de um <video> (trailer/preview além do player).
           // querySelector pegava o primeiro, que nem sempre é o que toca — daí o volume
           // parecer não obedecer. Aplica em TODOS e mede pelo que está realmente tocando.
@@ -369,16 +371,30 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
           }
           const v = todos.find((x) => !x.paused && x.currentTime > 0.5) || todos[0];
           if (v.paused) v.play().catch(() => {});
-          if (v.currentTime > 0.5 && !v.paused && v.readyState >= 3) {
-            if (seg > 15 && Math.abs(v.currentTime - seg) > 20) v.currentTime = seg;
-            return true;
-          }
+          // Só reporta o tempo: quem decide se corrige é o posicao.js (Node), que tem teste.
+          if (v.currentTime > 0.5 && !v.paused && v.readyState >= 3) return { tempo: v.currentTime };
           return false;
-        }, { seg: offsetSeg, vol: volSalvo }).catch(() => false);
-        if (ok) { rodouEm = ((Date.now() - t0) / 1000).toFixed(1); break; }
+        }, { vol: volSalvo }).catch(() => false);
+        if (ok) {
+          rodouEm = ((Date.now() - t0) / 1000).toFixed(1);
+          tempoInicial = ok.tempo;
+          // A TV manda na posição, não a marca "continuar assistindo" do Max: ele abre o episódio onde
+          // a conta parou — inclusive um que o Lucas PULOU no meio dias atrás, e a fila nascia "no meio
+          // de nada" (15/09). A regra antiga só corrigia com seg > 15 (entrada pela grade).
+          if (precisaSeek(ok.tempo, offsetSeg)) {
+            await page.evaluate((seg) => {
+              const v = [...document.querySelectorAll('video')].find((x) => !x.paused && x.currentTime > 0.5)
+                || document.querySelector('video');
+              if (v) v.currentTime = seg;
+            }, offsetSeg).catch(() => {});
+            log('⏩ Max abriu aos ' + Math.floor(ok.tempo / 60) + 'min' + Math.floor(ok.tempo % 60) + 's; corrigido pra ' +
+              Math.floor(offsetSeg / 60) + 'min' + (offsetSeg % 60) + 's');
+          }
+          break;
+        }
       }
       if (rodouEm) {
-        log('Vídeo rodando em ' + rodouEm + 's (vinheta cobriu a troca)');
+        log('Vídeo rodando em ' + rodouEm + 's, aos ' + fmtSeg(tempoInicial) + ' (vinheta cobriu a troca)');
       } else {
         // Diagnóstico: o que tem na tela?
         const diag = await page.evaluate(() => {
@@ -400,7 +416,7 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       // Vigia até o fim do programa (pelo relógio da grade)
       const fimEmMs = (entry.duracaoMs - offsetSeg * 1000);
       const deadline = Date.now() + Math.max(5000, fimEmMs);
-      let ultimoTempo = -1, paradas = 0;
+      let ultimoTempo = -1, paradas = 0, avisouSalto = false;
       while (!desligada && Date.now() < deadline) {
         // Promise.race: ou passa o tick, ou chega um comando do controle. Sem isso o
         // clique ficaria preso até 5s dentro do waitForTimeout.
@@ -436,6 +452,12 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
         if (t) {
           // alimenta o /estado sem que o servidor precise falar com o Playwright
           estado.ultimoTempoVideo = t.tempo; estado.ultimaLeituraMs = Date.now();
+          // Evidência: o Max pulou pra marca dele DEPOIS de começar? (investigação de 15/09)
+          const esperado = (Date.now() - estado.iniciadoEmMs) / 1000;
+          if (!avisouSalto && Date.now() - estado.trocouEmMs < 30000 && Math.abs(t.tempo - esperado) > 20) {
+            avisouSalto = true;
+            log('⚠️ Max mudou a posição sozinho: está aos ' + fmtSeg(t.tempo) + ', esperado ' + fmtSeg(esperado));
+          }
           estado.volume = t.vol; estado.videosNaPagina = t.quantos;
           // fora da janela de proteção, aprende o volume que o Lucas deixou no Max
           if (!protegido && typeof t.vol === 'number' && Math.abs(t.vol - (salvo ?? -1)) > 0.005) {
