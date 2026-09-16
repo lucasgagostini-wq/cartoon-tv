@@ -118,6 +118,11 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
       '--autoplay-policy=no-user-gesture-required',
       '--disable-blink-features=AutomationControlled',
       '--disable-features=Translate', // popup de tradução aparecia por cima do vídeo
+      // --test-type: sem isso o Chrome mostra a faixa "sinalizador de linha de comando não suportado"
+      // (acusa o --no-sandbox do Playwright e, tirando esse, o nosso --disable-blink-features). Em tela
+      // cheia ela nem fecha pelo X (Lucas, 15/09). O switch suprime esse aviso de startup; medido: a
+      // página passa a ter os 1080px inteiros.
+      '--test-type',
     ],
   });
   await ctx.addInitScript(INIT_SCRIPT); // vinheta cobre o carregamento de cada troca
