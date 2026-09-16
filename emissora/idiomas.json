@@ -1,0 +1,8 @@
+{
+  "_leia": "Idioma fixo por desenho. audio: pt | en | es. legenda: pt | en | es | off. A escolha do Max e GLOBAL da conta (provado 16/09/2026), entao a TV reaplica a cada troca de serie.",
+  "padrao": { "audio": "pt", "legenda": "off" },
+  "series": {
+    "rick-e-morty": { "audio": "pt", "legenda": "off" },
+    "smiling-friends": { "audio": "en", "legenda": "pt" }
+  }
+}

@@ -17,6 +17,7 @@ const { chave, linkCelular } = require('./rede');
 const { criarTelaCheia } = require('./tela-cheia');
 const { salvarRetomada, carregarRetomada } = require('./retomada');
 const { precisaSeek } = require('./posicao');
+const { preferenciaDe, mesmaPreferencia, aplicarNoPlayer } = require('./idioma');
 
 const chaveControle = chave();
 
@@ -24,6 +25,7 @@ const TICK_MS = 5000;
 const PORTA_CONTROLE = 4599;
 const ARQ_PREF = path.join(__dirname, 'preferencias.json');
 const ARQ_RETOMADA = path.join(__dirname, 'retomada.json');
+const ARQ_IDIOMAS = path.join(__dirname, '..', 'emissora', 'idiomas.json');
 
 function agoraInfo() {
   // Dia de programação começa 06:00; antes disso vale a grade de ontem
@@ -320,6 +322,15 @@ const fmtSeg = (s) => Math.floor(s / 60) + 'min' + Math.floor(s % 60) + 's';
   const gravarRetomada = () => { try { salvarRetomada(ARQ_RETOMADA, estado.override, decorridoAgora()); } catch (e) {} };
   const timerRetomada = setInterval(gravarRetomada, 5000);
 
+  // --- idioma fixo por série ---------------------------------------------------
+  // A escolha de faixa do Max é GLOBAL da conta (provado 16/09): pôr Smiling Friends em inglês
+  // mudava o Rick and Morty junto. Então a TV reaplica ao trocar de série. Só quando MUDA:
+  // dentro da mesma série o menu nem abre, e um ajuste manual do Lucas fica de pé (igual ao volume).
+  let cfgIdiomas = null;
+  try { cfgIdiomas = JSON.parse(fs.readFileSync(ARQ_IDIOMAS, 'utf8')); }
+  catch (e) { log('⚠️ idiomas.json não carregou (' + e.code + ') — idioma fica como o Max deixar'); }
+  let prefAplicada = null;
+
   let ligando = true;
   let ultimoVideoId = null;
   while (!desligada) {
@@ -389,6 +400,11 @@ const fmtSeg = (s) => Math.floor(s / 60) + 'min' + Math.floor(s % 60) + 's';
             }, offsetSeg).catch(() => {});
             log('⏩ Max abriu aos ' + Math.floor(ok.tempo / 60) + 'min' + Math.floor(ok.tempo % 60) + 's; corrigido pra ' +
               Math.floor(offsetSeg / 60) + 'min' + (offsetSeg % 60) + 's');
+          }
+          const pref = preferenciaDe(cfgIdiomas, entry.slug);
+          if (pref && !mesmaPreferencia(pref, prefAplicada)) {
+            const ficou = await aplicarNoPlayer(page, pref, log);
+            if (ficou) prefAplicada = ficou;
           }
           break;
         }
