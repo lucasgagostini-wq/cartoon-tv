@@ -7,6 +7,8 @@ televisor/.chrome-controle/
 televisor/preferencias.json
 televisor/configuracao.json
 televisor/tv-log.txt
+televisor/retomada.json
+televisor/retomada.json.tmp
 
 # Screenshots de diagnóstico — capturam a tela do Max logado (nome do perfil aparece)
 televisor/*.png

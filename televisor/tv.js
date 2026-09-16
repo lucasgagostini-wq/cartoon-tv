@@ -15,12 +15,14 @@ const { lerVolume, gravarVolume } = require('./preferencias');
 const { escolherPerfil } = require('./configuracao');
 const { chave, linkCelular } = require('./rede');
 const { criarTelaCheia } = require('./tela-cheia');
+const { salvarRetomada, carregarRetomada } = require('./retomada');
 
 const chaveControle = chave();
 
 const TICK_MS = 5000;
 const PORTA_CONTROLE = 4599;
 const ARQ_PREF = path.join(__dirname, 'preferencias.json');
+const ARQ_RETOMADA = path.join(__dirname, 'retomada.json');
 
 function agoraInfo() {
   // Dia de programação começa 06:00; antes disso vale a grade de ontem
@@ -294,6 +296,23 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
     log('=== TV ligada — ' + new Date().toLocaleDateString('pt-BR') + ' === (Chrome: ' +
       ((t0Boot - t0Processo) / 1000).toFixed(1) + 's + home: ' + ((Date.now() - t0Boot) / 1000).toFixed(1) + 's)');
   }
+  // --- retomada da fila -------------------------------------------------------
+  // A grade volta sozinha pelo relógio, mas a fila (playlist / ver agora) só existia na memória:
+  // religar perdia episódio, segundo e ordem. Agora vai pro disco a cada 5s e, se a TV religar em
+  // até 15min, volta no mesmo episódio e segundo (pausa, não relógio). Ver retomada.js.
+  const retomada = carregarRetomada(ARQ_RETOMADA, Date.now());
+  if (retomada && !desligada) {
+    estado.override = retomada.override;
+    const a = retomada.override.atual;
+    log('⏪ Retomando a fila "' + retomada.override.nome + '" (TV ficou ' + retomada.paradoSeg + 's desligada): ' +
+      a.slug + ' T' + a.temporada + 'E' + a.episodio + ' aos ' + Math.floor(retomada.decorridoSeg / 60) + 'min' +
+      (retomada.decorridoSeg % 60) + 's');
+  }
+  const decorridoAgora = () => (estado.ultimaLeituraMs
+    ? estado.ultimoTempoVideo + (Date.now() - estado.ultimaLeituraMs) / 1000 : 0);
+  const gravarRetomada = () => { try { salvarRetomada(ARQ_RETOMADA, estado.override, decorridoAgora()); } catch (e) {} };
+  const timerRetomada = setInterval(gravarRetomada, 5000);
+
   let ligando = true;
   let ultimoVideoId = null;
   while (!desligada) {
@@ -450,6 +469,8 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   // depois de a TV desligar, ocupando a porta 4599. O atalho seguinte subia uma instância
   // que não conseguia a porta, e o controle via o zumbi respondendo `ligada:false` e ficava
   // esperando pra sempre. (medido 29/07, PID 30872 sobrevivendo 8min ao fim da TV)
+  clearInterval(timerRetomada);
+  gravarRetomada(); // o segundo exato em que desligou, não o do último tick
   try { servidorControle.close(); } catch (e) {}
   process.exit(0);
 })().catch((e) => { console.error('ERRO FATAL: ' + e.message); process.exit(1); });
