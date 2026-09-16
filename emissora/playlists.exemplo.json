@@ -1,0 +1,13 @@
+{
+  "_comentario": "MODELO. As playlists de verdade ficam em emissora/playlists.json, que NAO vai pro git: cada instalacao tem as suas. Crie pelo controle remoto ou copie este arquivo. Os slugs sao os nomes dos arquivos em emissora/catalogo/.",
+  "playlists": [
+    {
+      "id": "exemplo",
+      "nome": "Exemplo",
+      "series": [
+        "hora-de-aventura",
+        "gumball"
+      ]
+    }
+  ]
+}
