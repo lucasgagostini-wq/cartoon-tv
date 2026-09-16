@@ -14,6 +14,7 @@ const { iniciarControle } = require('./controle-servidor');
 const { lerVolume, gravarVolume } = require('./preferencias');
 const { escolherPerfil } = require('./configuracao');
 const { chave, linkCelular } = require('./rede');
+const { criarTelaCheia } = require('./tela-cheia');
 
 const chaveControle = chave();
 
@@ -119,6 +120,10 @@ const log = (m) => console.log('[' + new Date().toTimeString().slice(0, 8) + '] 
   });
   await ctx.addInitScript(INIT_SCRIPT); // vinheta cobre o carregamento de cada troca
   const page = ctx.pages()[0] || (await ctx.newPage());
+  // Tela cheia de verdade desde o boot, sem F11: sob automação o botão do site não move a
+  // janela, e o page.goto de cada episódio derruba o fullscreen do DOM (ver tela-cheia.js).
+  const telaCheia = await criarTelaCheia(ctx, page, log);
+  await telaCheia.definir(true);
   let desligada = false;
   let fimLimpo = false; // true = janela fechada; false = saiu por erro
   ctx.on('close', () => { desligada = true; fimLimpo = true; estado.ligada = false; });
